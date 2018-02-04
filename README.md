@@ -7,41 +7,11 @@ Tudo bem, vamos ver se conseguimos trabalhar dessa forma.
 
 Minha intenção é colocar em prática e armazenar em um repositório os códigos-fonte/configurações dos últimos cursos/testes que fiz. Abaixo, uma lista com um roadmap do que pretendo implementar.
 
-Alura - Linux 1 e 2
+Alura
 
-Alura - Git
+    Carreira Desenvolvedor Java Web com Spring
 
-Alura - Maven
-
-Alura - Spring Boot
-
-Alura - Docker
-Alura - Integração Contínua
-
-Alura - TDD
-Alura - Mock
-Alura - Teste de Integração
-
-Alura - Spring MVC
-Alura - Spring MVC 1 e 2
-Alura - JAX-RS e Jersey
-
-Alura - Kubernetes
-Alura - Vagrant
-Alura - Amazon EC2
-
-Alura - Java 8
-Alura - Java III
-Alura - Orientação a Objetos
-
-Alura - Bootstrap
-Alura - MEAN Stack
-Alura - HTML5
-Alura - Angular 2
-Alura - Node.js
-Alura - TypeScript
-
-Alura - Redis 1 e 2
-Alura - PostgreSQL
-Alura - Elasticsearch
-Alura - MongoDB
+        Maven
+        Spring Boot
+        Spring MVC I
+        Spring MVC II
