@@ -1,9 +1,5 @@
 # POCs
-## Provas de Conceito das tecnologias que tive contato.
-
-Estou usando uma estrutura de pastas que vi no livro Continous Integration, onde todos os artefatos envolvidos no projeto são armazenados nela, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas.
-Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado.
-Tudo bem, vamos ver se conseguimos trabalhar dessa forma.
+## Conjunto de Provas de Conceito das tecnologias que tive contato
 
 Minha intenção é colocar em prática e armazenar em um repositório os códigos-fonte/configurações dos últimos cursos/testes que fiz. Abaixo, uma lista com um roadmap do que pretendo seguir.
 
@@ -15,6 +11,7 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 - [ ] \(Opcional) Spring MVC II
 
 #### Carreira Engenheiro Devops
+- [ ] Integração Contínua
 - [ ] Docker
 - [ ] Kubernetes
 - [ ] Linux I
@@ -22,7 +19,6 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 - [ ] Git
 - [ ] \(Opcional) Vagrant
 - [ ] \(Opcional) Ansible
-- [ ] Integração Contínua
 - [ ] \(Opcional) AWS S3
 - [ ] \(Opcional) Amazon EC2
 - [ ] \(Opcional) Amazon AWS
@@ -46,3 +42,7 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 #### Big Data
 - [ ] Hands-On Hadoop
 - [ ] Apache Spark and Python
+
+Obs: Estou usando uma estrutura de pastas que vi no livro Continous Integration, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas.
+Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado.
+Tudo bem, vamos ver se conseguimos trabalhar dessa forma.
