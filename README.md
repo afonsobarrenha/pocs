@@ -11,13 +11,12 @@ Alura - Git
 
 Alura - Maven
 
-Alura - Integração Contínua
-
 Alura - Spring Boot
 
 Alura - Docker
-   Alura - Vagrant
-   
+Alura - Integração Contínua
+Alura - Vagrant
+
 Alura - HTML5
 Alura - Node.js
 
