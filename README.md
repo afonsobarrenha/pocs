@@ -42,10 +42,6 @@ Alura - Node.js
 Alura - TypeScript
 
 Alura - Redis 1 e 2
-<<<<<<< HEAD
 Alura - PostgreSQL
 Alura - Elasticsearch
 Alura - MongoDB
-=======
-Alura - Linux 1 e 2
->>>>>>> 63950edee41d376791577178b60fe98bf8860d3a
