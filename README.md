@@ -43,6 +43,6 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 - [ ] Hands-On Hadoop
 - [ ] Apache Spark and Python
 
-Obs: Estou usando uma estrutura de pastas que vi no livro Continous Integration, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas.
+*Obs: Estou usando uma estrutura de pastas que vi no livro Continous Integration, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas.
 Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado.
-Tudo bem, vamos ver se conseguimos trabalhar dessa forma.
+Tudo bem, vamos ver se conseguimos trabalhar dessa forma.*
