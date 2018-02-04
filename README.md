@@ -8,7 +8,7 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 ### Alura
 
 #### Carreira Desenvolvedor Java Web com Spring
-1. [ ] Spring Boot
+- [ ] Spring Boot - (2018/02/04 - em andamento)
 - [ ] \(Opcional)Maven
 - [ ] \(Opcional) Spring MVC I
 - [ ] \(Opcional) Spring MVC II
