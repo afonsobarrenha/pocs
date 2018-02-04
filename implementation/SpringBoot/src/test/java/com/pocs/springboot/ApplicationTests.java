@@ -1,4 +1,4 @@
-package com.pocs.SpringBoot;
+package com.pocs.springboot;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
