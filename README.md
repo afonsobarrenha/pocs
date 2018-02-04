@@ -22,5 +22,3 @@ Alura - Node.js
 
 Alura - Redis 1 e 2
 Alura - Linux 1 e 2
-
-
