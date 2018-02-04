@@ -1,9 +1,12 @@
 # POCs
+
 ## Conjunto de Provas de Conceito das tecnologias que tive contato
 
 Minha intenção é colocar em prática e armazenar em um repositório os códigos-fonte/configurações dos últimos cursos/testes que fiz. Abaixo, uma lista com um roadmap do que pretendo seguir.
 
+
 ### Alura
+
 #### Carreira Desenvolvedor Java Web com Spring
 - [ ] Maven
 - [ ] Spring Boot
@@ -30,7 +33,9 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 - [ ] Node.js e HTTP
 - [ ] MongoDB
 
+
 ### Udemy
+
 #### DevOps
 - [ ] Master Jenkins CI for DevOps and Developers
 - [ ] Docker Technologias for DevOps and Developers
@@ -42,6 +47,37 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 #### Big Data
 - [ ] Hands-On Hadoop
 - [ ] Apache Spark and Python
+
+
+### (Opcional) Spring Guides
+
+#### Tutorial
+- [ ] Building REST services with Spring
+- [ ] Spring Security and Angular
+- [ ] Spring Boot and OAuth2
+
+#### Getting Started Guides
+- [ ] Building a RESTful Web Service
+- [ ] Scheduling Tasks
+- [ ] Consuming a RESTful Web Service
+- [ ] Accessing Relational Data using JDBC with Spring
+- [ ] Building a RESTful Web Service with Spring Boot Actuator
+- [ ] Securing a Web Application
+- [ ] Accessing Data with JPA
+- [ ] Managing Transactions
+- [ ] Building an Application with Spring Boot
+- [ ] Consuming a RESTful Web Service with AngularJS
+- [ ] Accessing JPA Data with REST
+- [ ] Accessing MongoDB Data with REST
+- [ ] Spring Boot with Docker
+- [ ] Centralized Configuration
+- [ ] Testing the Web Layer
+- [ ] Creating a Multi Module Project
+- [ ] Creating API Documentation with Restdocs
+
+#### Topical Guide
+- [ ] Spring Security Architecture
+
 
 *Obs: Estou usando uma estrutura de pastas que vi no livro Continous Integration, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas.
 Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado.
