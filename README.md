@@ -1,6 +1,6 @@
 # POCs
 
-## Conjunto de Provas de Conceito das tecnologias que tive contato
+## Provas de Conceito das tecnologias que tive contato
 
 Minha intenção é colocar em prática e armazenar em um repositório os códigos-fonte/configurações dos últimos cursos/testes que fiz. Abaixo, uma lista com um roadmap do que pretendo seguir.
 
@@ -8,8 +8,8 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 ### Alura
 
 #### Carreira Desenvolvedor Java Web com Spring
-- [ ] Maven
-- [ ] Spring Boot
+1. [ ] Spring Boot
+- [ ] \(Opcional)Maven
 - [ ] \(Opcional) Spring MVC I
 - [ ] \(Opcional) Spring MVC II
 
@@ -77,6 +77,7 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 
 #### Topical Guide
 - [ ] Spring Security Architecture
+
 
 
 *Obs: Estou usando uma estrutura de pastas que vi no livro Continous Integration, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas.
