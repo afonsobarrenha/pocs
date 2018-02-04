@@ -5,3 +5,23 @@ Estou usando uma estrutura de pastas que vi no livro Continous Integration, onde
 Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado.
 Tudo bem, vamos ver se conseguimos trabalhar dessa forma.
 
+Minha intenção é colocar em prática e armazenar em um repositório os códigos-fonte/configurações dos últimos cursos/testes que fiz. Abaixo, uma lista com um roadmap do que pretendo implementar.
+
+Alura - Git
+
+Alura - Maven
+
+Alura - Integração Contínua
+
+Alura - Spring Boot
+
+Alura - Docker
+   Alura - Vagrant
+   
+Alura - HTML5
+Alura - Node.js
+
+Alura - Redis 1 e 2
+Alura - Linux 1 e 2
+
+
