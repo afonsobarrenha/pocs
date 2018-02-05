@@ -16,16 +16,16 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 
-CREATE DATABSE 'springboot';
+CREATE DATABASE listavip;
 
 --
 -- Table structure for table `convidado`
 --
 
-DROP TABLE IF EXISTS `convidado`;
+DROP TABLE IF EXISTS listavip.convidado;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `springboot`.`convidado` (
+CREATE TABLE listavip.convidado (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nome` varchar(500) DEFAULT NULL,
   `email` varchar(500) DEFAULT NULL,
@@ -38,9 +38,9 @@ CREATE TABLE `springboot`.`convidado` (
 -- Dumping data for table `convidado`
 --
 
-LOCK TABLES `convidado` WRITE;
+LOCK TABLES listavip.convidado WRITE;
 /*!40000 ALTER TABLE `convidado` DISABLE KEYS */;
-INSERT INTO `convidado` VALUES (1,'Lazaro Prates Junior','lazaro@alura.com.br','99998888'),(2,'Maria do Carmo','maria@gmail.com','33442233'),(4,'Antonio da Silva','toni@alura.com.br','99997777'),(5,'Luis','luis@alura.com','55554444'),(6,'Pedro','pedro@alura.com','44555544'),(7,'João da Silva','springbootalura@gmail.com','98899887');
+INSERT INTO listavip.convidado VALUES (1,'Lazaro Prates Junior','lazaro@alura.com.br','99998888'),(2,'Maria do Carmo','maria@gmail.com','33442233'),(4,'Antonio da Silva','toni@alura.com.br','99997777'),(5,'Luis','luis@alura.com','55554444'),(6,'Pedro','pedro@alura.com','44555544'),(7,'João da Silva','springbootalura@gmail.com','98899887');
 /*!40000 ALTER TABLE `convidado` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
