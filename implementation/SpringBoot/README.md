@@ -11,6 +11,9 @@ docker run -it --link some-mysql:mysql --rm mysql sh -c 'exec mysql -h"$MYSQL_PO
 ```
 Também poderá ser acessado o MySql pela funcionalidade de Data Source Explorer do Eclipse. Atentar para a porta linkada na criação do container (3306) e a senha para o root.
 
+Para a criação das Entities pelo Eclipse, deve-se acrescentar o Facet JPA ao projeto.
+
+Muito recomendado é a utilização do spring-boot-devtools e do LiveReload para uso no desenvolvimento.
 
 
 
