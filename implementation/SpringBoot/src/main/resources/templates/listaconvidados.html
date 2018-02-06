@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>listaconvidados.html</title>
+</head>
+<body>
+	<div>
+		<table>
+			<thead>
+				<tr>
+					<th>Nome</th>
+					<th>Email</th>
+					<th>Telefone</th>
+				</tr>
+			</thead>
+			<tr th:each="convidado : ${convidados}">
+				<td><span th:text="${convidado.nome}"></span></td>
+				<td><span th:text="${convidado.email}"></span></td>
+				<td><span th:text="${convidado.telefone}"></span></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
