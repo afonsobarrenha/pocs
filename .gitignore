@@ -1,1 +1,6 @@
 .vscode/settings.json
+implementation/EmailComponent/.classpath
+implementation/EmailComponent/.project
+implementation/EmailComponent/.settings/org.eclipse.core.resources.prefs
+implementation/EmailComponent/.settings/org.eclipse.m2e.core.prefs
+implementation/EmailComponent/target/
