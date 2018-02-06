@@ -1,5 +1,8 @@
-package com.pocs.springboot.controller;
+package org.pocs.springboot.controller;
 
+import org.pocs.emailcomponent.EmailService;
+import org.pocs.springboot.model.Convidado;
+import org.pocs.springboot.repository.ConvidadoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -7,14 +10,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.pocs.springboot.model.Convidado;
-import com.pocs.springboot.repository.ConvidadoRepository;
-
 @Controller
 public class ConvidadoController {
 
 	@Autowired
 	private ConvidadoRepository repository;
+
+	//TODO Implementar um correto uso de uma dependência externa Autowired.
+	// @Autowired
+	// private EmailService emailService;
 
 	@RequestMapping("listaconvidados")
 	public String listaConvidados(Model model) {
@@ -32,10 +36,17 @@ public class ConvidadoController {
 		Convidado novoConvidado = new Convidado(nome, email, telefone);
 		repository.save(novoConvidado);
 
+		// TODO Implementar um correto envio de email.
+		new EmailService().enviar(nome, email);
+
 		Iterable<Convidado> convidados = repository.findAll();
 		model.addAttribute("convidados", convidados);
 
 		return "listaconvidados";
+	}
+
+	public void obterConvidadoPor(String nome) {
+		repository.findByNome(nome);
 	}
 
 }
