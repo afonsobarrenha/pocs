@@ -9,7 +9,10 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 
 #### Carreira Desenvolvedor Java Web com Spring
 - [ ] Spring Boot - (2018/02/04 - em andamento)
-- [ ] \(Opcional)Maven
+- [ ] \(Opcional) TDD (2018/02/05 - em andamento)
+- [ ] \(Opcional) Selenium (2018/02/06 - em andamento)
+- [ ] \(Opcional) Mockito
+- [ ] \(Opcional) Maven
 - [ ] \(Opcional) Spring MVC I
 - [ ] \(Opcional) Spring MVC II
 

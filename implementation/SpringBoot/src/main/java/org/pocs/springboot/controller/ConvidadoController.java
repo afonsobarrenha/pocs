@@ -1,6 +1,5 @@
 package org.pocs.springboot.controller;
 
-import org.pocs.emailcomponent.EmailService;
 import org.pocs.springboot.model.Convidado;
 import org.pocs.springboot.repository.ConvidadoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +15,7 @@ public class ConvidadoController {
 	@Autowired
 	private ConvidadoRepository repository;
 
-	//TODO Implementar um correto uso de uma dependência externa Autowired.
+	// TODO Implementar um correto uso de uma dependência externa Autowired.
 	// @Autowired
 	// private EmailService emailService;
 
@@ -35,9 +34,6 @@ public class ConvidadoController {
 
 		Convidado novoConvidado = new Convidado(nome, email, telefone);
 		repository.save(novoConvidado);
-
-		// TODO Implementar um correto envio de email.
-		new EmailService().enviar(nome, email);
 
 		Iterable<Convidado> convidados = repository.findAll();
 		model.addAttribute("convidados", convidados);

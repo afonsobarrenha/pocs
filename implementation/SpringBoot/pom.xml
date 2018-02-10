@@ -57,11 +57,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.pocs</groupId>
-			<artifactId>EmailComponent</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
 		</dependency>
-
 	</dependencies>
 
 	<build>
