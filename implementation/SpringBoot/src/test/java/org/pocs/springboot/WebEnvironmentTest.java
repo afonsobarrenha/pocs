@@ -1,4 +1,4 @@
-package org.pocs.springboot.selenium;
+package org.pocs.springboot;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,14 +15,19 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.springframework.boot.context.embedded.LocalServerPort;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import junit.framework.TestCase;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest
-public class ChromeTest extends TestCase {
+@SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
+public class WebEnvironmentTest extends TestCase {
+
+	@LocalServerPort
+	private int port;
 
 	private static ChromeDriverService service;
 	private WebDriver driver;
@@ -50,8 +55,8 @@ public class ChromeTest extends TestCase {
 	}
 
 	@Test
-	public void testGoogleSearch() {
-		driver.get("http://localhost:8080/listaconvidados");
+	public void testSalvarConvidado() {
+		driver.get("http://localhost:" + port + "/listaconvidados");
 
 		WebElement txtNome = driver.findElement(By.name("nome"));
 		WebElement txtEmail = driver.findElement(By.name("email"));
