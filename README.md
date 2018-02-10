@@ -60,6 +60,7 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 - [ ] Spring Boot and OAuth2
 
 #### Getting Started Guides
+- [ ] Testing the Web Layer (2018/02/10 - em andamento)
 - [ ] Building a RESTful Web Service
 - [ ] Scheduling Tasks
 - [ ] Consuming a RESTful Web Service
@@ -74,7 +75,6 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 - [ ] Accessing MongoDB Data with REST
 - [ ] Spring Boot with Docker
 - [ ] Centralized Configuration
-- [ ] Testing the Web Layer
 - [ ] Creating a Multi Module Project
 - [ ] Creating API Documentation with Restdocs
 
