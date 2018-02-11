@@ -14,7 +14,7 @@ CREATE DATABASE listavip;
 
 ```
 
-Também poderá ser acessado o MySql pela funcionalidade de Data Source Explorer do Eclipse. Atentar para a porta linkada na criação do container (3306) e a senha para o root.
+Estou usando a propriedade ```spring.datasource.initialize=true``` para inicializar o banco de dados, através dos arquivos ```schema.sql``` e ```data.sql```. Fantástico.
 
 Para a criação das Entities pelo Eclipse, deve-se acrescentar o Facet JPA ao projeto.
 
