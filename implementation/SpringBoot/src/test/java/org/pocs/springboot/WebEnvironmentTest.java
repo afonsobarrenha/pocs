@@ -58,6 +58,8 @@ public class WebEnvironmentTest extends TestCase {
 	public void testSalvarConvidado() {
 		driver.get("http://localhost:" + port + "/listaconvidados");
 
+		assertTrue(driver.getPageSource().contains("lazaro@alura.com.br"));
+
 		WebElement txtNome = driver.findElement(By.name("nome"));
 		WebElement txtEmail = driver.findElement(By.name("email"));
 		WebElement txtTelefone = driver.findElement(By.name("telefone"));
@@ -68,7 +70,7 @@ public class WebEnvironmentTest extends TestCase {
 
 		txtNome.submit();
 
-		assertTrue(driver.getPageSource().contains("Afonso Barrenha"));
+		assertTrue(driver.getPageSource().contains("afonsobarrenha@gmail.com"));
 
 	}
 }

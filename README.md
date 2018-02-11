@@ -8,14 +8,15 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 ### Alura
 
 #### Carreira Desenvolvedor Java Web com Spring
-- [ ] Spring Boot - (2018/02/04 - em andamento)
+- [x] Spring Boot
 - [ ] Spring MVC I
 - [ ] Spring MVC II
-- [ x ] \(Opcional) Logback (2018/02/10 - 2018/02/10)
-- [ ] \(Opcional) TDD (2018/02/05 - em andamento)
-- [ ] \(Opcional) Selenium (2018/02/06 - em andamento)
-- [ ] \(Opcional) Mockito
-- [ ] \(Opcional) Maven
+- [x] \(Opcional) Logback
+- [ ] \(Opcional) Actuator
+- [ ] \(Opcional) TDD
+- [x] \(Opcional) Selenium
+- [x] \(Opcional) Mockito
+- [x] \(Opcional) Maven
 
 
 #### Carreira Engenheiro Devops
