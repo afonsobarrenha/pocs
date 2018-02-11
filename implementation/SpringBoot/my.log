@@ -1,0 +1,269 @@
+2018-02-10 22:14:27.253  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : Starting Application on armored-batman with PID 11833 (/home/afonsobarrenha/projects/pocs/implementation/SpringBoot/target/classes started by afonsobarrenha in /home/afonsobarrenha/projects/pocs/implementation/SpringBoot)
+2018-02-10 22:14:27.257  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : No active profile set, falling back to default profiles: default
+2018-02-10 22:14:27.268  INFO 11833 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b266315: startup date [Sat Feb 10 22:14:27 BRST 2018]; root of context hierarchy
+2018-02-10 22:14:27.976  INFO 11833 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1b7ad185] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-10 22:14:28.117  WARN 11833 --- [restartedMain] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-02-10 22:14:28.121  WARN 11833 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-02-10 22:14:28.128  INFO 11833 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2018-02-10 22:14:28.130  INFO 11833 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 862 ms
+2018-02-10 22:14:28.182  INFO 11833 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-10 22:14:28.183  INFO 11833 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-10 22:14:28.183  INFO 11833 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-10 22:14:28.183  INFO 11833 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-10 22:14:28.183  INFO 11833 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-10 22:14:28.435  INFO 11833 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-10 22:14:28.436  INFO 11833 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-10 22:14:28.453  INFO 11833 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-10 22:14:28.496  INFO 11833 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-02-10 22:14:28.503  INFO 11833 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-10 22:14:28.715  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b266315: startup date [Sat Feb 10 22:14:27 BRST 2018]; root of context hierarchy
+2018-02-10 22:14:28.733  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/listaconvidados]}" onto public java.lang.String org.pocs.springboot.controller.ConvidadoController.listaConvidados(org.springframework.ui.Model)
+2018-02-10 22:14:28.737  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/salvar],methods=[POST]}" onto public java.lang.String org.pocs.springboot.controller.ConvidadoController.salvar(java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.Model)
+2018-02-10 22:14:28.741  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-10 22:14:28.741  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-10 22:14:28.756  INFO 11833 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:14:28.757  INFO 11833 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:14:28.779  INFO 11833 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:14:28.886  INFO 11833 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-10 22:14:28.949  INFO 11833 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-10 22:14:28.966  INFO 11833 --- [restartedMain] b.c.e.u.UndertowEmbeddedServletContainer : Undertow started on port(s) 9000 (http)
+2018-02-10 22:14:28.969  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : Started Application in 1.789 seconds (JVM running for 729.04)
+2018-02-10 22:14:28.970  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : main - end
+2018-02-10 22:15:39.393  INFO 11833 --- [Thread-16] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b266315: startup date [Sat Feb 10 22:14:27 BRST 2018]; root of context hierarchy
+2018-02-10 22:15:39.398  INFO 11833 --- [Thread-16] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-10 22:15:39.402  INFO 11833 --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-10 22:15:39.716  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : main - start
+2018-02-10 22:15:39.795  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : Starting Application on armored-batman with PID 11833 (/home/afonsobarrenha/projects/pocs/implementation/SpringBoot/target/classes started by afonsobarrenha in /home/afonsobarrenha/projects/pocs/implementation/SpringBoot)
+2018-02-10 22:15:39.798  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : No active profile set, falling back to default profiles: default
+2018-02-10 22:15:39.805  INFO 11833 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@22aebc48: startup date [Sat Feb 10 22:15:39 BRST 2018]; root of context hierarchy
+2018-02-10 22:15:40.461  INFO 11833 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1b7ad185] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-10 22:15:40.562  WARN 11833 --- [restartedMain] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-02-10 22:15:40.566  WARN 11833 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-02-10 22:15:40.572  INFO 11833 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2018-02-10 22:15:40.578  INFO 11833 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 773 ms
+2018-02-10 22:15:40.628  INFO 11833 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-10 22:15:40.631  INFO 11833 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-10 22:15:40.635  INFO 11833 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-10 22:15:40.637  INFO 11833 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-10 22:15:40.638  INFO 11833 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-10 22:15:40.889  INFO 11833 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-10 22:15:40.893  INFO 11833 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-10 22:15:40.921  INFO 11833 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-10 22:15:40.967  INFO 11833 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-02-10 22:15:40.972  INFO 11833 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-10 22:15:41.225  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@22aebc48: startup date [Sat Feb 10 22:15:39 BRST 2018]; root of context hierarchy
+2018-02-10 22:15:41.241  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/listaconvidados]}" onto public java.lang.String org.pocs.springboot.controller.ConvidadoController.listaConvidados(org.springframework.ui.Model)
+2018-02-10 22:15:41.248  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/salvar],methods=[POST]}" onto public java.lang.String org.pocs.springboot.controller.ConvidadoController.salvar(java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.Model)
+2018-02-10 22:15:41.259  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-10 22:15:41.266  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-10 22:15:41.289  INFO 11833 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:15:41.297  INFO 11833 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:15:41.324  INFO 11833 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:15:41.444  INFO 11833 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-10 22:15:41.566  INFO 11833 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-10 22:15:41.599  INFO 11833 --- [restartedMain] b.c.e.u.UndertowEmbeddedServletContainer : Undertow started on port(s) 9000 (http)
+2018-02-10 22:15:41.606  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : Started Application in 1.882 seconds (JVM running for 801.677)
+2018-02-10 22:15:41.608  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : main - end
+2018-02-10 22:16:03.890  INFO 11833 --- [Thread-22] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@22aebc48: startup date [Sat Feb 10 22:15:39 BRST 2018]; root of context hierarchy
+2018-02-10 22:16:03.896  INFO 11833 --- [Thread-22] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-10 22:16:03.905  INFO 11833 --- [Thread-22] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-10 22:16:04.149  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : main - start
+22:16:04.266 [restartedMain] INFO  org.pocs.springboot.Application - Starting Application on armored-batman with PID 11833 (/home/afonsobarrenha/projects/pocs/implementation/SpringBoot/target/classes started by afonsobarrenha in /home/afonsobarrenha/projects/pocs/implementation/SpringBoot)
+22:16:04.269 [restartedMain] INFO  org.pocs.springboot.Application - No active profile set, falling back to default profiles: default
+22:16:04.281 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5358ad71: startup date [Sat Feb 10 22:16:04 BRST 2018]; root of context hierarchy
+22:16:05.055 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1b7ad185] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:16:05.280 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+22:16:05.282 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+22:16:05.284 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+22:16:05.287 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1006 ms
+22:16:05.342 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+22:16:05.344 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+22:16:05.345 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+22:16:05.345 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+22:16:05.345 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+22:16:05.660 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+22:16:05.675 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+22:16:05.690 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+22:16:05.740 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+22:16:05.748 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+22:16:05.956 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5358ad71: startup date [Sat Feb 10 22:16:04 BRST 2018]; root of context hierarchy
+22:16:05.977 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/listaconvidados]}" onto public java.lang.String org.pocs.springboot.controller.ConvidadoController.listaConvidados(org.springframework.ui.Model)
+22:16:05.982 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/salvar],methods=[POST]}" onto public java.lang.String org.pocs.springboot.controller.ConvidadoController.salvar(java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.Model)
+22:16:06.008 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+22:16:06.015 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+22:16:06.030 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+22:16:06.034 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+22:16:06.053 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+22:16:06.185 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+22:16:06.267 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+22:16:06.321 [restartedMain] INFO  o.s.b.c.e.u.UndertowEmbeddedServletContainer - Undertow started on port(s) 9000 (http)
+22:16:06.327 [restartedMain] INFO  org.pocs.springboot.Application - Started Application in 2.17 seconds (JVM running for 826.398)
+22:16:06.327 [restartedMain] INFO  org.pocs.springboot.Application - main - end
+22:18:39.207 [Thread-28] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5358ad71: startup date [Sat Feb 10 22:16:04 BRST 2018]; root of context hierarchy
+22:18:39.217 [Thread-28] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+22:18:39.219 [Thread-28] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+22:18:39.450 [restartedMain] INFO  org.pocs.springboot.Application - main - start
+2018-02-10 22:18:39.555  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : Starting Application on armored-batman with PID 11833 (/home/afonsobarrenha/projects/pocs/implementation/SpringBoot/target/classes started by afonsobarrenha in /home/afonsobarrenha/projects/pocs/implementation/SpringBoot)
+2018-02-10 22:18:39.558  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : No active profile set, falling back to default profiles: default
+2018-02-10 22:18:39.568  INFO 11833 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@43468c7a: startup date [Sat Feb 10 22:18:39 BRST 2018]; root of context hierarchy
+2018-02-10 22:18:40.102  INFO 11833 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1b7ad185] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-10 22:18:40.216  WARN 11833 --- [restartedMain] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-02-10 22:18:40.217  WARN 11833 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-02-10 22:18:40.221  INFO 11833 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2018-02-10 22:18:40.222  INFO 11833 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 654 ms
+2018-02-10 22:18:40.272  INFO 11833 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-10 22:18:40.275  INFO 11833 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-10 22:18:40.278  INFO 11833 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-10 22:18:40.278  INFO 11833 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-10 22:18:40.278  INFO 11833 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-10 22:18:40.510  INFO 11833 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-10 22:18:40.512  INFO 11833 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-10 22:18:40.525  INFO 11833 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-10 22:18:40.563  INFO 11833 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-02-10 22:18:40.570  INFO 11833 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-10 22:18:40.764  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@43468c7a: startup date [Sat Feb 10 22:18:39 BRST 2018]; root of context hierarchy
+2018-02-10 22:18:40.779  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/listaconvidados]}" onto public java.lang.String org.pocs.springboot.controller.ConvidadoController.listaConvidados(org.springframework.ui.Model)
+2018-02-10 22:18:40.780  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/salvar],methods=[POST]}" onto public java.lang.String org.pocs.springboot.controller.ConvidadoController.salvar(java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.Model)
+2018-02-10 22:18:40.782  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-10 22:18:40.783  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-10 22:18:40.797  INFO 11833 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:18:40.797  INFO 11833 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:18:40.817  INFO 11833 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:18:40.912  INFO 11833 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-10 22:18:40.994  INFO 11833 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-10 22:18:41.013  INFO 11833 --- [restartedMain] b.c.e.u.UndertowEmbeddedServletContainer : Undertow started on port(s) 9000 (http)
+2018-02-10 22:18:41.017  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : Started Application in 1.558 seconds (JVM running for 981.088)
+2018-02-10 22:18:41.018  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : main - end
+2018-02-10 22:19:02.359  INFO 11833 --- [Thread-34] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@43468c7a: startup date [Sat Feb 10 22:18:39 BRST 2018]; root of context hierarchy
+2018-02-10 22:19:02.367  INFO 11833 --- [Thread-34] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-10 22:19:02.368  INFO 11833 --- [Thread-34] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-10 22:19:02.657  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : main - start
+2018-02-10 22:19:02.728  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : Starting Application on armored-batman with PID 11833 (/home/afonsobarrenha/projects/pocs/implementation/SpringBoot/target/classes started by afonsobarrenha in /home/afonsobarrenha/projects/pocs/implementation/SpringBoot)
+2018-02-10 22:19:02.733  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : No active profile set, falling back to default profiles: default
+2018-02-10 22:19:02.738  INFO 11833 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13549113: startup date [Sat Feb 10 22:19:02 BRST 2018]; root of context hierarchy
+2018-02-10 22:19:03.284  INFO 11833 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1b7ad185] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-10 22:19:03.382  WARN 11833 --- [restartedMain] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-02-10 22:19:03.384  WARN 11833 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-02-10 22:19:03.390  INFO 11833 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2018-02-10 22:19:03.393  INFO 11833 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 655 ms
+2018-02-10 22:19:03.452  INFO 11833 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-10 22:19:03.455  INFO 11833 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-10 22:19:03.460  INFO 11833 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-10 22:19:03.462  INFO 11833 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-10 22:19:03.465  INFO 11833 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-10 22:19:03.685  INFO 11833 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-10 22:19:03.687  INFO 11833 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-10 22:19:03.700  INFO 11833 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-10 22:19:03.733  INFO 11833 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-02-10 22:19:03.739  INFO 11833 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-10 22:19:03.918  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13549113: startup date [Sat Feb 10 22:19:02 BRST 2018]; root of context hierarchy
+2018-02-10 22:19:03.932  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/listaconvidados]}" onto public java.lang.String org.pocs.springboot.controller.ConvidadoController.listaConvidados(org.springframework.ui.Model)
+2018-02-10 22:19:03.935  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/salvar],methods=[POST]}" onto public java.lang.String org.pocs.springboot.controller.ConvidadoController.salvar(java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.Model)
+2018-02-10 22:19:03.939  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-10 22:19:03.940  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-10 22:19:03.948  INFO 11833 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:19:03.949  INFO 11833 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:19:03.964  INFO 11833 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:19:04.050  INFO 11833 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-10 22:19:04.115  INFO 11833 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-10 22:19:04.135  INFO 11833 --- [restartedMain] b.c.e.u.UndertowEmbeddedServletContainer : Undertow started on port(s) 9000 (http)
+2018-02-10 22:19:04.137  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : Started Application in 1.473 seconds (JVM running for 1004.208)
+2018-02-10 22:19:04.138  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : main - end
+2018-02-10 22:19:38.649  INFO 11833 --- [XNIO-8 task-1] io.undertow.servlet                      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-10 22:19:38.651  INFO 11833 --- [XNIO-8 task-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-10 22:19:38.656  INFO 11833 --- [XNIO-8 task-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 5 ms
+2018-02-10 22:19:38.661 DEBUG 11833 --- [XNIO-8 task-1] o.p.s.controller.ConvidadoController     : listaConvidados({}) - start
+2018-02-10 22:19:38.674 DEBUG 11833 --- [XNIO-8 task-1] o.p.s.controller.ConvidadoController     : listaConvidados(...) - end
+2018-02-10 22:19:51.375 DEBUG 11833 --- [XNIO-8 task-3] o.p.s.controller.ConvidadoController     : salvar(a, b@c, d, {}) - start
+2018-02-10 22:19:51.731 DEBUG 11833 --- [XNIO-8 task-3] o.p.s.controller.ConvidadoController     : salvar(...) - end
+2018-02-10 22:21:36.667  INFO 11833 --- [Thread-40] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13549113: startup date [Sat Feb 10 22:19:02 BRST 2018]; root of context hierarchy
+2018-02-10 22:21:36.670  INFO 11833 --- [Thread-40] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-10 22:21:36.671  INFO 11833 --- [Thread-40] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-10 22:21:36.682  INFO 11833 --- [Thread-40] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018-02-10 22:21:36.953  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : main - start
+22:21:37.016 [restartedMain] INFO  org.pocs.springboot.Application - Starting Application on armored-batman with PID 11833 (/home/afonsobarrenha/projects/pocs/implementation/SpringBoot/target/classes started by afonsobarrenha in /home/afonsobarrenha/projects/pocs/implementation/SpringBoot)
+22:21:37.020 [restartedMain] INFO  org.pocs.springboot.Application - No active profile set, falling back to default profiles: default
+22:21:37.023 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f7f20fd: startup date [Sat Feb 10 22:21:37 BRST 2018]; root of context hierarchy
+22:21:37.535 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1b7ad185] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:21:37.659 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+22:21:37.661 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+22:21:37.669 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+22:21:37.670 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 647 ms
+22:21:37.716 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+22:21:37.723 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+22:21:37.726 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+22:21:37.726 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+22:21:37.726 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+22:21:37.950 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+22:21:37.951 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+22:21:37.963 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+22:21:37.999 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+22:21:38.010 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+22:21:38.196 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f7f20fd: startup date [Sat Feb 10 22:21:37 BRST 2018]; root of context hierarchy
+22:21:38.212 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/listaconvidados]}" onto public java.lang.String org.pocs.springboot.controller.ConvidadoController.listaConvidados(org.springframework.ui.Model)
+22:21:38.215 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/salvar],methods=[POST]}" onto public java.lang.String org.pocs.springboot.controller.ConvidadoController.salvar(java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.Model)
+22:21:38.222 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+22:21:38.225 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+22:21:38.237 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+22:21:38.239 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+22:21:38.262 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+22:21:38.349 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+22:21:38.396 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+22:21:38.413 [restartedMain] INFO  o.s.b.c.e.u.UndertowEmbeddedServletContainer - Undertow started on port(s) 9000 (http)
+22:21:38.415 [restartedMain] INFO  org.pocs.springboot.Application - Started Application in 1.452 seconds (JVM running for 1158.486)
+22:21:38.416 [restartedMain] INFO  org.pocs.springboot.Application - main - end
+22:23:03.629 [XNIO-9 task-1] INFO  io.undertow.servlet - Initializing Spring FrameworkServlet 'dispatcherServlet'
+22:23:03.639 [XNIO-9 task-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+22:23:03.644 [XNIO-9 task-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms
+22:23:03.655 [XNIO-9 task-1] DEBUG o.p.s.controller.ConvidadoController - salvar(e, f@g, h, {}) - start
+22:23:03.786 [XNIO-9 task-1] DEBUG o.p.s.controller.ConvidadoController - salvar(...) - end
+22:25:29.086 [Thread-46] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f7f20fd: startup date [Sat Feb 10 22:21:37 BRST 2018]; root of context hierarchy
+22:25:29.090 [Thread-46] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+22:25:29.092 [Thread-46] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+22:25:29.103 [Thread-46] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+22:25:29.481 [restartedMain] INFO  org.pocs.springboot.Application - main - start
+2018-02-10 22:25:29.545  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : Starting Application on armored-batman with PID 11833 (/home/afonsobarrenha/projects/pocs/implementation/SpringBoot/target/classes started by afonsobarrenha in /home/afonsobarrenha/projects/pocs/implementation/SpringBoot)
+2018-02-10 22:25:29.545  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : No active profile set, falling back to default profiles: default
+2018-02-10 22:25:29.549  INFO 11833 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31d716f7: startup date [Sat Feb 10 22:25:29 BRST 2018]; root of context hierarchy
+2018-02-10 22:25:29.942  INFO 11833 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1b7ad185] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-10 22:25:30.038  WARN 11833 --- [restartedMain] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-02-10 22:25:30.041  WARN 11833 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-02-10 22:25:30.046  INFO 11833 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2018-02-10 22:25:30.048  INFO 11833 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 499 ms
+2018-02-10 22:25:30.090  INFO 11833 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-10 22:25:30.094  INFO 11833 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-10 22:25:30.097  INFO 11833 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-10 22:25:30.100  INFO 11833 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-10 22:25:30.101  INFO 11833 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-10 22:25:30.340  INFO 11833 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-10 22:25:30.342  INFO 11833 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-10 22:25:30.353  INFO 11833 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-10 22:25:30.385  INFO 11833 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-02-10 22:25:30.395  INFO 11833 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-10 22:25:30.603  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31d716f7: startup date [Sat Feb 10 22:25:29 BRST 2018]; root of context hierarchy
+2018-02-10 22:25:30.618  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/listaconvidados]}" onto public java.lang.String org.pocs.springboot.controller.ConvidadoController.listaConvidados(org.springframework.ui.Model)
+2018-02-10 22:25:30.621  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/salvar],methods=[POST]}" onto public java.lang.String org.pocs.springboot.controller.ConvidadoController.salvar(java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.Model)
+2018-02-10 22:25:30.630  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-10 22:25:30.636  INFO 11833 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-10 22:25:30.651  INFO 11833 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:25:30.657  INFO 11833 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:25:30.680  INFO 11833 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:25:30.813  INFO 11833 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-10 22:25:30.903  INFO 11833 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-10 22:25:30.923  INFO 11833 --- [restartedMain] b.c.e.u.UndertowEmbeddedServletContainer : Undertow started on port(s) 9000 (http)
+2018-02-10 22:25:30.926  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : Started Application in 1.439 seconds (JVM running for 1390.997)
+2018-02-10 22:25:30.927  INFO 11833 --- [restartedMain] org.pocs.springboot.Application          : main - end
