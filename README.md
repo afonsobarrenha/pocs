@@ -8,33 +8,35 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 ### Alura
 
 #### Carreira Desenvolvedor Java Web com Spring
+- [ ] Maven
 - [x] Spring Boot
 - [ ] Spring MVC I
 - [ ] Spring MVC II
+- [ ] Java e JPA I
+- [ ] Java e JPA II
 - [x] \(Opcional) Logback
 - [ ] \(Opcional) Actuator
 - [ ] \(Opcional) TDD
-- [x] \(Opcional) Selenium
-- [x] \(Opcional) Mockito
-- [x] \(Opcional) Maven
-
+- [ ] \(Opcional) Selenium
+- [ ] \(Opcional) Mockito
 
 #### Carreira Engenheiro Devops
-- [ ] Integração Contínua
-- [ ] Docker
-- [ ] Kubernetes
 - [ ] Linux I
 - [ ] Linux II
 - [ ] Git
-- [ ] \(Opcional) Vagrant
-- [ ] \(Opcional) Ansible
-- [ ] \(Opcional) AWS S3
-- [ ] \(Opcional) Amazon EC2
-- [ ] \(Opcional) Amazon AWS
+- [ ] Docker
+- [ ] Integração Contínua
+- [ ] Kubernetes
+- [ ] Vagrant
+- [ ] Ansible
+- [ ] Amazon AWS
+- [ ] Amazon S3
+- [ ] Amazon EC2
 
 #### Carreira Desenvolvedor FullStack MEAN
 - [ ] MEAN Stack
-- [ ] Angular 2
+- [ ] Angular 2 I
+- [ ] Angular 2 II
 - [ ] Node.js
 - [ ] Node.js e HTTP
 - [ ] MongoDB
@@ -63,27 +65,26 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 - [ ] Spring Boot and OAuth2
 
 #### Getting Started Guides
-- [ ] Testing the Web Layer (2018/02/10 - em andamento)
-- [ ] Building a RESTful Web Service
-- [ ] Scheduling Tasks
-- [ ] Consuming a RESTful Web Service
-- [ ] Accessing Relational Data using JDBC with Spring
-- [ ] Building a RESTful Web Service with Spring Boot Actuator
-- [ ] Securing a Web Application
-- [ ] Accessing Data with JPA
-- [ ] Managing Transactions
 - [ ] Building an Application with Spring Boot
+- [x] Testing the Web Layer
+- [ ] Spring Boot with Docker
+- [ ] Accessing Data with JPA
+- [ ] Accessing Relational Data using JDBC with Spring
+- [ ] Managing Transactions
+- [ ] Securing a Web Application
+- [ ] Building a RESTful Web Service
+- [ ] Consuming a RESTful Web Service
+- [ ] Building a RESTful Web Service with Spring Boot Actuator
 - [ ] Consuming a RESTful Web Service with AngularJS
 - [ ] Accessing JPA Data with REST
 - [ ] Accessing MongoDB Data with REST
-- [ ] Spring Boot with Docker
+- [ ] Creating API Documentation with Restdocs
+- [ ] Scheduling Tasks
 - [ ] Centralized Configuration
 - [ ] Creating a Multi Module Project
-- [ ] Creating API Documentation with Restdocs
 
 #### Topical Guide
 - [ ] Spring Security Architecture
-
 
 
 *Obs: Estou usando uma estrutura de pastas que vi no livro Continous Integration, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas.
