@@ -1,5 +1,7 @@
 package org.pocs.springboot;
 
+import static org.junit.Assert.assertTrue;
+
 import java.io.File;
 import java.io.IOException;
 
@@ -9,22 +11,24 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.springframework.boot.context.embedded.LocalServerPort;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import junit.framework.TestCase;
-
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
-public class WebEnvironmentTest extends TestCase {
+public class WebEnvironmentTest {
 
 	@LocalServerPort
 	private int port;
@@ -68,8 +72,40 @@ public class WebEnvironmentTest extends TestCase {
 		txtEmail.sendKeys("afonsobarrenha@gmail.com");
 		txtTelefone.sendKeys("5511995029052");
 
-		txtNome.submit();
+		WebElement btnConvidar = driver.findElement(By.name("convidar"));
+		btnConvidar.click();
 
-		assertTrue(driver.getPageSource().contains("afonsobarrenha@gmail.com"));
+		Boolean containsGmail = new WebDriverWait(driver, 10).until(
+				ExpectedConditions.textToBePresentInElementLocated(By.id("divConvidados"), "afonsobarrenha@gmail.com"));
+
+		assertTrue(containsGmail);
 	}
+
+	/**
+	 * Método contendo o código do Selenium que não está sendo usado nesse momento,
+	 * mas poderá ser usado conforme a aplicação evolueSelect usuario = new
+	 * Select(driver.findElement(By.name("leilao.usuario.id")));
+	 * usuario.selectByVisibleText("João");.
+	 */
+	// @Test
+	public void testSalvarCamposObrigatorios() {
+		/**
+		 * Trabalhar com ALERT
+		 */
+		Alert alert = driver.switchTo().alert();
+		alert.accept();
+
+		/**
+		 * COMBOBOX
+		 */
+		Select usuario = new Select(driver.findElement(By.name("leilao.usuario.id")));
+		usuario.selectByVisibleText("João");
+
+		/**
+		 * CHECKBOX
+		 */
+		WebElement usado = driver.findElement(By.name("leilao.usado"));
+		usado.click();
+	}
+
 }
