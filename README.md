@@ -17,7 +17,7 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 - [x] \(Opcional) Logback
 - [ ] \(Opcional) Actuator
 - [ ] \(Opcional) TDD
-- [ ] \(Opcional) Selenium
+- [x] \(Opcional) Selenium
 - [ ] \(Opcional) Mockito
 
 #### Carreira Engenheiro Devops
