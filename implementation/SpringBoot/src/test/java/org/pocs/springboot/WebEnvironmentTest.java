@@ -71,6 +71,5 @@ public class WebEnvironmentTest extends TestCase {
 		txtNome.submit();
 
 		assertTrue(driver.getPageSource().contains("afonsobarrenha@gmail.com"));
-
 	}
 }
