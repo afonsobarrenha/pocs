@@ -15,6 +15,7 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 - [ ] Java e JPA I
 - [ ] Java e JPA II
 - [x] \(Opcional) Logback
+- [x] \(Opcional) Git Flow Extension
 - [ ] \(Opcional) Actuator
 - [ ] \(Opcional) TDD
 - [x] \(Opcional) Selenium
