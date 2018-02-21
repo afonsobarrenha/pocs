@@ -16,5 +16,8 @@ Para a criação das Entities pelo Eclipse, deve-se acrescentar o Facet JPA ao p
 
 Muito recomendado é a utilização do spring-boot-devtools e do LiveReload para uso no desenvolvimento.
 
-
-
+Para a verificação das dependências do projeto, utilizar 
+```
+mvn versions:display-dependency-updates
+mvn dependency:tree
+```
