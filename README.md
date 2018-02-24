@@ -21,7 +21,7 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 - [x] \(Opcional) Selenium
 - [ ] \(Opcional) Mockito
 
-#### Carreira Engenheiro Devops
+#### Carreira Engenheiro DevOps
 - [ ] Linux I
 - [ ] Linux II
 - [ ] Git

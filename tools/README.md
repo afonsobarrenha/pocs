@@ -1,6 +1,6 @@
 # Tools
 ## Ferramentas usadas na construção desse projeto
-- Visual Studio Code - Version 1.19.3
+- Visual Studio Code - Version ~~1.19.3~~ 1.20.1
     - Ferramenta base de trabalho
 - Eclipse - Oxygen.1a Release (4.7.1a)
     - Coding Java
