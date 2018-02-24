@@ -25,7 +25,7 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 - [ ] Linux I
 - [ ] Linux II
 - [ ] Git
-- [ ] Docker
+- [ ] Docker (em andamento)
 - [ ] Integração Contínua
 - [ ] Kubernetes
 - [ ] Vagrant
