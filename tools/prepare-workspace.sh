@@ -1,5 +1,5 @@
 #!/bin/sh
-#chmod 700 afonsobarrenha.sh && sudo ./afonsobarrenha.sh
+#como chamar: chmod 700 prepare-workspace.sh && sudo ./prepare-workspace.sh [pasta_base] [git.user.name] [git.user.email]
 
 #configurando apt-repositories
 ##vscode
@@ -23,8 +23,8 @@ umake ide eclipse-jee
 
 # clonando o repositório
 cd ~
-mkdir projetos
-cd projetos
+mkdir $1
+cd $1
 git clone https://github.com/afonsobarrenha/pocs.git
-git config --global user.email "afonsobarrenha@gmail.com"
-git config --global user.name "afonsobarrenha"
+git config --global user.name $2
+git config --global user.email $3
