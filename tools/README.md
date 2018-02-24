@@ -7,6 +7,11 @@
 - GNOME Terminal 3.24.2
     - ~/.bashrc
         - export PATH=$PATH:/home/afonsobarrenha/apache-maven-3.5.2/bin
+    - running docker comands without sudo
+        - sudo groupadd docker
+        - sudo gpasswd -a $USER docker
+        - newgrp docker
+- 
 ## Configuração utilizada (baseado no usesthis.com)
 ### Who are you, and what do you do?
 Olá, sou o Afonso, atualmente trabalho na Indra, como DevOps Coach no banco Santander. Anteriormente fui Gerente de Desenvolvimento / Scrum Master na telecom Vivo. Sou apaixonado por desenvolvimento de software, sempre estudando para me aperfeiçoar, e com isso me encaixando no mundo DevOps, onde há essa junção de Desenvolvimento e Operações.
