@@ -21,11 +21,11 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 - [x] \(Opcional) Selenium
 - [ ] \(Opcional) Mockito
 
-#### Carreira Engenheiro Devops
+#### Carreira Engenheiro DevOps
 - [ ] Linux I
 - [ ] Linux II
 - [ ] Git
-- [ ] Docker
+- [ ] Docker (em andamento)
 - [ ] Integração Contínua
 - [ ] Kubernetes
 - [ ] Vagrant
@@ -47,7 +47,7 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 
 #### DevOps
 - [ ] Master Jenkins CI for DevOps and Developers
-- [ ] Docker Technologias for DevOps and Developers
+- [ ] Docker Technology for DevOps and Developers
 - [ ] AWS Certified Developer
 - [ ] AWS Certified Solutions Architect
 - [ ] AWS Certified SysOps Administrator
@@ -68,7 +68,7 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 #### Getting Started Guides
 - [ ] Building an Application with Spring Boot
 - [x] Testing the Web Layer
-- [ ] Spring Boot with Docker
+- [x] Spring Boot with Docker
 - [ ] Accessing Data with JPA
 - [ ] Accessing Relational Data using JDBC with Spring
 - [ ] Managing Transactions
