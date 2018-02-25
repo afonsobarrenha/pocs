@@ -16,6 +16,9 @@ docker ps -a
 docker rm/rmi [id]
 docker container prune
 docker port [id]
+docker build -f node.dockerfile --tag afonsobarrenha/node .
+docker login
+docker push afonsobarrenha/node
 ```
 ### Execução
 Comandos para execução de containers.
