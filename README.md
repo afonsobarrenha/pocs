@@ -2,30 +2,30 @@
 
 ## Provas de Conceito das tecnologias que tive contato
 
-Minha intenção é colocar em prática e armazenar em um repositório os códigos-fonte/configurações dos últimos cursos/testes que fiz. Abaixo, uma lista com um roadmap do que pretendo seguir.
+Minha intenção é colocar em prática e **armazenar em um repositório os códigos-fonte** dos últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir.
 
 
 ### Alura
 
 #### Carreira Desenvolvedor Java Web com Spring
-- [x] Maven
-- [x] Spring Boot
+- [x] ~~Maven~~
+- [x] ~~Spring Boot~~
 - [ ] Spring MVC I
 - [ ] Spring MVC II
 - [ ] Java e JPA I
 - [ ] Java e JPA II
-- [x] \(Opcional) Logback
-- [x] \(Opcional) Git Flow Extension
+- [x] ~~\(Opcional) Logback~~
+- [x] ~~\(Opcional) Git Flow Extension~~
 - [ ] \(Opcional) Actuator
 - [ ] \(Opcional) TDD
-- [x] \(Opcional) Selenium
+- [x] ~~\(Opcional) Selenium~~
 - [ ] \(Opcional) Mockito
 
 #### Carreira Engenheiro DevOps
 - [ ] Linux I
 - [ ] Linux II
 - [ ] Git
-- [ ] Docker (em andamento)
+- [ ] **_Docker (em andamento)_**
 - [ ] Integração Contínua
 - [ ] Kubernetes
 - [ ] Vagrant
@@ -67,8 +67,8 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 
 #### Getting Started Guides
 - [ ] Building an Application with Spring Boot
-- [x] Testing the Web Layer
-- [x] Spring Boot with Docker
+- [x] ~~Testing the Web Layer~~
+- [x] ~~Spring Boot with Docker~~
 - [ ] Accessing Data with JPA
 - [ ] Accessing Relational Data using JDBC with Spring
 - [ ] Managing Transactions
@@ -91,3 +91,9 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 *Obs: Estou usando uma estrutura de pastas que vi no livro Continous Integration, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas.
 Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado.
 Tudo bem, vamos ver se conseguimos trabalhar dessa forma.*
+
+### Referências
+
+[Basic Writing and formatting Syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+
+[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
