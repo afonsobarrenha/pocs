@@ -1,4 +1,4 @@
-package org.pocs.springboot.model;
+package com.example.demo.model;
 
 import java.io.Serializable;
 
