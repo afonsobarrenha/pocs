@@ -66,7 +66,7 @@ Minha intenção é colocar em prática e **armazenar em um repositório os cód
 - [ ] Spring Boot and OAuth2
 
 #### Getting Started Guides
-- [ ] Building an Application with Spring Boot
+- [x] ~~Building an Application with Spring Boot~~
 - [x] ~~Testing the Web Layer~~
 - [x] ~~Spring Boot with Docker~~
 - [ ] Accessing Data with JPA

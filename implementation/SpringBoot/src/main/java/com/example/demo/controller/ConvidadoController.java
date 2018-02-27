@@ -1,7 +1,5 @@
-package org.pocs.springboot.controller;
+package com.example.demo.controller;
 
-import org.pocs.springboot.model.Convidado;
-import org.pocs.springboot.repository.ConvidadoRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +8,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+
+import com.example.demo.model.Convidado;
+import com.example.demo.repository.ConvidadoRepository;
 
 @Controller
 public class ConvidadoController {
