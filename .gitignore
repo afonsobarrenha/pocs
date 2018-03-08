@@ -1,3 +1,4 @@
 .vscode/
 implementation/SpringBoot/my.log
 tools/pocs-workspace.code-workspace
+implementation/Node/volume-exemplo/node_modules/
