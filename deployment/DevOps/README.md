@@ -35,7 +35,6 @@ docker run -it --rm ubuntu #interativo/terminal/autoremove
 docker start -a -i 05025384675e #atach+terminal/interativo
 docker run -d -p 12345:80 -e AUTHOR="afonsobarrenha" dockersamples/static-site #detach/porta/env
 docker run -it -v $(pwd)/volumes/var/www:/var/www ubuntu
-
 ```
 ## FAQ
 - Caso você esteja utilizando o Docker Toolbox, como ele está rodando em cima de uma máquina virtual, o endereço http://localhost:9001/ não funcionará, pois você deve acessar a porta através do IP da máquina virtual. Para descobrir o IP dessa máquina virtual, basta executar o comando docker-machine ip. Com o IP em mãos, basta acessá-lo no navegador, utilizando a porta que o Docker atribuiu, por exemplo http://192.168.0.38:9001/.
