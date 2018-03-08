@@ -20,18 +20,14 @@ public class ConvidadoController {
 	@Autowired
 	private ConvidadoRepository repository;
 
-	// TODO Implementar um correto uso de uma dependência externa Autowired.
-	// @Autowired
-	// private EmailService emailService;
-
-	@RequestMapping("listaconvidados")
+	@RequestMapping("listar")
 	public String listaConvidados(Model model) {
-		logger.debug("listaConvidados(" + model + ") - start");
+		logger.debug("listar(" + model + ") - start");
 
 		Iterable<Convidado> convidados = repository.findAll();
 		model.addAttribute("convidados", convidados);
 
-		logger.debug("listaConvidados(...) - end");
+		logger.debug("listar(...) - end");
 
 		return "listaconvidados";
 	}
