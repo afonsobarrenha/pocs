@@ -1,0 +1,31 @@
+version: '3'
+services: 
+  springboot:
+    build:
+      dockerfile: ./Dockerfile
+      context: .
+    image: afonsobarrenha/springboot
+    container_name: app
+    ports:
+      - 9000:9000
+    networks: 
+      - my-network
+    depends_on:
+      - my-mysql
+
+  my-mysql:
+    image: mysql:5.5
+    container_name: my-mysql
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=root_password
+      - MYSQL_DATABASE=listavip
+      - MYSQL_USER=lista_usr 
+      - MYSQL_PASSWORD=lista_pwd 
+    networks: 
+      - my-network
+
+networks: 
+  my-network:
+    driver: bridge
