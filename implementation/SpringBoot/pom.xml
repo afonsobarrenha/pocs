@@ -128,12 +128,14 @@
 				<executions>
 					<execution>
 						<id>default-build</id>
+						<phase>package</phase>
 						<goals>
 							<goal>build</goal>
 						</goals>
 					</execution>
 					<execution>
 						<id>default-tag</id>
+						<phase>package</phase>
 						<goals>
 							<goal>tag</goal>
 						</goals>
@@ -143,6 +145,7 @@
 					</execution>
 					<execution>
 						<id>install-push</id>
+						<!--phase>deploy</phase-->
 						<phase>install</phase>
 						<goals>
 							<goal>push</goal>
