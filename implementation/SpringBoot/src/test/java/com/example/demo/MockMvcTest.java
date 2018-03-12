@@ -24,7 +24,7 @@ public class MockMvcTest {
 
 	@Test
 	public void shouldReturnDefaultMessage() throws Exception {
-		this.mockMvc.perform(get("/listaconvidados")).andDo(print()).andExpect(status().isOk())
-				.andExpect(content().string(containsString("lazaro@alura.com.br")));
+		this.mockMvc.perform(get("/listar")).andDo(print()).andExpect(status().isOk())
+				.andExpect(content().string(containsString("afonsobarrenha@gmail.com")));
 	}
 }
