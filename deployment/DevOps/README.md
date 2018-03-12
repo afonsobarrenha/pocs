@@ -25,6 +25,8 @@ docker port [id]
 docker build -f node.dockerfile --tag afonsobarrenha/node .
 docker login
 docker push afonsobarrenha/node
+docker-compose build
+docker-compose up
 ```
 ### Execução
 Comandos para execução de containers.
