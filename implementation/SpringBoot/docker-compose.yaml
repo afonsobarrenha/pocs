@@ -1,13 +1,10 @@
 version: '3'
 services: 
   springboot:
-    build:
-      dockerfile: ./Dockerfile
-      context: .
     image: afonsobarrenha/springboot
-    container_name: app
+    container_name: springboot
     ports:
-      - 9000:9000
+      - 80:9000
     networks: 
       - my-network
     depends_on:
@@ -19,10 +16,10 @@ services:
     ports:
       - 3306:3306
     environment:
-      - MYSQL_ROOT_PASSWORD=root_password
-      - MYSQL_DATABASE=listavip
-      - MYSQL_USER=lista_usr 
-      - MYSQL_PASSWORD=lista_pwd 
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: listavip
+      MYSQL_USER: lista_usr 
+      MYSQL_PASSWORD: lista_pwd 
     networks: 
       - my-network
 

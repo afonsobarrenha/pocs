@@ -3,19 +3,16 @@ Pasta contendo os arquivos de configuração dos containers Docker que iremos ut
 
 Como um primeiro container estou utilizando o MySQL, o iniciando com o comando abaixo. Esse comando será posteriormente incluído em um Docker Compose, junto com os demais containers necessários (prevejo para SpringBoot, para AngularJs, e para o servidor HTTP).
 ```
-docker network create --driver bridge minha-rede
+docker network create --driver bridge my-network
 
 #mysql-server
-docker run --name mysql-server -p 3306:3306 --rm -e MYSQL_ROOT_PASSWORD=root_password -e MYSQL_DATABASE=listavip -e MYSQL_USER=lista_usr -e MYSQL_PASSWORD=lista_pwd --network minha-rede mysql:5.5
- 
-#mysql-client
-docker run -it --link mysql-server:mysql --rm mysql sh -c 'exec mysql -h"$MYSQL_PORT_3306_TCP_ADDR" -P"$MYSQL_PORT_3306_TCP_PORT" -uroot -p"$MYSQL_ENV_MYSQL_ROOT_PASSWORD"'
+docker run --name my-mysql -p 3306:3306 --rm -e MYSQL_ROOT_PASSWORD=root_password -e MYSQL_DATABASE=listavip -e MYSQL_USER=lista_usr -e MYSQL_PASSWORD=lista_pwd --network my-network mysql:5.5
 
 #node-server
 docker run -p 3000:3000 -v $(echo $HOME)/projetos/pocs/implementation/Node/volume-exemplo:/var/www -w "/var/www" --rm node npm start
 
 #springboot-server
-docker run -p 9000:9000 --rm --network minha-rede afonsobarrenha/springboot
+docker run -p 9000:9000 --rm --network my-network afonsobarrenha/springboot
 ```
 ## Principais comandos Docker
 ### Manipulação
@@ -28,6 +25,8 @@ docker port [id]
 docker build -f node.dockerfile --tag afonsobarrenha/node .
 docker login
 docker push afonsobarrenha/node
+docker-compose build
+docker-compose up
 ```
 ### Execução
 Comandos para execução de containers.
@@ -35,6 +34,7 @@ Comandos para execução de containers.
 docker run/start/stop
 docker run -it --rm ubuntu #interativo/terminal/autoremove
 docker start -a -i 05025384675e #atach+terminal/interativo
+docker exec -it e052f36b8901 bash
 docker run -d -p 12345:80 -e AUTHOR="afonsobarrenha" dockersamples/static-site #detach/porta/env
 docker run -it -v $(pwd)/volumes/var/www:/var/www ubuntu
 ```
