@@ -25,7 +25,7 @@ Minha intenção é colocar em prática e **armazenar em um repositório os cód
 - [ ] Linux I
 - [ ] Linux II
 - [ ] Git
-- [ ] **_Docker (em andamento)_**
+- [x] Docker
 - [ ] Integração Contínua
 - [ ] Kubernetes
 - [ ] Vagrant
