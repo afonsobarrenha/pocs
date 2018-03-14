@@ -13,13 +13,13 @@ services:
   my-mysql:
     image: mysql:5.5
     container_name: my-mysql
-    ports:
-      - 3306:3306
     environment:
       MYSQL_ROOT_PASSWORD: root_password
       MYSQL_DATABASE: listavip
       MYSQL_USER: lista_usr 
       MYSQL_PASSWORD: lista_pwd 
+    volumes:
+      - ../../deployment/DevOps/volumes/mysql:/var/lib/mysql
     networks: 
       - my-network
 
