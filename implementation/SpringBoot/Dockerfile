@@ -11,6 +11,6 @@ ADD ${JAR_FILE} springboot.jar
 ADD wait-for-it.sh wait-for-it.sh
 RUN bash -c 'chmod +x /wait-for-it.sh'
 #RUN ["/bin/bash", "chmod", "+x", "/wait-for-it.sh"]
-RUN dos2unix /wait-for-it.sh && apt-get --purge remove -y dos2unix && rm -rf /var/lib/apt/lists/*
+RUN dos2unix /wait-for-it.sh
 
-ENTRYPOINT ["/bin/bash", "/wait-for-it.sh", "my-mysql:3306", "-s", "-t", "60", "--", "java","-jar","/springboot.jar"]
+ENTRYPOINT /bin/bash /wait-for-it.sh my-mysql:3306 -s -t 15 -- java -jar -Dspring.profiles.active=pro /springboot.jar
