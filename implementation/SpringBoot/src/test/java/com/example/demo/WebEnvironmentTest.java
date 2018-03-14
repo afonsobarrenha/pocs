@@ -60,23 +60,23 @@ public class WebEnvironmentTest {
 
 	@Test
 	public void testSalvarConvidado() {
-		driver.get("http://localhost:" + port + "/listaconvidados");
+		driver.get("http://localhost:" + port + "/listar");
 
-		assertTrue(driver.getPageSource().contains("lazaro@alura.com.br"));
+		assertTrue(driver.getPageSource().contains("afonsobarrenha@gmail.com"));
 
 		WebElement txtNome = driver.findElement(By.name("nome"));
 		WebElement txtEmail = driver.findElement(By.name("email"));
 		WebElement txtTelefone = driver.findElement(By.name("telefone"));
 
-		txtNome.sendKeys("Afonso Barrenha");
-		txtEmail.sendKeys("afonsobarrenha@gmail.com");
-		txtTelefone.sendKeys("5511995029052");
+		txtNome.sendKeys("Júlia de Souza Barrenha");
+		txtEmail.sendKeys("juliabarrenha@gmail.com");
+		txtTelefone.sendKeys("5511988185657");
 
 		WebElement btnConvidar = driver.findElement(By.name("convidar"));
 		btnConvidar.click();
 
 		Boolean containsGmail = new WebDriverWait(driver, 10).until(
-				ExpectedConditions.textToBePresentInElementLocated(By.id("divConvidados"), "afonsobarrenha@gmail.com"));
+				ExpectedConditions.textToBePresentInElementLocated(By.id("divConvidados"), "juliabarrenha@gmail.com"));
 
 		assertTrue(containsGmail);
 	}

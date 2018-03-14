@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.pocs</groupId>
+	<groupId>com.example</groupId>
 	<artifactId>springboot</artifactId>
-	<version>1.2.0</version>
+	<version>1.5.1</version>
 	<packaging>jar</packaging>
 
-	<name>SpringBoot</name>
+	<name>SpringBoot-demo</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -128,12 +128,14 @@
 				<executions>
 					<execution>
 						<id>default-build</id>
+						<phase>package</phase>
 						<goals>
 							<goal>build</goal>
 						</goals>
 					</execution>
 					<execution>
 						<id>default-tag</id>
+						<phase>package</phase>
 						<goals>
 							<goal>tag</goal>
 						</goals>
@@ -143,6 +145,7 @@
 					</execution>
 					<execution>
 						<id>install-push</id>
+						<!--phase>deploy</phase-->
 						<phase>install</phase>
 						<goals>
 							<goal>push</goal>
