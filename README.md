@@ -27,7 +27,7 @@ Minha intenção é colocar em prática e **armazenar em um repositório os cód
 - [ ] Git
 - [x] Docker
 - [ ] Integração Contínua
-- [ ] **Kubernetes (em andamento)**
+- [ ] **_Kubernetes (em andamento)_**
 - [ ] Vagrant
 - [ ] Ansible
 - [ ] Amazon AWS
