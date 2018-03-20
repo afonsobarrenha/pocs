@@ -1,8 +1,8 @@
 # POCs
 
-## Provas de Conceito das tecnologias que tive contato
+## Provas de Conceito
 
-Minha intenção é colocar em prática e **armazenar em um repositório os códigos-fonte** dos últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir.
+Minha intenção é colocar em prática e armazenar em um repositório os códigos-fonte dos últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir.
 
 
 ### Alura
@@ -57,6 +57,14 @@ Minha intenção é colocar em prática e **armazenar em um repositório os cód
 - [ ] Hands-On Hadoop
 - [ ] Apache Spark and Python
 
+### (Opcional) Docker Samples
+
+#### Tutorial Labs
+- [ ] Docker for Beginners
+- [ ] Configuring developer tools and programming languages
+- [ ] Live Debugging Java with Docker
+- [ ] Docker for Java Developers
+- [ ] Docker Security
 
 ### (Opcional) Spring Guides
 
