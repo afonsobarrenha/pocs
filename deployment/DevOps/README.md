@@ -5,14 +5,11 @@ Como um primeiro container estou utilizando o MySQL, o iniciando com o comando a
 ```
 docker network create --driver bridge my-network
 
-#mysql-server
-docker run --name my-mysql -p 3306:3306 --rm -e MYSQL_ROOT_PASSWORD=root_password -e MYSQL_DATABASE=listavip -e MYSQL_USER=lista_usr -e MYSQL_PASSWORD=lista_pwd --network my-network mysql:5.5
+#mysql-server local, para testes de Desenvolvimento
+docker run -d -p 3306:3306 --rm -e MYSQL_ROOT_PASSWORD=root_password -e MYSQL_DATABASE=listavip -e MYSQL_USER=lista_usr -e MYSQL_PASSWORD=lista_pwd mysql:5.5
 
 #node-server
 docker run -p 3000:3000 -v $(echo $HOME)/projetos/pocs/implementation/Node/volume-exemplo:/var/www -w "/var/www" --rm node npm start
-
-#springboot-server
-docker run -p 9000:9000 --rm --network my-network afonsobarrenha/springboot
 ```
 ## Principais comandos Docker
 ### Manipulação
