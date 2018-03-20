@@ -19,7 +19,7 @@ services:
       MYSQL_USER: lista_usr 
       MYSQL_PASSWORD: lista_pwd 
     volumes:
-      - ../../deployment/DevOps/volumes/mysql:/var/lib/mysql
+      - ./volumes/mysql:/var/lib/mysql
     networks: 
       - my-network
 

@@ -156,6 +156,7 @@
 					<repository>${docker.image.prefix}/${project.artifactId}</repository>
 					<buildArgs>
 						<JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
+						<WAIT_FOR_IT_FILE>src/main/resources/docker/wait-for-it.sh</WAIT_FOR_IT_FILE>
 					</buildArgs>
 				</configuration>
 			</plugin>
