@@ -1,5 +1,9 @@
 .vscode/
 implementation/logs/
-tools/pocs-workspace.code-workspace
-implementation/Node/volume-exemplo/node_modules/
 deployment/devops/volumes/
+implementation/SpringBoot/target/
+implementation/SpringBoot/.project
+tools/pocs-workspace.code-workspace
+implementation/SpringBoot/.classpath
+implementation/SpringBoot/.settings/
+implementation/Node/volume-exemplo/node_modules/
