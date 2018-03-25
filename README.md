@@ -81,7 +81,7 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 - [ ] Accessing Relational Data using JDBC with Spring
 - [ ] Managing Transactions
 - [ ] Securing a Web Application
-- [x] Building a RESTful Web Service
+- [x] ~~Building a RESTful Web Service~~
 - [ ] Consuming a RESTful Web Service
 - [ ] Building a RESTful Web Service with Spring Boot Actuator
 - [ ] Consuming a RESTful Web Service with AngularJS
