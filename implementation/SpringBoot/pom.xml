@@ -5,7 +5,7 @@
 
 	<groupId>com.example</groupId>
 	<artifactId>springboot</artifactId>
-	<version>1.7.0</version>
+	<version>1.8.0</version>
 	<packaging>jar</packaging>
 
 	<name>SpringBoot-demo</name>
@@ -40,7 +40,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-undertow</artifactId>
-			<!--artifactId>spring-boot-starter-jetty</artifactId-->
+			<!--artifactId>spring-boot-starter-jetty</artifactId -->
 		</dependency>
 
 		<dependency>
@@ -84,6 +84,7 @@
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -145,7 +146,7 @@
 					</execution>
 					<execution>
 						<id>install-push</id>
-						<!--phase>deploy</phase-->
+						<!--phase>deploy</phase -->
 						<phase>install</phase>
 						<goals>
 							<goal>push</goal>

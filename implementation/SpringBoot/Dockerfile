@@ -1,7 +1,7 @@
 FROM openjdk:8-jdk
 #FROM openjdk:8-jdk-alpine
 
-MAINTAINER Afonso Barrenha <afonsobarrenha@gmail.com>
+LABEL maintainer="afonsobarrenha@gmail.com"
 
 RUN apt-get update && apt-get install -y dos2unix
 
