@@ -5,6 +5,8 @@
 <title>Listar</title>
 </head>
 <body>
+	<h3>Listar</h3>
+	<hr/>
 	<div>
 		<form action="salvar" method="post">
 			<div>
@@ -39,5 +41,12 @@
 			</tr>
 		</table>
 	</div>
+	<hr/>
+	<footer>
+			<div>
+				<span th:text="${@environment.getProperty('info.app.description')}"/>
+				(<span th:text="${@environment.getProperty('info.app.version')}"/> 
+				- Perfil: <span th:text="${@environment.getProperty('spring.profiles.active')}"/>)</div>
+	</footer>
 </body>
 </html>

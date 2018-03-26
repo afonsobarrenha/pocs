@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.controller;
 
 import static org.junit.Assert.assertTrue;
 
@@ -11,7 +11,6 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -19,7 +18,6 @@ import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.springframework.boot.context.embedded.LocalServerPort;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -28,7 +26,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
-public class WebEnvironmentTest {
+public class SeleniumTest {
 
 	@LocalServerPort
 	private int port;
@@ -39,7 +37,7 @@ public class WebEnvironmentTest {
 	@BeforeClass
 	public static void createAndStartService() throws IOException {
 		service = new ChromeDriverService.Builder()
-				.usingDriverExecutable(new File("src/main/resources/selenium/chromedriver")).usingAnyFreePort().build();
+				.usingDriverExecutable(new File("src/test/resources/selenium/chromedriver")).usingAnyFreePort().build();
 		service.start();
 	}
 
@@ -59,7 +57,7 @@ public class WebEnvironmentTest {
 	}
 
 	@Test
-	public void testSalvarConvidado() {
+	public void salvarConvidado() {
 		driver.get("http://localhost:" + port + "/listar");
 
 		assertTrue(driver.getPageSource().contains("afonsobarrenha@gmail.com"));
@@ -79,33 +77,6 @@ public class WebEnvironmentTest {
 				ExpectedConditions.textToBePresentInElementLocated(By.id("divConvidados"), "juliabarrenha@gmail.com"));
 
 		assertTrue(containsGmail);
-	}
-
-	/**
-	 * Método contendo o código do Selenium que não está sendo usado nesse momento,
-	 * mas poderá ser usado conforme a aplicação evolueSelect usuario = new
-	 * Select(driver.findElement(By.name("leilao.usuario.id")));
-	 * usuario.selectByVisibleText("João");.
-	 */
-	// @Test
-	public void testSalvarCamposObrigatorios() {
-		/**
-		 * Trabalhar com ALERT
-		 */
-		Alert alert = driver.switchTo().alert();
-		alert.accept();
-
-		/**
-		 * COMBOBOX
-		 */
-		Select usuario = new Select(driver.findElement(By.name("leilao.usuario.id")));
-		usuario.selectByVisibleText("João");
-
-		/**
-		 * CHECKBOX
-		 */
-		WebElement usado = driver.findElement(By.name("leilao.usado"));
-		usado.click();
 	}
 
 }
