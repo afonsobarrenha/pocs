@@ -37,7 +37,7 @@ public class SeleniumTest {
 	@BeforeClass
 	public static void createAndStartService() throws IOException {
 		service = new ChromeDriverService.Builder()
-				.usingDriverExecutable(new File("src/main/resources/selenium/chromedriver")).usingAnyFreePort().build();
+				.usingDriverExecutable(new File("src/test/resources/selenium/chromedriver")).usingAnyFreePort().build();
 		service.start();
 	}
 
