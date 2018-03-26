@@ -20,6 +20,7 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 - [ ] \(Opcional) TDD
 - [x] ~~\(Opcional) Selenium~~
 - [ ] \(Opcional) Mockito
+- [x] ~~\(Opcional) Cucumber~~
 
 #### Carreira Engenheiro DevOps
 - [ ] Linux I
