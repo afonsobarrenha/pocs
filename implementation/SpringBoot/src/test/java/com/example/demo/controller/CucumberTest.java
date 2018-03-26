@@ -21,67 +21,70 @@ import cucumber.api.java.en.When;
 
 public class CucumberTest {
 
-	private static ChromeDriverService service;
-	private WebDriver driver;
+	protected static ChromeDriverService service;
+	protected WebDriver driver;
 
-	@Given("^I am on Facebook login page$")
-	public void goToFacebook() throws IOException {
+	@Given("^Estou na tela de Listar$")
+	public void telaListar() throws IOException {
 		createAndStartService();
 		createDriver();
-		driver.navigate().to("http://localhost/listar");
+		driver.navigate().to("http://localhost:9000/listar");
 	}
 
-	@When("^I enter username as \"(.*)\"$")
-	public void enterUsername(String arg1) {
+	@When("^Eu entro com o nome \"(.*)\"$")
+	public void entrarNome(String arg1) {
 		driver.findElement(By.id("nome")).sendKeys(arg1);
 	}
 
-	@When("^I enter password as \"(.*)\"$")
-	public void enterPassword(String arg1) {
+	@When("^Eu entro com o email \"(.*)\"$")
+	public void entrarEmail(String arg1) {
 		driver.findElement(By.id("email")).sendKeys(arg1);
-		driver.findElement(By.id("telefone")).sendKeys(arg1);
+	}
 
+	@When("^Eu entro como telefone \"(.*)\"$")
+	public void entrarTelefone(String arg1) {
+		driver.findElement(By.id("telefone")).sendKeys(arg1);
+	}
+
+	@When("^Clico no botão Convidar$")
+	public void clicarConvidar() {
 		WebElement btnConvidar = driver.findElement(By.name("convidar"));
 		btnConvidar.click();
 	}
 
-	@Then("^Login should fail$")
-	public void checkFail() {
+	@Then("^É cadastrado o usuário$")
+	public void verificaCadastro() {
 
 		Boolean containsGmail;
 		try {
 			containsGmail = new WebDriverWait(driver, 5).until(ExpectedConditions
-					.textToBePresentInElementLocated(By.id("divConvidados"), "juliabarrenha@gmail.com"));
+					.textToBePresentInElementLocated(By.id("divConvidados"), "jerry@hannabarbera.com"));
 		} catch (TimeoutException e) {
 			containsGmail = false;
 		}
 
 		assertTrue(containsGmail);
 
-		driver.close();
-		service.stop();
+		this.quitDriver();
+		this.stopService();
 	}
 
-	// @BeforeClass
 	public static void createAndStartService() throws IOException {
 		service = new ChromeDriverService.Builder()
 				.usingDriverExecutable(new File("src/test/resources/selenium/chromedriver")).usingAnyFreePort().build();
 		service.start();
 	}
 
-	// @AfterClass
-	public static void createAndStopService() {
-		service.stop();
-	}
-
-	// @Before
 	public void createDriver() {
 		driver = new RemoteWebDriver(service.getUrl(), DesiredCapabilities.chrome());
 	}
 
-	// @After
 	public void quitDriver() {
 		driver.quit();
+	}
+
+	public void stopService() {
+		service.stop();
 	}
 
 }
