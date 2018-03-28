@@ -1,8 +1,98 @@
-# POCs
+# POCs - Provas de Conceito
 
-## Provas de Conceito
+Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Essa lista segue os Objetivos da certificação _LPIC-OT Exam 701: DevOps Tools Engineer (701-100)_, versão 1.0.
 
-Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Essa lista segue 
+- - - 
+
+## LPIC-OT Exam 701: DevOps Tools Engineer
+
+### Topic 701: Software Engineering
+
+#### 701.1 Modern Software Development (weight: 6)
+- [ ] REST, JSON
+- [ ] Service Orientated Architectures (SOA)
+- [ ] Microservices
+- [ ] Immutable servers
+- [ ] Loose coupling
+- [ ] Cross site scripting, SQL injections, verbose error reports, API authentication, consistent enforcement of transport encryption
+- [ ] CORS headers and CSRF tokens
+- [ ] ACID properties and CAP theorem
+
+#### 701.2 Standard Components and Platforms for Software (weight: 2)
+- [ ] OpenStack Swift
+- [ ] OpenStack Trove
+- [ ] OpenStack Zaqar
+- [ ] CloudFoundry
+- [ ] OpenShift
+
+#### 701.3 Source Code Management (weight: 5)
+- [ ] git
+- [ ] .gitignore
+
+#### 701.4 Continuous Integration and Continuous Delivery (weight: 5)
+- [ ] Step, Node, Stage
+- [ ] Jenkins SDL
+- [ ] Jenkinsfile
+- [ ] Declarative Pipeline
+- [ ] Blue-green and canary deployment
+
+### Topic 702: Container Management
+#### 702.1 Container Usage (weight: 7)
+- [ ] docker
+- [ ] Dockerfile
+- [ ] .dockerignore
+
+#### 702.2 Container Deployment and Orchestration (weight: 5)
+- [ ] docker-compose
+- [ ] docker
+- [ ] kubectl
+
+#### 702.3 Container Infrastructure (weight: 4)
+- [ ] docker-machine
+
+### Topic 703: Machine Deployment
+#### 703.1 Virtual Machine Deployment (weight: 4)
+- [ ] vagrant
+- [ ] Vagrantfile
+
+#### 703.2 Cloud Deployment (weight: 2)
+*(Não são listadas ferramentas)*
+
+#### 703.3 System Image Creation (weight: 2)
+- [ ] packer
+
+### Topic 704: Configuration Management
+#### 704.1 Ansible (weight: 8)
+- [ ] ansible.cfg
+- [ ] ansible-playbook
+- [ ] ansible-vault
+- [ ] ansible-galaxy
+- [ ] ansible-doc
+ 
+#### 704.2 Other Configuration Management Tools (weight: 2)
+- [ ] Manifest, Class, Recipe, Cookbook
+- [ ] puppet
+- [ ] chef
+- [ ] chef-solo
+- [ ] chef-client
+- [ ] chef-server-ctl
+- [ ] knife
+
+### Topic 705: Service Operations
+#### 705.1 IT Operations and Monitoring (weight: 4)
+- [ ] Prometheus, Node exporter, Pushgateway, Altermanager, Grafana
+- [ ] Service exploits, brute force attacks, and denial of service attacks
+- [ ] Security updates, packet filtering and application gateways
+- [ ] Virtualization hosts, DNS and load balancers
+ 
+#### 705.2 Log Management and Analysis (weight: 4)
+- [ ] logstash
+- [ ] input, filter, output
+- [ ] grok filter
+- [ ] Log files, metrics
+- [ ] syslog.conf
+- [ ] /etc/logstash/logstash.yml
+- [ ] /etc/filebeat/filebeat.yml
 
 ### Alura
 
