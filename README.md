@@ -1,8 +1,6 @@
 # POCs - Provas de Conceito
 
-```
 Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Nessa lista estão os Objetivos da certificação _LPIC-OT Exam 701: DevOps Tools Engineer (versão 1.0)_, e os cursos que tenho para fazer. Conforme for concluindo esses cursos, vou atualizando os Objetivos da certificação alcançados. Mãos à obra!
-```
 
 - - - 
 
@@ -40,12 +38,12 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 
 ### Topic 702: Container Management
 #### 702.1 Container Usage (weight: 7)
-- [ ] docker
-- [ ] Dockerfile
+- [x] docker
+- [x] Dockerfile
 - [ ] .dockerignore
 
 #### 702.2 Container Deployment and Orchestration (weight: 5)
-- [ ] docker-compose
+- [x] docker-compose
 - [ ] docker
 - [ ] kubectl
 
@@ -97,11 +95,8 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 - [ ] /etc/filebeat/filebeat.yml
 
 - - - 
-```
+
 Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger algum dos objetivos acima, que também serão "checkados" junto com o item do curso abaixo.
-```
-teste
-> Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger algum dos objetivos acima, que também serão "checkados" junto com o item do curso abaixo.
 
 ## Alura
 
@@ -195,12 +190,18 @@ teste
 - [ ] Spring Security Architecture
 
 
-*Obs: Estou usando uma estrutura de pastas que vi no livro Continous Integration, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas.
-Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado.
-Tudo bem, vamos ver se conseguimos trabalhar dessa forma.*
+Obs: Estou usando a estrutura de pastas apresentada no livro **Continous Integration**, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas. Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado, mas em contrapartida dá uma visão completa de tudo que está envolvido no projeto.
+
+- - -
 
 ## Referências
 
-[Basic Writing and formatting Syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
-
-[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+- [Basic Writing and formatting Syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+- [Continuous Integration: Improving Software Quality and Reducing Risk](https://www.amazon.com.br/Continuous-Integration-Improving-Software-Reducing/dp/0321336380)
+- [Alura](https://www.alura.com.br/)
+- [Spring Guides](https://spring.io/guides/)
+- [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/1.5.10.RELEASE/reference/htmlsingle/)
+- [Docker Tutorial Labs](https://docs.docker.com/samples/#tutorial-labs)
+- [LPIC-OT Exam 701: DevOps Tools Engineer](http://www.lpi.org/our-certifications/exam-701-objectives)
+- [Udemy](https://www.udemy.com/)
