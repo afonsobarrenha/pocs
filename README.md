@@ -2,15 +2,17 @@
 
 ## Provas de Conceito
 
-Minha intenção é colocar em prática e armazenar em um repositório os códigos-fonte dos últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir.
-
+Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Essa lista segue 
 
 ### Alura
 
 #### Carreira Desenvolvedor Java Web com Spring
 - [x] ~~Maven~~
+    - Teste
+    - [] teste
+    - [ ] teste
 - [x] ~~Spring Boot~~
-- [ ] Spring MVC I
+- [] Spring MVC I
 - [ ] Spring MVC II
 - [ ] Java e JPA I
 - [ ] Java e JPA II
