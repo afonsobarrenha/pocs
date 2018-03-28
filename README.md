@@ -1,13 +1,106 @@
-# POCs
+# POCs - Provas de Conceito
 
-## Provas de Conceito
+Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Nessa lista estão os Objetivos da certificação _LPIC-OT Exam 701: DevOps Tools Engineer (versão 1.0)_, e os cursos que tenho para fazer. Conforme for concluindo esses cursos, vou atualizando os Objetivos da certificação alcançados. Mãos à obra!
 
-Minha intenção é colocar em prática e armazenar em um repositório os códigos-fonte dos últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir.
+- - - 
 
+## LPIC-OT Exam 701: DevOps Tools Engineer
 
-### Alura
+### Topic 701: Software Engineering
 
-#### Carreira Desenvolvedor Java Web com Spring
+#### 701.1 Modern Software Development (weight: 6)
+- [ ] REST, JSON
+- [ ] Service Orientated Architectures (SOA)
+- [ ] Microservices
+- [ ] Immutable servers
+- [ ] Loose coupling
+- [ ] Cross site scripting, SQL injections, verbose error reports, API authentication, consistent enforcement of transport encryption
+- [ ] CORS headers and CSRF tokens
+- [ ] ACID properties and CAP theorem
+
+#### 701.2 Standard Components and Platforms for Software (weight: 2)
+- [ ] OpenStack Swift
+- [ ] OpenStack Trove
+- [ ] OpenStack Zaqar
+- [ ] CloudFoundry
+- [ ] OpenShift
+
+#### 701.3 Source Code Management (weight: 5)
+- [ ] git
+- [ ] .gitignore
+
+#### 701.4 Continuous Integration and Continuous Delivery (weight: 5)
+- [ ] Step, Node, Stage
+- [ ] Jenkins SDL
+- [ ] Jenkinsfile
+- [ ] Declarative Pipeline
+- [ ] Blue-green and canary deployment
+
+### Topic 702: Container Management
+#### 702.1 Container Usage (weight: 7)
+- [x] ~~docker~~
+- [x] ~~Dockerfile~~
+- [ ] .dockerignore
+
+#### 702.2 Container Deployment and Orchestration (weight: 5)
+- [x] ~~docker-compose~~
+- [ ] docker
+- [ ] **_kubectl (em andamento)_**
+
+#### 702.3 Container Infrastructure (weight: 4)
+- [ ] docker-machine
+
+### Topic 703: Machine Deployment
+#### 703.1 Virtual Machine Deployment (weight: 4)
+- [ ] vagrant
+- [ ] Vagrantfile
+
+#### 703.2 Cloud Deployment (weight: 2)
+*(Não são listadas ferramentas)*
+
+#### 703.3 System Image Creation (weight: 2)
+- [ ] packer
+
+### Topic 704: Configuration Management
+#### 704.1 Ansible (weight: 8)
+- [ ] ansible.cfg
+- [ ] ansible-playbook
+- [ ] ansible-vault
+- [ ] ansible-galaxy
+- [ ] ansible-doc
+ 
+#### 704.2 Other Configuration Management Tools (weight: 2)
+- [ ] Manifest, Class, Recipe, Cookbook
+- [ ] puppet
+- [ ] chef
+- [ ] chef-solo
+- [ ] chef-client
+- [ ] chef-server-ctl
+- [ ] knife
+
+### Topic 705: Service Operations
+#### 705.1 IT Operations and Monitoring (weight: 4)
+- [ ] Prometheus, Node exporter, Pushgateway, Altermanager, Grafana
+- [ ] Service exploits, brute force attacks, and denial of service attacks
+- [ ] Security updates, packet filtering and application gateways
+- [ ] Virtualization hosts, DNS and load balancers
+ 
+#### 705.2 Log Management and Analysis (weight: 4)
+- [ ] logstash
+- [ ] input, filter, output
+- [ ] grok filter
+- [ ] Log files, metrics
+- [ ] syslog.conf
+- [ ] /etc/logstash/logstash.yml
+- [ ] /etc/filebeat/filebeat.yml
+
+- - - 
+
+Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger algum dos objetivos acima, que também serão "checkados" junto com o item do curso abaixo.
+
+## Alura
+
+### Carreira Desenvolvedor Java Web com Spring
 - [x] ~~Maven~~
 - [x] ~~Spring Boot~~
 - [ ] Spring MVC I
@@ -22,7 +115,7 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 - [ ] \(Opcional) Mockito
 - [x] ~~\(Opcional) Cucumber~~
 
-#### Carreira Engenheiro DevOps
+### Carreira Engenheiro DevOps
 - [ ] Linux I
 - [ ] Linux II
 - [ ] Git
@@ -35,7 +128,7 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 - [ ] Amazon S3
 - [ ] Amazon EC2
 
-#### Carreira Desenvolvedor FullStack MEAN
+### Carreira Desenvolvedor FullStack MEAN
 - [ ] MEAN Stack
 - [ ] Angular 2 I
 - [ ] Angular 2 II
@@ -44,9 +137,9 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 - [ ] MongoDB
 
 
-### Udemy
+## Udemy
 
-#### DevOps
+### DevOps
 - [ ] Master Jenkins CI for DevOps and Developers
 - [ ] Docker Technology for DevOps and Developers
 - [ ] AWS Certified Developer
@@ -54,27 +147,27 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 - [ ] AWS Certified SysOps Administrator
 - [ ] \(Opcional) Ethical Hacking
 
-#### Big Data
+### Big Data
 - [ ] Hands-On Hadoop
 - [ ] Apache Spark and Python
 
-### (Opcional) Docker Samples
+## (Opcional) Docker Samples
 
-#### Tutorial Labs
+### Tutorial Labs
 - [ ] Docker for Beginners
 - [ ] Configuring developer tools and programming languages
 - [ ] Live Debugging Java with Docker
 - [ ] Docker for Java Developers
 - [ ] Docker Security
 
-### (Opcional) Spring Guides
+## (Opcional) Spring Guides
 
-#### Tutorial
+### Tutorial
 - [ ] Building REST services with Spring
 - [ ] Spring Security and Angular
 - [ ] Spring Boot and OAuth2
 
-#### Getting Started Guides
+### Getting Started Guides
 - [x] ~~Building an Application with Spring Boot~~
 - [x] ~~Testing the Web Layer~~
 - [x] ~~Spring Boot with Docker~~
@@ -93,16 +186,22 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 - [ ] Centralized Configuration
 - [ ] Creating a Multi Module Project
 
-#### Topical Guide
+### Topical Guide
 - [ ] Spring Security Architecture
 
 
-*Obs: Estou usando uma estrutura de pastas que vi no livro Continous Integration, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas.
-Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado.
-Tudo bem, vamos ver se conseguimos trabalhar dessa forma.*
+Obs: Estou usando a estrutura de pastas apresentada no livro **Continous Integration**, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas. Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado, mas em contrapartida dá uma visão completa de tudo que está envolvido no projeto.
 
-### Referências
+- - -
 
-[Basic Writing and formatting Syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+## Referências
 
-[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+- [Basic Writing and formatting Syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+- [Continuous Integration: Improving Software Quality and Reducing Risk](https://www.amazon.com.br/Continuous-Integration-Improving-Software-Reducing/dp/0321336380)
+- [Alura](https://www.alura.com.br/)
+- [Spring Guides](https://spring.io/guides/)
+- [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/1.5.10.RELEASE/reference/htmlsingle/)
+- [Docker Tutorial Labs](https://docs.docker.com/samples/#tutorial-labs)
+- [LPIC-OT Exam 701: DevOps Tools Engineer](http://www.lpi.org/our-certifications/exam-701-objectives)
+- [Udemy](https://www.udemy.com/)
