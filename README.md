@@ -37,6 +37,7 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 - [ ] Blue-green and canary deployment
 
 ### Topic 702: Container Management
+
 #### 702.1 Container Usage (weight: 7)
 - [x] ~~docker~~
 - [x] ~~Dockerfile~~
@@ -51,6 +52,7 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 - [ ] docker-machine
 
 ### Topic 703: Machine Deployment
+
 #### 703.1 Virtual Machine Deployment (weight: 4)
 - [ ] vagrant
 - [ ] Vagrantfile
@@ -62,6 +64,7 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 - [ ] packer
 
 ### Topic 704: Configuration Management
+
 #### 704.1 Ansible (weight: 8)
 - [ ] ansible.cfg
 - [ ] ansible-playbook
@@ -79,6 +82,7 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 - [ ] knife
 
 ### Topic 705: Service Operations
+
 #### 705.1 IT Operations and Monitoring (weight: 4)
 - [ ] Prometheus, Node exporter, Pushgateway, Altermanager, Grafana
 - [ ] Service exploits, brute force attacks, and denial of service attacks
@@ -136,7 +140,6 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [ ] Node.js e HTTP
 - [ ] MongoDB
 
-
 ## Udemy
 
 ### DevOps
@@ -189,6 +192,8 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 ### Topical Guide
 - [ ] Spring Security Architecture
 
+## "Wikipedia" (estudo independente)
+- [x] ~~Cucumber~~
 
 Obs: Estou usando a estrutura de pastas apresentada no livro **Continous Integration**, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas. Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado, mas em contrapartida dá uma visão completa de tudo que está envolvido no projeto.
 
