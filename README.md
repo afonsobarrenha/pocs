@@ -8,11 +8,8 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 
 #### Carreira Desenvolvedor Java Web com Spring
 - [x] ~~Maven~~
-    - Teste
-    - [] teste
-    - [ ] teste
 - [x] ~~Spring Boot~~
-- [] Spring MVC I
+- [ ] Spring MVC I
 - [ ] Spring MVC II
 - [ ] Java e JPA I
 - [ ] Java e JPA II
