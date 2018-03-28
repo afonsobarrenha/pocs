@@ -94,9 +94,9 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 - [ ] /etc/logstash/logstash.yml
 - [ ] /etc/filebeat/filebeat.yml
 
-### Alura
+## Alura
 
-#### Carreira Desenvolvedor Java Web com Spring
+### Carreira Desenvolvedor Java Web com Spring
 - [x] ~~Maven~~
 - [x] ~~Spring Boot~~
 - [ ] Spring MVC I
@@ -111,7 +111,7 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 - [ ] \(Opcional) Mockito
 - [x] ~~\(Opcional) Cucumber~~
 
-#### Carreira Engenheiro DevOps
+### Carreira Engenheiro DevOps
 - [ ] Linux I
 - [ ] Linux II
 - [ ] Git
@@ -124,7 +124,7 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 - [ ] Amazon S3
 - [ ] Amazon EC2
 
-#### Carreira Desenvolvedor FullStack MEAN
+### Carreira Desenvolvedor FullStack MEAN
 - [ ] MEAN Stack
 - [ ] Angular 2 I
 - [ ] Angular 2 II
@@ -133,9 +133,9 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 - [ ] MongoDB
 
 
-### Udemy
+## Udemy
 
-#### DevOps
+### DevOps
 - [ ] Master Jenkins CI for DevOps and Developers
 - [ ] Docker Technology for DevOps and Developers
 - [ ] AWS Certified Developer
@@ -143,27 +143,27 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 - [ ] AWS Certified SysOps Administrator
 - [ ] \(Opcional) Ethical Hacking
 
-#### Big Data
+### Big Data
 - [ ] Hands-On Hadoop
 - [ ] Apache Spark and Python
 
-### (Opcional) Docker Samples
+## (Opcional) Docker Samples
 
-#### Tutorial Labs
+### Tutorial Labs
 - [ ] Docker for Beginners
 - [ ] Configuring developer tools and programming languages
 - [ ] Live Debugging Java with Docker
 - [ ] Docker for Java Developers
 - [ ] Docker Security
 
-### (Opcional) Spring Guides
+## (Opcional) Spring Guides
 
-#### Tutorial
+### Tutorial
 - [ ] Building REST services with Spring
 - [ ] Spring Security and Angular
 - [ ] Spring Boot and OAuth2
 
-#### Getting Started Guides
+### Getting Started Guides
 - [x] ~~Building an Application with Spring Boot~~
 - [x] ~~Testing the Web Layer~~
 - [x] ~~Spring Boot with Docker~~
@@ -182,7 +182,7 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 - [ ] Centralized Configuration
 - [ ] Creating a Multi Module Project
 
-#### Topical Guide
+### Topical Guide
 - [ ] Spring Security Architecture
 
 
@@ -190,7 +190,7 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado.
 Tudo bem, vamos ver se conseguimos trabalhar dessa forma.*
 
-### Referências
+## Referências
 
 [Basic Writing and formatting Syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
