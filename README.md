@@ -38,14 +38,14 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 
 ### Topic 702: Container Management
 #### 702.1 Container Usage (weight: 7)
-- [x] docker
-- [x] Dockerfile
+- [x] ~~docker~~
+- [x] ~~Dockerfile~~
 - [ ] .dockerignore
 
 #### 702.2 Container Deployment and Orchestration (weight: 5)
-- [x] docker-compose
+- [x] ~~docker-compose~~
 - [ ] docker
-- [ ] kubectl
+- [ ] **_kubectl (em andamento)_**
 
 #### 702.3 Container Infrastructure (weight: 4)
 - [ ] docker-machine
