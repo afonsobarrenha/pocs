@@ -45,7 +45,6 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 
 #### 702.2 Container Deployment and Orchestration (weight: 5)
 - [x] ~~docker-compose~~
-- [ ] docker
 - [ ] **_kubectl (em andamento)_**
 
 #### 702.3 Container Infrastructure (weight: 4)
@@ -114,7 +113,7 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [x] ~~\(Opcional) Logback~~
 - [x] ~~\(Opcional) Selenium~~
 - [x] ~~\(Opcional) Mockito~~
-- [x] ~~\(Opcional) Cucumber~~
+- [x] ~~\(Wikipedia) Cucumber~~
 
 #### Carreira Engenheiro DevOps
 - [x] ~~Linux I~~
@@ -190,10 +189,9 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [ ] Spring Security and Angular
 - [ ] Spring Boot and OAuth2
 
-## "Wikipedia" (estudo independente)
-- [x] ~~Cucumber~~
 
-Obs: Estou usando a estrutura de pastas apresentada no livro **Continuous Integration**, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas. Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado, mas em contrapartida dá uma visão completa de tudo que está envolvido no projeto.
+
+_Obs: Estou usando a estrutura de pastas apresentada no livro **Continuous Integration**, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas. Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado, mas em contrapartida dá uma visão completa de tudo que está envolvido no projeto._
 
 - - -
 
