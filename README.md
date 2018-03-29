@@ -15,19 +15,17 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 - [ ] Java e JPA I
 - [ ] Java e JPA II
 - [x] ~~\(Opcional) Logback~~
-- [x] ~~\(Opcional) Git Flow Extension~~
-- [ ] \(Opcional) Actuator
-- [ ] \(Opcional) TDD
 - [x] ~~\(Opcional) Selenium~~
-- [ ] \(Opcional) Mockito
+- [x] ~~\(Opcional) Mockito~~
 - [x] ~~\(Opcional) Cucumber~~
 
 #### Carreira Engenheiro DevOps
-- [ ] Linux I
-- [ ] Linux II
-- [ ] Git
+- [x] ~~Linux I~~
+- [x] ~~Linux II~~
+- [x] ~~Git~~
+- [x] ~~\(Opcional) Git Flow Extension~~
 - [x] ~~Docker~~
-- [ ] Integração Contínua
+- [x] ~~Integração Contínua~~
 - [ ] **_Kubernetes (em andamento)_**
 - [ ] Vagrant
 - [ ] Ansible
@@ -69,11 +67,6 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 
 ### (Opcional) Spring Guides
 
-#### Tutorial
-- [ ] Building REST services with Spring
-- [ ] Spring Security and Angular
-- [ ] Spring Boot and OAuth2
-
 #### Getting Started Guides
 - [x] ~~Building an Application with Spring Boot~~
 - [x] ~~Testing the Web Layer~~
@@ -95,6 +88,11 @@ Minha intenção é colocar em prática e armazenar em um repositório os códig
 
 #### Topical Guide
 - [ ] Spring Security Architecture
+
+#### Tutorial
+- [ ] Building REST services with Spring
+- [ ] Spring Security and Angular
+- [ ] Spring Boot and OAuth2
 
 
 *Obs: Estou usando uma estrutura de pastas que vi no livro Continous Integration, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas.
