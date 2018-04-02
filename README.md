@@ -26,8 +26,8 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 - [ ] OpenShift
 
 #### 701.3 Source Code Management (weight: 5)
-- [ ] git
-- [ ] .gitignore
+- [x] ~~git~~
+- [x] ~~.gitignore~~
 
 #### 701.4 Continuous Integration and Continuous Delivery (weight: 5)
 - [ ] Step, Node, Stage
@@ -41,7 +41,7 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 #### 702.1 Container Usage (weight: 7)
 - [x] ~~docker~~
 - [x] ~~Dockerfile~~
-- [ ] .dockerignore
+- [x] ~~.dockerignore~~
 
 #### 702.2 Container Deployment and Orchestration (weight: 5)
 - [x] ~~docker-compose~~
