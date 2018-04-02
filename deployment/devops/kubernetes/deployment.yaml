@@ -1,0 +1,15 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: springboot-deployment-test
+spec:
+  template:
+    metadata:
+      labels:
+       name: app-pod
+    spec:
+      containers:
+        - name: app-container
+          image: afonsobarrenha/springboot
+          ports:
+            - containerPort: 80
