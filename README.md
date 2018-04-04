@@ -65,11 +65,11 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 ### Topic 704: Configuration Management
 
 #### 704.1 Ansible (weight: 8)
-- [ ] ansible.cfg
-- [ ] ansible-playbook
-- [ ] ansible-vault
-- [ ] ansible-galaxy
-- [ ] ansible-doc
+- [ ] **_ansible.cfg (em andamento)_**
+- [ ] **_ansible-playbook (em andamento)_**
+- [ ] **_ansible-vault (em andamento)_**
+- [ ] **_ansible-galaxy (em andamento)_**
+- [ ] **_ansible-doc (em andamento)_**
  
 #### 704.2 Other Configuration Management Tools (weight: 2)
 - [ ] Manifest, Class, Recipe, Cookbook
@@ -124,7 +124,7 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [x] ~~Integração Contínua~~
 - [ ] **_Kubernetes (em andamento)_**
 - [ ] Vagrant
-- [ ] Ansible
+- [ ] **_Ansible (em andamento)_**
 - [ ] Amazon AWS
 - [ ] Amazon S3
 - [ ] Amazon EC2
