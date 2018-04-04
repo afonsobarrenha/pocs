@@ -1,9 +1,10 @@
 # Tools
 ## Ferramentas usadas na construção desse projeto
+- Java version "1.8.0_162"
+- Apache Maven 3.5.2
+- Git version 2.16.2.windows.1
 - Visual Studio Code - Version ~~1.19.3~~ 1.20.1
-    - Ferramenta base de trabalho
 - Eclipse - Oxygen.1a Release (4.7.1a)
-    - Coding Java
 - GNOME Terminal 3.24.2
     - ~/.bashrc
         - export PATH=$PATH:/home/afonsobarrenha/apache-maven-3.5.2/bin
@@ -11,7 +12,8 @@
         - sudo groupadd docker
         - sudo gpasswd -a $USER docker
         - newgrp docker
-- 
+- Docker version 18.03.0-ce
+ 
 ## Configuração utilizada (baseado no usesthis.com)
 ### Who are you, and what do you do?
 Olá, sou o Afonso, atualmente trabalho na Indra, como DevOps Coach no banco Santander. Anteriormente fui Gerente de Desenvolvimento / Scrum Master na telecom Vivo. Sou apaixonado por desenvolvimento de software, sempre estudando para me aperfeiçoar, e com isso me encaixando no mundo DevOps, onde há essa junção de Desenvolvimento e Operações.
