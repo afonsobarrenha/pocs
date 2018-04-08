@@ -46,11 +46,12 @@ docker run -it -v $(pwd)/volumes/var/www:/var/www ubuntu
 ```
 # iniciando o Minikube
 minikube start
-kubectl create -f deployment.yaml
+kubectl create -f demo-deployment.yaml
 kubectl get pods
 kubectl delete pods app
 kubectl describe pods | grep IP
 minikube dashboard
+kubectl create -f demo-service.yaml
 minikube service demo-service --url
 ```
 
