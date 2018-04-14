@@ -5,3 +5,5 @@
 - vagrant
   - vagrant init
   - vagrant box list
+  - vagrant up
+  - para forçar a rede, em network setar bridge: 'nome da minha rede'
