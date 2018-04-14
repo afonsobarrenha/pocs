@@ -27,4 +27,7 @@
       - sobe as máquinas sem alteraçes
     - vagrant up -- provision
       - sobe as máquinas do zero novamente
+    - vagrant ssh ubuntu2 -c "ip a"
+    - altera o arquivo hosts com os ips das máquinas de seus grupos
+    - volta a executar o comando uptime via ansible, e agora printa o uptime de todas as máquinas
     
