@@ -2,13 +2,29 @@
 - terminator
   - ctrl shift e
   - ctrl shift o
+  - ctrl d
 - vagrant
   - vagrant init
   - vagrant box list
   - vagrant up
   - para forçar a rede, em network setar bridge: 'nome da minha rede'
   - vagrant status
+  - ip a
   - vagrant ssh NOME
     - apt-get install language-pack-pt
     - sudo su -
     - apt install python python-pip -y
+    - pip install ansible
+    - vim hosts
+    - ssh-keygen
+    - cat .ssh/id_rsa.pub >> .ssh/authorized_keys
+      - incluir a chave pública em todas as máquinas que o ansible precisar configurar
+    - ansible -i /root/hosts prod -m command -a "uptime"
+      - executa o comando em todas as máquinas do grupo
+    - altera o Vagrantfile adicionando a chave em todas as máquinas
+    - vagrant halt
+    - vagrant up
+      - sobe as máquinas sem alteraçes
+    - vagrant up -- provision
+      - sobe as máquinas do zero novamente
+    
