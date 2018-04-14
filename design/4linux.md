@@ -7,3 +7,8 @@
   - vagrant box list
   - vagrant up
   - para forçar a rede, em network setar bridge: 'nome da minha rede'
+  - vagrant status
+  - vagrant ssh NOME
+    - apt-get install language-pack-pt
+    - sudo su -
+    - apt install python python-pip -y
