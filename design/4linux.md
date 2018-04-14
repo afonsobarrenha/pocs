@@ -19,7 +19,7 @@
     - ssh-keygen
     - cat .ssh/id_rsa.pub >> .ssh/authorized_keys
       - incluir a chave pública em todas as máquinas que o ansible precisar configurar
-    - ansible -i /root/hosts prod -m command -a "uptime"
+    - ansible -i /root/hosts all -e "host_key_check=False" -m command -a "hostname"
       - executa o comando em todas as máquinas do grupo
     - altera o Vagrantfile adicionando a chave em todas as máquinas
     - vagrant halt
@@ -30,4 +30,4 @@
     - vagrant ssh ubuntu2 -c "ip a"
     - altera o arquivo hosts com os ips das máquinas de seus grupos
     - volta a executar o comando uptime via ansible, e agora printa o uptime de todas as máquinas
-    
+    - 
