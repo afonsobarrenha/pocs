@@ -53,8 +53,8 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 ### Topic 703: Machine Deployment
 
 #### 703.1 Virtual Machine Deployment (weight: 4)
-- [ ] vagrant
-- [ ] Vagrantfile
+- [x] ~~vagrant~~
+- [ ] ~~Vagrantfile~~
 
 #### 703.2 Cloud Deployment (weight: 2)
 *(Não são listadas ferramentas)*
@@ -65,11 +65,11 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 ### Topic 704: Configuration Management
 
 #### 704.1 Ansible (weight: 8)
-- [ ] **_ansible.cfg (em andamento)_**
-- [ ] **_ansible-playbook (em andamento)_**
-- [ ] **_ansible-vault (em andamento)_**
-- [ ] **_ansible-galaxy (em andamento)_**
-- [ ] **_ansible-doc (em andamento)_**
+- [ ] ansible.cfg
+- [x] ~~ansible-playbook~~
+- [ ] ansible-vault
+- [ ] ansible-galaxy
+- [ ] ansible-doc
  
 #### 704.2 Other Configuration Management Tools (weight: 2)
 - [ ] Manifest, Class, Recipe, Cookbook
@@ -115,7 +115,7 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [x] ~~\(Opcional) Mockito~~
 - [x] ~~\(Wikipedia) Cucumber~~
 
-#### Carreira Engenheiro DevOps
+### Carreira Engenheiro DevOps
 - [x] ~~Linux I~~
 - [x] ~~Linux II~~
 - [x] ~~Git~~
@@ -137,6 +137,14 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [ ] Node.js e HTTP
 - [ ] MongoDB
 
+## 4Linux
+### 6396 - Infraestrutura ágil com práticas DEVOPS usando Docker, Git, Jenkins, Puppet e Ansible
+- [ ] Docker
+- [ ] Git
+- [ ] Jenkins
+- [ ] Puppet
+- [x] ~~Ansible~~
+
 ## Udemy
 
 ### DevOps
@@ -154,10 +162,10 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 ## (Opcional) Docker Samples
 
 ### Tutorial Labs
-- [ ] Docker for Beginners
+- [x] ~~Docker for Beginners~~
 - [ ] Configuring developer tools and programming languages
 - [ ] Live Debugging Java with Docker
-- [ ] Docker for Java Developers
+- [x] ~~Docker for Java Developers~~
 - [ ] Docker Security
 
 ## (Opcional) Spring Guides
