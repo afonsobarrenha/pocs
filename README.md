@@ -110,6 +110,13 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [ ] Integração com Jenkins
 - [ ] Rundeck
 
+### \(Opcional) Exin DevOps Master
+- [ ] Adoção DevOps
+- [ ] Planejamento, requisitos e projeto
+- [ ] Desenvolvimento e Implantação (Deployment)
+- [ ] Operação e Escalonamento
+- [ ] Fim da vida
+
 ## Alura
 
 ### Carreira Desenvolvedor Java Web com Spring
