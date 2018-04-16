@@ -102,13 +102,13 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger algum dos objetivos acima, que também serão "checkados" junto com o item do curso abaixo.
 
 ## 4Linux
-### 6396 - Infraestrutura ágil com práticas DEVOPS usando Docker, Git, Jenkins, Puppet e Ansible
-- [x] ~~Vagrant~~
-- [x] ~~Ansible~~
-- [ ] Puppet
-- [ ] Git
-- [ ] Docker
-- [ ] Jenkins
+### Infraestrutura ágil com práticas DEVOPS usando Docker, Git, Jenkins, Puppet e Ansible
+- [x] ~~Automação Com Vagrant/Ansible~~
+- [ ] Administrando e operando o Docker
+- [ ] Gerencia de configuração com Puppet
+- [ ] Versionamento com Gitlab
+- [ ] Integração com Jenkins
+- [ ] Rundeck
 
 ## Alura
 
