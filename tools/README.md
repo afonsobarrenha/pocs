@@ -1,5 +1,8 @@
 # Tools
 ## Ferramentas usadas na construção desse projeto
+- **Java** version "1.8.0_162"
+- **Apache Maven** 3.5.2
+- **Git** version 2.16.2.windows.1
 - **Visual Studio Code** - Version ~~1.19.3~~ 1.21.1
 - **Eclipse** - ~~Oxygen.1a Release (4.7.1a)~~ Oxygen.3 Release (4.7.3)
 - **Google Chrome** - Version 65.0.3325.181 (Official Build) (64-bit)**
@@ -15,7 +18,6 @@
   - ctrl shift e: abre aba lateral
   - ctrl shift o: abre aba horizontal
   - ctrl d: fecha aba
-
  
 ## Configuração utilizada (baseado no [usesthis.com](usesthis.com))
 ### *Who are you, and what do you do?*
