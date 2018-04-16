@@ -72,6 +72,7 @@ pip install ansible
 ssh-keygen
 cat .ssh/id_rsa.pub >> .ssh/authorized_keys
 ansible -i /root/hosts all -e "host_key_check=False" -m command -a "hostname"
+ansible docker -u vagrant --private-key .vagrant/machines/docker/virtualbox/private_key -i hosts -m shell -a 'echo Hello, Docker'
 ansible-playbook -i /roots/hosts playbook.yml -v
 ```
 
