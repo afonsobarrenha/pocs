@@ -16,9 +16,8 @@ Essa configuração é setada para o **Profile Default** do Spring Boot. Para o 
 -Dspring.profiles.active=pro /springboot.jar
 ```
 
-## Principais comandos Docker
-### Manipulação
-Como uma breve referência, seguem os comandos mais utilizados para se trabalhar com containers e imagens.
+## Comandos Docker
+### Builds
 ```
 docker ps -a
 docker rm/rmi [id]
@@ -31,8 +30,8 @@ docker-compose build
 docker-compose up
 docker-compose down
 ```
-### Execução
-Comandos para execução de containers.
+
+### Runs
 ```
 docker run/start/stop
 docker run -it --rm ubuntu #interativo/terminal/autoremove
@@ -42,7 +41,7 @@ docker run -d -p 12345:80 -e AUTHOR="afonsobarrenha" dockersamples/static-site #
 docker run -it -v $(pwd)/volumes/var/www:/var/www ubuntu
 ```
 
-## Principais comandos Kubernetes
+## Comandos Kubernetes
 ```
 # iniciando o Minikube
 minikube start
@@ -53,6 +52,34 @@ kubectl describe pods | grep IP
 minikube dashboard
 kubectl create -f demo-service.yaml
 minikube service demo-service --url
+```
+
+## Comandos Vagrant
+```
+vagrant init
+vagrant box list
+vagrant up --provision
+vagrant halt
+vagrant status
+vagrant ssh NOME
+vagrant ssh ubuntu2 -c "ip a"
+```
+
+## Comandos Ansible
+```
+apt install python python-pip -y
+pip install ansible
+ssh-keygen
+cat .ssh/id_rsa.pub >> .ssh/authorized_keys
+ansible -i /root/hosts all -e "host_key_check=False" -m command -a "hostname"
+ansible-playbook -i /roots/hosts playbook.yml -v
+```
+
+## Comandos Linux
+```
+ip a
+sudo su -
+systemctl status nginx
 ```
 
 ## FAQ

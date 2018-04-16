@@ -11,6 +11,11 @@
         - sudo gpasswd -a $USER docker
         - newgrp docker
 - **Docker** - Version: 1.13.1
+- **Terminator**
+  - ctrl shift e: abre aba lateral
+  - ctrl shift o: abre aba horizontal
+  - ctrl d: fecha aba
+
  
 ## Configuração utilizada (baseado no [usesthis.com](usesthis.com))
 ### *Who are you, and what do you do?*
