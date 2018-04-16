@@ -54,7 +54,7 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 
 #### 703.1 Virtual Machine Deployment (weight: 4)
 - [x] ~~vagrant~~
-- [ ] ~~Vagrantfile~~
+- [x] ~~Vagrantfile~~
 
 #### 703.2 Cloud Deployment (weight: 2)
 *(Não são listadas ferramentas)*
@@ -101,6 +101,15 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 
 Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger algum dos objetivos acima, que também serão "checkados" junto com o item do curso abaixo.
 
+## 4Linux
+### 6396 - Infraestrutura ágil com práticas DEVOPS usando Docker, Git, Jenkins, Puppet e Ansible
+- [x] ~~Vagrant~~
+- [x] ~~Ansible~~
+- [ ] Puppet
+- [ ] Git
+- [ ] Docker
+- [ ] Jenkins
+
 ## Alura
 
 ### Carreira Desenvolvedor Java Web com Spring
@@ -111,8 +120,8 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [ ] Java e JPA I
 - [ ] Java e JPA II
 - [x] ~~\(Opcional) Logback~~
-- [x] ~~\(Opcional) Selenium~~
-- [x] ~~\(Opcional) Mockito~~
+- [ ] **_\(Opcional) Mockito (em andamento)_**
+- [ ] **_\(Opcional) TDD (em andamento)_**
 - [x] ~~\(Wikipedia) Cucumber~~
 
 ### Carreira Engenheiro DevOps
@@ -121,10 +130,10 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [x] ~~Git~~
 - [x] ~~\(Opcional) Git Flow Extension~~
 - [x] ~~Docker~~
-- [x] ~~Integração Contínua~~
-- [ ] **_Kubernetes (em andamento)_**
-- [ ] Vagrant
+- [ ] **_Vagrant (em andamento)_**
 - [ ] **_Ansible (em andamento)_**
+- [ ] **_Integração Contínua (em andamento)_**
+- [ ] **_Kubernetes (em andamento)_**
 - [ ] Amazon AWS
 - [ ] Amazon S3
 - [ ] Amazon EC2
@@ -136,14 +145,6 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [ ] Node.js
 - [ ] Node.js e HTTP
 - [ ] MongoDB
-
-## 4Linux
-### 6396 - Infraestrutura ágil com práticas DEVOPS usando Docker, Git, Jenkins, Puppet e Ansible
-- [ ] Docker
-- [ ] Git
-- [ ] Jenkins
-- [ ] Puppet
-- [x] ~~Ansible~~
 
 ## Udemy
 
@@ -208,9 +209,11 @@ _Obs: Estou usando a estrutura de pastas apresentada no livro **Continuous Integ
 - [Basic Writing and formatting Syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Continuous Integration: Improving Software Quality and Reducing Risk](https://www.amazon.com.br/Continuous-Integration-Improving-Software-Reducing/dp/0321336380)
+- [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation ](https://www.amazon.com.br/Continuous-Delivery-Deployment-Automation-Addison-Wesley-ebook/dp/B003YMNVC0?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3IMB4CB9HS92H&keywords=continuous+delivery&qid=1523885607&sprefix=continuous+de%2Cstripbooks%2C268&sr=1-1&ref=sr_1_1)
 - [Alura](https://www.alura.com.br/)
 - [Spring Guides](https://spring.io/guides/)
 - [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/1.5.10.RELEASE/reference/htmlsingle/)
 - [Docker Tutorial Labs](https://docs.docker.com/samples/#tutorial-labs)
 - [LPIC-OT Exam 701: DevOps Tools Engineer](http://www.lpi.org/our-certifications/exam-701-objectives)
 - [Udemy](https://www.udemy.com/)
+- [4Linux](https://www.4linux.com.br/)
