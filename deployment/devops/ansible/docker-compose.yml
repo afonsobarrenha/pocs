@@ -1,0 +1,45 @@
+version: '2'
+services:
+      gitlab:
+         image: gitlab/gitlab-ce:latest
+         hostname: gitlab
+         ports:
+            - "80:80"
+            - "443:443"
+            - "22:22"
+#         volumes:
+#            - ./indra-docker-ci/opt/gitlab/etc:/etc/gitlab
+#            - ./indra-docker-ci/opt/gitlab/log:/var/log/gitlab
+#            - ./indra-docker-ci/opt/gitlab/opt:/var/opt/gitlab
+#         links:
+#            - jenkins
+      jenkins:
+         image: jenkins:latest
+         hostname: jenkins
+#         volumes:
+#            - ./indra-docker-ci/opt/jenkins_home:/var/jenkins_home
+         ports:
+            - "8090:8080"
+#         links:
+#            - nexus
+         dns:
+            -172.18.220.4
+            -172.18.220.6
+      nexus:
+         image: sonatype/nexus
+         hostname: nexus
+         volumes:
+            - ./indra-docker-ci/opt/nexus-data:/sonatype-work/sonatype/nexus
+         ports:
+            - "8081:8081"
+
+      sonarqube:
+        image: sonarqube
+        hostname: sonarqube
+        ports:
+          - "19000:9000"
+      tomcat:
+        image: bitnami/tomcat
+        hostname: tomcat
+        ports:
+          - "5000:8080"

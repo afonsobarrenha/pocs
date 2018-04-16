@@ -1,0 +1,68 @@
+---
+#- name: Install httplib2
+#  apt:
+#    name: python-httplib2
+#    update_cache: yes
+
+- name: Getting Rancher's Project ID
+  register: rancher_project_id
+  uri:
+    method: GET
+    status_code: 200
+    url: "http://172.20.149.185:8080/v1/projects"
+    return_content: yes
+
+- name: Displaying Rancher Project ID
+  debug:
+    msg: "Project_ID => {{ rancher_project_id.json['data'][0]['id'] }}"
+
+- name: Creating Rancher API Key
+  register: rancher_apikey
+  uri:
+    method: POST
+    status_code: 201
+    url: "http://172.20.149.185:8080/v1/projects/{{ rancher_project_id.json['data'][0]['id'] }}/apikey"
+    body_format: json
+    body: {"type":"apikey","accountId":"{{ rancher_project_id.json['data'][0]['id'] }}","name":"ansible-key","description":"Ansible API Key","created":null,"kind":null,"removed":null,"uuid":null}
+    return_content: yes
+
+- name: Displaying Rancher API Key
+  debug:
+    msg: "Access Key => {{ rancher_apikey.json['publicValue'] }} | Secret Key => {{ rancher_apikey.json['secretValue'] }}"
+
+- name: Return the registration token URL of Rancher server
+  register: rancher_token_url
+  uri: 
+    method: POST
+    status_code: 201
+    url: "http://172.20.149.185:8080/v1/registrationtokens?projectId={{ rancher_project_id.json['data'][0]['id'] }}" 
+    return_content: yes
+- pause:
+    seconds: 5
+
+- name: Return the registration URL of Rancher server
+  register: rancher_token
+  uri: 
+    method: GET 
+    url: "{{ rancher_token_url.json['links']['self'] }}"     
+    return_content: yes
+
+- name: Check if the rancher-agent is running
+  command: docker ps -a
+  register: containers
+
+- name: Display Command to Register the Host machine with the Rancher server
+  debug:
+    msg: "Command => {{ rancher_token.json['command'] }}"
+
+- name: Register the Host machine with the Rancher server
+  shell: "{{ rancher_token.json['command'] }}"
+  when: "'rancher-agent' not in containers.stdout"
+
+- name: Display Rancher CLI command
+  debug:
+    msg: "rancher --url http://172.20.149.185:8080 --access-key {{ rancher_apikey.json['publicValue'] }} --secret-key {{ rancher_apikey.json['secretValue'] }} --env Default up -s DevOps -d"
+
+- name: Registering Rancher CLI parameters
+  shell: "rancher --url http://127.0.0.1:8080 --access-key {{ rancher_apikey.json['publicValue'] }} --secret-key {{ rancher_apikey.json['secretValue'] }} --env Default up -s DevOps -d"
+

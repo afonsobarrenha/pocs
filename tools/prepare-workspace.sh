@@ -15,6 +15,7 @@ echo '>> Atualizando'
 apt-get update
 
 echo '>> Instalando as ferramentas'
+apt-get install curl
 apt-get install git
 apt-get install openjdk-8-jdk
 apt-get install maven
@@ -23,6 +24,19 @@ apt-get install ubuntu-make
 
 echo '>>> Instalando manualmente o Eclipse Oxygen (ubuntu-make)'
 umake ide eclipse-jee
+
+echo '>>> Instalando VirtualBox'
+apt-get install virtualbox
+
+echo '>>> Instalando Vagrant'
+apt-get install vagrant
+
+echo '>>> Instalando Minikube'
+curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.25.2/minikube-linux-amd64 \
+&& chmod +x minikube && sudo mv minikube /usr/local/bin/
+
+echo '>>> Instalando o Kubernetes'
+snap install kubectl --classic
 
 echo '>> Clonando o projeto POCS'
 echo '>>> Mudando diretório para pasta HOME'
@@ -36,5 +50,6 @@ git clone https://github.com/afonsobarrenha/pocs.git
 echo '>> Configurando variáveis globais do GIT'
 git config --global user.name $2
 git config --global user.email $3
+
 
 echo '> Encerrando instalação'

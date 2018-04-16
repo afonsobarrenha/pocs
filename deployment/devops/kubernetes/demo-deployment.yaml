@@ -1,0 +1,15 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: demo-deployment
+spec:
+  template:
+    metadata:
+      labels:
+       name: demo-pod
+    spec:
+      containers:
+        - name: demo-container
+          image: afonsobarrenha/demo:0.1.0-SNAPSHOT
+          ports:
+            - containerPort: 8080

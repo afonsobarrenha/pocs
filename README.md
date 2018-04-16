@@ -26,8 +26,8 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 - [ ] OpenShift
 
 #### 701.3 Source Code Management (weight: 5)
-- [ ] git
-- [ ] .gitignore
+- [x] ~~git~~
+- [x] ~~.gitignore~~
 
 #### 701.4 Continuous Integration and Continuous Delivery (weight: 5)
 - [ ] Step, Node, Stage
@@ -37,23 +37,24 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 - [ ] Blue-green and canary deployment
 
 ### Topic 702: Container Management
+
 #### 702.1 Container Usage (weight: 7)
 - [x] ~~docker~~
 - [x] ~~Dockerfile~~
-- [ ] .dockerignore
+- [x] ~~.dockerignore~~
 
 #### 702.2 Container Deployment and Orchestration (weight: 5)
 - [x] ~~docker-compose~~
-- [ ] docker
 - [ ] **_kubectl (em andamento)_**
 
 #### 702.3 Container Infrastructure (weight: 4)
 - [ ] docker-machine
 
 ### Topic 703: Machine Deployment
+
 #### 703.1 Virtual Machine Deployment (weight: 4)
-- [ ] vagrant
-- [ ] Vagrantfile
+- [x] ~~vagrant~~
+- [x] ~~Vagrantfile~~
 
 #### 703.2 Cloud Deployment (weight: 2)
 *(Não são listadas ferramentas)*
@@ -62,9 +63,10 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 - [ ] packer
 
 ### Topic 704: Configuration Management
+
 #### 704.1 Ansible (weight: 8)
 - [ ] ansible.cfg
-- [ ] ansible-playbook
+- [x] ~~ansible-playbook~~
 - [ ] ansible-vault
 - [ ] ansible-galaxy
 - [ ] ansible-doc
@@ -79,6 +81,7 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 - [ ] knife
 
 ### Topic 705: Service Operations
+
 #### 705.1 IT Operations and Monitoring (weight: 4)
 - [ ] Prometheus, Node exporter, Pushgateway, Altermanager, Grafana
 - [ ] Service exploits, brute force attacks, and denial of service attacks
@@ -98,6 +101,15 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 
 Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger algum dos objetivos acima, que também serão "checkados" junto com o item do curso abaixo.
 
+## 4Linux
+### 6396 - Infraestrutura ágil com práticas DEVOPS usando Docker, Git, Jenkins, Puppet e Ansible
+- [x] ~~Vagrant~~
+- [x] ~~Ansible~~
+- [ ] Puppet
+- [ ] Git
+- [ ] Docker
+- [ ] Jenkins
+
 ## Alura
 
 ### Carreira Desenvolvedor Java Web com Spring
@@ -108,22 +120,20 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [ ] Java e JPA I
 - [ ] Java e JPA II
 - [x] ~~\(Opcional) Logback~~
-- [x] ~~\(Opcional) Git Flow Extension~~
-- [ ] \(Opcional) Actuator
-- [ ] \(Opcional) TDD
-- [x] ~~\(Opcional) Selenium~~
-- [ ] \(Opcional) Mockito
-- [x] ~~\(Opcional) Cucumber~~
+- [ ] **_\(Opcional) Mockito (em andamento)_**
+- [ ] **_\(Opcional) TDD (em andamento)_**
+- [x] ~~\(Wikipedia) Cucumber~~
 
 ### Carreira Engenheiro DevOps
-- [ ] Linux I
-- [ ] Linux II
-- [ ] Git
+- [x] ~~Linux I~~
+- [x] ~~Linux II~~
+- [x] ~~Git~~
+- [x] ~~\(Opcional) Git Flow Extension~~
 - [x] ~~Docker~~
-- [ ] Integração Contínua
+- [ ] **_Vagrant (em andamento)_**
+- [ ] **_Ansible (em andamento)_**
+- [ ] **_Integração Contínua (em andamento)_**
 - [ ] **_Kubernetes (em andamento)_**
-- [ ] Vagrant
-- [ ] Ansible
 - [ ] Amazon AWS
 - [ ] Amazon S3
 - [ ] Amazon EC2
@@ -135,7 +145,6 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [ ] Node.js
 - [ ] Node.js e HTTP
 - [ ] MongoDB
-
 
 ## Udemy
 
@@ -154,20 +163,15 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 ## (Opcional) Docker Samples
 
 ### Tutorial Labs
-- [ ] Docker for Beginners
+- [x] ~~Docker for Beginners~~
 - [ ] Configuring developer tools and programming languages
 - [ ] Live Debugging Java with Docker
-- [ ] Docker for Java Developers
+- [x] ~~Docker for Java Developers~~
 - [ ] Docker Security
 
 ## (Opcional) Spring Guides
 
-### Tutorial
-- [ ] Building REST services with Spring
-- [ ] Spring Security and Angular
-- [ ] Spring Boot and OAuth2
-
-### Getting Started Guides
+#### Getting Started Guides
 - [x] ~~Building an Application with Spring Boot~~
 - [x] ~~Testing the Web Layer~~
 - [x] ~~Spring Boot with Docker~~
@@ -189,8 +193,14 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 ### Topical Guide
 - [ ] Spring Security Architecture
 
+#### Tutorial
+- [ ] Building REST services with Spring
+- [ ] Spring Security and Angular
+- [ ] Spring Boot and OAuth2
 
-Obs: Estou usando a estrutura de pastas apresentada no livro **Continous Integration**, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas. Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado, mas em contrapartida dá uma visão completa de tudo que está envolvido no projeto.
+
+
+_Obs: Estou usando a estrutura de pastas apresentada no livro **Continuous Integration**, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas. Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado, mas em contrapartida dá uma visão completa de tudo que está envolvido no projeto._
 
 - - -
 
@@ -199,9 +209,11 @@ Obs: Estou usando a estrutura de pastas apresentada no livro **Continous Integra
 - [Basic Writing and formatting Syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Continuous Integration: Improving Software Quality and Reducing Risk](https://www.amazon.com.br/Continuous-Integration-Improving-Software-Reducing/dp/0321336380)
+- [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation ](https://www.amazon.com.br/Continuous-Delivery-Deployment-Automation-Addison-Wesley-ebook/dp/B003YMNVC0?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3IMB4CB9HS92H&keywords=continuous+delivery&qid=1523885607&sprefix=continuous+de%2Cstripbooks%2C268&sr=1-1&ref=sr_1_1)
 - [Alura](https://www.alura.com.br/)
 - [Spring Guides](https://spring.io/guides/)
 - [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/1.5.10.RELEASE/reference/htmlsingle/)
 - [Docker Tutorial Labs](https://docs.docker.com/samples/#tutorial-labs)
 - [LPIC-OT Exam 701: DevOps Tools Engineer](http://www.lpi.org/our-certifications/exam-701-objectives)
 - [Udemy](https://www.udemy.com/)
+- [4Linux](https://www.4linux.com.br/)
