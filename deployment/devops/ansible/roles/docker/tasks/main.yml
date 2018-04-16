@@ -1,0 +1,20 @@
+---
+- name: Install dependencies
+  apt: 
+    name: "{{ item }}" 
+    update_cache: yes
+  with_items: 
+    - python-dev
+    - python-setuptools
+    - aptitude
+    - python-apt
+    - python3-apt
+
+- name: Install pip
+  easy_install: 
+    name: pip 
+
+- name: Install Docker package
+  apt:
+    name: docker.io
+    update_cache: yes

@@ -1,0 +1,17 @@
+---
+- name: stat Rancher CLI binaries
+  stat: path=rancher-linux-amd64-v0.6.4.tar.gz
+  register: rancher_cli_binaries_stat
+
+- name: Downloading Rancher CLI binaries
+  shell: "wget -e use_proxy=yes -e https_proxy=proxylatam.indra.es:8080 https://releases.rancher.com/cli/v0.6.4/rancher-linux-amd64-v0.6.4.tar.gz"
+  when: not rancher_cli_binaries_stat.stat.exists
+
+- name: unziping binaries
+  shell: "tar -xvf rancher-linux-amd64-v0.6.4.tar.gz"
+  when: not rancher_cli_binaries_stat.stat.exists
+
+- name: copying binaries to bin
+  shell: "mv ./rancher-v0.6.4/rancher /bin"
+  when: not rancher_cli_binaries_stat.stat.exists
+

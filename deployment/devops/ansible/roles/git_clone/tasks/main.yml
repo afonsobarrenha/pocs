@@ -1,0 +1,19 @@
+---
+- name: Clone git repo
+  git:
+    repo: 'https://gitlab.com/kknyxkk/indra-docker-ci.git'
+    dest: .
+    clone: yes
+    update: no
+
+- name: stat docker-compose
+  stat: path=./indra-docker-ci/docker-compose.yml
+  register: docker_compose_stat
+
+- name: Move docker-compose to current folder
+  command: mv ./indra-docker-ci/docker-compose.yml .
+  when: docker_compose_stat.stat.exists
+
+
+ 
+ 
