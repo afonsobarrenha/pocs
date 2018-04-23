@@ -44,11 +44,15 @@ docker run -it -v $(pwd)/volumes/var/www:/var/www ubuntu
 ## Comandos Kubernetes
 ```
 minikube start
-kubectl create -f demo-deployment.yaml
+kubectl create -f statefulset.yaml && \
+kubectl create -f permissoes.yaml && \
+kubectl create -f servico-banco.yaml && \
+kubectl create -f demo-deployment.yaml && \
 kubectl create -f demo-service.yaml
 kubectl get pods
 kubectl delete pods app
 kubectl describe pods | grep IP
+kubectl exec -it statefulset-mysql-0 sh
 minikube dashboard
 minikube service demo-service --url
 ```
