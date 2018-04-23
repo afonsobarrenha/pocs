@@ -45,7 +45,7 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 
 #### 702.2 Container Deployment and Orchestration (weight: 5)
 - [x] ~~docker-compose~~
-- [ ] **_kubectl (em andamento)_**
+- [x] ~~kubectl~~
 
 #### 702.3 Container Infrastructure (weight: 4)
 - [ ] docker-machine
@@ -140,7 +140,7 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [ ] **_Vagrant (em andamento)_**
 - [ ] **_Ansible (em andamento)_**
 - [ ] **_Integração Contínua (em andamento)_**
-- [ ] **_Kubernetes (em andamento)_**
+- [x] ~~Kubernetes~~
 - [ ] Amazon AWS
 - [ ] Amazon S3
 - [ ] Amazon EC2
