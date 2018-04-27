@@ -3,8 +3,12 @@ kind: Service
 metadata:
   name: springboot-service
 spec:
-  type: NodePort
+  #type: NodePort
+  type: LoadBalancer
   ports:
   - port: 9000
   selector:
     name: springboot-pod
+
+
+    
