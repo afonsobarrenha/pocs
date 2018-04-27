@@ -15,4 +15,5 @@ RUN bash -c 'chmod +x /wait-for-it.sh' && dos2unix /wait-for-it.sh
 
 EXPOSE 9000
 
-ENTRYPOINT /bin/bash /wait-for-it.sh my-mysql:3306 -s -t 30 -- java -jar -Dspring.profiles.active=pro -Dspring.datasource.initialize=true /springboot.jar
+ENTRYPOINT /bin/bash /wait-for-it.sh my-mysql:3306 -s -t 30 -- java -jar -Dspring.profiles.active=pro /springboot.jar
+# -Dspring.datasource.initialize=true 

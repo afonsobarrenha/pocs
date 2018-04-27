@@ -10,6 +10,6 @@ spec:
     spec:
       containers:
         - name: springboot-container
-          image: afonsobarrenha/springboot:1.13.2-SNAPSHOT
+          image: afonsobarrenha/springboot:1.13.3-SNAPSHOT
           ports:
             - containerPort: 9000
