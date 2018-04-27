@@ -10,6 +10,6 @@ spec:
     spec:
       containers:
         - name: demo-container
-          image: afonsobarrenha/demo:0.1.0-SNAPSHOT
+          image: afonsobarrenha/demo:0.2.1-SNAPSHOT
           ports:
             - containerPort: 8080

@@ -45,7 +45,7 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 
 #### 702.2 Container Deployment and Orchestration (weight: 5)
 - [x] ~~docker-compose~~
-- [ ] **_kubectl (em andamento)_**
+- [x] ~~kubectl~~
 
 #### 702.3 Container Infrastructure (weight: 4)
 - [ ] docker-machine
@@ -140,7 +140,7 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [ ] **_Vagrant (em andamento)_**
 - [ ] **_Ansible (em andamento)_**
 - [ ] **_Integração Contínua (em andamento)_**
-- [ ] **_Kubernetes (em andamento)_**
+- [x] ~~Kubernetes~~
 - [ ] Amazon AWS
 - [ ] Amazon S3
 - [ ] Amazon EC2
@@ -175,6 +175,7 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [ ] Live Debugging Java with Docker
 - [x] ~~Docker for Java Developers~~
 - [ ] Docker Security
+- [ ] Best practices for writing Dockerfiles
 
 ## (Opcional) Spring Guides
 
@@ -205,6 +206,13 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [ ] Spring Security and Angular
 - [ ] Spring Boot and OAuth2
 
+## (Opcional) Google Cloud Platform Tutorials
+- [ ] Crie um app da Web e hospede-o no Google App Engine. 
+- [ ] Inicie grandes clusters de computação no Google Compute Engine. 
+- [ ] Armazene grandes quantidades de dados no Google Cloud Storage. 
+- [ ] Analise Big Data na nuvem com o Google BigQuery. 
+- [ ] Armazene e gerencie dados usando um banco de dados MySQL com o Google Cloud SQL. 
+- [ ] Disponibilize aplicativos e serviços para seus usuários com o Google Cloud DNS. 
 
 
 _Obs: Estou usando a estrutura de pastas apresentada no livro **Continuous Integration**, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas. Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado, mas em contrapartida dá uma visão completa de tudo que está envolvido no projeto._
@@ -224,3 +232,4 @@ _Obs: Estou usando a estrutura de pastas apresentada no livro **Continuous Integ
 - [LPIC-OT Exam 701: DevOps Tools Engineer](http://www.lpi.org/our-certifications/exam-701-objectives)
 - [Udemy](https://www.udemy.com/)
 - [4Linux](https://www.4linux.com.br/)
+- [Google Cloud Platform](https://cloud.google.com/sdk/auth_success)
