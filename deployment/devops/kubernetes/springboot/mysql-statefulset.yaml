@@ -3,7 +3,7 @@ kind: StatefulSet
 metadata:
   name: mysql-statefulset
 spec:
-  serviceName: mysql-statefulset-service
+  serviceName: my-mysql
   template:
     metadata:
       labels:
@@ -16,13 +16,13 @@ spec:
             - containerPort: 3306
           env:
             - name: MYSQL_DATABASE
-              value: "loja"
+              value: "listavip"
             - name: MYSQL_USER
-              value: "loja_usr"
+              value: "lista_usr"
             - name: MYSQL_PASSWORD
-              value: "loja_pwd"
-            - name: MYSQL_ALLOW_EMPTY_PASSWORD
-              value: "1"
+              value: "lista_pwd"
+            - name: MYSQL_ROOT_PASSWORD
+              value: "root_pwd"
           volumeMounts:
             - name: mysql-volume
               mountPath: /var/lib/mysql

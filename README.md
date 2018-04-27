@@ -175,6 +175,7 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [ ] Live Debugging Java with Docker
 - [x] ~~Docker for Java Developers~~
 - [ ] Docker Security
+- [ ] Best practices for writing Dockerfiles
 
 ## (Opcional) Spring Guides
 

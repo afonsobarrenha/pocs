@@ -49,6 +49,11 @@ kubectl create -f statefulset.yaml &&
     kubectl create -f servico-banco.yaml && 
     kubectl create -f demo-deployment.yaml && 
     kubectl create -f demo-service.yaml
+kubectl create -f mysql-statefulset.yaml && 
+    kubectl create -f mysql-permission.yaml && 
+    kubectl create -f mysql-service.yaml && 
+    kubectl create -f springboot-deployment.yaml && 
+    kubectl create -f springboot-service.yaml
 kubectl get pods
 kubectl describe pods | grep IP
 kubectl exec -it statefulset-mysql-0 sh
