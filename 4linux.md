@@ -34,3 +34,8 @@ puppet resource service httpd ensure=running enable=true
 puppet resource user sabado
 puppet resource package vim ensure=present
 puppet aply base.pp
+
+copiar é escape yy
+colar é p
+
+puppet resource package puppetserver ensure=present
