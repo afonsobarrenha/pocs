@@ -39,6 +39,56 @@ copiar é escape yy
 colar é p
 ctrl+z escape u
 
-puppet resource service puppetserver ensure=running enable=yes
+puppet resource service puppetserver ensure=running enable=true 
 
 puppet resource package puppetserver ensure=present
+
+puppet resource package puppetserver ensure=present
+
+puppet resource service puppetserver ensure=running enable=yes
+
+puppet server abre uma porta 8140
+
+puppet cert list --all
+	deve colocar o FTDN da máquina
+
+dev1
+	vim /etc/hosts
+
+dev1
+	nos clientes cadastrar o FTDN do master
+	puppet agent --test --server ubuntu1.salas4linux.com.br-	
+
+volta para ubuntu1
+puppet cert list
+	irá pedir a confirmação do certificado do dev1
+
+puppet cert sign dev1.salas4linux.com.br
+
+puppet agent --test --server ubuntu1.salas4linux.com.br	
+
+em DEV1
+/etc/puppetlabs/puppet/puppet.conf
+[agent]
+server = ubuntu1.salas4linux.com.br
+
+puppet agent --enable
+
+puppet config print runinterval
+
+puppet config set runinterval 60
+
+puppet config print runinterval
+
+tail -f /var/log/messages
+
+vim /etc/puppetlabs/code/environments/production/manifests/site.pp
+node "dev1.salas4linux.com.br" {
+  package{"fish",
+    ensure => present
+}
+  user{"devops":
+    ensure=>present,
+    managehome=>true,
+    shell=>"/usr/bin/fish'
+}
