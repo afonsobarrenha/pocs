@@ -37,5 +37,8 @@ puppet aply base.pp
 
 copiar é escape yy
 colar é p
+ctrl+z escape u
+
+puppet resource service puppetserver ensure=running enable=yes
 
 puppet resource package puppetserver ensure=present
