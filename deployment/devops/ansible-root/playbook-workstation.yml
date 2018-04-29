@@ -39,6 +39,7 @@
     with_items:
     - vim
     - git
+    - git-flow
     - openjdk-8-jdk
     - maven
     - code
