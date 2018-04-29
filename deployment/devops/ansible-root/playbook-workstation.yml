@@ -61,4 +61,4 @@
       path: /home/afonso/projects/pocs
       recurse: yes
       owner: afonso
-      mode: u+rwx
+      mode: a+rwx
