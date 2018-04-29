@@ -1,0 +1,65 @@
+---
+- name: Configuração inicial de uma estação de trabalho Ubuntu
+  hosts: dev
+  tasks:
+
+  - name: install dependencies (apt)
+    become: yes
+    apt:
+      name: '{{ item }}'
+      state: present
+    with_items:
+    - ca-certificates
+    - apt-transport-https
+  
+  - name: install key (apt)
+    become: yes
+    apt_key:
+      url: 'https://packages.microsoft.com/keys/microsoft.asc'
+      state: present
+
+  - name: install VS Code repo (apt)
+    become: yes
+    apt_repository:
+      repo: deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main
+      state: present
+
+  - name: configurando os repositórios
+    become: yes
+    apt: 
+      deb: "{{item}}"
+    with_items:
+    - https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+  - name: instalando os pacotes de Desenvolvimento
+    become: yes
+    apt:
+      name: "{{item}}"
+      state: present
+    with_items:
+    - vim
+    - git
+    - git-flow
+    - openjdk-8-jdk
+    - maven
+    - code
+    - google-chrome-stable
+    - virtualbox
+    - vagrant
+
+  - git:
+      repo: https://github.com/afonsobarrenha/pocs.git
+      dest: /home/afonso/projects/pocs
+      version: develop
+
+  - name: configurando os atributos globais do git
+    command: git config --global user.name afonsobarrenha
+
+  - name: configurando os atributos globais do git
+    command: git config --global user.email afonsobarrenha@gmail.com
+
+  - file:
+      path: /home/afonso/projects/pocs
+      recurse: yes
+      owner: afonso
+      mode: a+rwx

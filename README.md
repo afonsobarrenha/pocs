@@ -68,12 +68,12 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 - [ ] ansible.cfg
 - [x] ~~ansible-playbook~~
 - [ ] ansible-vault
-- [ ] ansible-galaxy
+- [x] ~~ansible-galaxy~~
 - [ ] ansible-doc
  
 #### 704.2 Other Configuration Management Tools (weight: 2)
 - [ ] Manifest, Class, Recipe, Cookbook
-- [ ] puppet
+- [x] ~~puppet~~
 - [ ] chef
 - [ ] chef-solo
 - [ ] chef-client
@@ -105,7 +105,7 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 ### Infraestrutura ágil com práticas DEVOPS usando Docker, Git, Jenkins, Puppet e Ansible
 - [x] ~~Automação Com Vagrant/Ansible~~
 - [ ] Administrando e operando o Docker
-- [ ] Gerencia de configuração com Puppet
+- [x] ~~Gerencia de configuração com Puppet~~
 - [ ] Versionamento com Gitlab
 - [ ] Integração com Jenkins
 - [ ] Rundeck
