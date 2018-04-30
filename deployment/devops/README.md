@@ -92,6 +92,8 @@ vagrant ssh NOME
 vagrant ssh ubuntu2 -c "ip a"
 ```
 
+sudo puppet apply /vagrant/manifests/web.pp
+
 ## Comandos Ansible
 ```
 apt install python python-pip -y
@@ -108,6 +110,7 @@ ansible-playbook -i /roots/hosts playbook.yml -v
 ip a
 sudo su -
 systemctl status nginx
+ps -ef | grep java
 ```
 
 ## FAQ
