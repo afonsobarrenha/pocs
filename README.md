@@ -73,7 +73,7 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
  
 #### 704.2 Other Configuration Management Tools (weight: 2)
 - [ ] Manifest, Class, Recipe, Cookbook
-- [x] ~~puppet~~
+- [ ] puppet
 - [ ] chef
 - [ ] chef-solo
 - [ ] chef-client
