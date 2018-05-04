@@ -3,6 +3,20 @@
   hosts: dev
   tasks:
 
+  - name: instalando os pacotes de Desenvolvimento
+    become: yes
+    apt:
+      name: "{{item}}"
+      state: present
+    with_items:
+    - vim
+    - git
+    - git-flow
+    - openjdk-8-jdk
+    - maven
+    - virtualbox
+    - vagrant
+
   - name: install dependencies (apt)
     become: yes
     apt:
@@ -27,9 +41,7 @@
   - name: configurando os repositórios
     become: yes
     apt: 
-      deb: "{{item}}"
-    with_items:
-    - https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+      deb: https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
   - name: instalando os pacotes de Desenvolvimento
     become: yes
@@ -37,15 +49,8 @@
       name: "{{item}}"
       state: present
     with_items:
-    - vim
-    - git
-    - git-flow
-    - openjdk-8-jdk
-    - maven
     - code
     - google-chrome-stable
-    - virtualbox
-    - vagrant
 
   - git:
       repo: https://github.com/afonsobarrenha/pocs.git
