@@ -1,5 +1,7 @@
 .vscode/
 implementation/logs/
 tools/pocs-workspace.code-workspace
+deployment/devops/4linux/.vagrant/
 deployment/devops/vagrant/alura/.vagrant/
 deployment/devops/vagrant/alura/ubuntu-xenial-16.04-cloudimg-console.log
+deployment/devops/4linux/ubuntu-xenial-16.04-cloudimg-console.log
