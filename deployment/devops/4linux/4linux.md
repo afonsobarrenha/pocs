@@ -92,3 +92,87 @@ node "dev1.salas4linux.com.br" {
     managehome=>true,
     shell=>"/usr/bin/fish'
 }
+
+PUPPET
+
+epel-release - enterprise package linux, apenas para o centos
+
+figlet
+ccze
+
+ss -ntpl
+systemctl status puppetserver
+systemctl restart puppetserver
+
+/etc/puppetlabs/code/environments/production/modules
+
+puppet resource package pdk ensure=present
+	Puppet Development Kit
+
+pdk new module puppet-base - o nome do módulo será 'base'
+
+cd base
+  vim manifests/init.pp - precisa ser esse nome
+
+vim site.pp
+
+em dev1
+  puppet agent -t - rodar o puppet na mão
+
+  tail -f /var/log/messages
+
+vim /etc/puppetlabs/puppet/puppet.conf para configurar o environment
+
+.bashrc echo 'bem vindo' | figlet
+
+puppet agent -t --server ubuntu1.salas4linux.com.br
+  gerar certificado, enviar ssr para o server, e no server precisa assinar
+
+gerar arquivo autosign.conf
+ puppet cert list --all
+
+  puppet cert clean dev2...
+
+PUPPET
+  a configuração principal dos clientes está em ENVIRONMENT/manifests/site.pp
+  os módulos precisam ser cadastrados nesse arquivo
+  os módulos estão em ENVIRONMENT/modules
+
+repositórios /etc/apt/sources.list
+
+vim /etc/puppetlabs/puppet/puppet.conf
+[main]
+runinterval=10
+[agent]
+server = ubuntu1.salas4linux.com.br
+
+puppet agent --enable
+tail -f /var/log/syslog
+tail -f /var/log/messages
+
+echo $(whoami)@$(hostname) | figlettouch app
+
+
+GIT
+
+git status
+git log --oneline
+git diff
+git rm - tirar do add
+git rm teste.txt --cached
+git reset 1234 --hard
+git remote -v
+git remote add github https://github.com/afonsobarrenha/aula_git.git
+git push github master - -f força o push
+git pull github master - baixa e já faz o merge
+git fetch - só baixa, não faz o merge mostrando as diferenças
+git branch
+git checkout -b develop - cria a branch
+git checkout master
+git log --graph
+  git checkout develop
+  git merge feature1
+git branch -d feature1 - apaga a branch
+git reset --hard origin/master
+git log --graph --oneline
+git revert
