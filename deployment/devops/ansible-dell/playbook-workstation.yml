@@ -1,9 +1,9 @@
 ---
-- name: Configuração inicial de uma estação de trabalho Ubuntu
+- name: Configuração inicial de uma estação de trabalho Ubuntu (16.04)
   hosts: dev
   tasks:
 
-  - name: instalando os pacotes de Desenvolvimento
+  - name: Instalando pacotes padrão de Desenvolvimento
     become: yes
     apt:
       name: "{{item}}"
@@ -17,7 +17,7 @@
     - virtualbox
     - vagrant
 
-  - name: install dependencies (apt)
+  - name: Instalando dependências do VSCode
     become: yes
     apt:
       name: '{{ item }}'
@@ -26,45 +26,37 @@
     - ca-certificates
     - apt-transport-https
   
-  - name: install key (apt)
+  - name: Instalando key do VSCode
     become: yes
     apt_key:
       url: 'https://packages.microsoft.com/keys/microsoft.asc'
       state: present
 
-  - name: install VS Code repo (apt)
+  - name: Instalando repo do VSCode
     become: yes
     apt_repository:
       repo: deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main
       state: present
 
-  - name: configurando os repositórios
-    become: yes
-    apt: 
-      deb: https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-
-  - name: instalando os pacotes de Desenvolvimento
+  - name: Instalando VSCode
     become: yes
     apt:
-      name: "{{item}}"
+      name: code
       state: present
-    with_items:
-    - code
-    - google-chrome-stable
 
   - git:
       repo: https://github.com/afonsobarrenha/pocs.git
-      dest: /home/afonso/projects/pocs
+      dest: /home/afonsobarrenha/projects/pocs
       version: develop
 
-  - name: configurando os atributos globais do git
+  - name: Configurando o atributo user.name do Git
     command: git config --global user.name afonsobarrenha
 
-  - name: configurando os atributos globais do git
+  - name: Configurando o atributo user.email do Git
     command: git config --global user.email afonsobarrenha@gmail.com
 
   - file:
-      path: /home/afonso/projects/pocs
+      path: /home/afonsobarrenha/projects/pocs
       recurse: yes
-      owner: afonso
+      owner: afonsobarrenha
       mode: a+rwx
