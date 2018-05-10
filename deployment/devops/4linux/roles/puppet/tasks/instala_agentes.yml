@@ -1,7 +1,0 @@
-- name: instalando agente no centos7
-  yum: name=puppet-agent state=present
-  when: ansible_distribution == 'CentOS'
-
-- name: instalando agente no Ubuntu
-  apt: name=puppet-agent state=present update_cache=true
-  when: ansible_distribution == 'Ubuntu'

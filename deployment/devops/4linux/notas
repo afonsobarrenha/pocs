@@ -1,4 +1,0 @@
-apt-get install ansible -y
-ssh-keygen
-cat .ssh/id_rsa.pub >> .ssh/authorized_keys
-sudo apt-get install ssh
