@@ -7,13 +7,14 @@
 # you're doing.
 Vagrant.configure("2") do |config|
 
-  config.vm.box = "ubuntu/xenial64"
+  #config.vm.box = "ubuntu/xenial64"
+  config.vm.box = "ubuntu/bionic64"
 
   config.vm.box_check_update = false
   # config.vm.network "forwarded_port", guest: 80, host: 8080
   # config.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
   # config.vm.network "private_network", ip: "192.168.33.10"
-  config.vm.network "public_network", bridge: "enp2s0"
+  config.vm.network "public_network", bridge: "wlp3s0"
 
   # config.vm.synced_folder "../data", "/vagrant_data"
 
@@ -23,12 +24,14 @@ Vagrant.configure("2") do |config|
   
   (1..2).each do |i|
     config.vm.define "ubuntu#{i}" do |node|
-      node.vm.hostname = "ubuntu#{i}"
+      node.vm.hostname = "ubuntu#{i}"      
       node.vm.provision "shell", inline: <<-SHELL
-        apt clean all
-        apt update
-        apt install python -y
-        apt install ansible
+        apt-get clean all
+        apt-get update
+        apt-get install language-pack-pt -y
+        #apt-get install ansible -y
+        apt-get install python python-pip -y
+        pip install ansible
       SHELL
     end
   end
@@ -38,7 +41,7 @@ Vagrant.configure("2") do |config|
       node.vm.box = "centos/7"
       node.vm.hostname = "dev#{i}"
       node.vm.provision "shell", inline: <<-SHELL
-        yum update -y
+        # yum update -y
       SHELL
     end
   end
@@ -46,7 +49,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
     sudo mkdir -p /root/.ssh/
     sudo touch /root/.ssh/authorized_keys
-    sudo cat /vagrant/chave.pub >> /root/.ssh/authorized_keys
+    sudo cat /vagrant/ubuntu1-key.pub >> /root/.ssh/authorized_keys
   SHELL
 end
 

@@ -81,37 +81,5 @@ kubectl config get-contexts
 kubectl scale deployment springboot-deployment --replicas=3
 ```
 
-## Comandos Vagrant
-```
-vagrant init
-vagrant box list
-vagrant up --provision
-vagrant halt
-vagrant status
-vagrant ssh NOME
-vagrant ssh ubuntu2 -c "ip a"
-```
-
-sudo puppet apply /vagrant/manifests/web.pp
-
-## Comandos Ansible
-```
-apt install python python-pip -y
-pip install ansible
-ssh-keygen
-cat .ssh/id_rsa.pub >> .ssh/authorized_keys
-ansible -i /root/hosts all -e "host_key_check=False" -m command -a "hostname"
-ansible docker -u vagrant --private-key .vagrant/machines/docker/virtualbox/private_key -i hosts -m shell -a 'echo Hello, Docker'
-ansible-playbook -i /roots/hosts playbook.yml -v
-```
-
-## Comandos Linux
-```
-ip a
-sudo su -
-systemctl status nginx
-ps -ef | grep java
-```
-
 ## FAQ
 >Caso você esteja utilizando o Docker Toolbox, como ele está rodando em cima de uma máquina virtual, o endereço http://localhost:9001/ não funcionará, pois você deve acessar a porta através do IP da máquina virtual. Para descobrir o IP dessa máquina virtual, basta executar o comando docker-machine ip. Com o IP em mãos, basta acessá-lo no navegador, utilizando a porta que o Docker atribuiu, por exemplo http://192.168.0.38:9001/.
