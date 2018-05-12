@@ -260,3 +260,9 @@ usuário padrão root
 4linux123
 
 gravatar
+
+
+git remote -v
+git remote remove origin
+git remote add origin git@192.168.200.196:root/ansible-playbooks.git
+
