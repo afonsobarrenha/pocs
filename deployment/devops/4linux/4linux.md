@@ -251,3 +251,7 @@ log centralizado
 
 GitLab precisa de 2 gb pra subir
 ssh-copy-id IP!
+
+gitlab-ctl reconfigure
+
+free -m
