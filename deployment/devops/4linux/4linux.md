@@ -255,3 +255,8 @@ ssh-copy-id IP!
 gitlab-ctl reconfigure
 
 free -m
+
+usuário padrão root
+4linux1234
+
+gravatar
