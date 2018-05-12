@@ -228,3 +228,5 @@ docker logs
 iptables -L -n
 docker save app2 > image-bkp.tar
 docler load -i image-bkp.tar
+ENTRYPOINT força a execução do comando vir primeiro
+CMD pode ser sobrescrito
