@@ -224,6 +224,7 @@ docker system prune
 docker system info
 docker commit
 docker logs
+docker inspect 2325 | grep Address -i
 
 iptables -L -n
 docker save app2 > image-bkp.tar
@@ -241,3 +242,5 @@ docker volume inspect imagens
 docker run --rm -ti -p 80:8080 -v imagens:/srv/app/static/imagens python_app-3
 docker run --rm -ti -p 80:8080 -v /root/desafio:/srv/app/static/imagens python_app-3
 
+docker run -dti --name mysql ubuntu /bin/bash
+	
