@@ -244,3 +244,4 @@ docker run --rm -ti -p 80:8080 -v /root/desafio:/srv/app/static/imagens python_a
 
 docker run -dti --name mysql ubuntu /bin/bash
 	
+minishift
