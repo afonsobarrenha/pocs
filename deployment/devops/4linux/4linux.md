@@ -226,3 +226,5 @@ docker commit
 docker logs
 
 iptables -L -n
+docker save app2 > image-bkp.tar
+docler load -i image-bkp.tar
