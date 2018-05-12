@@ -248,3 +248,5 @@ Desenvolvimento - minishift/mesos
 Produção - Openshift/Kubernetes/Marathon (Apache)/Rancher/UCP
 
 log centralizado
+
+GitLab precisa de 2 gb pra subir
