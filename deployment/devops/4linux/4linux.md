@@ -257,6 +257,6 @@ gitlab-ctl reconfigure
 free -m
 
 usuário padrão root
-4linux1234
+4linux123
 
 gravatar
