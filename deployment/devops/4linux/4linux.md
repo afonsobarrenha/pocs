@@ -38,6 +38,18 @@ galaxy é um repositório de playbooks de várias ferramentas
 ansible-playbook -i /root/hosts main.yml
 vagrant ssh dev1 -c 'ip a'
 
+## Docker
+o docker usa o mesmo kernel do host onde está subindo, por isso é mais leve
+cat /root/.bashrc
+echo $(whoami)@$(hostname) | figlet
+systemctl enable docker
+systemctl restart docker
+docker container ls
+docker attach 12345 - entra pelo entrypoint
+docker exec -ti 12345 ping -c3 8.8.8.8
+docker system prune
+docker system info
+
 
 zip -r root.zip /root/
 scp root.zip sabado@ada03:/home/sabado/infraagil_sabado
