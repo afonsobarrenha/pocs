@@ -239,3 +239,5 @@ pip install -r requirements.txt
 docker volume create imagens
 docker volume inspect imagens
 docker run --rm -ti -p 80:8080 -v imagens:/srv/app/static/imagens python_app-3
+docker run --rm -ti -p 80:8080 -v /root/desafio:/srv/app/static/imagens python_app-3
+
