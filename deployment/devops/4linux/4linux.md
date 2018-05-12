@@ -235,3 +235,7 @@ CMD pode ser sobrescrito
 git clone -b upload
 yum install python-pip -y
 pip install -r requirements.txt
+ 
+docker volume create imagens
+docker volume inspect imagens
+docker run --rm -ti -p 80:8080 -v imagens:/srv/app/static/imagens python_app-3
