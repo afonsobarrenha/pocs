@@ -224,3 +224,5 @@ docker system prune
 docker system info
 docker commit
 docker logs
+
+iptables -L -n
