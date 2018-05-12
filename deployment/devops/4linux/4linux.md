@@ -250,3 +250,4 @@ Produção - Openshift/Kubernetes/Marathon (Apache)/Rancher/UCP
 log centralizado
 
 GitLab precisa de 2 gb pra subir
+ssh-copy-id IP!
