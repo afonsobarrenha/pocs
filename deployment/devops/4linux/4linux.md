@@ -293,3 +293,11 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDsTt/4lmMfz1iJpHMdVeXAp7OTSEIq4AxKrO3dN23l
 rm -f /tmp/hosts
 echo "[rundeck]" > /tmp/hosts
 echo $RD_OPTION_SERVIDOR >> /tmp/hosts"
+
+"#!/bin/bash
+
+yum install wget -y
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+yum install java -y
+yum install jenkins -y"
