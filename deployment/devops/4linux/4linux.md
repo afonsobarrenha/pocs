@@ -305,3 +305,10 @@ yum install jenkins -y"
 jenkins admin/4linux123
 
 Jenkins Pipeline View
+
+em dev2 criar chave para o jenkins
+sudo -u jenkins ssh-keygen
+cat /var/lib/jenkins/.ssh/id_rsa.pub >> /root/.ssh/authorized_keys
+
+/etc/ssh/ssh_config
+   StrictHosKeyChecking no
