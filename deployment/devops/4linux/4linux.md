@@ -270,3 +270,26 @@ Rundeck para Operações - CD
 Jenkins para Desenvolvimento - CI
 
 ss -ntpl
+
+vim /etc/rundeck/framework
+
+framework.server.url = http://192.168.200.169:4440
+vim /etc/rundeck/rundeck-config.properties
+service rundeckd restart
+
+http://192.168.200.169:4440/menu/home
+
+Nodes > show all nodes
+
+/var/rundeck/projects/infraagil/etc
+
+su - rundeck
+
+-bash-4.2$ cat .ssh/id_rsa.pub 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDsTt/4lmMfz1iJpHMdVeXAp7OTSEIq4AxKrO3dN23lORSn4m9hyNaZa5gnz+3u8HW/dtGnaDL9xxGVlXCbPpr16PAXNZlQs7MUDZcZhNvnHivO1L5u+WtNw2sIACc04aptHLvghllZo8lb1bDrGVSdUGt7/RDEqK8Gh7xts5sEIPj3ictMvidH/Q42ALfO7oWlWIG5JnbczCWKayGwzPxX43JudA1wVGTswvTjFjMakBJGbWqCbsvIuSTX9WDoePGN1gKA149FexXnO0N52xk54jkZ63c9tFE1Fbc2innv6CcOKL7y3qP40v3GowsAA5I6kWx5aRiJyJfNHTLSDU/n 
+-bash-4.2$ 
+
+"#!/bin/bash
+rm -f /tmp/hosts
+echo "[rundeck]" > /tmp/hosts
+echo $RD_OPTION_SERVIDOR >> /tmp/hosts"
