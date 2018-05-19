@@ -351,3 +351,28 @@ sudo yum install nginx -y
 -bash-4.2$ cd workspace/deploy/
 -bash-4.2$ ls
 deploy.retry  deploy.yml
+
+-bash-4.2$ cd workspace/deploy/
+-bash-4.2$ ls
+deploy.retry  deploy.yml
+-bash-4.2$ cp /etc/nginx/
+conf.d/                 koi-utf                 scgi_params
+default.d/              koi-win                 scgi_params.default
+fastcgi.conf            mime.types              uwsgi_params
+fastcgi.conf.default    mime.types.default      uwsgi_params.default
+fastcgi_params          nginx.conf              win-utf
+fastcgi_params.default  nginx.conf.default      
+-bash-4.2$ cp /etc/nginx/conf.d/blue.conf ~/workspace/
+build/     clone/     deploy/    job_teste/ testes/    
+-bash-4.2$ cp /etc/nginx/conf.d/blue.conf ~/work
+workflow-libs/ workspace/     
+-bash-4.2$ cp /etc/nginx/conf.d/blue.conf ~/workspace/
+build/     clone/     deploy/    job_teste/ testes/    
+-bash-4.2$ cp /etc/nginx/conf.d/blue.conf ~/workspace/deploy/blue.conf
+-bash-4.2$ pwd
+/var/lib/jenkins/workspace/deploy
+-bash-4.2$ ls
+blue.conf  deploy.retry  deploy.yml
+-bash-4.2$ cp blue.conf green.conf
+-bash-4.2$ ls
+blue.conf  deploy.retry  deploy.yml  green.conf
