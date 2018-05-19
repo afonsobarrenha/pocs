@@ -312,3 +312,10 @@ cat /var/lib/jenkins/.ssh/id_rsa.pub >> /root/.ssh/authorized_keys
 
 /etc/ssh/ssh_config
    StrictHosKeyChecking no
+
+
+[root@dev2 ~]# usermod -s /bin/bash jenkins
+[root@dev2 ~]# su - jenkins
+
+/var/lib/jenkins/workspace/deploy
+
