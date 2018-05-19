@@ -302,6 +302,6 @@ sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 yum install java -y
 yum install jenkins -y"
 
-
 jenkins admin/4linux123
 
+Jenkins Pipeline View
