@@ -345,3 +345,9 @@ sudo yum install nginx -y
     proxy_pass http://172.17.0.2;
   }
 }"
+
+-bash-4.2$ sudo systemctl restart nginx
+
+-bash-4.2$ cd workspace/deploy/
+-bash-4.2$ ls
+deploy.retry  deploy.yml
