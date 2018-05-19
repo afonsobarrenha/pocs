@@ -376,3 +376,5 @@ blue.conf  deploy.retry  deploy.yml
 -bash-4.2$ cp blue.conf green.conf
 -bash-4.2$ ls
 blue.conf  deploy.retry  deploy.yml  green.conf
+
+sabado@ada03:~$ ssh -i Downloads/curso_sabado.pem ubuntu@35.160.158.21
