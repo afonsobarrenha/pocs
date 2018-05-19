@@ -266,5 +266,7 @@ git remote -v
 git remote remove origin
 git remote add origin git@192.168.200.196:root/ansible-playbooks.git
 
-Rundeck para Operações
-Jenkins para Desenvolvimento
+Rundeck para Operações - CD
+Jenkins para Desenvolvimento - CI
+
+ss -ntpl
