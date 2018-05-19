@@ -322,3 +322,26 @@ cat /var/lib/jenkins/.ssh/id_rsa.pub >> /root/.ssh/authorized_keys
 ansible-playbook -e "host_key_check=False" deploy.yml
 
 Terraform
+
+visudo
+sudo - jenkins
+sudo docker run -tdi --name green E blue --hostname green ubuntu /bin/bash
+sudo docker exec -ti blue /bin/bash E blue
+
+apt update && apt install php -y
+root@green:/srv# echo "<?php echo 'ambiente green'; ?>" > index.php
+root@green:/srv# php -S 0.0.0.0:80 &
+
+-bash-4.2$ sudo docker inspect green | grep address -i
+
+sudo yum install nginx -y
+-bash-4.2$ sudo systemctl restart nginx
+-bash-4.2$ sudo vim /etc/nginx/nginx.conf
+-bash-4.2$ vim /etc/nginx/conf.d/app1.conf
+
+"server {
+  listen 80;
+  location / {
+    proxy_pass http://172.17.0.2;
+  }
+}"
