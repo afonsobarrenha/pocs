@@ -319,3 +319,4 @@ cat /var/lib/jenkins/.ssh/id_rsa.pub >> /root/.ssh/authorized_keys
 
 /var/lib/jenkins/workspace/deploy
 
+ansible-playbook -e "host_key_check=False" deploy.yml
