@@ -1,22 +1,14 @@
 ---
-- name: Ansible!
-  hosts: prod
+- name: Playbook inicial
+  hosts: all
   tasks:
-  - name: instalando o pacote sl
-    apt: name=sl state=present update_cache=yes
 
   - name: instalando o pacote figlet
     apt: name=figlet state=present update_cache=yes
 
-  - name: garantindo usr games na path
+  - name: garantindo figlet no profile
     lineinfile: 
       path: /etc/profile
-      line: "export PATH=$PATH:/usr/games"
-      create: yes
-
-  - name: garantindo figlet no bashrc
-    lineinfile: 
-      path: /root/.bashrc
       line: "figlet $(whoami)@$(hostname)"
       create: yes
       become: yes
@@ -27,10 +19,8 @@
       create: yes
       line: "{{item}}"
     with_items:
-    - "192.168.0.9  ubuntu1"
-    - "192.168.0.11 ubuntu2"
-    - "192.168.0.12 dev1"
-    - "192.168.0.14 dev2"
+    - "172.17.177.40 ansible-server"
+    - "172.17.1188.1 app-server-1"
 
   - name: garantindo README
     copy: 
