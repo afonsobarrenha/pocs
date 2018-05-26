@@ -268,3 +268,115 @@ git remote -v
 git remote remove origin
 git remote add origin git@192.168.200.196:root/ansible-playbooks.git
 
+Rundeck para Operações - CD
+Jenkins para Desenvolvimento - CI
+
+ss -ntpl
+
+vim /etc/rundeck/framework
+
+framework.server.url = http://192.168.200.169:4440
+vim /etc/rundeck/rundeck-config.properties
+service rundeckd restart
+
+http://192.168.200.169:4440/menu/home
+
+Nodes > show all nodes
+
+/var/rundeck/projects/infraagil/etc
+
+su - rundeck
+
+-bash-4.2$ cat .ssh/id_rsa.pub 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDsTt/4lmMfz1iJpHMdVeXAp7OTSEIq4AxKrO3dN23lORSn4m9hyNaZa5gnz+3u8HW/dtGnaDL9xxGVlXCbPpr16PAXNZlQs7MUDZcZhNvnHivO1L5u+WtNw2sIACc04aptHLvghllZo8lb1bDrGVSdUGt7/RDEqK8Gh7xts5sEIPj3ictMvidH/Q42ALfO7oWlWIG5JnbczCWKayGwzPxX43JudA1wVGTswvTjFjMakBJGbWqCbsvIuSTX9WDoePGN1gKA149FexXnO0N52xk54jkZ63c9tFE1Fbc2innv6CcOKL7y3qP40v3GowsAA5I6kWx5aRiJyJfNHTLSDU/n 
+-bash-4.2$ 
+
+"#!/bin/bash
+rm -f /tmp/hosts
+echo "[rundeck]" > /tmp/hosts
+echo $RD_OPTION_SERVIDOR >> /tmp/hosts"
+
+"#!/bin/bash
+
+yum install wget -y
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+yum install java -y
+yum install jenkins -y"
+
+jenkins admin/4linux123
+
+Jenkins Pipeline View
+
+em dev2 criar chave para o jenkins
+sudo -u jenkins ssh-keygen
+cat /var/lib/jenkins/.ssh/id_rsa.pub >> /root/.ssh/authorized_keys
+
+/etc/ssh/ssh_config
+   StrictHosKeyChecking no
+
+
+[root@dev2 ~]# usermod -s /bin/bash jenkins
+[root@dev2 ~]# su - jenkins
+
+/var/lib/jenkins/workspace/deploy
+
+ansible-playbook -e "host_key_check=False" deploy.yml
+
+Terraform
+
+visudo
+sudo - jenkins
+sudo docker run -tdi --name green E blue --hostname green ubuntu /bin/bash
+sudo docker exec -ti blue /bin/bash E blue
+
+apt update && apt install php -y
+root@green:/srv# echo "<?php echo 'ambiente green'; ?>" > index.php
+root@green:/srv# php -S 0.0.0.0:80 &
+
+-bash-4.2$ sudo docker inspect green | grep address -i
+
+sudo yum install nginx -y
+-bash-4.2$ sudo systemctl restart nginx
+-bash-4.2$ sudo vim /etc/nginx/nginx.conf
+-bash-4.2$ vim /etc/nginx/conf.d/app1.conf
+
+"server {
+  listen 80;
+  location / {
+    proxy_pass http://172.17.0.2;
+  }
+}"
+
+-bash-4.2$ sudo systemctl restart nginx
+
+-bash-4.2$ cd workspace/deploy/
+-bash-4.2$ ls
+deploy.retry  deploy.yml
+
+-bash-4.2$ cd workspace/deploy/
+-bash-4.2$ ls
+deploy.retry  deploy.yml
+-bash-4.2$ cp /etc/nginx/
+conf.d/                 koi-utf                 scgi_params
+default.d/              koi-win                 scgi_params.default
+fastcgi.conf            mime.types              uwsgi_params
+fastcgi.conf.default    mime.types.default      uwsgi_params.default
+fastcgi_params          nginx.conf              win-utf
+fastcgi_params.default  nginx.conf.default      
+-bash-4.2$ cp /etc/nginx/conf.d/blue.conf ~/workspace/
+build/     clone/     deploy/    job_teste/ testes/    
+-bash-4.2$ cp /etc/nginx/conf.d/blue.conf ~/work
+workflow-libs/ workspace/     
+-bash-4.2$ cp /etc/nginx/conf.d/blue.conf ~/workspace/
+build/     clone/     deploy/    job_teste/ testes/    
+-bash-4.2$ cp /etc/nginx/conf.d/blue.conf ~/workspace/deploy/blue.conf
+-bash-4.2$ pwd
+/var/lib/jenkins/workspace/deploy
+-bash-4.2$ ls
+blue.conf  deploy.retry  deploy.yml
+-bash-4.2$ cp blue.conf green.conf
+-bash-4.2$ ls
+blue.conf  deploy.retry  deploy.yml  green.conf
+
+sabado@ada03:~$ ssh -i Downloads/curso_sabado.pem ubuntu@35.160.158.21
