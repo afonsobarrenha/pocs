@@ -11,7 +11,9 @@ vagrant ssh ubuntu2 -c "ip a"
 ```
 ## Configurando o ubuntu1
 ```
+sudo su -
 ssh-keygen
+ssh-keygen -b 2048 -t rsa -f /tmp/sshkey -q -N ""
 cat .ssh/id_rsa.pub >> .ssh/authorized_keys
 ```
 
