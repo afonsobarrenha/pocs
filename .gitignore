@@ -1,1 +1,3 @@
 deployment/devops/4linux/.vagrant/
+deployment/devops/volumes/mysql/
+implementation/logs/
