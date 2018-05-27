@@ -1,0 +1,62 @@
+---
+- name: Configuração inicial de uma estação de trabalho Ubuntu (16.04)
+  hosts: dev
+  tasks:
+
+  - name: Instalando pacotes padrão de Desenvolvimento
+    become: yes
+    apt:
+      name: "{{item}}"
+      state: present
+    with_items:
+    - vim
+    - git
+    - git-flow
+    - openjdk-8-jdk
+    - maven
+    - virtualbox
+    - vagrant
+
+  - name: Instalando dependências do VSCode
+    become: yes
+    apt:
+      name: '{{ item }}'
+      state: present
+    with_items:
+    - ca-certificates
+    - apt-transport-https
+  
+  - name: Instalando key do VSCode
+    become: yes
+    apt_key:
+      url: 'https://packages.microsoft.com/keys/microsoft.asc'
+      state: present
+
+  - name: Instalando repo do VSCode
+    become: yes
+    apt_repository:
+      repo: deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main
+      state: present
+
+  - name: Instalando VSCode
+    become: yes
+    apt:
+      name: code
+      state: present
+
+  - git:
+      repo: https://github.com/afonsobarrenha/pocs.git
+      dest: /home/afonsobarrenha/projects/pocs
+      version: develop
+
+  - name: Configurando o atributo user.name do Git
+    command: git config --global user.name afonsobarrenha
+
+  - name: Configurando o atributo user.email do Git
+    command: git config --global user.email afonsobarrenha@gmail.com
+
+  - file:
+      path: /home/afonsobarrenha/projects/pocs
+      recurse: yes
+      owner: afonsobarrenha
+      mode: a+rwx
