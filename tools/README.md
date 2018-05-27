@@ -18,14 +18,17 @@
   - ctrl shift e: abre aba lateral
   - ctrl shift o: abre aba horizontal
   - ctrl d: fecha aba
+  - **Node** v8.11.2
  
 ## Configuração utilizada (baseado no [usesthis.com](usesthis.com))
 ### *Who are you, and what do you do?*
-> Olá,  sou o **Afonso Henrique Barrenha** (afonsobarrenha), e atualmente trabalho na **Indra Brasil**, como **DevOps Coach** no banco Santander. Anteriormente fui Gerente de Desenvolvimento / Scrum Master na telecom Vivo. Sou apaixonado por desenvolvimento de software, sempre estudando para me aperfeiçoar, e com isso me encaixando no mundo DevOps, onde há essa junção de Desenvolvimento e Operações, Ferramentas, Processos e Pessoas.
+> Olá,  sou o **Afonso Henrique Barrenha** (afonsobarrenha), e atualmente trabalho na **Indra Brasil**, como **DevOps Coach** no banco Santander. Anteriormente fui Gerente de Desenvolvimento / Scrum Master na telecom Vivo, e mais anteriormente ainda fui Coordenador de Projeto / Arquiteto Java. Sou apaixonado por desenvolvimento de software, sempre estudando para me aperfeiçoar, e com isso me encaixando no mundo DevOps, onde há essa junção de Desenvolvimento e Operações, Ferramentas, Processos e Pessoas.
 ### *What hardware do you use?*
 > Atualmente me considero um pouco desprovido de recursos, mas essa máquina está me atendendo perfeitamente até então ;)
-> - Notebook **Dell Vostro 3500**, 15', com Intel Core i5 @ 2.40GHz × 4, 1 TB de Hard Disk e 8 GB de RAM Memory
+> - ~~Notebook **Dell Vostro 3500**, 15', Intel Core i5 @ 2.40GHz × 4, 1 TB de Hard Disk e 8 GB de RAM Memory~~
+> - Notebook **Dell Inspiron 14 7000**, 14', Intel Core i7 8th Gen, 128 GB SSD HD + 1 TB HD, 16 GB de RAM Memory
 ### *And what software?*
-> Rodo dual boot, programando em um **Ubuntu 17.10 64-bit**. Os softwares utilizados estão listados na primeira seção do artigo. O Windows é para uso do Office :P
+> Rodo dual boot, programando em um **Ubuntu ~~17.10~~ 18.04 64-bit**. Os softwares utilizados estão listados na primeira seção do artigo. O Windows é para uso do Office :P
 ### *What would be your dream setup?*
-> Olha, muitas idéias heim :D. Recentemente dei meu desktop (já bem antigo) para minha mãe S2. Desde então venho namorando um setup novo, ASUS e AMD o_0, com um processador novo, placa de vídeo descente, HDs SSDs e muita memória RAM. Mas novamente, esse notebook vêm me atendendo excepcionalmente bem. Em grande parte atribuo isso ao VS Code que estou utilizando em 100% do tempo, contra 20% do Eclipse. Um software excepcional, extremamente leve e extremamente completo.
+> Olha, muitas idéias heim :D. Recentemente dei meu desktop (já bem antigo) para minha mãe S2. Desde então venho namorando um setup novo, ASUS e AMD o_0, com um processador novo, placa de vídeo descente, HDs SSDs e muita memória RAM. ~~Mas novamente, esse notebook vêm me atendendo excepcionalmente bem. Em grande parte atribuo isso ao VS Code que estou utilizando em 100% do tempo, contra 20% do Eclipse. Um software excepcional, extremamente leve e extremamente completo.~~
+> Primeiro upgrade feito! Estou em um Dell novo, com bastante memória e processador de sobra. Bora pagar ele agora! :P
