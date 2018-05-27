@@ -26,8 +26,8 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 - [ ] OpenShift
 
 #### 701.3 Source Code Management (weight: 5)
-- [x] ~~git~~
-- [x] ~~.gitignore~~
+- [x] git
+- [x] .gitignore
 
 #### 701.4 Continuous Integration and Continuous Delivery (weight: 5)
 - [ ] Step, Node, Stage
@@ -39,13 +39,13 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 ### Topic 702: Container Management
 
 #### 702.1 Container Usage (weight: 7)
-- [x] ~~docker~~
-- [x] ~~Dockerfile~~
-- [x] ~~.dockerignore~~
+- [x] docker
+- [x] Dockerfile
+- [x] .dockerignore
 
 #### 702.2 Container Deployment and Orchestration (weight: 5)
-- [x] ~~docker-compose~~
-- [x] ~~kubectl~~
+- [x] docker-compose
+- [x] kubectl
 
 #### 702.3 Container Infrastructure (weight: 4)
 - [ ] docker-machine
@@ -53,8 +53,8 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 ### Topic 703: Machine Deployment
 
 #### 703.1 Virtual Machine Deployment (weight: 4)
-- [x] ~~vagrant~~
-- [x] ~~Vagrantfile~~
+- [x] vagrant
+- [x] Vagrantfile
 
 #### 703.2 Cloud Deployment (weight: 2)
 *(Não são listadas ferramentas)*
@@ -66,14 +66,14 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 
 #### 704.1 Ansible (weight: 8)
 - [ ] ansible.cfg
-- [x] ~~ansible-playbook~~
+- [x] ansible-playbook
 - [ ] ansible-vault
-- [x] ~~ansible-galaxy~~
+- [x] ansible-galaxy
 - [ ] ansible-doc
  
 #### 704.2 Other Configuration Management Tools (weight: 2)
 - [ ] Manifest, Class, Recipe, Cookbook
-- [ ] puppet
+- [x] puppet
 - [ ] chef
 - [ ] chef-solo
 - [ ] chef-client
@@ -103,16 +103,16 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 
 ## 4Linux
 ### Infraestrutura ágil com práticas DEVOPS usando Docker, Git, Jenkins, Puppet e Ansible
-- [x] ~~Automação Com Vagrant/Ansible~~
-- [ ] Administrando e operando o Docker
-- [x] ~~Gerencia de configuração com Puppet~~
-- [ ] Versionamento com Gitlab
-- [ ] Integração com Jenkins
-- [ ] Rundeck
+- [x] Automação Com Vagrant/Ansible
+- [x] Administrando e operando o Docker
+- [x] Gerencia de configuração com Puppet
+- [x] Versionamento com Gitlab
+- [x] Integração com Jenkins
+- [x] Rundeck
 
 ### \(Opcional) Exin DevOps Master
 - [ ] Adoção DevOps
-- [ ] Planejamento, requisitos e projeto
+- [ ] Planejamento, Requisitos e Projeto
 - [ ] Desenvolvimento e Implantação (Deployment)
 - [ ] Operação e Escalonamento
 - [ ] Fim da vida
@@ -120,27 +120,27 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 ## Alura
 
 ### Carreira Desenvolvedor Java Web com Spring
-- [x] ~~Maven~~
-- [x] ~~Spring Boot~~
+- [x] Maven
+- [x] Spring Boot
 - [ ] Spring MVC I
 - [ ] Spring MVC II
 - [ ] Java e JPA I
 - [ ] Java e JPA II
-- [x] ~~\(Opcional) Logback~~
+- [x] \(Opcional) Logback
 - [ ] **_\(Opcional) Mockito (em andamento)_**
 - [ ] **_\(Opcional) TDD (em andamento)_**
-- [x] ~~\(Wikipedia) Cucumber~~
+- [x] \(Wikipedia) Cucumber
 
 ### Carreira Engenheiro DevOps
-- [x] ~~Linux I~~
-- [x] ~~Linux II~~
-- [x] ~~Git~~
-- [x] ~~\(Opcional) Git Flow Extension~~
-- [x] ~~Docker~~
+- [x] Linux I
+- [x] Linux II
+- [x] Git
+- [x] \(Opcional) Git Flow Extension
+- [x] Docker
 - [ ] **_Vagrant (em andamento)_**
 - [ ] **_Ansible (em andamento)_**
 - [ ] **_Integração Contínua (em andamento)_**
-- [x] ~~Kubernetes~~
+- [x] Kubernetes
 - [ ] Amazon AWS
 - [ ] Amazon S3
 - [ ] Amazon EC2
@@ -149,7 +149,7 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [ ] MEAN Stack
 - [ ] Angular 2 I
 - [ ] Angular 2 II
-- [ ] Node.js
+- [ ] **_Node.js (em andamento)_**
 - [ ] Node.js e HTTP
 - [ ] MongoDB
 
@@ -170,24 +170,24 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 ## (Opcional) Docker Samples
 
 ### Tutorial Labs
-- [x] ~~Docker for Beginners~~
+- [x] Docker for Beginners
 - [ ] Configuring developer tools and programming languages
 - [ ] Live Debugging Java with Docker
-- [x] ~~Docker for Java Developers~~
+- [x] Docker for Java Developers
 - [ ] Docker Security
 - [ ] Best practices for writing Dockerfiles
 
 ## (Opcional) Spring Guides
 
 #### Getting Started Guides
-- [x] ~~Building an Application with Spring Boot~~
-- [x] ~~Testing the Web Layer~~
-- [x] ~~Spring Boot with Docker~~
+- [x] Building an Application with Spring Boot
+- [x] Testing the Web Layer
+- [x] Spring Boot with Docker
 - [ ] Accessing Data with JPA
 - [ ] Accessing Relational Data using JDBC with Spring
 - [ ] Managing Transactions
 - [ ] Securing a Web Application
-- [x] ~~Building a RESTful Web Service~~
+- [x] Building a RESTful Web Service
 - [ ] Consuming a RESTful Web Service
 - [ ] Building a RESTful Web Service with Spring Boot Actuator
 - [ ] Consuming a RESTful Web Service with AngularJS
