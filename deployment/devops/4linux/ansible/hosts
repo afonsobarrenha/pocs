@@ -1,0 +1,4 @@
+[servers]
+172.17.177.40   #ansible-server
+[app-servers]
+172.17.188.1   #app-server-1

@@ -1,2 +1,0 @@
-[docker]
-192.168.33.2 ansible_user=vagrant ansible_ssh_private_key_file="/home/afonsobarrenha/projetos/pocs/deployment/devops/vagrant/.vagrant/machines/docker/virtualbox/private_key"

@@ -1,0 +1,68 @@
+---
+- name: Desafio
+  hosts: all
+  tasks:
+
+  - name: removendo nginx
+    apt: name=nginx state=absent
+    when: ansible_distribution == 'Ubuntu'
+
+  - name: removendo nginx no centos
+    yum: name=nginx state=absent
+    when: ansible_distribution == "CentOS"
+
+  - name: instalando os pacotes
+    apt:
+      name: "{{item}}"
+      state: present
+    with_items:
+    - apache2
+    - libapache2-mod-php7.0
+    - php7.0
+    when: ansible_distribution == "Ubuntu"
+
+  - name: instalando os pacotes no centos
+    yum:
+      name: "{{ item }}"
+      state: present
+    with_items: [ httpd, php ]
+    when: ansible_distribution == "CentOS"
+
+  - name: habilitando o php para apache
+    command: a2enmod php7.0
+    when: ansible_distribution == 'Ubuntu'
+
+  - name: copiando o index.php
+    copy:
+      src: files/index.php
+      dest: /var/www/html/
+
+  - name: bregueta o apache2
+    command: echo 'eita1'    
+    notify: reinicia apache2
+    when: ansible_distribution == 'Ubuntu'
+
+  - name: bregueta o nginx 
+    command: echo 'eita2'
+    notify: stopa nginx
+    when: ansible_distribution == 'Ubuntu'
+
+  - name: bregueta o httpd
+    command: echo 'eita3'
+    notify: reinicia httpd
+
+  handlers:
+  - name: reinicia apache2
+    service:
+      name: apache2
+      state: restarted
+  
+  - name: stopa nginx
+    service:
+      name: nginx
+      state: stopped
+
+  - name: reinicia httpd
+    service:
+      name: httpd
+      state: restarted
