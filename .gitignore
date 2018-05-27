@@ -5,3 +5,5 @@ tools/pocs-workspace.code-workspace
 implementation/Node/volume-exemplo/node_modules/
 deployment/devops/vagrant/ubuntu-xenial-16.04-cloudimg-console.log
 deployment/devops/vagrant/.vagrant/
+deployment/devops/4linux/.vagrant/
+deployment/devops/4linux/ubuntu-bionic-18.04-cloudimg-console.log
