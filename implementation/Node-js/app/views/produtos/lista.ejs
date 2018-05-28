@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <table border=1>
+            <tr>
+                <td>id</td>
+                <td>nome</td>
+                <td>email</td>
+                <td>telefone</td>
+            </tr>
+            <%for(var i=0;i<lista.length;i++) {%>
+                <tr>
+                    <td><%=lista[i].id%></td>
+                    <td><%=lista[i].nome%></td>
+                    <td><%=lista[i].email%></td>
+                    <td><%=lista[i].telefone%></td>
+                </tr>
+            <%}%>
+            <tr>
+            </tr>
+        </table>
+    </body>
+</html>
