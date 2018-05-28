@@ -6,22 +6,14 @@ module.exports = function(app){
     app.get("/produtos",function(req, res) {
         console.log(">> Request in /produtos'");
         
-        var mysql = require('mysql');
-
-        console.log("> mysql.createConnection...'");
-        var connection = mysql.createConnection({
-            host: "localhost",
-            user: "lista_usr",
-            password : "lista_pwd",
-            database: "listavip",
-        });
-
+        var connection = app.infra.connectionFactory();
+        
         connection.query('select * from convidado', function(err, results){
-            console.log("> connection.query...'");
+            console.log(">> /produtos/lista - render'");
             res.render('produtos/lista', {lista:results});
         });
 
-        console.log("> connection.end");
+        console.log(">> /produtos - ending Connection");
         connection.end();
     });
 }
