@@ -1,5 +1,4 @@
 FROM openjdk:8-jdk
-#FROM openjdk:8-jdk-alpine
 
 LABEL maintainer="afonsobarrenha@gmail.com"
 
