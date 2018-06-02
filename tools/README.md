@@ -18,13 +18,13 @@
   - ctrl shift e: abre aba lateral
   - ctrl shift o: abre aba horizontal
   - ctrl d: fecha aba
-  - **Node** v8.11.2
+- **Node** v8.11.2
  
 ## Configuração utilizada (baseado no [usesthis.com](usesthis.com))
 ### *Who are you, and what do you do?*
 > Olá,  sou o **Afonso Henrique Barrenha** (afonsobarrenha), e atualmente trabalho na **Indra Brasil**, como **DevOps Coach** no banco Santander. Anteriormente fui Gerente de Desenvolvimento / Scrum Master na telecom Vivo, e mais anteriormente ainda fui Coordenador de Projeto / Arquiteto Java. Sou apaixonado por desenvolvimento de software, sempre estudando para me aperfeiçoar, e com isso me encaixando no mundo DevOps, onde há essa junção de Desenvolvimento e Operações, Ferramentas, Processos e Pessoas.
 ### *What hardware do you use?*
-> Atualmente me considero um pouco desprovido de recursos, mas essa máquina está me atendendo perfeitamente até então ;)
+> ~~Atualmente me considero um pouco desprovido de recursos, mas essa máquina está me atendendo perfeitamente até então ;)~~
 > - ~~Notebook **Dell Vostro 3500**, 15', Intel Core i5 @ 2.40GHz × 4, 1 TB de Hard Disk e 8 GB de RAM Memory~~
 > - Notebook **Dell Inspiron 14 7000**, 14', Intel Core i7 8th Gen, 128 GB SSD HD + 1 TB HD, 16 GB de RAM Memory
 ### *And what software?*
