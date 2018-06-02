@@ -127,8 +127,8 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [ ] Java e JPA I
 - [ ] Java e JPA II
 - [x] \(Opcional) Logback
-- [ ] **_\(Opcional) Mockito (em andamento)_**
-- [ ] **_\(Opcional) TDD (em andamento)_**
+- [x] \(Opcional) Mockito
+- [x] \(Opcional) TDD
 - [x] \(Wikipedia) Cucumber
 
 ### Carreira Engenheiro DevOps
