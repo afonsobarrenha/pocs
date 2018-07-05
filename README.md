@@ -233,4 +233,4 @@ _Obs: Estou usando a estrutura de pastas apresentada no livro **Continuous Integ
 - [Udemy](https://www.udemy.com/)
 - [4Linux](https://www.4linux.com.br/)
 - [Google Cloud Platform](https://cloud.google.com/sdk/auth_success)
-- [README Deployment](deployment/README.MD)
+- [README Deployment](deployment/)
