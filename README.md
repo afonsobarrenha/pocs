@@ -135,11 +135,10 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [x] Linux I
 - [x] Linux II
 - [x] Git
-- [x] \(Opcional) Git Flow Extension
 - [x] Docker
-- [ ] **_Vagrant (em andamento)_**
+- [x] Vagrant
 - [ ] **_Ansible (em andamento)_**
-- [ ] **_Integração Contínua (em andamento)_**
+- [x] Integração Contínua
 - [x] Kubernetes
 - [ ] Amazon AWS
 - [ ] Amazon S3
