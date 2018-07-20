@@ -135,13 +135,12 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [x] Linux I
 - [x] Linux II
 - [x] Git
-- [x] \(Opcional) Git Flow Extension
 - [x] Docker
-- [ ] **_Vagrant (em andamento)_**
-- [ ] **_Ansible (em andamento)_**
-- [ ] **_Integração Contínua (em andamento)_**
+- [x] Vagrant
+- [x] Ansible
+- [x] Integração Contínua
 - [x] Kubernetes
-- [ ] Amazon AWS
+- [ ] **_Amazon AWS (em andamento)_**
 - [ ] Amazon S3
 - [ ] Amazon EC2
 
@@ -149,7 +148,7 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [ ] MEAN Stack
 - [ ] Angular 2 I
 - [ ] Angular 2 II
-- [ ] **_Node.js (em andamento)_**
+- [ ] Node.js
 - [ ] Node.js e HTTP
 - [ ] MongoDB
 

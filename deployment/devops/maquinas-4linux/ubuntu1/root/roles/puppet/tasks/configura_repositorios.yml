@@ -1,9 +1,0 @@
-- name: configurando o repositório puppet no centos7
-  yum:
-    name: https://yum.puppet.com/puppet5/puppet5-release-el-7.noarch.rpm
-  when: ansible_distribution == 'CentOS'
-
-- name: configurando o repositório puppet no ubuntu passo 1
-  apt: 
-    deb: https://apt.puppetlabs.com/puppet5-release-xenial.deb
-  when: ansible_distribution == 'Ubuntu'

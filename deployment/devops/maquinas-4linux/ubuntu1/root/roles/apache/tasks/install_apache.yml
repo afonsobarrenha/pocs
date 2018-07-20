@@ -1,8 +1,0 @@
-- name: instalando o apache no Ubuntu
-  apt: name=apache2 state=present
-  when: ansible_distribution == 'Ubuntu'
-
-- name: iniciando o apache2 no Ubuntu
-  service: name=apache2 state=restarted
-  when: ansible_distribution == 'Ubuntu'
-
