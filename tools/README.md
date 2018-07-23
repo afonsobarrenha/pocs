@@ -21,6 +21,7 @@
   - ctrl shift o: abre aba horizontal
   - ctrl d: fecha aba
 - **Node** v8.11.2
+- **Vagrant** 2.0.2
 - **Vagrant Box** "ubuntu/xenial64"
 - **VirtualBox** 4.3.36
 
