@@ -1,4 +1,0 @@
-*.log
-*.retry
-deployment/devops/ansible/.vagrant/
-deployment/devops/vagrant/.vagrant/
