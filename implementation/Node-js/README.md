@@ -1,6 +1,6 @@
 # Node-js
 
-## Comandos comuns
+## Comandos
 
 ```
 node app.js #chamada "pura"
