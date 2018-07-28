@@ -5,6 +5,16 @@
 - **Java** version "1.8.0_162"
 - **Apache Maven** 3.5.2
 - **Git** version 2.16.2.windows.1
+    - git flow init
+    - git flow feature start MYFEATURE
+        - git flow feature publish MYFEATURE
+        - git flow feature finish MYFEATURE
+    - git flow release start RELEASE
+        - git flow release publish RELEASE
+        - git flow release finish RELEASE
+        - git push --tags
+    - git flow hotfix start VERSION
+        - git flow hotfix finish VERSION
 - **Visual Studio Code** - Version ~~1.19.3~~ 1.21.1
 - **Eclipse** - ~~Oxygen.1a Release (4.7.1a)~~ Oxygen.3 Release (4.7.3)
 - **Google Chrome** - Version 65.0.3325.181 (Official Build) (64-bit)**
