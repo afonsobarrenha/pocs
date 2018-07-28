@@ -1,4 +1,4 @@
-# Projeto SpringBoot
+# SpringBoot
 Projeto Maven com Spring Boot. Será base para as POCs de Spring, e também nosso projeto Back-end.
 
 ## BD

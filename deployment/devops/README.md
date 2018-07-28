@@ -1,4 +1,13 @@
-# Projeto Devops
+# Devops
+
+## ansible
+
+Pasta contendo os scripts ansible para configuração das máquinas.
+
+## docker
+
+Pasta contendo o arquivo docker-compose, que descreve a interação entre os containers da aplicação e do banco de dados. O arquivo Dockerfile fica dentro do diretório do projeto, pois sua configuração e responsabilidade é da equipe de Desenvolvimento.
+
 Pasta contendo os arquivos de configuração Docker que iremos utilizar.
 
 Foi montado um *docker-compose*, listando os containers utilizados na aplicação. São eles um container *open-jdk*, e um *my-sql*. Foi utilizado um script externo (*wait-for-it.sh*) para sincronizar a subida, primeiro do bd-container, depois o container do app-container.
@@ -23,8 +32,8 @@ Essa configuração é setada para o **Profile Default** do Spring Boot. Para o 
 -Dspring.profiles.active=pro /springboot.jar
 ```
 
-## Comandos Docker
-### Builds
+### Comandos Docker
+#### Builds
 ```
 docker ps -a
 docker rm/rmi [id]
@@ -38,7 +47,7 @@ docker-compose up
 docker-compose down
 ```
 
-### Runs
+#### Runs
 ```
 docker run/start/stop
 docker run -it --rm ubuntu #interativo/terminal/autoremove
@@ -48,7 +57,12 @@ docker run -d -p 12345:80 -e AUTHOR="afonsobarrenha" dockersamples/static-site #
 docker run -it -v $(pwd)/volumes/var/www:/var/www ubuntu
 ```
 
-## Comandos Kubernetes
+## kubernetes
+
+Pasta contendo os arquivos de configuração do Kubernetes, que está sendo usado para o deploy e gerenciamento básico dos containers na nuvem.
+
+### Comandos Kubernetes
+
 ```
 minikube start
 minikube dashboard
@@ -78,7 +92,8 @@ kubectl delete service --all &&
 minikube stop
 ```
 
-## Comandos Google Cloud SDK
+### Comandos Google Cloud SDK
+
 ```
 gcloud container clusters get-credentials springboot-cluster-1 --zone southamerica-east1-c --project springboot-202401
 gcloud init
@@ -86,6 +101,19 @@ gcloud auth list
 gcloud config list
 kubectl config get-contexts
 kubectl scale deployment springboot-deployment --replicas=3
+```
+
+## vagrant
+
+Pasta contendo os scripts para provisionamento das máquinas virtuais.
+
+### Comandos Vagrant e Puppet
+
+```
+sudo puppet apply /vagrant/manifests/web.pp
+ssh -i "xxx.pem" ubuntu@ec2-34-215-235-60.us-west-2.compute.amazonaws.com
+vagrant plugin install vagrant-aws
+vagrant up --provider=aws
 ```
 
 ## FAQ

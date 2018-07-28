@@ -1,2 +1,4 @@
+*.log
+*.retry
 deployment/devops/ansible/.vagrant/
-deployment/devops/ansible/provisioning.retry
+deployment/devops/vagrant/.vagrant/
