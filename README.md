@@ -159,9 +159,10 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [x] Ansible
 - [x] Integração Contínua
 - [x] Kubernetes
-- [ ] **_Amazon AWS (em andamento)_**
-- [ ] Amazon S3
-- [ ] Amazon EC2
+- [x] AWS S3
+- [ ] **_AWS EC2 (em andamento)_**
+- [ ] AWS ECS - Deploy Docker
+- [ ] AWS - Deploy SpringBoot
 
 ### Carreira Desenvolvedor FullStack MEAN
 
