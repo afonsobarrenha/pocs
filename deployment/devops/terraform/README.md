@@ -1,0 +1,9 @@
+# terraform
+
+## Comandos
+```
+terraform init
+terraform apply
+terraform show
+terraform destroy
+```

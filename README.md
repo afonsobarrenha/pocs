@@ -241,6 +241,19 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [ ] Armazene e gerencie dados usando um banco de dados MySQL com o Google Cloud SQL.
 - [ ] Disponibilize aplicativos e serviços para seus usuários com o Google Cloud DNS.
 
+## (Opcional) HashiCorp Terraform Getting Started
+- [x] Install Terraform
+- [x] Build Infrastructure
+- [x] Change Infrastructure
+- [x] Destroy Infrastructure
+- [ ] Resource Dependencies
+- [ ] Provision
+- [ ] Input Variables
+- [ ] Output Variables
+- [ ] Modules
+- [ ] Remote Backends
+- [ ] Next Steps
+
 _Obs: Estou usando a estrutura de pastas apresentada no livro **Continuous Integration**, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas. Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado, mas em contrapartida dá uma visão completa de tudo que está envolvido no projeto._
 
 - - -
@@ -260,3 +273,4 @@ _Obs: Estou usando a estrutura de pastas apresentada no livro **Continuous Integ
 - [4Linux](https://www.4linux.com.br/)
 - [Google Cloud Platform](https://cloud.google.com/sdk/auth_success)
 - [README Deployment](deployment/)
+- [Terraform Getting Started](https://www.terraform.io/intro/getting-started/install.html)
