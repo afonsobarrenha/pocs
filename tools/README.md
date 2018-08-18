@@ -34,6 +34,9 @@
 - **Vagrant** 2.0.2
 - **Vagrant Box** "ubuntu/xenial64"
 - **VirtualBox** 4.3.36
+- **Terraform v0.11.8**
+    - /etc/environment
+        - PATH="...:/home/afonsobarrenha/Documents/Projects/pocs/tools"
 
 ## Configuração utilizada (baseado no [usesthis.com](usesthis.com))
 

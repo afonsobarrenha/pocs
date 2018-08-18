@@ -14,6 +14,9 @@ Pasta contendo o arquivo docker-compose, que descreve a interação entre os con
 
 Pasta contendo os arquivos de configuração do Kubernetes, que está sendo usado para o deploy e gerenciamento básico dos containers na nuvem.
 
+## terraform
+Pasta contendo os arquivos Terraform para provisionamento das mãquinas AWS EC2.
+
 ## vagrant
 
 Pasta contendo os scripts para provisionamento de máquinas virtuais, utilizando Puppet.
