@@ -2,3 +2,4 @@ tools/terraform
 deployment/devops/terraform/getting-started/terraform.tfstate
 deployment/devops/terraform/getting-started/terraform.tfstate.backup
 deployment/devops/terraform/getting-started/.terraform
+deployment/devops/terraform/getting-started/.terraform.tfstate.lock.info

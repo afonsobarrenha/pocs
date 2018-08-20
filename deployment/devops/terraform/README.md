@@ -1,5 +1,10 @@
 # terraform
 
+## AWS
+```
+aws configure
+```
+
 ## Comandos
 ```
 terraform init

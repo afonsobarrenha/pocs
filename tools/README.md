@@ -37,6 +37,11 @@
 - **Terraform v0.11.8**
     - /etc/environment
         - PATH="...:/home/afonsobarrenha/Documents/Projects/pocs/tools"
+- **AWS CLI**
+    - sudo apt install python-pip
+    - pip install awscli --upgrade --user
+    - /etc/environment
+        - PATH="...:/home/afonsobarrenha/.local/bin"
 
 ## Configuração utilizada (baseado no [usesthis.com](usesthis.com))
 
