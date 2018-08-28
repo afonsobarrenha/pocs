@@ -14,7 +14,9 @@
         - git flow release finish RELEASE
         - git push --tags
     - git flow hotfix start VERSION
+        - git flow hotfix publish RELEASE
         - git flow hotfix finish VERSION
+        - git push --tags
 - **Visual Studio Code** - Version ~~1.19.3~~ 1.21.1
 - **Eclipse** - ~~Oxygen.1a Release (4.7.1a)~~ Oxygen.3 Release (4.7.3)
 - **Google Chrome** - Version 65.0.3325.181 (Official Build) (64-bit)**
