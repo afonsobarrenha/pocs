@@ -1,6 +1,8 @@
-# POCs - Provas de Conceito (v1.15.1)
+# POCs - Provas de Conceito (v1.15.2)
 
-> Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Nessa lista estão os Objetivos da certificação _LPIC-OT Exam 701: DevOps Tools Engineer (versão 1.0)_, e os cursos que tenho para fazer. Conforme for concluindo esses cursos, vou atualizando os Objetivos da certificação alcançados. Vários cursos **_em andamento_** indicam que estou com mais tempo de estudar do que colocar em prática os exercícios :) Mãos à obra!
+> Olá, minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Nessa lista estão os Objetivos da certificação _LPIC-OT Exam 701: DevOps Tools Engineer (versão 1.0)_, relacionada ao meu trabalho atual, e os cursos que tenho para fazer. Conforme for concluindo esses cursos, **vou atualizando os Objetivos da certificação alcançados**. Mãos à obra!
+
+> Obs: vários cursos **_em andamento_** indicam que estou com mais tempo de estudar do que colocar em prática os exercícios :) 
 
 - - -
 
@@ -36,7 +38,7 @@
 
 - [x] Step, Node, Stage
 - [ ] Jenkins SDL
-- [ ] Jenkinsfile
+- [x] Jenkinsfile
 - [ ] Declarative Pipeline
 - [x] Blue-green and canary deployment
 
@@ -113,7 +115,7 @@
 
 - - -
 
-Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger algum dos objetivos acima, que também serão "checkados" junto com o item do curso abaixo.
+> Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger algum dos objetivos acima, que também serão "checkados" junto com o item do curso abaixo.
 
 ## 4Linux
 
@@ -177,8 +179,8 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 
 - [ ] Master Jenkins CI for DevOps and Developers
 - [ ] Docker Technology for DevOps and Developers
-- [ ] AWS Certified Developer
 - [ ] AWS Certified Solutions Architect
+- [ ] AWS Certified Developer
 - [ ] AWS Certified SysOps Administrator
 - [ ] \(Opcional) Ethical Hacking
 
@@ -230,16 +232,8 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [ ] Spring Security and Angular
 - [ ] Spring Boot and OAuth2
 
-## (Opcional) Google Cloud Platform Tutorials
 
-- [ ] Crie um app da Web e hospede-o no Google App Engine.
-- [ ] Inicie grandes clusters de computação no Google Compute Engine.
-- [ ] Armazene grandes quantidades de dados no Google Cloud Storage.
-- [ ] Analise Big Data na nuvem com o Google BigQuery.
-- [ ] Armazene e gerencie dados usando um banco de dados MySQL com o Google Cloud SQL.
-- [ ] Disponibilize aplicativos e serviços para seus usuários com o Google Cloud DNS.
-
-_Obs: Estou usando a estrutura de pastas apresentada no livro **Continuous Integration**, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas. Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado, mas em contrapartida dá uma visão completa de tudo que está envolvido no projeto._
+> Obs: Estou usando a estrutura de pastas apresentada no livro **Continuous Integration**, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas. Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado, mas em contrapartida dá uma visão completa de tudo que está envolvido no projeto.
 
 - - -
 
