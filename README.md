@@ -10,11 +10,11 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 
 #### 701.1 Modern Software Development (weight: 6)
 
-- [ ] REST, JSON
-- [ ] Service Orientated Architectures (SOA)
-- [ ] Microservices
-- [ ] Immutable servers
-- [ ] Loose coupling
+- [x] REST, JSON
+- [x] Service Orientated Architectures (SOA)
+- [x] Microservices
+- [x] Immutable servers
+- [x] Loose coupling
 - [ ] Cross site scripting, SQL injections, verbose error reports, API authentication, consistent enforcement of transport encryption
 - [ ] CORS headers and CSRF tokens
 - [ ] ACID properties and CAP theorem
@@ -25,7 +25,7 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 - [ ] OpenStack Trove
 - [ ] OpenStack Zaqar
 - [ ] CloudFoundry
-- [ ] OpenShift
+- [x] OpenShift
 
 #### 701.3 Source Code Management (weight: 5)
 
@@ -34,11 +34,11 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 
 #### 701.4 Continuous Integration and Continuous Delivery (weight: 5)
 
-- [ ] Step, Node, Stage
+- [x] Step, Node, Stage
 - [ ] Jenkins SDL
 - [ ] Jenkinsfile
 - [ ] Declarative Pipeline
-- [ ] Blue-green and canary deployment
+- [x] Blue-green and canary deployment
 
 ### Topic 702: Container Management
 
@@ -55,7 +55,7 @@ Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma 
 
 #### 702.3 Container Infrastructure (weight: 4)
 
-- [ ] docker-machine
+- [x] docker-machine
 
 ### Topic 703: Machine Deployment
 
@@ -161,17 +161,15 @@ Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger al
 - [x] Kubernetes
 - [x] AWS S3
 - [ ] **_AWS EC2 (em andamento)_**
-- [ ] AWS ECS - Deploy Docker
-- [ ] AWS - Deploy SpringBoot
+- [ ] **_AWS - Deploy SpringBoot (em andamento)_**
+- [ ] **_AWS ECS - Deploy Docker (em andamento)_**
 
-### Carreira Desenvolvedor FullStack MEAN
+### Carreira Machine Learning
 
-- [ ] MEAN Stack
-- [ ] Angular 2 I
-- [ ] Angular 2 II
-- [ ] Node.js
-- [ ] Node.js e HTTP
-- [ ] MongoDB
+- [ ] **_Introdução ao sistemas de recomendações (em andamento)_**
+- [ ] Introdução a classificação
+- [ ] Avançando com tipos diferentes de classificação
+- [ ] Aprendizado supervisionado
 
 ## Udemy
 
