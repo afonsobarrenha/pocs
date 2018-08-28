@@ -1,6 +1,6 @@
 # POCs - Provas de Conceito (v1.15.1)
 
-Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Nessa lista estão os Objetivos da certificação _LPIC-OT Exam 701: DevOps Tools Engineer (versão 1.0)_, e os cursos que tenho para fazer. Conforme for concluindo esses cursos, vou atualizando os Objetivos da certificação alcançados. Mãos à obra!
+> Minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Nessa lista estão os Objetivos da certificação _LPIC-OT Exam 701: DevOps Tools Engineer (versão 1.0)_, e os cursos que tenho para fazer. Conforme for concluindo esses cursos, vou atualizando os Objetivos da certificação alcançados. Vários cursos **_em andamento_** indicam que estou com mais tempo de estudar do que colocar em prática os exercícios :) Mãos à obra!
 
 - - -
 
