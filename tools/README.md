@@ -42,6 +42,8 @@
     - pip install awscli --upgrade --user
     - /etc/environment
         - PATH="...:/home/afonsobarrenha/.local/bin"
+- **Mermaid**
+    - https://mermaidjs.github.io/mermaid-live-editor/ para a criação dos Diagramas
 
 ## Configuração utilizada (baseado no [usesthis.com](usesthis.com))
 

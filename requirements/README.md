@@ -8,4 +8,6 @@ graph LR
     B --> D{Rhombus}
     C --> D
 
-![Image of Yaktocat](mermaid-diagram-20180828222214.svg)
+![Mermaid](mermaid-diagram-20180828222214.svg)
+
+![PlantUML](http://www.plantuml.com/plantuml/png/SoWkIImgAStDuN9CoyyhpbVGjLDmISpBJCr9LB1IoC_aSaZDIm5A0m00)
