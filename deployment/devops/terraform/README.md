@@ -12,3 +12,5 @@ terraform apply
 terraform show
 terraform destroy
 ```
+
+https://github.com/aws-samples/apn-blog/tree/master/terraform_demo
