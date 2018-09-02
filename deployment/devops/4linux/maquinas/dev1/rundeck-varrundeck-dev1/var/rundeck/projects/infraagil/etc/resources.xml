@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <node name="localhost" description="Rundeck server node" tags="" hostname="localhost" osArch="amd64" osFamily="unix" osName="Linux" osVersion="3.10.0-693.21.1.el7.x86_64" username="rundeck"/>
+  <node name="dev2" description="dev2 - maquina que tem ansible" tags="" hostname="192.168.200.196" osArch="amd64" osFamily="unix" osName="Linux" osVersion="3.10.0-693.21.1.el7.x86_64" username="root"/>
+
+</project>

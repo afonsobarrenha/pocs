@@ -163,8 +163,8 @@
 - [x] Kubernetes
 - [x] AWS S3
 - [ ] **_AWS EC2 (em andamento)_**
-- [ ] **_AWS - Deploy SpringBoot (em andamento)_**
-- [ ] **_AWS ECS - Deploy Docker (em andamento)_**
+- [ ] **_AWS - SpringBoot (em andamento)_**
+- [ ] **_AWS ECS - Docker (em andamento)_**
 
 ### Carreira Machine Learning
 
@@ -233,7 +233,20 @@
 - [ ] Spring Boot and OAuth2
 
 
-> Obs: Estou usando a estrutura de pastas apresentada no livro **Continuous Integration**, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas. Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado, mas em contrapartida dá uma visão completa de tudo que está envolvido no projeto.
+## (Opcional) HashiCorp Terraform Getting Started
+- [x] Install Terraform
+- [x] Build Infrastructure
+- [x] Change Infrastructure
+- [x] Destroy Infrastructure
+- [ ] Resource Dependencies
+- [ ] Provision
+- [ ] Input Variables
+- [ ] Output Variables
+- [ ] Modules
+- [ ] Remote Backends
+- [ ] Next Steps
+
+_Obs: Estou usando a estrutura de pastas apresentada no livro **Continuous Integration**, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas. Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado, mas em contrapartida dá uma visão completa de tudo que está envolvido no projeto._
 
 - - -
 
@@ -251,4 +264,4 @@
 - [Udemy](https://www.udemy.com/)
 - [4Linux](https://www.4linux.com.br/)
 - [Google Cloud Platform](https://cloud.google.com/sdk/auth_success)
-- [README Deployment](deployment/)
+- [Terraform Getting Started](https://www.terraform.io/intro/getting-started/install.html)

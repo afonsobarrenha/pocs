@@ -1,0 +1,5 @@
+[gitlab]
+192.168.200.196
+
+[prod]
+192.168.200.196 ansible_user=root
