@@ -1,0 +1,9 @@
+- name: copiando site
+  template:
+    src: ../templates/index.html
+    dest: /var/www/html/index.html
+
+- name: baixando imagem
+  get_url:
+    url: https://www.aprenderexcel.com.br//imagens/post/385/2901-1.jpg
+    dest: /var/www/html/dory.jpg

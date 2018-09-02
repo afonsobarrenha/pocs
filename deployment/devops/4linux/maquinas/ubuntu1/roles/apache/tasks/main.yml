@@ -1,0 +1,11 @@
+---
+# tasks file for apache
+- name: Role de instalaçaõ do apache
+  hosts: dev
+  vars:
+    - texto: 'deploy funcionando'
+  tasks: 
+  - include: prerequisitos.yml
+  - include: install_apache.yml
+  - include: install_httpd.yml
+  - include: deploy.yml

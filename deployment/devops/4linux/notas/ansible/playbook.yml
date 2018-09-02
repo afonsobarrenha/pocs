@@ -1,0 +1,40 @@
+---
+- name: Playbook inicial
+  hosts: all
+  tasks:
+
+  - name: instalando o pacote figlet
+    apt: name=figlet state=present update_cache=yes
+
+  - name: garantindo figlet no profile
+    lineinfile: 
+      path: /etc/profile
+      line: "figlet $(whoami)@$(hostname)"
+      create: yes
+      become: yes
+
+  - name: garantindo hosts
+    lineinfile:
+      path: /etc/hosts
+      create: yes
+      line: "{{item}}"
+    with_items:
+    - "172.17.177.40 ansible-server"
+    - "172.17.1188.1 app-server-1"
+
+  - name: garantindo README
+    copy: 
+      src: files/README.md
+      dest: /root/README.md
+
+#  - name: instalando nginx
+#    apt: 
+#      name: nginx
+#      state: present
+#    notify: reinicia nginx
+
+#  handlers:
+#  - name: reinicia nginx
+#    service:
+#      name: nginx
+#      state: restarted
