@@ -6,7 +6,7 @@
 
 	<groupId>com.example</groupId>
 	<artifactId>springboot</artifactId>
-	<version>1.13.0</version>
+	<version>1.13.3-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>demo</name>
@@ -126,7 +126,7 @@
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.8.0</version>
+				<version>0.8.2</version>
 				<executions>
 					<execution>
 						<goals>
@@ -147,6 +147,9 @@
 						<goals>
 							<goal>build</goal>
 						</goals>
+						<configuration>
+							<classifier>docker-info-build</classifier>
+						</configuration>
 					</execution>
 					<execution>
 						<id>default-tag</id>
@@ -159,9 +162,8 @@
 						</configuration>
 					</execution>
 					<execution>
-						<id>install-push</id>
-						<!--phase>deploy</phase -->
-						<phase>install</phase>
+						<id>deploy-push</id>
+						<phase>deploy</phase>
 						<goals>
 							<goal>push</goal>
 						</goals>
@@ -187,5 +189,18 @@
 			</plugin>
 		</plugins>
 	</reporting>
+
+	<distributionManagement>
+		<repository>
+		<id>nexus</id>
+		<name>Releases</name>
+		<url>http://localhost:8081/repository/maven-releases</url>
+		</repository>
+		<snapshotRepository>
+		<id>nexus</id>
+		<name>Snapshot</name>
+		<url>http://localhost:8081/repository/maven-snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 </project>
