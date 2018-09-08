@@ -3,7 +3,6 @@ services:
 
   jenkins:
     image: jenkinsci/blueocean
-    container_name: jenkins
     user: root
     ports:
       - 8080:8080

@@ -48,6 +48,8 @@
     - https://mermaidjs.github.io/mermaid-live-editor/ para a criação dos Diagramas
 - **PHPUnit**
     - sudo apt-get install phpunit
+- **Ant**
+    - sudo apt-get install ant
 
 ## Configuração utilizada (baseado no [usesthis.com](usesthis.com))
 
