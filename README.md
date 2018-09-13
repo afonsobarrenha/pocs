@@ -1,8 +1,7 @@
 # POCs - Provas de Conceito (v1.16.0)
 
 > Olá, minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Nessa lista estão os Objetivos da certificação _LPIC-OT Exam 701: DevOps Tools Engineer (versão 1.0)_, relacionada ao meu trabalho atual, e os cursos que tenho para fazer. Conforme for concluindo esses cursos, **vou atualizando os Objetivos da certificação alcançados**. Mãos à obra!
-
-> Obs: vários cursos **_em andamento_** indicam que estou com mais tempo de estudar do que colocar em prática os exercícios :) 
+> Obs: vários cursos **_em andamento_** indicam que estou com mais tempo de estudar do que colocar em prática os exercícios :)
 
 - - -
 
@@ -68,7 +67,7 @@
 
 #### 703.2 Cloud Deployment (weight: 2)
 
-*(Não são listadas ferramentas)*
+- *(Não são listadas ferramentas)*
 
 #### 703.3 System Image Creation (weight: 2)
 
@@ -83,7 +82,7 @@
 - [ ] ansible-vault
 - [x] ansible-galaxy
 - [ ] ansible-doc
- 
+
 #### 704.2 Other Configuration Management Tools (weight: 2)
 
 - [ ] Manifest, Class, Recipe, Cookbook
@@ -102,7 +101,7 @@
 - [ ] Service exploits, brute force attacks, and denial of service attacks
 - [ ] Security updates, packet filtering and application gateways
 - [ ] Virtualization hosts, DNS and load balancers
- 
+
 #### 705.2 Log Management and Analysis (weight: 4)
 
 - [ ] logstash
@@ -173,11 +172,18 @@
 - [ ] Avançando com tipos diferentes de classificação
 - [ ] Aprendizado supervisionado
 
+### Carreira PHP
+
+- [ ] Design Patterns PHP I
+- [ ] Design Patterns PHP II
+- [ ] SOLID com PHP
+- [ ] **_TDD com PHP (em andamento)_**
+
 ## Udemy
 
 ### DevOps
 
-- [ ] Master Jenkins CI for DevOps and Developers
+- [ ] **_Master Jenkins CI for DevOps and Developers (em andamento)_**
 - [ ] Docker Technology for DevOps and Developers
 - [ ] AWS Certified Solutions Architect
 - [ ] AWS Certified Developer
@@ -232,8 +238,8 @@
 - [ ] Spring Security and Angular
 - [ ] Spring Boot and OAuth2
 
-
 ## (Opcional) HashiCorp Terraform Getting Started
+
 - [x] Install Terraform
 - [x] Build Infrastructure
 - [x] Change Infrastructure

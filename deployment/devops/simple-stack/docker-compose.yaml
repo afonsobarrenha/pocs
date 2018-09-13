@@ -3,6 +3,7 @@ services:
 
   jenkins:
     image: jenkinsci/blueocean
+    container_name: jenkins
     user: root
     ports:
       - 8080:8080
@@ -15,6 +16,7 @@ services:
 
   sonarqube:
     image: sonarqube
+    container_name: sonar
     ports:
       - 9000:9000
       - 9092:9092
@@ -33,6 +35,7 @@ services:
 
   postgres:
     image: postgres
+    container_name: postgres
     networks:
       - sonar-network
     environment:
@@ -44,6 +47,7 @@ services:
 
   nexus:
     image: sonatype/nexus3
+    container_name: nexus 
     ports:
       - 8081:8081
     networks:
@@ -51,8 +55,34 @@ services:
     volumes:
       - ./volumes/nexus-data:/nexus-data
 
+  dev:
+    image: php:7.2-apache
+    container_name: dev
+    networks:
+      - app-network
+    volumes:
+      - ./volumes/dev-data:/var/www/html
+
+  pre:
+    image: php:7.2-apache
+    container_name: pre
+    networks:
+      - app-network
+    volumes:
+      - ./volumes/pre-data:/var/www/html
+
+  pro:
+    image: php:7.2-apache
+    container_name: pro
+    networks:
+      - app-network
+    volumes:
+      - ./volumes/pro-data:/var/www/html
+
 networks: 
   jenkins-network:
     driver: bridge
   sonar-network:
+    driver: bridge
+  app-network:
     driver: bridge
