@@ -3,6 +3,7 @@
   apt:
     name: "{{ item }}"
     state: latest
+    update_cache: false
   become: yes
   with_items:
     - language-pack-pt
@@ -11,22 +12,24 @@
 
 - name: 'Cria o banco do MySQL'
   mysql_db:
-    name: "{{ wp_db_name }}"
+    name: "positiva_db"
     login_user: root
     state: present
 
 - name: 'Cria o usuário do MySQL'
   mysql_user:
     login_user: root
-    name: "{{ wp_username }}"
-    password: "{{ wp_user_password }}"
-    priv: "{{ wp_db_name }}.*:ALL"
+    name: "positiva_user"
+    password: "1234"
+    priv: "positiva_db.*:ALL"
     state: present
     host: "{{ item }}"
   with_items:
-    - "{{ wp_host_ip }}"
+    - localhost
+    - '127.0.0.1'
+    - '172.18.177.40'    
 
-- name: 'Configura MySQL para aceitar conexões remotas'
+- name: 'Configura MySQL'
   copy:
     src: 'files/my.cnf'
     dest: '/etc/mysql/my.cnf'
