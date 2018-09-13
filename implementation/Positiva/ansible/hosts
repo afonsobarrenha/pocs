@@ -1,0 +1,5 @@
+[wordpress]
+172.17.177.40 ansible_user=vagrant ansible_ssh_private_key_file="/home/afonsobarrenha/Documents/Projects/pocs/deployment/devops/ansible/.vagrant/machines/wordpress/virtualbox/private_key"
+
+[database]
+172.17.177.42 ansible_user=vagrant ansible_ssh_private_key_file="/home/afonsobarrenha/Documents/Projects/pocs/deployment/devops/ansible/.vagrant/machines/mysql/virtualbox/private_key"
