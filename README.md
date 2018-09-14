@@ -167,7 +167,7 @@
 
 ### Carreira Machine Learning
 
-- [ ] **_Introdução ao sistemas de recomendações (em andamento)_**
+- [ ] Introdução ao sistemas de recomendações ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
 - [ ] Introdução a classificação
 - [ ] Avançando com tipos diferentes de classificação
 - [ ] Aprendizado supervisionado
@@ -177,13 +177,13 @@
 - [ ] Design Patterns PHP I
 - [ ] Design Patterns PHP II
 - [ ] SOLID com PHP
-- [ ] **_TDD com PHP (em andamento)_**
+- [ ] TDD com PHP ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
 
 ## Udemy
 
 ### DevOps
 
-- [ ] **_Master Jenkins CI for DevOps and Developers (em andamento)_**
+- [ ] Master Jenkins CI for DevOps and Developers ![study](https://img.shields.io/badge/study-doing-yellow.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
 - [ ] Docker Technology for DevOps and Developers
 - [ ] AWS Certified Solutions Architect
 - [ ] AWS Certified Developer
