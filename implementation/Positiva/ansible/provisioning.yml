@@ -1,0 +1,4 @@
+---
+- hosts: positiva-mysql
+  roles:
+    - mysql

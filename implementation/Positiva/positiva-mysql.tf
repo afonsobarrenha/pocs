@@ -4,7 +4,7 @@ provider "aws" {
   shared_credentials_file = "/home/afonsobarrenha/.aws/credentials"
 }
 
-resource "aws_instance" "jenkins-terraform" {
+resource "aws_instance" "positiva-mysql" {
   ami             = "ami-b374d5a5"
   instance_type   = "t2.micro"
   key_name        = "lab-key"
@@ -13,13 +13,9 @@ resource "aws_instance" "jenkins-terraform" {
     "allow-ssh"
   ]
 
-  provisioner "local-exec" {
-    command = "echo $(whoami)@$(hostname)"
-  }
-
   # Tells Terraform that this EC2 instance must be created only after the
   # S3 bucket has been created.
-#  depends_on = ["aws_s3_bucket.example"]
+  #  depends_on = ["aws_s3_bucket.example"]
 }
 
 #resource "aws_eip" "ip" {
@@ -37,7 +33,7 @@ resource "aws_instance" "jenkins-terraform" {
 
 resource "aws_security_group" "allow-ssh" {
   name          = "allow-ssh"
-  description   = "Allow SSH"
+  description   = "Permite SSH"
 
   ingress {
     from_port   = 22
