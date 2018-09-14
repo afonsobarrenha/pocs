@@ -139,16 +139,16 @@
 
 ### Carreira Desenvolvedor Java Web com Spring
 
-- [x] ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-done-green.svg) Maven 
-- [x] ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-done-green.svg) Spring Boot 
+- [x] Maven
+- [x] Spring Boot
 - [ ] Spring MVC I
 - [ ] Spring MVC II
 - [ ] Java e JPA I
 - [ ] Java e JPA II
-- [x] ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-done-green.svg) \(Opcional) Logback 
-- [x] ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-done-green.svg) \(Opcional) Mockito 
-- [ ] ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg) \(Opcional) TDD 
-- [x] ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-done-green.svg) \(Opcional) Cucumber 
+- [x] \(Opcional) Logback
+- [x] \(Opcional) Mockito
+- [ ] \(Opcional) TDD ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
+- [x] \(Opcional) Cucumber
 
 ### Carreira Engenheiro DevOps
 
@@ -161,9 +161,9 @@
 - [x] Integração Contínua
 - [x] Kubernetes
 - [x] AWS S3
-- [ ] **_AWS EC2 (em andamento)_**
-- [ ] **_AWS - SpringBoot (em andamento)_**
-- [ ] **_AWS ECS - Docker (em andamento)_**
+- [ ] AWS EC2 ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
+- [ ] AWS - SpringBoot ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
+- [ ] AWS ECS - Docker ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
 
 ### Carreira Machine Learning
 
