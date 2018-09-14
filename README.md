@@ -237,7 +237,7 @@
 
 - [ ] Spring Security Architecture
 
-#### Tutorial
+### Tutorial
 
 - [ ] Building REST services with Spring
 - [ ] Spring Security and Angular
@@ -245,7 +245,7 @@
 
 - - -
 
-## HashiCorp Terraform
+## Terraform
 
 - [x] Install Terraform
 - [x] Build Infrastructure
