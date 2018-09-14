@@ -1,6 +1,4 @@
-# POCs - Provas de Conceito
-
-![GitHub release](https://img.shields.io/badge/release-v1.18.0-blue.svg)
+# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v1.18.0-blue.svg)
 
 > Olá, minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Nessa lista estão os Objetivos da certificação _LPIC-OT Exam 701: DevOps Tools Engineer (versão 1.0)_, relacionada ao meu trabalho atual, e os cursos que tenho para fazer. Conforme for concluindo esses cursos, **vou atualizando os Objetivos da certificação alcançados**. Mãos à obra!
 > Obs: vários cursos **_em andamento_** indicam que estou com mais tempo de estudar do que colocar em prática os exercícios :)
@@ -141,16 +139,16 @@
 
 ### Carreira Desenvolvedor Java Web com Spring
 
-- [x] Maven ![study](https://img.shields.io/badge/study-ok-green.svg) ![code](https://img.shields.io/badge/code-nok-red.svg)
-- [x] Spring Boot
+- [x] Maven ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-done-green.svg)
+- [x] Spring Boot ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-done-green.svg)
 - [ ] Spring MVC I
 - [ ] Spring MVC II
 - [ ] Java e JPA I
 - [ ] Java e JPA II
-- [x] \(Opcional) Logback
-- [x] \(Opcional) Mockito
-- [x] \(Opcional) TDD
-- [x] \(Wikipedia) Cucumber
+- [x] \(Opcional) Logback ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-done-green.svg)
+- [x] \(Opcional) Mockito ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-done-green.svg)
+- [ ] \(Opcional) TDD ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
+- [x] \(Wikipedia) Cucumber ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-done-green.svg)
 
 ### Carreira Engenheiro DevOps
 
