@@ -139,16 +139,16 @@
 
 ### Carreira Desenvolvedor Java Web com Spring
 
-- [x] Maven ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-done-green.svg)
-- [x] Spring Boot ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-done-green.svg)
+- [x] ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-done-green.svg) Maven 
+- [x] ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-done-green.svg) Spring Boot 
 - [ ] Spring MVC I
 - [ ] Spring MVC II
 - [ ] Java e JPA I
 - [ ] Java e JPA II
-- [x] \(Opcional) Logback ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-done-green.svg)
-- [x] \(Opcional) Mockito ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-done-green.svg)
-- [ ] \(Opcional) TDD ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
-- [x] \(Wikipedia) Cucumber ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-done-green.svg)
+- [x] ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-done-green.svg) \(Opcional) Logback 
+- [x] ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-done-green.svg) \(Opcional) Mockito 
+- [ ] ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg) \(Opcional) TDD 
+- [x] ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-done-green.svg) \(Opcional) Cucumber 
 
 ### Carreira Engenheiro DevOps
 
