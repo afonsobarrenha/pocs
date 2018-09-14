@@ -1,0 +1,2 @@
+[positiva-mysql]
+172.18.177.42 ansible_user=vagrant ansible_ssh_private_key_file="/home/afonsobarrenha/Documents/Projects/pocs/implementation/Positiva/.vagrant/machines/positiva-mysql/virtualbox/private_key"

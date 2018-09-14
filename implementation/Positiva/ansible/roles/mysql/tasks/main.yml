@@ -1,0 +1,38 @@
+---
+- name: 'Instala pacotes de dependencia do sistema operacional'
+  apt:
+    name: "{{ item }}"
+    state: latest
+    update_cache: true
+  become: yes
+  with_items:
+    - language-pack-pt
+    - mysql-server-5.6
+    - python-mysqldb
+
+- name: 'Cria o banco do MySQL'
+  mysql_db:
+    name: "positiva_db"
+    login_user: root
+    state: present
+
+- name: 'Cria o usuário do MySQL'
+  mysql_user:
+    login_user: root
+    name: "positiva_user"
+    password: "1234"
+    priv: "positiva_db.*:ALL"
+    state: present
+    host: "{{ item }}"
+  with_items:
+    - localhost
+    - '127.0.0.1'
+    - '172.18.177.40'    
+
+- name: 'Configura MySQL'
+  copy:
+    src: 'files/my.cnf'
+    dest: '/etc/mysql/my.cnf'
+  become: yes
+  notify:
+    - restart-mysql
