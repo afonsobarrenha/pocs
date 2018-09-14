@@ -1,12 +1,1 @@
-tools/terraform
-deployment/devops/terraform/getting-started/terraform.tfstate
-deployment/devops/terraform/getting-started/terraform.tfstate.backup
-deployment/devops/terraform/getting-started/.terraform
-deployment/devops/terraform/getting-started/.terraform.tfstate.lock.info
-deployment/devops/4linux/material/4525.zip
-deployment/devops/4linux/material/4525_3.ova
-deployment/devops/4linux/material/4525_4.ova
-implementation/logs/*
-deployment/devops/simple-stack/volumes/
-implementation/Entidade
 deployment/devops/docker-compose/volumes/
