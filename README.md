@@ -1,11 +1,10 @@
 # POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v1.18.0-blue.svg)
 
-> Olá, minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Nessa lista estão os Objetivos da certificação _LPIC-OT Exam 701: DevOps Tools Engineer (versão 1.0)_, relacionada ao meu trabalho atual, e os cursos que tenho para fazer. Conforme for concluindo esses cursos, **vou atualizando os Objetivos da certificação alcançados**. Mãos à obra!
-> Obs: vários cursos **_em andamento_** indicam que estou com mais tempo de estudar do que colocar em prática os exercícios :)
+> Olá, minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Mãos à obra!
 
 - - -
 
-## LPIC-OT Exam 701: DevOps Tools Engineer
+## (Opcional) LPIC-OT Exam 701: DevOps Tools Engineer Certification
 
 ### Topic 701: Software Engineering
 
@@ -80,7 +79,7 @@
 - [ ] ansible.cfg
 - [x] ansible-playbook
 - [ ] ansible-vault
-- [x] ansible-galaxy
+- [ ] ansible-galaxy
 - [ ] ansible-doc
 
 #### 704.2 Other Configuration Management Tools (weight: 2)
@@ -114,8 +113,6 @@
 
 - - -
 
-> Seguem abaixo os cursos que irei fazer. A conclusão de cada um pode abranger algum dos objetivos acima, que também serão "checkados" junto com o item do curso abaixo.
-
 ## 4Linux
 
 ### Infraestrutura ágil com práticas DEVOPS usando Docker, Git, Jenkins, Puppet e Ansible
@@ -127,13 +124,15 @@
 - [x] Integração com Jenkins
 - [x] Rundeck
 
-### \(Opcional) Exin DevOps Master
+### Exin DevOps Master
 
 - [ ] Adoção DevOps
 - [ ] Planejamento, Requisitos e Projeto
 - [ ] Desenvolvimento e Implantação (Deployment)
 - [ ] Operação e Escalonamento
 - [ ] Fim da vida
+
+- - -
 
 ## Alura
 
@@ -167,17 +166,19 @@
 
 ### Carreira Machine Learning
 
-- [ ] Introdução ao sistemas de recomendações ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
-- [ ] Introdução a classificação
+- [ ] Recomendações ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
+- [ ] Classificação
 - [ ] Avançando com tipos diferentes de classificação
 - [ ] Aprendizado supervisionado
 
-### Carreira PHP
+### (Opcional) Carreira PHP
 
 - [ ] Design Patterns PHP I
 - [ ] Design Patterns PHP II
 - [ ] SOLID com PHP
 - [ ] TDD com PHP ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
+
+- - -
 
 ## Udemy
 
@@ -190,12 +191,14 @@
 - [ ] AWS Certified SysOps Administrator
 - [ ] \(Opcional) Ethical Hacking
 
-### Big Data
+### (Opcional) Big Data
 
 - [ ] Hands-On Hadoop
 - [ ] Apache Spark and Python
 
-## (Opcional) Docker Samples
+- - -
+
+## Docker Samples
 
 ### Tutorial Labs
 
@@ -205,6 +208,8 @@
 - [x] Docker for Java Developers
 - [ ] Docker Security
 - [ ] Best practices for writing Dockerfiles
+
+- - -
 
 ## (Opcional) Spring Guides
 
@@ -238,7 +243,9 @@
 - [ ] Spring Security and Angular
 - [ ] Spring Boot and OAuth2
 
-## (Opcional) HashiCorp Terraform Getting Started
+- - -
+
+## HashiCorp Terraform
 
 - [x] Install Terraform
 - [x] Build Infrastructure
@@ -251,6 +258,8 @@
 - [ ] Modules
 - [ ] Remote Backends
 - [ ] Next Steps
+
+- - -
 
 _Obs: Estou usando a estrutura de pastas apresentada no livro **Continuous Integration**, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas. Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado, mas em contrapartida dá uma visão completa de tudo que está envolvido no projeto._
 
