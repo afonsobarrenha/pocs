@@ -9,9 +9,7 @@ resource "aws_instance" "app-bd" {
   instance_type   = "t2.small"
   key_name        = "lab-key"
   
-  security_groups = [
-    "allow-ssh"
-  ]
+  security_groups = [ "allow-ssh", "allow-bd-access" ]
 
   tags {
     Name = "app-bd"
@@ -41,6 +39,25 @@ resource "aws_security_group" "allow-ssh" {
     to_port     = 22
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
+  }
+
+  egress {
+    from_port   = 0
+    to_port     = 0
+    protocol    = "-1"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+}
+
+resource "aws_security_group" "allow-bd-access" {
+  name          = "allow-bd-access"
+  description   = "Permite conexao a base de dados"
+
+  ingress {
+    from_port   = 0
+    to_port     = 3306
+    protocol    = "tcp"
+    cidr_blocks = ["34.239.143.178/32"]
   }
 
   egress {

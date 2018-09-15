@@ -5,4 +5,8 @@
 
 - hosts: app-server
   roles:
-    - wordpress
+    - openjdk
+
+- hosts: app-server
+  roles:
+    - deploy
