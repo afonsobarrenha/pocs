@@ -1,0 +1,8 @@
+---
+- hosts: app-bd
+  roles:
+    - mysql
+
+- hosts: app-server
+  roles:
+    - wordpress
