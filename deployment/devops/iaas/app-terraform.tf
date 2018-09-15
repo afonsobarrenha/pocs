@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "app-bd" {
-  ami             = "ami-04169656fea786776"
+  ami             = "ami-0c54494f920b19106" #ubuntu14.04
   instance_type   = "t2.small"
   key_name        = "lab-key"
   
@@ -19,8 +19,8 @@ resource "aws_instance" "app-bd" {
 }
 
 resource "aws_instance" "app-server" {
-  ami             = "ami-04169656fea786776"
-  instance_type   = "t2.nano"
+  ami             = "ami-0c54494f920b19106" #ubuntu14.04
+  instance_type   = "t2.micro"
   key_name        = "lab-key"
   
   security_groups = [
