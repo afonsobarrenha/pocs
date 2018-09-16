@@ -22,7 +22,8 @@ resource "aws_instance" "app-server" {
   key_name        = "lab-key"
   
   security_groups = [
-    "allow-ssh"
+    "allow-ssh", 
+    "allow-server-access"
   ]
 
   tags {
@@ -57,7 +58,26 @@ resource "aws_security_group" "allow-bd-access" {
     from_port   = 0
     to_port     = 3306
     protocol    = "tcp"
-    cidr_blocks = ["34.239.143.178/32"]
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+
+  egress {
+    from_port   = 0
+    to_port     = 0
+    protocol    = "-1"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+}
+
+resource "aws_security_group" "allow-server-access" {
+  name          = "allow-server-access"
+  description   = "Permite conexao aos servers"
+
+  ingress {
+    from_port   = 9000
+    to_port     = 9000
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
   }
 
   egress {

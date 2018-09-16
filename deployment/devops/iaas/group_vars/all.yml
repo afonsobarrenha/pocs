@@ -1,6 +1,5 @@
 ---
-wp_username: app_user
-wp_db_name: app_db
-wp_db_ip: 18.209.9.165
-wp_user_password: 12345
-wp_installation_dir: /var/www/wordpress
+wp_db_name: listavip
+wp_username: lista_usr
+wp_user_password: lista_pwd
+wp_db_ip: 54.224.75.134
