@@ -6,7 +6,7 @@
 
 	<groupId>com.example</groupId>
 	<artifactId>springboot</artifactId>
-	<version>1.13.3-SNAPSHOT</version>
+	<version>1.14.0</version>
 	<packaging>jar</packaging>
 
 	<name>demo</name>
@@ -21,7 +21,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>1.8</java.version>
+		<java.version>1.7</java.version>
 		<docker.image.prefix>afonsobarrenha</docker.image.prefix>
 	</properties>
 

@@ -1,4 +1,4 @@
-# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v1.19.0-blue.svg)
+# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v1.20.0-blue.svg)
 
 > Olá, minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Mãos à obra!
 
@@ -160,7 +160,7 @@
 - [x] Integração Contínua
 - [x] Kubernetes
 - [x] AWS S3
-- [ ] AWS EC2 ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
+- [ ] AWS EC2 ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-doing-yellow.svg)
 - [ ] AWS - SpringBoot ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
 - [ ] AWS ECS - Docker ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
 
@@ -184,7 +184,7 @@
 
 ### DevOps
 
-- [ ] Master Jenkins CI for DevOps and Developers ![study](https://img.shields.io/badge/study-doing-yellow.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
+- [ ] Master Jenkins CI for DevOps and Developers ![study](https://img.shields.io/badge/study-todo-red.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
 - [ ] Docker Technology for DevOps and Developers
 - [ ] AWS Certified Solutions Architect
 - [ ] AWS Certified Developer

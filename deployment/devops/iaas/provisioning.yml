@@ -1,0 +1,12 @@
+---
+- hosts: app-bd
+  roles:
+    - mysql
+
+- hosts: app-server
+  roles:
+    - openjdk
+
+- hosts: app-server
+  roles:
+    - deploy

@@ -1,0 +1,5 @@
+---
+wp_db_name: listavip
+wp_username: lista_usr
+wp_user_password: lista_pwd
+wp_db_ip: 54.224.75.134

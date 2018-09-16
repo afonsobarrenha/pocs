@@ -7,7 +7,7 @@ Foi montado um *docker-compose*, listando os containers utilizados na aplicaçã
 Para um ambiente Local, de Desenvolvimento, é criado um bd-container "efêmero" (-d e --rm), sem volume ou nome, sempre sendo destruido no final de sua execução. Segue o comando de subida:
 
 ```
-docker run -d -p 3306:3306 --rm -e MYSQL_ROOT_PASSWORD=root_password -e MYSQL_DATABASE=listavip -e MYSQL_USER=lista_usr -e MYSQL_PASSWORD=lista_pwd mysql:5.5
+docker run -d -p 3306:3306 --rm -e MYSQL_ROOT_PASSWORD=root_password -e MYSQL_DATABASE=listavip -e MYSQL_USER=lista_usr -e MYSQL_PASSWORD=lista_pwd mysql:5.6
 mysql -u root
 mysql -p
 ```
@@ -24,9 +24,10 @@ Essa configuração é setada para o **Profile Default** do Spring Boot. Para o 
 -Dspring.profiles.active=pro /springboot.jar
 ```
 
-## Comandos 
+## Comandos
 
 ### Builds
+
 ```
 docker ps -a
 docker rm/rmi [id]
@@ -41,6 +42,7 @@ docker-compose down
 ```
 
 ### Runs
+
 ```
 docker run/start/stop
 docker run -it --rm ubuntu #interativo/terminal/autoremove
