@@ -1,0 +1,15 @@
+---
+- name: 'Copia o pacote'
+  copy:
+    src: "/home/afonsobarrenha/Documents/Projects/pocs/implementation/SpringBoot/target/springboot-1.14.0.jar"
+    dest: "/home/ubuntu/springboot.jar"
+  become: yes
+
+- name: 'Derruba qualquer execucao em operacao do Java'
+  command: /usr/bin/pkill -9 java
+  ignore_errors: yes
+
+- name: 'Sobe o Springboot'
+  command: /usr/bin/java -jar -Dspring.profiles.active=pro /home/ubuntu/springboot.jar
+  async: 45
+  poll: 0

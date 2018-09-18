@@ -1,0 +1,10 @@
+---
+- name: 'Package dependencies'
+  apt:
+    name: "{{ item }}"
+    state: latest
+    update_cache: true
+  become: yes
+  with_items:
+    - language-pack-pt
+    - openjdk-7-jre
