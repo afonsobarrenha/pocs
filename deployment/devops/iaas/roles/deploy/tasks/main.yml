@@ -9,7 +9,5 @@
   command: /usr/bin/pkill -9 java
   ignore_errors: yes
 
-- name: 'Sobe o Springboot'
-  command: /usr/bin/java -jar -Dspring.profiles.active=pro /home/ubuntu/springboot.jar
-  async: 45
-  poll: 0
+#- name: 'Sobe o Springboot'
+#  command: /usr/bin/java -jar /home/ubuntu/springboot.jar &

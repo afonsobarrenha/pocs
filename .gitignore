@@ -1,3 +1,5 @@
 implementation/logs/
 deployment/devops/iaas/.terraform/
 deployment/devops/docker-compose/volumes/
+deployment/devops/iaas/terraform.tfstate.backup
+deployment/devops/iaas/terraform.tfstate
