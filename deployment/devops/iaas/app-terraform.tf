@@ -62,15 +62,9 @@ resource "aws_instance" "app-server-2" {
   }  
 }
 
-resource "aws_elb" "bar" {
+resource "aws_elb" "app-elb" {
   name               = "app-elb"
   availability_zones = ["us-east-1a", "us-east-1b"]
-
-  #access_logs {
-  #  bucket        = "foo"
-  #  bucket_prefix = "bar"
-  #  interval      = 60
-  #}
 
   listener {
     instance_port     = 9000
@@ -84,7 +78,7 @@ resource "aws_elb" "bar" {
     unhealthy_threshold = 2
     timeout             = 3
     target              = "HTTP:9000/"
-    interval            = 30
+    interval            = 60
   }
 
   instances                   = ["${aws_instance.app-server-1.id}", "${aws_instance.app-server-2.id}"]
