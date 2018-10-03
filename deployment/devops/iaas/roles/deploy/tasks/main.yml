@@ -6,8 +6,10 @@
   become: yes
 
 - name: 'Derruba qualquer execucao em operacao do Java'
-  command: /usr/bin/pkill -9 java
+  shell: /usr/bin/pkill -9 java
   ignore_errors: yes
 
-#- name: 'Sobe o Springboot'
-#  command: /usr/bin/java -jar /home/ubuntu/springboot.jar &
+- name: Sobe o Springboot
+  shell: nohup /usr/bin/java -jar /home/ubuntu/springboot.jar &
+  args:
+    chdir: /home/ubuntu/

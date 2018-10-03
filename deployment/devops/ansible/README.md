@@ -13,4 +13,5 @@ mysql -u root
 mysql -u wordpress_user -p 
 ansible-playbook provisioning.yml -i hosts
 ansible-playbook -i --extra-vars 'wp_db_name=wordpress_db wp_username=wordpress_user' provisioning.yml
+ansible-playbook --limit 'app-server*' -i hosts provisioning.yml
 ```

@@ -37,10 +37,7 @@ resource "aws_instance" "app-server-1" {
   instance_type   = "t2.micro"
   key_name        = "lab-key"
   
-  security_groups = [
-    "allow-ssh", 
-    "allow-server-access"
-  ]
+  security_groups = ["allow-ssh", "allow-server-access"]
 
   tags {
     Name = "app-server-1"
@@ -52,10 +49,7 @@ resource "aws_instance" "app-server-2" {
   instance_type   = "t2.micro"
   key_name        = "lab-key"
   
-  security_groups = [
-    "allow-ssh", 
-    "allow-server-access"
-  ]
+  security_groups = ["allow-ssh", "allow-server-access"]
 
   tags {
     Name = "app-server-2"
