@@ -8,23 +8,43 @@ public class InfoModel {
 	private String name;
 	private String description;
 	private String profile;
+	private String ip;
+	private String hostname;
 
 	public InfoModel(String groupId, String artifactId, String version, String name, String description,
-			String profile) {
+			String profile, String ip, String hostname) {
 		this.groupId = groupId;
 		this.artifactId = artifactId;
 		this.version = version;
 		this.name = name;
 		this.description = description;
 		this.profile = profile;
+		this.ip = ip;
+		this.hostname = hostname;
 	}
 
 	public String getGroupId() {
 		return groupId;
 	}
 
+	public String getIp() {
+		return ip;
+	}
+
+	public String getHostname() {
+		return hostname;
+	}
+
 	public void setGroupId(String groupId) {
 		this.groupId = groupId;
+	}
+
+	public void setIp(String ip) {
+		this.ip = ip;
+	}
+
+	public void setHostname(String hostname) {
+		this.hostname = hostname;
 	}
 
 	public String getArtifactId() {

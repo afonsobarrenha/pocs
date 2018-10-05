@@ -1,7 +1,7 @@
 ---
 - name: 'Copia o pacote'
   copy:
-    src: "/home/afonsobarrenha/Documents/Projects/pocs/implementation/SpringBoot/target/springboot-1.14.0.jar"
+    src: "/home/afonsobarrenha/Documents/Projects/pocs/implementation/SpringBoot/target/springboot-1.14.1.jar"
     dest: "/home/ubuntu/springboot.jar"
   become: yes
 

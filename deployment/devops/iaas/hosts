@@ -1,8 +1,8 @@
 [app-server-1]
-18.212.198.253 ansible_user=ubuntu ansible_ssh_private_key_file="/home/afonsobarrenha/aws/lab-key.pem"
+18.207.223.103 ansible_user=ubuntu ansible_ssh_private_key_file="/home/afonsobarrenha/aws/lab-key.pem"
 
 [app-server-2]
-54.86.242.190 ansible_user=ubuntu ansible_ssh_private_key_file="/home/afonsobarrenha/aws/lab-key.pem"
+54.209.211.192 ansible_user=ubuntu ansible_ssh_private_key_file="/home/afonsobarrenha/aws/lab-key.pem"
 
 [app-bd]
-34.224.64.240 ansible_user=ubuntu ansible_ssh_private_key_file="/home/afonsobarrenha/aws/lab-key.pem"
+34.239.118.101 ansible_user=ubuntu ansible_ssh_private_key_file="/home/afonsobarrenha/aws/lab-key.pem"

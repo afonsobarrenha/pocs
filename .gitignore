@@ -1,8 +1,10 @@
 implementation/logs/
 deployment/devops/iaas/.terraform/
+deployment/devops/iaas/terraform.tfstate
 deployment/devops/docker-compose/volumes/
+deployment/devops/iaas/provisioning.retry
+deployment/devops/iaas/terraform.tfstate.backup
+.vscode/settings.json
+deployment/devops/iaas/provisioning.retry
 deployment/devops/iaas/terraform.tfstate
 deployment/devops/iaas/terraform.tfstate.backup
-deployment/devops/iaas/provisioning.retry
-implementation/SpringBoot/logs/springboot/springboot-1.14.0.log
-deployment/devops/iaas/provisioning.retry
