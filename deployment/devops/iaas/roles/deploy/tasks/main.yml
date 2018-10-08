@@ -10,6 +10,13 @@
   ignore_errors: yes
 
 - name: Sobe o Springboot
+  when: inventory_hostname == "app-server-1"
   shell: nohup /usr/bin/java -jar /home/ubuntu/springboot.jar &
+  args:
+    chdir: /home/ubuntu/
+
+- name: Sobe o Springboot
+  when: inventory_hostname == "app-server-2"
+  shell: nohup /usr/bin/java -jar -Dspring.profiles.active=pro /home/ubuntu/springboot.jar &
   args:
     chdir: /home/ubuntu/
