@@ -40,10 +40,14 @@
     - /etc/environment
         - PATH="...:/home/afonsobarrenha/Documents/Projects/pocs/tools"
 - **AWS CLI**
-    - sudo apt install python-pip
-    - pip install awscli --upgrade --user
-    - /etc/environment
-        - PATH="...:/home/afonsobarrenha/.local/bin"
+    - Linux
+        - sudo apt install python-pip
+        - pip install awscli --upgrade --user
+        - /etc/environment
+            - PATH="...:/home/afonsobarrenha/.local/bin"
+    - Mac
+        - sudo easy_install pip
+        -
 - **Mermaid**
     - https://mermaidjs.github.io/mermaid-live-editor/ para a criação dos Diagramas
 - **PHPUnit**
