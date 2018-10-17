@@ -3,18 +3,7 @@
   roles:
     - mysql
 
-- hosts: app-server-1
+- hosts: app-server
   roles:
     - openjdk
-
-- hosts: app-server-2
-  roles:
-    - openjdk
-
-- hosts: app-server-1
-  roles:
-    - deploy
-
-- hosts: app-server-2
-  roles:
     - deploy

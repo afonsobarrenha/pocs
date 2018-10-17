@@ -34,7 +34,7 @@ resource "aws_db_instance" "app-bd-rds" {
 }
 */
 
-resource "aws_instance" "app-server-1" {
+resource "aws_instance" "app-server" {
   ami             = "ami-0c54494f920b19106" #ubuntu14.04
   instance_type   = "t2.micro"
   availability_zone = "us-east-1a"
@@ -44,21 +44,7 @@ resource "aws_instance" "app-server-1" {
   security_groups = ["allow-ssh", "allow-server-access"]
 
   tags {
-    Name = "app-server-1"
-  }  
-}
-
-resource "aws_instance" "app-server-2" {
-  ami             = "ami-0c54494f920b19106" #ubuntu14.04
-  instance_type   = "t2.micro"
-  availability_zone = "us-east-1b"
-
-  key_name        = "lab-key"
-  
-  security_groups = ["allow-ssh", "allow-server-access"]
-
-  tags {
-    Name = "app-server-2"
+    Name = "app-server"
   }  
 }
 
@@ -115,12 +101,6 @@ resource "aws_lb" "app-lb" {
 
   enable_deletion_protection = false
 
-  #access_logs {
-  #  bucket  = "${aws_s3_bucket.lb_logs.bucket}"
-  #  prefix  = "test-lb"
-  #  enabled = true
-  #}
-
   tags {
     Name = "app-lb"
   }
@@ -134,11 +114,13 @@ resource "aws_alb_target_group" "app-target-group-1" {
   tags {    
     Name = "app-target-group-1"    
   }   
-  #stickiness {    
-    #type            = "lb_cookie"    
-    #cookie_duration = 1800    
-    #enabled         = "true"  
-  #}   
+  
+  stickiness {    
+    type            = "lb_cookie"    
+    cookie_duration = 1800    
+    enabled         = "true"  
+  }
+     
   health_check {    
     healthy_threshold   = 3    
     unhealthy_threshold = 10    
@@ -185,7 +167,7 @@ resource "aws_autoscaling_attachment" "svc_asg_external2" {
 #Instance Attachment
 resource "aws_alb_target_group_attachment" "app-alb-tg-attach" {
   target_group_arn = "${aws_alb_target_group.app-target-group-1.arn}"
-  target_id        = "${aws_instance.app-server-1.id}"  
+  target_id        = "${aws_instance.app-server.id}"  
   port             = 9000
 }
 
