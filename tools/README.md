@@ -44,8 +44,6 @@
     - pip install awscli --upgrade --user
     - /etc/environment
         - PATH="...:/home/afonsobarrenha/.local/bin"
-- **Mermaid**
-    - https://mermaidjs.github.io/mermaid-live-editor/ para a criação dos Diagramas
 - **PHPUnit**
     - sudo apt-get install phpunit
 - **Ant**

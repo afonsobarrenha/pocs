@@ -1,0 +1,11 @@
+[Unit]
+Description=springboot
+After=syslog.target
+
+[Service]
+User=ubuntu
+ExecStart=/home/ubuntu/springboot.jar
+SuccessExitStatus=143
+
+[Install]
+WantedBy=multi-user.target

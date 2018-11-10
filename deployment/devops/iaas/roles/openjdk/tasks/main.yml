@@ -8,3 +8,4 @@
   with_items:
     - language-pack-pt
     - openjdk-7-jre
+    - systemd

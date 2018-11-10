@@ -1,17 +1,29 @@
 ---
 - name: 'Copia o pacote'
   copy:
-    src: "/home/afonsobarrenha/Documents/Projects/pocs/implementation/SpringBoot/target/springboot-1.14.1.jar"
+    src: "/home/afonsobarrenha/Documents/Projects/pocs/implementation/SpringBoot/target/springboot-2.0.0-SNAPSHOT.jar"
     dest: "/home/ubuntu/springboot.jar"
   become: yes
 
-- name: 'Derruba qualquer execucao em operacao do Java'
-  shell: /usr/bin/pkill -9 java
-  ignore_errors: yes
+#- name: 'Derruba qualquer execucao em operacao do Java'
+#  shell: /usr/bin/pkill -9 java
+#  ignore_errors: yes
 
-- name: Sobe o Springboot
-  #when: inventory_hostname == "app-server-1"
-  shell: nohup /usr/bin/java -jar /home/ubuntu/springboot.jar &
-  #shell: nohup /usr/bin/java -jar -Dspring.profiles.active=pro /home/ubuntu/springboot.jar &
-  args:
-    chdir: /home/ubuntu/
+#- name: Sobe o Springboot
+#  shell: nohup /usr/bin/java -jar /home/ubuntu/springboot.jar &
+#  args:
+#    chdir: /home/ubuntu/
+
+- name: 'Copia o service'
+  copy:
+    src: "/home/afonsobarrenha/Documents/Projects/pocs/implementation/SpringBoot/src/main/resources/service/springboot.service"
+    dest: "/etc/systemd/system/springboot.service"
+  become: yes
+
+- name: 'Instala o service'
+  systemd:
+    name: springboot
+    state: started
+    enabled: yes
+    daemon_reload: yes
+  become: yes

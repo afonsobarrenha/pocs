@@ -9,3 +9,4 @@ deployment/devops/iaas/provisioning.retry
 deployment/devops/iaas/terraform.tfstate
 deployment/devops/iaas/terraform.tfstate.backup
 deployment/devops/iaas/terraform.tfstate
+implementation/SpringBoot/logs/springboot/springboot-2.0.0-SNAPSHOT.log

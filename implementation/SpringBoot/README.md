@@ -13,6 +13,9 @@ Muito recomendado é a utilização do spring-boot-devtools e do LiveReload para
 
 ## Docker
 Foi criado o Dockerfile na pasta-raiz do projeto, contendo as instruções para a criação de sua Imagem Docker. Esse arquivo não foi transferido para a pasta **Deployments** pois acredito que deve estar em mãos de todos os desenvolvedores, diferente do conteúdo dessa pasta, que pode ficar em um repositório separado, e mantido pelos membros especializados em DevOps do time.
+```
+mvn clean package -Dmaven.test.skip -Ddockerfile.skip
+```
 
 ## Testes
 Foram criados Testes Unitários para o projeto, seguindo as ferramentas Mockito, Selenium e Cucumber/Gherkin.
