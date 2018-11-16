@@ -1,5 +1,7 @@
 [app-server]
-100.26.189.43 ansible_user=ubuntu ansible_ssh_private_key_file="/home/afonsobarrenha/aws/lab-key.pem"
+#100.26.189.43 ansible_user=ubuntu ansible_ssh_private_key_file="/home/afonsobarrenha/aws/lab-key.pem"
+192.168.0.16 ansible_user=vagrant ansible_ssh_private_key_file="/home/afonsobarrenha/Documents/Projects/pocs/deployment/devops/iaas/.vagrant/machines/app-server/virtualbox/private_key"
 
 [app-bd]
-174.129.116.56 ansible_user=ubuntu ansible_ssh_private_key_file="/home/afonsobarrenha/aws/lab-key.pem"
+#174.129.116.56 ansible_user=ubuntu ansible_ssh_private_key_file="/home/afonsobarrenha/aws/lab-key.pem"
+192.168.0.20 ansible_user=vagrant ansible_ssh_private_key_file="/home/afonsobarrenha/Documents/Projects/pocs/deployment/devops/iaas/.vagrant/machines/app-bd/virtualbox/private_key"

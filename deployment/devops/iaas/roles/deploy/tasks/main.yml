@@ -2,7 +2,9 @@
 - name: 'Copia o pacote'
   copy:
     src: "/home/afonsobarrenha/Documents/Projects/pocs/implementation/SpringBoot/target/springboot-2.0.0-SNAPSHOT.jar"
-    dest: "/home/ubuntu/springboot.jar"
+    dest: "/home/vagrant/springboot.jar"
+    owner: vagrant
+    mode: u+x
   become: yes
 
 #- name: 'Derruba qualquer execucao em operacao do Java'
@@ -20,9 +22,9 @@
     dest: "/etc/systemd/system/springboot.service"
   become: yes
 
-- name: 'Instala o service'
+- name: 'Starta o service'
   systemd:
-    name: springboot
+    name: springboot.service
     state: started
     enabled: yes
     daemon_reload: yes

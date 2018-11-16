@@ -3,8 +3,8 @@ Description=springboot
 After=syslog.target
 
 [Service]
-User=ubuntu
-ExecStart=/home/ubuntu/springboot.jar
+User=vagrant
+ExecStart=/home/vagrant/springboot.jar
 SuccessExitStatus=143
 
 [Install]

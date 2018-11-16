@@ -1,6 +1,7 @@
 package com.example.demo.controller;
 
 import java.net.InetAddress;
+import java.util.Calendar;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,6 +10,8 @@ import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import cucumber.api.java.ca.Cal;
 
 import com.example.demo.model.InfoModel;
 
@@ -34,9 +37,13 @@ public class InfoController {
 			e.printStackTrace();
 		}
 
+		Calendar today = Calendar.getInstance();
+
 		InfoModel infoModel = new InfoModel(env.getProperty("info.app.groupId"), env.getProperty("info.app.artifactId"),
 				env.getProperty("info.app.version"), env.getProperty("info.app.name"),
-				env.getProperty("info.app.description"), env.getProperty("spring.profiles.active"), ip, hostname);
+				env.getProperty("info.app.description"), env.getProperty("spring.profiles.active"), ip, hostname, today);
+
+		logger.info("infoModel=" + infoModel);
 
 		logger.info("index(" + name + ") - end");
 
