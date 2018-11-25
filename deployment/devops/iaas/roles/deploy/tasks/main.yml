@@ -2,8 +2,8 @@
 - name: 'Copia o pacote'
   copy:
     src: "/home/afonsobarrenha/Documents/Projects/pocs/implementation/SpringBoot/target/springboot-2.0.0-SNAPSHOT.jar"
-    dest: "/home/vagrant/springboot.jar"
-    owner: vagrant
+    dest: "/home/ubuntu/springboot.jar"
+    owner: ubuntu
     mode: u+x
   become: yes
 

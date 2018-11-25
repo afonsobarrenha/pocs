@@ -6,7 +6,7 @@ provider "aws" {
 
 resource "aws_instance" "app-bd" {
   ami             = "ami-0c54494f920b19106" #ubuntu14.04
-  instance_type   = "t2.small"
+  instance_type   = "t2.micro"
   key_name        = "lab-key"
   
   security_groups = ["allow-ssh", "allow-bd-access"]
@@ -36,7 +36,7 @@ resource "aws_db_instance" "app-bd-rds" {
 
 resource "aws_instance" "app-server" {
   ami             = "ami-0c54494f920b19106" #ubuntu14.04
-  instance_type   = "t2.micro"
+  instance_type   = "t2.nano"
   availability_zone = "us-east-1a"
 
   key_name        = "lab-key"
