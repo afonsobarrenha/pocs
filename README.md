@@ -184,9 +184,9 @@
 
 ### DevOps
 
-- [ ] Master Jenkins CI for DevOps and Developers ![study](https://img.shields.io/badge/study-todo-red.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
-- [ ] Docker Technology for DevOps and Developers
-- [ ] AWS Certified Solutions Architect
+- [ ] Master Jenkins CI for DevOps and Developers ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
+- [ ] Docker Technology for DevOps and Developers ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
+- [ ] AWS Certified Solutions Architect ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
 - [ ] AWS Certified Developer
 - [ ] AWS Certified SysOps Administrator
 - [ ] \(Opcional) Ethical Hacking
