@@ -160,7 +160,7 @@
 - [x] Integração Contínua
 - [x] Kubernetes
 - [x] AWS S3
-- [ ] AWS EC2 ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-doing-yellow.svg)
+- [ ] AWS EC2 ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
 - [ ] AWS - SpringBoot ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
 - [ ] AWS ECS - Docker ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
 
