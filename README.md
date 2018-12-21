@@ -196,6 +196,9 @@
 - [ ] Hands-On Hadoop
 - [ ] Apache Spark and Python
 
+### (Opcional) Nodejs
+- [ ] Node.js: The Complete Guide to Build RESTful APIs
+
 - - -
 
 ## Docker Samples

@@ -32,7 +32,7 @@
   - ctrl shift e: abre aba lateral
   - ctrl shift o: abre aba horizontal
   - ctrl d: fecha aba
-- **Node** v8.11.2
+- **Node** v8.14.1
 - **Vagrant** 2.0.2
 - **Vagrant Box** "ubuntu/xenial64"
 - **VirtualBox** 4.3.36
