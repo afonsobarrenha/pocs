@@ -1,0 +1,22 @@
+---
+
+- name: run the playbook tasks on the localhost
+  hosts: 127.0.0.1
+  connection: local
+  become: yes
+  tasks:
+    
+  - name: update and upgrade the apt package index
+    apt: update_cache=yes upgrade=yes
+  
+  - name: install dev packages
+    apt:
+      name: "{{ item }}"
+      state: latest
+    with_items:
+      - git
+      - git-flow
+      - openjdk-8-jdk
+      - maven
+      - eclipse
+      - docker.io
