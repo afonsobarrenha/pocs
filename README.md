@@ -1,4 +1,4 @@
-# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v1.20.0-blue.svg)
+# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v1.20.1-blue.svg)
 
 > Olá, minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Mãos à obra!
 
@@ -184,9 +184,9 @@
 
 ### DevOps
 
-- [ ] Master Jenkins CI for DevOps and Developers ![study](https://img.shields.io/badge/study-todo-red.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
-- [ ] Docker Technology for DevOps and Developers
-- [ ] AWS Certified Solutions Architect
+- [ ] Master Jenkins CI for DevOps and Developers ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
+- [ ] Docker Technology for DevOps and Developers ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
+- [ ] AWS Certified Solutions Architect ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
 - [ ] AWS Certified Developer
 - [ ] AWS Certified SysOps Administrator
 - [ ] \(Opcional) Ethical Hacking
