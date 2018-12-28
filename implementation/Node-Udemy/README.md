@@ -7,5 +7,5 @@
 ## Commands
 ```
 node --version
-console.log(module);
+node app.js
 ```
