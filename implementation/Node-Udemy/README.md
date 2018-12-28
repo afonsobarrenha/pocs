@@ -4,6 +4,8 @@
 
 > ... in Node, every file is a module, and the variables and functions defined and in that file are a scope to that module, they are not available outside of that module.
 
+> Important modules: File System, HTTP, OS, Path, Process, Query String, Stream
+
 ## Commands
 ```
 node --version
