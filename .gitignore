@@ -1,8 +1,1 @@
-implementation/logs/
-deployment/devops/iaas/.vagrant/
-deployment/devops/docker-compose/volumes/
-.vscode/settings.json
-deployment/devops/iaas/provisioning.retry
-deployment/devops/iaas/terraform.tfstate*
-deployment/devops/iaas/.terraform/
-implementation/log/
+tools/provisioning.retry
