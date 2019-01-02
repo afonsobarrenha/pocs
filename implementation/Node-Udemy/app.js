@@ -1,10 +1,14 @@
 // modules
-const logger = require('./logger');
 const path = require('path');
 const os = require('os');
 const fs = require('fs');
+//const EventEmitter = require('events');
+const Logger = require('./logger');
 
 // vars
+
+const logger = new Logger();
+
 var line = '\n- - -\n';
 
 // business logic
@@ -27,38 +31,45 @@ fs.readdir('./', function(err, files){
     else console.log('Result', files);
 });
 
+// Register a listener na classe Logger para atender aos prints da aplicação
+//emitter.on('messageLogged', function(event){ Lets use an Arrow Function below!
+logger.on('eventEmmit', (event) => {
+    console.log('logger - eventEmmit', event);
+})
+
+
 // prints
-logger(line);
+logger.log(line);
 
 //Estamos exportando diretamente a função
 //logger.log('message!');
 
-logger('logger working!');
-logger(line);
+logger.log('logger working!');
+logger.log(line);
 
-logger(objPath);
-logger(line);
+logger.log(objPath);
+logger.log(line);
 
-logger(`totalmem: ${totalmem/1024/1024/1024} GB`);
-logger(line);
+logger.log(`totalmem: ${totalmem/1024/1024/1024} GB`);
+logger.log(line);
 
-logger(`freemem: ${freemem/1024/1024/1024} GB`);
-logger(line);
+logger.log(`freemem: ${freemem/1024/1024/1024} GB`);
+logger.log(line);
 
-logger(`cpus: ${cpus}`);
-logger(line);
+logger.log(`cpus: ${cpus}`);
+logger.log(line);
 
-logger(`hostname: ${hostname}`);
-logger(line);
+logger.log(`hostname: ${hostname}`);
+logger.log(line);
 
-logger(`platform: ${platform}`);
-logger(line);
+logger.log(`platform: ${platform}`);
+logger.log(line);
 
-logger(`release: ${release}`);
-logger(line);
+logger.log(`release: ${release}`);
+logger.log(line);
 
-logger(`uptime: ${uptime}`);
-logger(line);
+logger.log(`uptime: ${uptime}`);
+logger.log(line);
 
-logger(`userInfo: ${userInfo}`);
-logger(line);
+logger.log(`userInfo: ${userInfo}`);
+logger.log(line);
