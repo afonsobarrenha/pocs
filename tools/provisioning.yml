@@ -16,6 +16,9 @@
   - name: adjust the time and date in dual boot
     command: timedatectl set-local-rtc 1
 
+  - name: adjust the grub menu order (pointing to windows)
+    command: sed -i 's/original/new/g' file.txt
+
   - name: install dev packages
     apt:
       name: "{{ item }}"
