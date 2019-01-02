@@ -10,4 +10,11 @@
 ```
 node --version
 node app.js
+npm -v
+sudo npm i -g npm@5.5.1
+npm init
+npm install underscore
 ```
+
+## Links
+- [npmjs.com](npmjs.com)
