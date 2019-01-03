@@ -6,14 +6,36 @@
 
 > Important modules: File System, HTTP, OS, Path, Process, Query String, Stream
 
+> So this is how the require function resolves a module: First, it assumes it's a core module, otherwiseit assumes it's a file or folder, and if not it looks for that module inside of the node modules folder.
+
+> In semantic versioning, the version of a Node package has three components, as you can see here. So three numbers, 4, 13 and 6. The first number is what we call the major version. The second one is what we call the minor version. And the third one is what we call the patch version. Or patch release, which is used for bug fixes.
+
 ## Commands
+
+### Node
 ```
 node --version
 node app.js
+```
+
+### Npm
+```
 npm -v
-sudo npm i -g npm@5.5.1
+npm i -g npm@5.5.1
 npm init
 npm install underscore
+npm install mongoose
+npm install mongoose@2.4.2
+npm i # instala todas as dependências do package.json
+npm list
+npm list --depth=0
+npm view mongoose
+npm view mongoose dependencies
+npm view mongoose versions
+npm outdated
+npm update
+npm i -g npm-check-updates
+npm-check-updates -u
 ```
 
 ## Links
