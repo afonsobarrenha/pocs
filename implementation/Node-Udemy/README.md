@@ -10,6 +10,8 @@
 
 > In semantic versioning, the version of a Node package has three components, as you can see here. So three numbers, 4, 13 and 6. The first number is what we call the major version. The second one is what we call the minor version. And the third one is what we call the patch version. Or patch release, which is used for bug fixes.
 
+> Examples of endpoints: http://vidly.com/api/customers or http://api.vidly.com/customers. GET /api/customers/, GET /api/customers/1. PUT /api/customers/1 { name: '' }. DELETE /api/customers/1. POST /api/customers/ { name: 'Customer1' }.
+
 ## Commands
 
 ### Node
@@ -23,6 +25,7 @@ node app.js
 npm -v
 npm i -g npm@5.5.1
 npm init
+npm init --yes
 npm install underscore
 npm install mongoose
 npm install mongoose@2.4.2
