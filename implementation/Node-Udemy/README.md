@@ -18,6 +18,7 @@
 ```
 node --version
 node app.js
+nodemon app.js
 ```
 
 ### Npm
@@ -39,6 +40,7 @@ npm outdated
 npm update
 npm i -g npm-check-updates
 npm-check-updates -u
+npm i -g nodemon --save-dev
 ```
 
 ## Links

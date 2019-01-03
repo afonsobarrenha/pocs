@@ -6,7 +6,12 @@ app.get('/', (req, res) => {
 })
 
 app.get('/api/courses', (req, res) => {
-    res.send([1,2,3]);
+    res.send([1,2,3,4,5]);
 })
 
-app.listen(3000, () => console.log('Listening on 3000...'));
+app.get('/api/courses/:year/:month', (req, res) => {
+    res.send(`Param year:${req.params.year}, Param month: ${req.params.month}. Query: ${req.query}`);
+})
+
+const port = process.env.PORT || 3000
+app.listen(port, () => console.log(`Listening on ${port}...`));
