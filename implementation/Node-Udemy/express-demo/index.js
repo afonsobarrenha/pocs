@@ -9,8 +9,13 @@ app.use(helmet());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
-app.use(morgan('tiny'));
 app.use(logger);
+
+console.log(`NODE_ENV: ${ process.env.NODE_ENV }`); //development, production
+console.log(`app env: ${ app.get('env') }`); // reads the variable above
+
+if(app.get('env') === 'development') app.use(morgan('dev'));
+else app.use(morgan('short'));
 
 const courses = [
     { id: 1, name: 'course1' },
@@ -65,7 +70,7 @@ app.delete('/api/courses/:id', (req, res) => {
 
     const index = courses.indexOf(course);
     courses.splice(index, 1);
-    
+
     res.send(course);
 })
 
