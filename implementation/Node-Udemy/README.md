@@ -12,6 +12,8 @@
 
 > Examples of endpoints: http://vidly.com/api/customers or http://api.vidly.com/customers. GET /api/customers/, GET /api/customers/1. PUT /api/customers/1 { name: '' }. DELETE /api/customers/1. POST /api/customers/ { name: 'Customer1' }.
 
+> We have an example of a Middleware function when we call express.json() method. This method returns a function, a Middleware function, and the job of this Middleware function is to read the request, and if there is a JSON object in the body of the request, it will parse the body of the request into a JSON object, and then it will set request.body property.
+
 ## Commands
 
 ### Node
@@ -41,6 +43,8 @@ npm update
 npm i -g npm-check-updates
 npm-check-updates -u
 npm i -g nodemon --save-dev
+npm i helmet //security
+npm i morgan // log http requests
 ```
 
 ## Links

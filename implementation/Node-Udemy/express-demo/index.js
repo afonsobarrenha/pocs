@@ -1,8 +1,16 @@
 const express = require('express');
+const helmet = require('helmet');
+const morgan = require('morgan');
 const Joi = require('joi');
+const logger = require('./logger');
 
 var app = express();
+app.use(helmet());
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static('public'));
+app.use(morgan('tiny'));
+app.use(logger);
 
 const courses = [
     { id: 1, name: 'course1' },
@@ -11,7 +19,7 @@ const courses = [
 ];
 
 app.get('/', (req, res) => {
-    res.send('helloworld');
+    res.send('express-demo app');
 })
 
 app.get('/api/courses', (req, res) => {
@@ -70,4 +78,4 @@ function validateCourse(course){
 }
 
 const port = process.env.PORT || 3000
-app.listen(port, () => console.log(`Listening on ${port}...`));
+app.listen(port, () => console.log(`express-demo app listening on ${port}...`));
