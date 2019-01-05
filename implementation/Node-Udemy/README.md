@@ -36,6 +36,7 @@ npm outdated
 npm update
 npm i -g npm-check-updates
 npm-check-updates -u
+npm i jshint --save-dev
 ```
 
 ## Links
