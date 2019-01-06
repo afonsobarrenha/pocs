@@ -1,96 +1,65 @@
 const express = require('express');
-const helmet = require('helmet');
-const morgan = require('morgan');
-const Joi = require('joi');
-const config = require('config');
-const startupDebugger = require('debug')('app:startup');
-const dbDebugger = require('debug')('app:db');
-const logger = require('./logger');
+const helmet = require('helmet'); // Helmet helps you secure your Express apps by setting various HTTP headers.
+const morgan = require('morgan'); // Logs
+const Joi = require('joi'); // Validations
+const config = require('config'); // Configurations
+const logger = require('./logger'); // Custom Log Middleware
+
+// Debug
+const appLog = require('debug')('app:index'); 
+const dbLog = require('debug')('app:db'); 
+const routerLog = require('debug')('app:router'); 
+
+// Routers
+const courses = require('./courses'); 
+
+appLog('Creating express app...');
 
 var app = express();
 app.use(helmet());
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-app.use(express.static('public'));
+app.use(express.json()); // habilita o req.body como um json
+app.use(express.urlencoded({ extended: true })); // habilita o recebimento de query parameters no req 
+app.use(express.static('public')); // habilita a pasta 'public' como pública
 app.use(logger);
 
-startupDebugger('Loading config values');
-dbDebugger('Loading db values');
+appLog('Creating routers...')
 
-console.log(`NODE_ENV: ${ process.env.NODE_ENV }`); //development, production
+// Routers
+app.use('/api/courses', courses);
+
+// Ways to get properties
+
+// export NODE_ENV=development
+console.log(`NODE_ENV: ${ process.env.NODE_ENV }`);
 console.log(`app env: ${ app.get('env') }`); // reads the variable above
 
-console.log(`Application Name: ${ config.get('name')}`);
-console.log(`Mail Server: ${ config.get('mail.host')}`);
-console.log(`Mail Password: ${ config.get('mail.password')}`);
+// Reads from the config folder, with one file per variable value
+console.log(`Application Name: ${config.get('name')}`);
+console.log(`Mail Server: ${config.get('mail.host')}`);
+console.log(`Mail Password: ${config.get('mail.password')}`);
 
-if(app.get('env') === 'development') app.use(morgan('dev'));
-else app.use(morgan('short'));
+appLog(`NODE_ENV: ${app.get('env')}...`)
 
-const courses = [
-    { id: 1, name: 'course1' },
-    { id: 2, name: 'course2' },
-    { id: 3, name: 'course3' }
-];
+if(app.get('env') === 'development'){
+    appLog('Using morgan(dev).');
+    app.use(morgan('dev'));
+} else {
+    appLog('Using morgan(short).');
+    app.use(morgan('short'));
+}
 
 app.get('/', (req, res) => {
     res.send('express-demo app');
 })
 
-app.get('/api/courses', (req, res) => {
-    res.send(courses);
-})
+appLog(`PORT: ${process.env.PORT}...`)
 
-app.get('/api/courses/:id', (req, res) => {
-    const course = courses.find(c => c.id === parseInt(req.params.id));    
-    if (!course) return res.status(404).send('Course not found.'); // 400 Resource not found
-    
-    res.send(course);
-})
-
-app.post('/api/courses', (req, res) => {
-
-    const { error } = validateCourse(req.body);
-    if (error) return res.status(404).send(error.details[0].message); // 404 Bad Request
-
-    const course = {
-        id: courses.length +1,
-        name: req.body.name
-    }
-
-    courses.push(course);
-    res.send(course);
-})
-
-app.put('/api/courses/:id', (req, res) => {
-    const course = courses.find(c => c.id === parseInt(req.params.id));    
-    if (!course) return res.status(404).send('Course not found.'); // 400 Resource not found
-
-    // object destructure!
-    const { error } = validateCourse(req.body);
-    if (error) return res.status(404).send(error.details[0].message); // 404 Bad Request
-
-    course.name = req.body.name;
-    res.send(course);
-})
-
-app.delete('/api/courses/:id', (req, res) => {
-    const course = courses.find(c => c.id === parseInt(req.params.id));    
-    if (!course) return res.status(404).send('Course not found.'); // 400 Resource not found
-
-    const index = courses.indexOf(course);
-    courses.splice(index, 1);
-
-    res.send(course);
-})
-
-function validateCourse(course){
-    const schema = {
-        name: Joi.string().min(3).required()
-    }
-
-    return Joi.validate(course, schema);
+if(process.env.PORT){
+    appLog(`Using port ${process.env.PORT}.`);
+    port = process.env.PORT
+} else {
+    appLog(`Using port 3000.`);
+    port = 3000
 }
 
-const port = process.env.PORT || 3000
 app.listen(port, () => console.log(`express-demo app listening on ${port}...`));
