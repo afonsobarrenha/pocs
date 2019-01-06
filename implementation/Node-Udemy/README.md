@@ -22,6 +22,9 @@ node --version
 node app.js
 nodemon app.js
 export NODE_ENV=development //production
+export DEBUG=app:startup,app:db
+export DEBUG=app:*
+DEBUG=app:* nodemon index.js
 ```
 
 ### Npm
@@ -47,6 +50,7 @@ npm i -g nodemon --save-dev
 npm i helmet //security
 npm i morgan // log http requests
 npm i config
+npm i debug
 ```
 
 ## Links

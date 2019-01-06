@@ -3,6 +3,8 @@ const helmet = require('helmet');
 const morgan = require('morgan');
 const Joi = require('joi');
 const config = require('config');
+const startupDebugger = require('debug')('app:startup');
+const dbDebugger = require('debug')('app:db');
 const logger = require('./logger');
 
 var app = express();
@@ -11,6 +13,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 app.use(logger);
+
+startupDebugger('Loading config values');
+dbDebugger('Loading db values');
 
 console.log(`NODE_ENV: ${ process.env.NODE_ENV }`); //development, production
 console.log(`app env: ${ app.get('env') }`); // reads the variable above
