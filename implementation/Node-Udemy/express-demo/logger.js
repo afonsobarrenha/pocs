@@ -1,5 +1,5 @@
 function log (req, res, next) {
-    console.log('Logger Middleware logging...');
+    console.log('Custom Middleware logging...');
     next();
 }
 
