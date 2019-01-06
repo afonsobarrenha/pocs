@@ -23,7 +23,7 @@ app.use(logger);
 
 log('Configuring template engine (pug)...')
 app.set('view engine', 'pug');
-app.set('views', '.views')
+app.set('views', './views')
 
 log('Creating routers...')
 
@@ -65,7 +65,7 @@ if(process.env.PORT){
 
 // Welcome
 app.get('/', (req, res) => {
-    res.send('express-demo helloworld');
+    res.render('index', {"title": 'express-demo', message: 'hello world from express-demo!'})
 })
 
 app.listen(port, () => console.log(`express-demo app listening on ${port}...`));
