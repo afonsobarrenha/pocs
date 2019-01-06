@@ -3,14 +3,12 @@ const helmet = require('helmet'); // Helmet helps you secure your Express apps b
 const morgan = require('morgan'); // Logs
 const Joi = require('joi'); // Validations
 const config = require('config'); // Configurations
-const logger = require('./logger'); // Custom Log Middleware
+const logger = require('./middleware/logger'); // Custom Log Middleware
 
 // Debug
 const log = require('debug')('app:log'); 
 const debug = require('debug')('app:debug'); 
 
-// Routers
-const courses = require('./courses'); 
 
 log('Creating express app...');
 
@@ -28,7 +26,11 @@ app.set('views', './views')
 log('Creating routers...')
 
 // Routers
+const courses = require('./routes/courses');
+const welcome = require('./routes/home');
+
 app.use('/api/courses', courses);
+app.use('/', welcome);
 
 // Ways to get properties
 
@@ -62,10 +64,5 @@ if(process.env.PORT){
     debug(`Using port 3000.`);
     port = 3000
 }
-
-// Welcome
-app.get('/', (req, res) => {
-    res.render('index', {"title": 'express-demo', message: 'hello world from express-demo!'})
-})
 
 app.listen(port, () => console.log(`express-demo app listening on ${port}...`));
