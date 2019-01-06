@@ -2,6 +2,7 @@ const express = require('express');
 const helmet = require('helmet');
 const morgan = require('morgan');
 const Joi = require('joi');
+const config = require('config');
 const logger = require('./logger');
 
 var app = express();
@@ -13,6 +14,10 @@ app.use(logger);
 
 console.log(`NODE_ENV: ${ process.env.NODE_ENV }`); //development, production
 console.log(`app env: ${ app.get('env') }`); // reads the variable above
+
+console.log(`Application Name: ${ config.get('name')}`);
+console.log(`Mail Server: ${ config.get('mail.host')}`);
+console.log(`Mail Password: ${ config.get('mail.password')}`);
 
 if(app.get('env') === 'development') app.use(morgan('dev'));
 else app.use(morgan('short'));

@@ -21,6 +21,7 @@
 node --version
 node app.js
 nodemon app.js
+export NODE_ENV=development //production
 ```
 
 ### Npm
@@ -45,6 +46,7 @@ npm-check-updates -u
 npm i -g nodemon --save-dev
 npm i helmet //security
 npm i morgan // log http requests
+npm i config
 ```
 
 ## Links
