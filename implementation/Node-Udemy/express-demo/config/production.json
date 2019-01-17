@@ -1,0 +1,6 @@
+{
+    "name": "express-demo - production",
+    "mail": {
+        "host": "prod-mail-server"
+    }
+}

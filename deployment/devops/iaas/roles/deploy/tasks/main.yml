@@ -1,0 +1,31 @@
+---
+- name: 'Copia o pacote'
+  copy:
+    src: "/home/afonsobarrenha/Documents/Projects/pocs/implementation/SpringBoot/target/springboot-2.0.0-SNAPSHOT.jar"
+    dest: "/home/ubuntu/springboot.jar"
+    owner: ubuntu
+    mode: u+x
+  become: yes
+
+#- name: 'Derruba qualquer execucao em operacao do Java'
+#  shell: /usr/bin/pkill -9 java
+#  ignore_errors: yes
+
+#- name: Sobe o Springboot
+#  shell: nohup /usr/bin/java -jar /home/ubuntu/springboot.jar &
+#  args:
+#    chdir: /home/ubuntu/
+
+- name: 'Copia o service'
+  copy:
+    src: "/home/afonsobarrenha/Documents/Projects/pocs/implementation/SpringBoot/src/main/resources/service/springboot.service"
+    dest: "/etc/systemd/system/springboot.service"
+  become: yes
+
+- name: 'Starta o service'
+  systemd:
+    name: springboot.service
+    state: started
+    enabled: yes
+    daemon_reload: yes
+  become: yes

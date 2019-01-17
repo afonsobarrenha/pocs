@@ -6,7 +6,4 @@
 - hosts: app-server
   roles:
     - openjdk
-
-- hosts: app-server
-  roles:
     - deploy

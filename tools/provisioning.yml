@@ -1,0 +1,51 @@
+---
+
+- name: run the playbook tasks on the localhost
+  hosts: 127.0.0.1
+  connection: local
+  become: yes
+
+  roles:
+    - role: gantsign.visual-studio-code
+
+  tasks:
+    
+  - name: update and upgrade the apt package index
+    apt: update_cache=yes upgrade=yes
+  
+  - name: adjust the time and date in dual boot
+    command: timedatectl set-local-rtc 1
+
+  - name: backup the grub configuration file
+    command: cp /etc/default/grub /etc/default/grub-bkp
+    become: yes
+
+  - name: configure to adjust the grub menu order
+    command: sed -i 's/GRUB_DEFAULT=0/GRUB_DEFAULT=saved/g' /etc/default/grub
+    become: yes
+
+  - name: update grub configurations
+    command: update-grub
+    become: yes
+
+  - name: adjust grub menu order (Windows10)
+    command: grub-set-default 2
+    become: yes
+
+  - name: install dev packages
+    apt:
+      name: "{{ item }}"
+      state: latest
+    with_items:
+      - git
+      - git-flow
+      - openjdk-8-jdk
+      - eclipse
+      - maven
+      - ant
+      - virtualbox
+      - vagrant
+      - docker.io
+      - nodejs
+    become: yes
+

@@ -8,8 +8,7 @@ Para um ambiente Local, de Desenvolvimento, é criado um bd-container "efêmero"
 
 ```
 docker run -d -p 3306:3306 --rm -e MYSQL_ROOT_PASSWORD=root_password -e MYSQL_DATABASE=listavip -e MYSQL_USER=lista_usr -e MYSQL_PASSWORD=lista_pwd mysql:5.6
-mysql -u root
-mysql -p
+mysql -u root -psua-senha-de-root
 ```
 
 A base de dados desse container é sempre criada e carregada no start-up da aplicação, através das instruções 

@@ -1,5 +1,7 @@
 package com.example.demo.model;
 
+import java.util.Calendar;
+
 public class InfoModel {
 
 	private String groupId;
@@ -8,23 +10,45 @@ public class InfoModel {
 	private String name;
 	private String description;
 	private String profile;
+	private String ip;
+	private String hostname;
+	private Calendar today;
 
-	public InfoModel(String groupId, String artifactId, String version, String name, String description,
-			String profile) {
+	public InfoModel(String groupId, String artifactId, String version, String name, String description, String profile,
+			String ip, String hostname, Calendar today) {
 		this.groupId = groupId;
 		this.artifactId = artifactId;
 		this.version = version;
 		this.name = name;
 		this.description = description;
 		this.profile = profile;
+		this.ip = ip;
+		this.hostname = hostname;
+		this.today = today;
 	}
 
 	public String getGroupId() {
 		return groupId;
 	}
 
+	public String getIp() {
+		return ip;
+	}
+
+	public String getHostname() {
+		return hostname;
+	}
+
 	public void setGroupId(String groupId) {
 		this.groupId = groupId;
+	}
+
+	public void setIp(String ip) {
+		this.ip = ip;
+	}
+
+	public void setHostname(String hostname) {
+		this.hostname = hostname;
 	}
 
 	public String getArtifactId() {
@@ -65,6 +89,14 @@ public class InfoModel {
 
 	public void setProfile(String profile) {
 		this.profile = profile;
+	}
+
+	public Calendar getToday() {
+		return today;
+	}
+
+	public void setToday(Calendar today) {
+		this.today = today;
 	}
 
 }
