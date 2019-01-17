@@ -6,10 +6,10 @@ Pasta onde são armazenados os código-fontes dos projetos.
 
 Projeto Maven com Spring, atendendo principalmente os serviços de back-end.
 
-## Node-js
+## Node-Alura
 
-Projeto Node.js para teste.
+Projeto Node.js simples para teste.
 
-## Node-Docker
+## Node-Udemy
 
-Projeto Node.js para teste com Docker.
+Projeto Node.js com MongoDB, Authorization, Authentication e Unit Tests.

@@ -1,4 +1,4 @@
-# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v1.20.1-blue.svg)
+# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v1.21.0-blue.svg)
 
 > Olá, minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Mãos à obra!
 
@@ -160,7 +160,7 @@
 - [x] Integração Contínua
 - [x] Kubernetes
 - [x] AWS S3
-- [ ] AWS EC2 ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-doing-yellow.svg)
+- [ ] AWS EC2 ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
 - [ ] AWS - SpringBoot ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
 - [ ] AWS ECS - Docker ![study](https://img.shields.io/badge/study-done-green.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
 
@@ -195,6 +195,9 @@
 
 - [ ] Hands-On Hadoop
 - [ ] Apache Spark and Python
+
+### (Opcional) Nodejs
+- [ ] Node.js: The Complete Guide to Build RESTful APIs ![study](https://img.shields.io/badge/study-doing-yellow.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
 
 - - -
 
