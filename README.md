@@ -1,4 +1,4 @@
-# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v1.21.0-blue.svg)
+# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v1.22.0-blue.svg)
 
 > Olá, minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Mãos à obra!
 
@@ -264,6 +264,12 @@
 
 - - -
 
+## Android - Noções básicas do app
+
+- [x] Criar seu primeiro app
+
+- - -
+
 _Obs: Estou usando a estrutura de pastas apresentada no livro **Continuous Integration**, onde todos os artefatos envolvidos no projeto são armazenados, desde artefatos de Gerenciamento quanto as Ferramentas que são utilizadas. Isso contrasta com o formato usado no GitHub, onde na grande maioria temos apenas o código fonte armazenado, mas em contrapartida dá uma visão completa de tudo que está envolvido no projeto._
 
 - - -
@@ -283,3 +289,4 @@ _Obs: Estou usando a estrutura de pastas apresentada no livro **Continuous Integ
 - [4Linux](https://www.4linux.com.br/)
 - [Google Cloud Platform](https://cloud.google.com/sdk/auth_success)
 - [Terraform Getting Started](https://www.terraform.io/intro/getting-started/install.html)
+- [Android Studio](https://developer.android.com/training/basics/firstapp/)
