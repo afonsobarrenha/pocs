@@ -47,5 +47,6 @@
       - vagrant
       - docker.io
       - nodejs
+      - android-sdk
     become: yes
 

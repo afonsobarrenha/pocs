@@ -1,0 +1,15 @@
+{
+  "name": "appium",
+  "version": "1.0.0",
+  "description": "## Comandos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webdriverio": "^5.4.17"
+  }
+}
