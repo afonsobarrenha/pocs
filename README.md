@@ -6,10 +6,21 @@
 
 ## EXIN DevOps Master
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+1. Adoção do DevOps
+
+| 1.1   | Mentalidade (Mindset) DevOps e seus benefícios |     | 10% |
+|-------|------------------------------------------------|-----|-----|
+| 1.1.1 | Analisar anti-padrões DevOps em um cenário     | a-5 | [ ] |
+|       |                                                | b-1 | [ ] |
+|       |                                                | c-2 | [ ] |
+|       |                                                | c-2 | [ ] |
+| 1.1.2 | Explicar os benefícios do DevOps               | b-1 | [ ] |
+|       |                                                | c-4 | [ ] |
+|-------|------------------------------------------------|-----|-----|
+| 1.2   | Cultura Organizacional |     | 12% |
+|-------|------------------------|-----|-----|
+| 1.2.1 | Explicar por que os 4 pilares de DevOps Eficaz (Colaboração, Afinidade, Ferramentas e Dimensionamento) são tão importantes | a-6,7 | [ ] |
+
 
 ## (Opcional) LPIC-OT Exam 701: DevOps Tools Engineer Certification
 
