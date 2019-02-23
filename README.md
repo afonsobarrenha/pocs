@@ -1,8 +1,15 @@
-# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v1.22.0-blue.svg)
+# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v2.0.0-blue.svg)
 
-> Olá, minha intenção é colocar em prática os últimos cursos que fiz. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Mãos à obra!
+> Olá, minha intenção é colocar em prática os cursos que faço. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Mãos à obra!
 
 - - -
+
+## EXIN DevOps Master
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
 
 ## (Opcional) LPIC-OT Exam 701: DevOps Tools Engineer Certification
 
