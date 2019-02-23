@@ -9,7 +9,6 @@
 1. Adoção do DevOps
 
 | 1.1   | Mentalidade (Mindset) DevOps e seus benefícios |     | 10% |
-|-------|------------------------------------------------|-----|-----|
 | 1.1.1 | Analisar anti-padrões DevOps em um cenário     | a-5 | [x] |
 |       |                                                | b-1 | [ ] |
 |       |                                                | c-2 | [ ] |
@@ -19,7 +18,6 @@
 
 
 | 1.2   | Cultura Organizacional |     | 12% |
-|-------|------------------------|-----|-----|
 | 1.2.1 | Explicar por que os 4 pilares de DevOps Eficaz (Colaboração, Afinidade, Ferramentas e Dimensionamento) são tão importantes | a-6,7 | [ ] |
 
 
