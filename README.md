@@ -197,6 +197,7 @@
 - [ ] Apache Spark and Python
 
 ### (Opcional) Nodejs
+
 - [ ] Node.js: The Complete Guide to Build RESTful APIs ![study](https://img.shields.io/badge/study-doing-yellow.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
 
 - - -
