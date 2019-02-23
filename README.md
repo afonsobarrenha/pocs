@@ -6,20 +6,38 @@
 
 ## EXIN DevOps Master
 
-1. Adoção do DevOps
+1. Adoção do DevOps (Peso 28%)
 
 | 1.1   | Mentalidade (Mindset) DevOps e seus benefícios |     | 10% |
-| 1.1.1 | Analisar anti-padrões DevOps em um cenário     | a-5 | [x] |
+|-------|------------------------------------------------|-----|-----|
+| 1.1.1 | Analisar anti-padrões DevOps em um cenário     | a-5 | [ ] |
 |       |                                                | b-1 | [ ] |
 |       |                                                | c-2 | [ ] |
 |       |                                                | c-2 | [ ] |
-| 1.1.2 | Explicar os benefícios do DevOps               | b-1 | [ ] |
-|       |                                                | c-4 | [ ] |
+| 1.1.2 | Explicar os benefícios do DevOps  | b-1 | [ ] |
+|       |                                   | c-4 | [ ] |
+| 1.1.3 | Explicar por que o DevOps se adequa taõ bem ao atual processo de desenvolvimento de software  | a-3 | [ ] |
+|       |                                                                                               | b-1 | [ ] |
+|       |                                                                                               | c-4 | [ ] |
+| 1.1.4 | Explicar por que DevOps precisa de uma mentalidade específico para trabalhar  | a-1,2,4   | [ ] |
+|       |                                                                               | c-4       | [ ] |
+| 1.1.5 | Explicar como o DevOps se encaixa com as práticas Lean e Agile Scrum  | b-15  | [ ] |
+|       |                                                                       | c-1,4 | [ ] |
 
 
 | 1.2   | Cultura Organizacional |     | 12% |
+|-------|------------------------|-----|-----|
 | 1.2.1 | Explicar por que os 4 pilares de DevOps Eficaz (Colaboração, Afinidade, Ferramentas e Dimensionamento) são tão importantes | a-6,7 | [ ] |
+| 1.2.2 | Analisar um cenário com partes faltantes da mentalidade DevOps | a-7 | [ ] |
+| 1.2.3 | Explicar como criar uma equipe com um grupo de pessoas, focando fomentar a colaboração, a mentalidade DevOps, a empatia e a confiança | a-7,9 | [ ] |
+| 1.2.4 | Analisar uma situação que tenha um equívoco sobre a colaboração e identificar o método correto de solução do problema | a-7,8,9,16 | [ ] |
+| 1.2.5 | Analisar uma situação em que há necessidade de gestão de conflitos e identificar a melhor solução | a-7,14 | [ ] |
+| 1.2.6 | Explicar como o gerenciamento de recursos humanos pode fomentar a diversidade e quais benefícios isso traz ara a organização | a-7 | [ ] |
 
+| 1.3 | Princípios e Conceitos DevOps |   | 6% |
+| 1.3.1 | Explicar o uso e a utilidade de diferentes metodologias de desenvolvimento de software ( Cascata, Agile, Scrum) e seus princípios básicos | a-4 | [ ] |
+| 1.3.1 |   | b-1 | [ ] |
+| 1.3.1 |   | c-5 | [ ] |
 
 ## (Opcional) LPIC-OT Exam 701: DevOps Tools Engineer Certification
 
