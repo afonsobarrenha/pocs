@@ -6,69 +6,76 @@
 
 ## EXIN DevOps Master
 
-1. Adoção do DevOps (Peso 28%)
+### 1. Adoção do DevOps (Peso 28%)
 
-| 1.1   | Mentalidade (Mindset) DevOps e seus benefícios |     | 10% |
-|-------|------------------------------------------------|-----|-----|
-| 1.1.1 | Analisar anti-padrões DevOps em um cenário     | a-5 | [ ] |
-|       |                                                | b-1 | [ ] |
-|       |                                                | c-2 | [ ] |
-|       |                                                | c-2 | [ ] |
-| 1.1.2 | Explicar os benefícios do DevOps  | b-1 | [ ] |
-|       |                                   | c-4 | [ ] |
-| 1.1.3 | Explicar por que o DevOps se adequa taõ bem ao atual processo de desenvolvimento de software  | a-3 | [ ] |
-|       |                                                                                               | b-1 | [ ] |
-|       |                                                                                               | c-4 | [ ] |
-| 1.1.4 | Explicar por que DevOps precisa de uma mentalidade específico para trabalhar  | a-1,2,4   | [ ] |
-|       |                                                                               | c-4       | [ ] |
-| 1.1.5 | Explicar como o DevOps se encaixa com as práticas Lean e Agile Scrum  | b-15  | [ ] |
-|       |                                                                       | c-1,4 | [ ] |
+| 1.1   | Mentalidade (Mindset) DevOps e seus benefícios                                                |                           | 10% |
+|-------|-----------------------------------------------                                                |-----------                |-----|
+| 1.1.1 | Analisar anti-padrões DevOps em um cenário                                                    | Effective DevOps - 5      | [ ] |
+|       |                                                                                               | Continous Delivery - 1    | [ ] |
+|       |                                                                                               | Enterprise DevOps - 2     | [ ] |
+|       |                                                                                               | Enterprise DevOps - 2     | [ ] |
+| 1.1.2 | Explicar os benefícios do DevOps                                                              | Continous Delivery - 1    | [ ] |
+|       |                                                                                               | Enterprise DevOps - 4     | [ ] |
+| 1.1.3 | Explicar por que o DevOps se adequa taõ bem ao atual processo de desenvolvimento de software  | Effective DevOps - 3      | [ ] |
+|       |                                                                                               | Continous Delivery - 1    | [ ] |
+|       |                                                                                               | Enterprise DevOps - 4     | [ ] |
+| 1.1.4 | Explicar por que DevOps precisa de uma mentalidade específico para trabalhar                  | Effective DevOps - 1,2,4  | [ ] |
+|       |                                                                                               | Enterprise DevOps - 4     | [ ] |
+| 1.1.5 | Explicar como o DevOps se encaixa com as práticas Lean e Agile Scrum                          | Continous Delivery - 15   | [ ] |
+|       |                                                                                               | Enterprise DevOps - 1,4   | [ ] |
 
-| 1.2   | Cultura Organizacional |     | 12% |
-|-------|------------------------|-----|-----|
-| 1.2.1 | Explicar por que os 4 pilares de DevOps Eficaz (Colaboração, Afinidade, Ferramentas e Dimensionamento) são tão importantes | a-6,7 | [ ] |
-| 1.2.2 | Analisar um cenário com partes faltantes da mentalidade DevOps | a-7 | [ ] |
-| 1.2.3 | Explicar como criar uma equipe com um grupo de pessoas, focando fomentar a colaboração, a mentalidade DevOps, a empatia e a confiança | a-7,9 | [ ] |
-| 1.2.4 | Analisar uma situação que tenha um equívoco sobre a colaboração e identificar o método correto de solução do problema | a-7,8,9,16 | [ ] |
-| 1.2.5 | Analisar uma situação em que há necessidade de gestão de conflitos e identificar a melhor solução | a-7,14 | [ ] |
-| 1.2.6 | Explicar como o gerenciamento de recursos humanos pode fomentar a diversidade e quais benefícios isso traz ara a organização | a-7 | [ ] |
+| 1.2   | Cultura Organizacional                                                                                                                |                               | 12% |
+|-------|------------------------                                                                                                               |-------                        |-----|
+| 1.2.1 | Explicar por que os 4 pilares de DevOps Eficaz (Colaboração, Afinidade, Ferramentas e Dimensionamento) são tão importantes            | Effective DevOps - 6,7        | [ ] |
+| 1.2.2 | Analisar um cenário com partes faltantes da mentalidade DevOps                                                                        | Effective DevOps - 7          | [ ] |
+| 1.2.3 | Explicar como criar uma equipe com um grupo de pessoas, focando fomentar a colaboração, a mentalidade DevOps, a empatia e a confiança | Effective DevOps - 7,9        | [ ] |
+| 1.2.4 | Analisar uma situação que tenha um equívoco sobre a colaboração e identificar o método correto de solução do problema                 | Effective DevOps - 7,8,9,16   | [ ] |
+| 1.2.5 | Analisar uma situação em que há necessidade de gestão de conflitos e identificar a melhor solução                                     | Effective DevOps - 7,14       | [ ] |
+| 1.2.6 | Explicar como o gerenciamento de recursos humanos pode fomentar a diversidade e quais benefícios isso traz ara a organização          | Effective DevOps - 7          | [ ] |
 
-| 1.3 | Princípios e Conceitos DevOps |     | 6%  |
-|-----|-------------------------------|-----|-----|
-| 1.3.1 | Explicar o uso e a utilidade de diferentes metodologias de desenvolvimento de software ( Cascata, Agile, Scrum) e seus princípios básicos | a-4 | [ ] |
-|       |   | b-1 | [ ] |
-|       |   | c-5 | [ ] |
-| 1.3.2 | Explicar o uso e utilidade de diferente metodologias de operações (Gerenciamento de Servios de TI) | c-3,4 | [ ] |
-| 1.3.3 | Explicar o uso e a utilidade da metodologia de sistemas Lean | a-4 | [ ] |
+| 1.3   | Princípios e Conceitos DevOps                                                                                                             |                           | 6%  |
+|-------|-------------------------------                                                                                                            |-----                      |-----|
+| 1.3.1 | Explicar o uso e a utilidade de diferentes metodologias de desenvolvimento de software ( Cascata, Agile, Scrum) e seus princípios básicos | Effective DevOps - 4      | [ ] |
+|       |                                                                                                                                           | Continous Delivery - 1    | [ ] |
+|       |                                                                                                                                           | Enterprise DevOps - 5     | [ ] |
+| 1.3.2 | Explicar o uso e utilidade de diferente metodologias de operações (Gerenciamento de Servios de TI)                                        | Enterprise DevOps - 3,4   | [ ] |
+| 1.3.3 | Explicar o uso e a utilidade da metodologia de sistemas Lean                                                                              | Effective DevOps - 4      | [ ] |
 
-2. Planejamento, Requisitos e Desenho (Peso 18%)
+### 2. Planejamento, Requisitos e Desenho (Peso 18%)
 
-| 2.1   | Gerenciamento do Ciclo de Vida de Aplicativos ou Serviços |     | 18% |
-|-------|-----------------------------------------------------------|-----|-----|
-| 2.1.1 | Explicar como o DevOps agrega valor aou Gerenciamtno do Ciclo de Vida do Aplicativo moderno | c-1 | [ ] |
-| 2.1.2 | Explicar por que o DevOps melhora a experiência do cliente quando usada para o GErenciamento do Ciclo de Vida do Serviço | c-4 | [ ] |
+| 2.1   | Gerenciamento do Ciclo de Vida de Aplicativos ou Serviços                                                                 |                       | 18% |
+|-------|-----------------------------------------------------------                                                                |-----                  |-----|
+| 2.1.1 | Explicar como o DevOps agrega valor aou Gerenciamtno do Ciclo de Vida do Aplicativo moderno                               | Enterprise DevOps - 1 | [ ] |
+| 2.1.2 | Explicar por que o DevOps melhora a experiência do cliente quando usada para o GErenciamento do Ciclo de Vida do Serviço  | Enterprise DevOps - 4 | [ ] |
 
-| 2.2   | Termo de Abertura do Projeto (Definição de escopo) e Controle Visual |     | 4% |
-|-------|----------------------------------------------------------------------|-----|----|
-| 2.2.1 | Explicar como o escopo do projeto DevOps deve ser determinado | b-10 | [ ] |
-|       |                                                               | c-8  | [ ] |
-| 2.2.2 | Explicar por que o Controle Visual em um projeto DevOPs facilita as práticas DevOps | b-5 | [ ] |
-|  |  | c-7 | [ ] |
+| 2.2   | Termo de Abertura do Projeto (Definição de escopo) e Controle Visual                  |                           | 4%  |
+|-------|----------------------------------------------------------------------                 |-----                      |-----|
+| 2.2.1 | Explicar como o escopo do projeto DevOps deve ser determinado                         | Continous Delivery - 10   | [ ] |
+|       |                                                                                       | Enterprise DevOps - 8     | [ ] |
+| 2.2.2 | Explicar por que o Controle Visual em um projeto DevOPs facilita as práticas DevOps   | Continous Delivery - 5    | [ ] |
+|       |                                                                                       | Enterprise DevOps - 7     | [ ] |
 
-| 2.3   | Desenho da Infraestrutura e Arquitetura |     | 4% |
-|-------|-----------------------------------------|-----|----|
-| 2.3.1 | Explicar como o DevOps muda ou influencia o projeto de infraestrutura e arquitetura de TI | b-11 | [ ] |
-| 2.3.2 | Explicar por que a Computação em nuvem e as técnidas de virtualização tornam a integração de Dev e Ops mais fácil | b-11 | [ ] |
+| 2.3   | Desenho da Infraestrutura e Arquitetura                                                                           |                           | 4%  |
+|-------|-----------------------------------------                                                                          |-----                      |-----|
+| 2.3.1 | Explicar como o DevOps muda ou influencia o projeto de infraestrutura e arquitetura de TI                         | Continous Delivery - 11   | [ ] |
+| 2.3.2 | Explicar por que a Computação em nuvem e as técnidas de virtualização tornam a integração de Dev e Ops mais fácil | Continous Delivery - 11   | [ ] |
 
-| 2.4   | Requisitos e acordos de nível de serviço |     | 2% |
-|-------|------------------------------------------|-----|----|
-| 2.4.1 | Explicar como o DevOps altera os requisitos e os acordos de nível de serviço | b-12 | [ ] |
-| | | c-4 | [ ] |
+| 2.4   | Requisitos e acordos de nível de serviço                                      |                           | 2%  |
+|-------|------------------------------------------                                     |-----                      |-----|
+| 2.4.1 | Explicar como o DevOps altera os requisitos e os acordos de nível de serviço  | Continous Delivery - 12   | [ ] |
+|       |                                                                               | Enterprise DevOps - 4     | [ ] |
 
-| 2.5   | Implementando uma Estratégia de Testes |     | 4% |
-|-------|----------------------------------------|-----|----|
-| 2.5.1 | Explicar por que e como a Estratégia de Teste precisa ser alterada ao fazer a transição para o DevOps | b-4 | [ ] |
-| 2.5.2 | Analisar História de Usuário para completude | b-4 | [ ] |
+| 2.5   | Implementando uma Estratégia de Testes                                                                |                           | 4%  |
+|-------|----------------------------------------                                                               |-----                      |-----|
+| 2.5.1 | Explicar por que e como a Estratégia de Teste precisa ser alterada ao fazer a transição para o DevOps | Continous Delivery - 4    | [ ] |
+| 2.5.2 | Analisar História de Usuário para completude                                                          | Continous Delivery - 4    | [ ] |
+
+### 3. Desenvolvimento e implantação (Peso 30%)
+
+| 3.1   | Entrega Contínua e Integração Contínua    |   | 12% |
+|-------|----------------------------------------                                                               |-----                      |-----|
+| 3.1.1 | Explicar po que a Entrega Contínua é essencial para DevOPs eficaz | Continous Delivery - 13, 15    | [ ] |
+
 
 ## (Opcional) LPIC-OT Exam 701: DevOps Tools Engineer Certification
 
