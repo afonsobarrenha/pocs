@@ -115,7 +115,7 @@ Enterprise-z  = capítulo z do livro Success with Enterprise
 
 ### 4. Operação e dimensionamento (22%)
 
-| 4.1   | Gerenciamento de Dados; Infraestrutura e Ambientes; Componentes e Dependências                                                                    |---                | 10% |
+| 4.1   | Gerenciamento de Dados; Infraestrutura e Ambientes; Componentes e Dependências                                                                    |                   | 10% |
 |-------|----------------------------------------                                                                                                           |-----              |-----|
 | 4.1.1 | Explicar quais problemas podem ser encontrados ao gerenciar dados em bancso de dados dentro do DevOps                                             | Continuous-12     | [ ] |
 | 4.1.2 | Analisar um cenário onde um banco de dados é usado em DevOPs e fornecer a melhor solução para um problema                                         | Continuous-12     | [ ] |
