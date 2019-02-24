@@ -24,7 +24,6 @@
 | 1.1.5 | Explicar como o DevOps se encaixa com as práticas Lean e Agile Scrum  | b-15  | [ ] |
 |       |                                                                       | c-1,4 | [ ] |
 
-
 | 1.2   | Cultura Organizacional |     | 12% |
 |-------|------------------------|-----|-----|
 | 1.2.1 | Explicar por que os 4 pilares de DevOps Eficaz (Colaboração, Afinidade, Ferramentas e Dimensionamento) são tão importantes | a-6,7 | [ ] |
@@ -34,10 +33,42 @@
 | 1.2.5 | Analisar uma situação em que há necessidade de gestão de conflitos e identificar a melhor solução | a-7,14 | [ ] |
 | 1.2.6 | Explicar como o gerenciamento de recursos humanos pode fomentar a diversidade e quais benefícios isso traz ara a organização | a-7 | [ ] |
 
-| 1.3 | Princípios e Conceitos DevOps |   | 6% |
+| 1.3 | Princípios e Conceitos DevOps |     | 6%  |
+|-----|-------------------------------|-----|-----|
 | 1.3.1 | Explicar o uso e a utilidade de diferentes metodologias de desenvolvimento de software ( Cascata, Agile, Scrum) e seus princípios básicos | a-4 | [ ] |
-| 1.3.1 |   | b-1 | [ ] |
-| 1.3.1 |   | c-5 | [ ] |
+|       |   | b-1 | [ ] |
+|       |   | c-5 | [ ] |
+| 1.3.2 | Explicar o uso e utilidade de diferente metodologias de operações (Gerenciamento de Servios de TI) | c-3,4 | [ ] |
+| 1.3.3 | Explicar o uso e a utilidade da metodologia de sistemas Lean | a-4 | [ ] |
+
+2. Planejamento, Requisitos e Desenho (Peso 18%)
+
+| 2.1   | Gerenciamento do Ciclo de Vida de Aplicativos ou Serviços |     | 18% |
+|-------|-----------------------------------------------------------|-----|-----|
+| 2.1.1 | Explicar como o DevOps agrega valor aou Gerenciamtno do Ciclo de Vida do Aplicativo moderno | c-1 | [ ] |
+| 2.1.2 | Explicar por que o DevOps melhora a experiência do cliente quando usada para o GErenciamento do Ciclo de Vida do Serviço | c-4 | [ ] |
+
+| 2.2   | Termo de Abertura do Projeto (Definição de escopo) e Controle Visual |     | 4% |
+|-------|----------------------------------------------------------------------|-----|----|
+| 2.2.1 | Explicar como o escopo do projeto DevOps deve ser determinado | b-10 | [ ] |
+|       |                                                               | c-8  | [ ] |
+| 2.2.2 | Explicar por que o Controle Visual em um projeto DevOPs facilita as práticas DevOps | b-5 | [ ] |
+|  |  | c-7 | [ ] |
+
+| 2.3   | Desenho da Infraestrutura e Arquitetura |     | 4% |
+|-------|-----------------------------------------|-----|----|
+| 2.3.1 | Explicar como o DevOps muda ou influencia o projeto de infraestrutura e arquitetura de TI | b-11 | [ ] |
+| 2.3.2 | Explicar por que a Computação em nuvem e as técnidas de virtualização tornam a integração de Dev e Ops mais fácil | b-11 | [ ] |
+
+| 2.4   | Requisitos e acordos de nível de serviço |     | 2% |
+|-------|------------------------------------------|-----|----|
+| 2.4.1 | Explicar como o DevOps altera os requisitos e os acordos de nível de serviço | b-12 | [ ] |
+| | | c-4 | [ ] |
+
+| 2.5   | Implementando uma Estratégia de Testes |     | 4% |
+|-------|----------------------------------------|-----|----|
+| 2.5.1 | Explicar por que e como a Estratégia de Teste precisa ser alterada ao fazer a transição para o DevOps | b-4 | [ ] |
+| 2.5.2 | Analisar História de Usuário para completude | b-4 | [ ] |
 
 ## (Opcional) LPIC-OT Exam 701: DevOps Tools Engineer Certification
 
