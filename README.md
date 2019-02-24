@@ -6,22 +6,22 @@
 
 ## EXIN DevOps Master
 
-### 1. Adoção do DevOps (Peso 28%)
+### 1. Adoção do DevOps (28%)
 
 | 1.1   | Mentalidade (Mindset) DevOps e seus benefícios                                                |                           | 10% |
 |-------|-----------------------------------------------                                                |-----------                |-----|
 | 1.1.1 | Analisar anti-padrões DevOps em um cenário                                                    | Effective DevOps - 5      | [ ] |
-|       |                                                                                               | Continous Delivery - 1    | [ ] |
+|       |                                                                                               | Continuous Delivery - 1   | [ ] |
 |       |                                                                                               | Enterprise DevOps - 2     | [ ] |
 |       |                                                                                               | Enterprise DevOps - 2     | [ ] |
-| 1.1.2 | Explicar os benefícios do DevOps                                                              | Continous Delivery - 1    | [ ] |
+| 1.1.2 | Explicar os benefícios do DevOps                                                              | Continuous Delivery - 1   | [ ] |
 |       |                                                                                               | Enterprise DevOps - 4     | [ ] |
 | 1.1.3 | Explicar por que o DevOps se adequa taõ bem ao atual processo de desenvolvimento de software  | Effective DevOps - 3      | [ ] |
-|       |                                                                                               | Continous Delivery - 1    | [ ] |
+|       |                                                                                               | Continuous Delivery - 1   | [ ] |
 |       |                                                                                               | Enterprise DevOps - 4     | [ ] |
 | 1.1.4 | Explicar por que DevOps precisa de uma mentalidade específico para trabalhar                  | Effective DevOps - 1,2,4  | [ ] |
 |       |                                                                                               | Enterprise DevOps - 4     | [ ] |
-| 1.1.5 | Explicar como o DevOps se encaixa com as práticas Lean e Agile Scrum                          | Continous Delivery - 15   | [ ] |
+| 1.1.5 | Explicar como o DevOps se encaixa com as práticas Lean e Agile Scrum                          | Continuous Delivery - 15  | [ ] |
 |       |                                                                                               | Enterprise DevOps - 1,4   | [ ] |
 
 | 1.2   | Cultura Organizacional                                                                                                                |                               | 12% |
@@ -36,12 +36,12 @@
 | 1.3   | Princípios e Conceitos DevOps                                                                                                             |                           | 6%  |
 |-------|-------------------------------                                                                                                            |-----                      |-----|
 | 1.3.1 | Explicar o uso e a utilidade de diferentes metodologias de desenvolvimento de software ( Cascata, Agile, Scrum) e seus princípios básicos | Effective DevOps - 4      | [ ] |
-|       |                                                                                                                                           | Continous Delivery - 1    | [ ] |
+|       |                                                                                                                                           | Continuous Delivery - 1   | [ ] |
 |       |                                                                                                                                           | Enterprise DevOps - 5     | [ ] |
 | 1.3.2 | Explicar o uso e utilidade de diferente metodologias de operações (Gerenciamento de Servios de TI)                                        | Enterprise DevOps - 3,4   | [ ] |
 | 1.3.3 | Explicar o uso e a utilidade da metodologia de sistemas Lean                                                                              | Effective DevOps - 4      | [ ] |
 
-### 2. Planejamento, Requisitos e Desenho (Peso 18%)
+### 2. Planejamento, Requisitos e Desenho (18%)
 
 | 2.1   | Gerenciamento do Ciclo de Vida de Aplicativos ou Serviços                                                                 |                       | 18% |
 |-------|-----------------------------------------------------------                                                                |-----                  |-----|
@@ -50,32 +50,62 @@
 
 | 2.2   | Termo de Abertura do Projeto (Definição de escopo) e Controle Visual                  |                           | 4%  |
 |-------|----------------------------------------------------------------------                 |-----                      |-----|
-| 2.2.1 | Explicar como o escopo do projeto DevOps deve ser determinado                         | Continous Delivery - 10   | [ ] |
+| 2.2.1 | Explicar como o escopo do projeto DevOps deve ser determinado                         | Continuous Delivery - 10  | [ ] |
 |       |                                                                                       | Enterprise DevOps - 8     | [ ] |
-| 2.2.2 | Explicar por que o Controle Visual em um projeto DevOPs facilita as práticas DevOps   | Continous Delivery - 5    | [ ] |
+| 2.2.2 | Explicar por que o Controle Visual em um projeto DevOPs facilita as práticas DevOps   | Continuous Delivery - 5   | [ ] |
 |       |                                                                                       | Enterprise DevOps - 7     | [ ] |
 
 | 2.3   | Desenho da Infraestrutura e Arquitetura                                                                           |                           | 4%  |
 |-------|-----------------------------------------                                                                          |-----                      |-----|
-| 2.3.1 | Explicar como o DevOps muda ou influencia o projeto de infraestrutura e arquitetura de TI                         | Continous Delivery - 11   | [ ] |
-| 2.3.2 | Explicar por que a Computação em nuvem e as técnidas de virtualização tornam a integração de Dev e Ops mais fácil | Continous Delivery - 11   | [ ] |
+| 2.3.1 | Explicar como o DevOps muda ou influencia o projeto de infraestrutura e arquitetura de TI                         | Continuous Delivery - 11  | [ ] |
+| 2.3.2 | Explicar por que a Computação em nuvem e as técnidas de virtualização tornam a integração de Dev e Ops mais fácil | Continuous Delivery - 11  | [ ] |
 
 | 2.4   | Requisitos e acordos de nível de serviço                                      |                           | 2%  |
 |-------|------------------------------------------                                     |-----                      |-----|
-| 2.4.1 | Explicar como o DevOps altera os requisitos e os acordos de nível de serviço  | Continous Delivery - 12   | [ ] |
+| 2.4.1 | Explicar como o DevOps altera os requisitos e os acordos de nível de serviço  | Continuous Delivery - 12  | [ ] |
 |       |                                                                               | Enterprise DevOps - 4     | [ ] |
 
 | 2.5   | Implementando uma Estratégia de Testes                                                                |                           | 4%  |
 |-------|----------------------------------------                                                               |-----                      |-----|
-| 2.5.1 | Explicar por que e como a Estratégia de Teste precisa ser alterada ao fazer a transição para o DevOps | Continous Delivery - 4    | [ ] |
-| 2.5.2 | Analisar História de Usuário para completude                                                          | Continous Delivery - 4    | [ ] |
+| 2.5.1 | Explicar por que e como a Estratégia de Teste precisa ser alterada ao fazer a transição para o DevOps | Continuous Delivery - 4   | [ ] |
+| 2.5.2 | Analisar História de Usuário para completude                                                          | Continuous Delivery - 4   | [ ] |
 
-### 3. Desenvolvimento e implantação (Peso 30%)
+### 3. Desenvolvimento e implantação (30%)
 
-| 3.1   | Entrega Contínua e Integração Contínua    |   | 12% |
+| 3.1   | Entrega Contínua e Integração Contínua                                                |                               | 12% |
+|-------|----------------------------------------                                               |-----                          |-----|
+| 3.1.1 | Explicar po que a Entrega Contínua é essencial para DevOPs eficaz                     | Continuous Delivery - 13, 15  | [ ] |
+| 3.1.2 | Analisar como integrar a Entrega Contínua em um cenário                               | Continuous Delivery - 3,5,15  | [ ] |
+| 3.1.3 | Analisar como resolver problemas com a Entrega Contínua em um cenário                 | Continuous Delivery - 15      | [ ] |
+| 3.1.4 | Explicar por que a Integração Contínua é essencial para DevOps eficaz                 | Continuous Delivery - 3       | [ ] |
+| 3.1.5 | Analisar como alcançar a Integração Contínua em um cenário com equipe/VCS distribuído | Continuous Delivery - 3       | [ ] |
+| 3.1.6 | Analisar como resolver problemas com Integração Contínua em um cenário                | Continuous Delivery - 3       | [ ] |
+
+| 3.2   | Pipeline de implantação                                               |                           | 4%  |
+|-------|----------------------------------------                               |-----                      |-----|
+| 3.2.1 | Explicar a lógica da anatomia de um pipeline de implantação DevOps    | Continuous Delivery - 5,8 | [ ] |
+|       |                                                                       | Enterprise DevOps - 7     | [ ] |
+| 3.2.2 | Explicar como usar scripts de criação e implantação                   | Continuous Delivery - 1,6 | [ ] |
+
+| 3.3   | Implantação contínua                                                                                  |                           | 4%  |
 |-------|----------------------------------------                                                               |-----                      |-----|
-| 3.1.1 | Explicar po que a Entrega Contínua é essencial para DevOPs eficaz | Continous Delivery - 13, 15    | [ ] |
+| 3.3.1 | Explicar por que o plano de iteração e o plano de liberação devem ser alterados para um DevOps eficaz | Enterprise DevOps - 5,7   | [ ] |
+| 3.3.2 | Analisar como implementar a implantação contínua em um cenário                                        | Continuous Delivery - 10  | [ ] |
 
+| 3.4   | Ji-Kotei-Kanketsu, Ritmo, Trabalho em Andamento e Fluxo Único (Fluxo Contínuo)                                                            | 4%                        |     |
+|-------|----------------------------------------                                                                                                   |-----                      |-----|
+| 3.4.1 | Explicar os conceitos Ji-Kotei-Kanketsu, Ritmo, Trabalho em Andamento e Fluxo Único (Fluxo Contínuo)                                      | Enterprise DevOps - 4,7   | [ ] |
+| 3.4.2 | Analisar um cenário para um problema com Ji-Kotei-Kanketsu, Ritmo, Trabalho em Andamento ou Fluxo Único e encontrar uma solução adequada  | Effective DevOps - 1,2,9  | [ ] |
+|       |                                                                                                                                           | Continuous Delivery - 1   | [ ] |
+|       |                                                                                                                                           | Enterprise DevOps - 4     | [ ] |
+
+| 3.5   | Automação, Ferramentas e Testes                                                       |                               | 12% |
+|-------|----------------------------------------                                               |-----                          |-----|
+| 3.5.1 | Explicar por que a automação é importante para o DevOps eficaz                        | Continuous Delivery - 13, 15  | [ ] |
+| 3.5.2 | Explicar como usar ferramentas para facilitar DevOps em geral                         | Continuous Delivery - 3,5,15  | [ ] |
+| 3.5.3 | Explicar como usar ferramentas para dar suporte à mentalidade e cultura do DevOps     | Continuous Delivery - 15      | [ ] |
+| 3.5.4 | Explicar por que é importante que o teste de DevOps seja automatizado                 | Continuous Delivery - 3       | [ ] |
+| 3.5.5 | Analisar um cenário e escolher a maneira correta de automatizar um teste de aceitação | Continuous Delivery - 3       | [ ] |
 
 ## (Opcional) LPIC-OT Exam 701: DevOps Tools Engineer Certification
 
