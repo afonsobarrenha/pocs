@@ -17,12 +17,12 @@ Enterprise-z  = capítulo z do livro Success with Enterprise
 | 1.1   | Mentalidade (Mindset) DevOps e seus benefícios                                                                                            |                       | 10% |
 |-------|-----------------------------------------------                                                                                            |-----------            |-----|
 | 1.1.1 | Analisar anti-padrões DevOps em um cenário                                                                                                | Effective-5           | [x] |
-|       |                                                                                                                                           | Continuous-1          | [ ] |
+|       |                                                                                                                                           | Continuous-1          | [x] |
 |       |                                                                                                                                           | Enterprise-2          | [ ] |
-| 1.1.2 | Explicar os benefícios do DevOps                                                                                                          | Continuous-1          | [ ] |
+| 1.1.2 | Explicar os benefícios do DevOps                                                                                                          | Continuous-1          | [x] |
 |       |                                                                                                                                           | Enterprise-4          | [ ] |
 | 1.1.3 | Explicar por que o DevOps se adequa taõ bem ao atual processo de desenvolvimento de software                                              | Effective-3           | [ ] |
-|       |                                                                                                                                           | Continuous-1          | [ ] |
+|       |                                                                                                                                           | Continuous-1          | [x] |
 |       |                                                                                                                                           | Enterprise-4          | [ ] |
 | 1.1.4 | Explicar por que DevOps precisa de uma mentalidade específico para trabalhar                                                              | Effective-1,2,4       | [ ] |
 |       |                                                                                                                                           | Enterprise-4          | [ ] |
@@ -41,7 +41,7 @@ Enterprise-z  = capítulo z do livro Success with Enterprise
 | 1.3   | Princípios e Conceitos DevOps                                                                                                             |                       | 6%  |
 |-------|-------------------------------                                                                                                            |-----                  |-----|
 | 1.3.1 | Explicar o uso e a utilidade de diferentes metodologias de desenvolvimento de software ( Cascata, Agile, Scrum) e seus princípios básicos | Effective-4           | [ ] |
-|       |                                                                                                                                           | Continuous-1          | [ ] |
+|       |                                                                                                                                           | Continuous-1          | [x] |
 |       |                                                                                                                                           | Enterprise-5          | [ ] |
 | 1.3.2 | Explicar o uso e utilidade de diferente metodologias de operações (Gerenciamento de Servios de TI)                                        | Enterprise-3,4        | [ ] |
 | 1.3.3 | Explicar o uso e a utilidade da metodologia de sistemas Lean                                                                              | Effective-4           | [ ] |
@@ -101,7 +101,7 @@ Enterprise-z  = capítulo z do livro Success with Enterprise
 |-------|----------------------------------------                                                                                                   |-----              |-----|
 | 3.4.1 | Explicar os conceitos Ji-Kotei-Kanketsu, Ritmo, Trabalho em Andamento e Fluxo Único (Fluxo Contínuo)                                      | Enterprise-4,7    | [ ] |
 | 3.4.2 | Analisar um cenário para um problema com Ji-Kotei-Kanketsu, Ritmo, Trabalho em Andamento ou Fluxo Único e encontrar uma solução adequada  | Effective-1,2,9   | [ ] |
-|       |                                                                                                                                           | Continuous-1      | [ ] |
+|       |                                                                                                                                           | Continuous-1      | [x] |
 |       |                                                                                                                                           | Enterprise-4      | [ ] |
 
 | 3.5   | Automação, Ferramentas e Testes                                                                                                           |                   | 6%  |
