@@ -20,12 +20,12 @@ Enterprise-z  = capítulo z do livro Success with Enterprise
 |       |                                                                                                                                           | Continuous-1          | [x] |
 |       |                                                                                                                                           | Enterprise-2          | [x] |
 | 1.1.2 | Explicar os benefícios do DevOps                                                                                                          | Continuous-1          | [x] |
-|       |                                                                                                                                           | Enterprise-4          | [ ] |
-| 1.1.3 | Explicar por que o DevOps se adequa taõ bem ao atual processo de desenvolvimento de software                                              | Effective-3           | [ ] |
+|       |                                                                                                                                           | Enterprise-4          | [x] |
+| 1.1.3 | Explicar por que o DevOps se adequa tão bem ao atual processo de desenvolvimento de software                                              | Effective-3           | [ ] |
 |       |                                                                                                                                           | Continuous-1          | [x] |
-|       |                                                                                                                                           | Enterprise-4          | [ ] |
-| 1.1.4 | Explicar por que DevOps precisa de uma mentalidade específico para trabalhar                                                              | Effective-1,2,4       | [ ] |
-|       |                                                                                                                                           | Enterprise-4          | [ ] |
+|       |                                                                                                                                           | Enterprise-4          | [x] |
+| 1.1.4 | Explicar por que DevOps precisa de uma mentalidade específica para trabalhar                                                              | Effective-1,2,4       | [ ] |
+|       |                                                                                                                                           | Enterprise-4          | [x] |
 | 1.1.5 | Explicar como o DevOps se encaixa com as práticas Lean e Agile Scrum                                                                      | Continuous-15         | [ ] |
 |       |                                                                                                                                           | Enterprise-1,4        | [ ] |
 
@@ -51,7 +51,7 @@ Enterprise-z  = capítulo z do livro Success with Enterprise
 | 2.1   | Gerenciamento do Ciclo de Vida de Aplicativos ou Serviços                                                                 |               | 4%  |
 |-------|-----------------------------------------------------------                                                                |-----          |-----|
 | 2.1.1 | Explicar como o DevOps agrega valor aou Gerenciamtno do Ciclo de Vida do Aplicativo moderno                               | Enterprise-1  | [ ] |
-| 2.1.2 | Explicar por que o DevOps melhora a experiência do cliente quando usada para o GErenciamento do Ciclo de Vida do Serviço  | Enterprise-4  | [ ] |
+| 2.1.2 | Explicar por que o DevOps melhora a experiência do cliente quando usada para o GErenciamento do Ciclo de Vida do Serviço  | Enterprise-4  | [x] |
 
 | 2.2   | Termo de Abertura do Projeto (Definição de escopo) e Controle Visual                                                      |               | 4%  |
 |-------|----------------------------------------------------------------------                                                     |-----          |-----|
@@ -68,7 +68,7 @@ Enterprise-z  = capítulo z do livro Success with Enterprise
 | 2.4   | Requisitos e acordos de nível de serviço                                                                                  |               | 2%  |
 |-------|------------------------------------------                                                                                 |-----          |-----|
 | 2.4.1 | Explicar como o DevOps altera os requisitos e os acordos de nível de serviço                                              | Continuous-12 | [ ] |
-|       |                                                                                                                           | Enterprise-4  | [ ] |
+|       |                                                                                                                           | Enterprise-4  | [x] |
 
 | 2.5   | Implementando uma Estratégia de Testes                                                                                    |               | 4%  |
 |-------|----------------------------------------                                                                                   |-----          |-----|
@@ -102,7 +102,7 @@ Enterprise-z  = capítulo z do livro Success with Enterprise
 | 3.4.1 | Explicar os conceitos Ji-Kotei-Kanketsu, Ritmo, Trabalho em Andamento e Fluxo Único (Fluxo Contínuo)                                      | Enterprise-4,7    | [ ] |
 | 3.4.2 | Analisar um cenário para um problema com Ji-Kotei-Kanketsu, Ritmo, Trabalho em Andamento ou Fluxo Único e encontrar uma solução adequada  | Effective-1,2,9   | [ ] |
 |       |                                                                                                                                           | Continuous-1      | [x] |
-|       |                                                                                                                                           | Enterprise-4      | [ ] |
+|       |                                                                                                                                           | Enterprise-4      | [x] |
 
 | 3.5   | Automação, Ferramentas e Testes                                                                                                           |                   | 6%  |
 |-------|----------------------------------------                                                                                                   |-----              |-----|
@@ -138,7 +138,7 @@ Enterprise-z  = capítulo z do livro Success with Enterprise
 
 | 4.4   | Continuidade do Negócio                                                                                                                           |                   | 2%  |
 |-------|----------------------------------------                                                                                                           |----               |-----|
-| 4.4.1 | Explicar como o DevOps pode facilitar práticas de continuidade de negócios                                                                        | Enterprise-4      | [ ] |
+| 4.4.1 | Explicar como o DevOps pode facilitar práticas de continuidade de negócios                                                                        | Enterprise-4      | [x] |
 
 | 4.5   | Dimensionamento                                                                                                                                   |                   | 4%  |
 |-------|----------------------------------------                                                                                                           |-----              |-----|
