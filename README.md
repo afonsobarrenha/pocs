@@ -18,7 +18,7 @@ Enterprise-z  = capítulo z do livro Success with Enterprise
 |-------|-----------------------------------------------                                                                                            |-----------            |-----|
 | 1.1.1 | Analisar anti-padrões DevOps em um cenário                                                                                                | Effective-5           | [x] |
 |       |                                                                                                                                           | Continuous-1          | [x] |
-|       |                                                                                                                                           | Enterprise-2          | [ ] |
+|       |                                                                                                                                           | Enterprise-2          | [x] |
 | 1.1.2 | Explicar os benefícios do DevOps                                                                                                          | Continuous-1          | [x] |
 |       |                                                                                                                                           | Enterprise-4          | [ ] |
 | 1.1.3 | Explicar por que o DevOps se adequa taõ bem ao atual processo de desenvolvimento de software                                              | Effective-3           | [ ] |
