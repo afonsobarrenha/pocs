@@ -21,7 +21,7 @@ Enterprise-z  = capítulo z do livro Success with Enterprise
 |       |                                                                                                                                           | Enterprise-2          | [x] |
 | 1.1.2 | Explicar os benefícios do DevOps                                                                                                          | Continuous-1          | [x] |
 |       |                                                                                                                                           | Enterprise-4          | [x] |
-| 1.1.3 | Explicar por que o DevOps se adequa tão bem ao atual processo de desenvolvimento de software                                              | Effective-3           | [ ] |
+| 1.1.3 | Explicar por que o DevOps se adequa tão bem ao atual processo de desenvolvimento de software                                              | Effective-3           | [x] |
 |       |                                                                                                                                           | Continuous-1          | [x] |
 |       |                                                                                                                                           | Enterprise-4          | [x] |
 | 1.1.4 | Explicar por que DevOps precisa de uma mentalidade específica para trabalhar                                                              | Effective-1,2,4       | [ ] |
