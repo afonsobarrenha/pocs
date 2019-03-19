@@ -1,3 +1,5 @@
 testing/appium/node_modules/
 implementation/AndroidApplication/.project
 implementation/AndroidApplication/.settings/
+deployment/devops/docker-compose/volumes/
+implementation/node-burndown/node_modules/
