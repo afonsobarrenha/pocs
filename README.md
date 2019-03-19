@@ -37,8 +37,8 @@
 - [ ] Monitoramento e log
   - [ ] Fluentd
   - [ ] Datadog
-  - [ ] Prometheus
-  - [ ] Grafana
+  - [x] Prometheus
+  - [x] Grafana
 - [x] Microservices
 - [ ] Consul
 - [x] Docker
