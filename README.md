@@ -4,6 +4,54 @@
 
 - - -
 
+## SRE (Beblue)
+
+- [ ] AWS
+    - [ ] VPC
+    - [ ] EC2
+    - [ ] RDS
+    - [ ] ELB
+    - [ ] ASG
+    - [ ] S3
+    - [ ] API Gateway
+    - [ ] CloudFront
+    - [ ] Route 53
+    - [ ] IAM
+- [ ] Terraform
+- [ ] Linux/Unix;
+- [ ] Web servers e proxys
+    - [ ] Nginx
+    - [ ] Traefik
+    - [ ] Linkerd
+- [ ] Protocolos
+    - [ ] HTTP
+    - [ ] HTTP/2
+    - [ ] DNS
+- [ ] CI e CD 
+    - [ ] Bitbucket Pipelines
+    - [ ] CircleCI
+- [ ] Programação
+    - [ ] Shell Script
+    - [ ] Go
+    - [ ] Python
+- [ ] Monitoramento e log
+    - [ ] Fluentd
+    - [ ] Datadog
+    - [ ] Prometheus
+    - [ ] Grafana
+- [ ] Microservices
+- [ ] Consul
+- [ ] Docker
+    - [ ] Images
+    - [ ] Containers
+    - [ ] Compose
+- [ ] Orquestração de Containers
+    - [ ] AWS ECS
+    - [ ] Kubernetes
+    - [ ] Docker Swarm
+
+- - -
+
 ## EXIN DevOps Master
 
 ```
