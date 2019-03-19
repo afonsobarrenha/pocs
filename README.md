@@ -7,48 +7,48 @@
 ## SRE (Beblue)
 
 - [ ] AWS
-    - [ ] VPC
-    - [ ] EC2
-    - [ ] RDS
-    - [ ] ELB
-    - [ ] ASG
-    - [ ] S3
-    - [ ] API Gateway
-    - [ ] CloudFront
-    - [ ] Route 53
-    - [ ] IAM
-- [ ] Terraform
-- [ ] Linux/Unix;
+  - [ ] VPC
+  - [x] EC2
+  - [ ] RDS
+  - [x] ELB
+  - [ ] ASG
+  - [x] S3
+  - [x] API Gateway
+  - [ ] CloudFront
+  - [x] Route 53
+  - [x] IAM
+- [x] Terraform
+- [x] Linux/Unix;
 - [ ] Web servers e proxys
-    - [ ] Nginx
-    - [ ] Traefik
-    - [ ] Linkerd
+  - [ ] Nginx
+  - [ ] Traefik
+  - [ ] Linkerd
 - [ ] Protocolos
-    - [ ] HTTP
-    - [ ] HTTP/2
-    - [ ] DNS
+  - [x] HTTP
+  - [x] HTTP/2
+  - [ ] DNS
 - [ ] CI e CD 
-    - [ ] Bitbucket Pipelines
-    - [ ] CircleCI
+  - [ ] Bitbucket Pipelines
+  - [ ] CircleCI
 - [ ] Programação
-    - [ ] Shell Script
-    - [ ] Go
-    - [ ] Python
+  - [x] Shell Script
+  - [ ] Go
+  - [ ] Python
 - [ ] Monitoramento e log
-    - [ ] Fluentd
-    - [ ] Datadog
-    - [ ] Prometheus
-    - [ ] Grafana
-- [ ] Microservices
+  - [ ] Fluentd
+  - [ ] Datadog
+  - [ ] Prometheus
+  - [ ] Grafana
+- [x] Microservices
 - [ ] Consul
-- [ ] Docker
-    - [ ] Images
-    - [ ] Containers
-    - [ ] Compose
+- [x] Docker
+  - [x] Images
+  - [x] Containers
+  - [x] Compose
 - [ ] Orquestração de Containers
-    - [ ] AWS ECS
-    - [ ] Kubernetes
-    - [ ] Docker Swarm
+  - [x] AWS ECS
+  - [x] Kubernetes
+  - [ ] Docker Swarm
 
 - - -
 
