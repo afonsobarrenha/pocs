@@ -7,14 +7,14 @@
 ## SRE (Beblue)
 
 - [ ] AWS
-  - [ ] VPC
+  - [x] VPC
   - [x] EC2
-  - [ ] RDS
+  - [x] RDS
   - [x] ELB
-  - [ ] ASG
+  - [x] ASG
   - [x] S3
-  - [x] API Gateway
-  - [ ] CloudFront
+  - [ ] API Gateway
+  - [x] CloudFront
   - [x] Route 53
   - [x] IAM
 - [x] Terraform
@@ -25,7 +25,7 @@
   - [ ] Linkerd
 - [ ] Protocolos
   - [x] HTTP
-  - [x] HTTP/2
+  - [ ] HTTP/2
   - [ ] DNS
 - [ ] CI e CD 
   - [ ] Bitbucket Pipelines
