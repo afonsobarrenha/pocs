@@ -62,20 +62,28 @@ Enterprise-z  = capítulo z do livro Success with Enterprise
 
 ### 1. Adoção do DevOps (28%)
 
-| 1.1   | Mentalidade (Mindset) DevOps e seus benefícios                                                                                            |                       | 10% |
-|-------|-----------------------------------------------                                                                                            |-----------            |-----|
-| 1.1.1 | Analisar anti-padrões DevOps em um cenário                                                                                                | Effective-5           | [x] |
-|       |                                                                                                                                           | Continuous-1          | [x] |
-|       |                                                                                                                                           | Enterprise-2          | [x] |
-| 1.1.2 | Explicar os benefícios do DevOps                                                                                                          | Continuous-1          | [x] |
-|       |                                                                                                                                           | Enterprise-4          | [x] |
-| 1.1.3 | Explicar por que o DevOps se adequa tão bem ao atual processo de desenvolvimento de software                                              | Effective-3           | [x] |
-|       |                                                                                                                                           | Continuous-1          | [x] |
-|       |                                                                                                                                           | Enterprise-4          | [x] |
-| 1.1.4 | Explicar por que DevOps precisa de uma mentalidade específica para trabalhar                                                              | Effective-1,2,4       | [ ] |
-|       |                                                                                                                                           | Enterprise-4          | [x] |
-| 1.1.5 | Explicar como o DevOps se encaixa com as práticas Lean e Agile Scrum                                                                      | Continuous-15         | [ ] |
-|       |                                                                                                                                           | Enterprise-1,4        | [ ] |
+- 1.1 - Mentalidade (Mindset) DevOps e seus benefícios (10%)
+  - 1.1.1 | Analisar anti-padrões DevOps em um cenário
+    - Effective-5 [x]
+    - Continuous-1 [x]
+    - Enterprise-2 [x]
+
+  - 1.1.2 - Explicar os benefícios do DevOps
+    - Continuous-1 [x]
+    - Enterprise-4 [x]
+
+  - 1.1.3 - Explicar por que o DevOps se adequa tão bem ao atual processo de desenvolvimento de software
+    - Effective-3 [x]
+    - Continuous-1 [x]
+    - Enterprise-4 [x]
+
+  - 1.1.4 - Explicar por que DevOps precisa de uma mentalidade específica para trabalhar
+    - Effective-1,2,4 [ ]
+    - Enterprise-4 [x]
+
+  - 1.1.5 - Explicar como o DevOps se encaixa com as práticas Lean e Agile Scrum
+    - Continuous-15 [ ]
+    - Enterprise-1,4 [ ]
 
 | 1.2   | Cultura Organizacional                                                                                                                    |                       | 12% |
 |-------|------------------------                                                                                                                   |-------                |-----|
