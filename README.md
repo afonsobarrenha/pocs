@@ -24,7 +24,7 @@
     - [x] Enterprise DevOps - chapter 4
 
   - [ ] 1.1.4 - Explicar por que DevOps precisa de uma mentalidade específica para trabalhar
-    - [ ] Effective DevOps - chapter 1,2,4 [study](https://img.shields.io/badge/study-doing-yellow.svg)
+    - [ ] Effective DevOps - chapter 1,2,4 ![study](https://img.shields.io/badge/study-doing-yellow.svg)
     - [x] Enterprise DevOps - chapter 4
 
   - 1.1.5 - Explicar como o DevOps se encaixa com as práticas Lean e Agile Scrum
