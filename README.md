@@ -62,11 +62,11 @@ Enterprise-z  = capítulo z do livro Success with Enterprise
 
 ### 1. Adoção do DevOps (28%)
 
-- 1.1 - Mentalidade (Mindset) DevOps e seus benefícios (10%)
-  - 1.1.1 | Analisar anti-padrões DevOps em um cenário
-    - Effective-5 [x]
-    - Continuous-1 [x]
-    - Enterprise-2 [x]
+- [ ] 1.1 - Mentalidade (Mindset) DevOps e seus benefícios (10%)
+  - [ ] 1.1.1 - Analisar anti-padrões DevOps em um cenário
+    - [x] Effective-5
+    - [x] Continuous-1
+    - [x] Enterprise-2
 
   - 1.1.2 - Explicar os benefícios do DevOps
     - Continuous-1 [x]
