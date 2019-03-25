@@ -62,30 +62,30 @@ Enterprise-z  = capítulo z do livro Success with Enterprise
 
 ### 1. Adoção do DevOps (28%)
 
-- [ ] 1.1 - Mentalidade (Mindset) DevOps e seus benefícios (10%)
+- [ ] __1.1 - Mentalidade (Mindset) DevOps e seus benefícios (10%)__
   - [x] 1.1.1 - Analisar anti-padrões DevOps em um cenário
     - [x] Effective-5
     - [x] Continuous-1
     - [x] Enterprise-2
 
   - [x] 1.1.2 - Explicar os benefícios do DevOps
-    - Continuous-1 [x]
-    - Enterprise-4 [x]
+    - [x] Continuous-1
+    - [x] Enterprise-4
 
   - [x] 1.1.3 - Explicar por que o DevOps se adequa tão bem ao atual processo de desenvolvimento de software
-    - Effective-3 [x]
-    - Continuous-1 [x]
-    - Enterprise-4 [x]
+    - [x] Effective-3  
+    - [x] Continuous-1
+    - [x] Enterprise-4
 
   - [ ] 1.1.4 - Explicar por que DevOps precisa de uma mentalidade específica para trabalhar
-    - Effective-1,2,4 [ ]
-    - Enterprise-4 [x]
+    - [ ] Effective-1,2,4
+    - [x] Enterprise-4
 
   - 1.1.5 - Explicar como o DevOps se encaixa com as práticas Lean e Agile Scrum
-    - Continuous-15 [ ]
-    - Enterprise-1,4 [ ]
+    - [ ] Continuous-15
+    - [ ] Enterprise-1,4
 
-- [ ] 1.2 - Cultura Organizacional (12%)
+- [ ] __1.2 - Cultura Organizacional (12%)__
   - [ ] 1.2.1 - Explicar por que os 4 pilares de DevOps Eficaz (Colaboração, Afinidade, Ferramentas e Dimensionamento) são tão importantes
     - [ ] Effective-6,7
   - [ ] 1.2.2 - Analisar um cenário com partes faltantes da mentalidade DevOps
@@ -99,120 +99,147 @@ Enterprise-z  = capítulo z do livro Success with Enterprise
   - [ ] 1.2.6 - Explicar como o gerenciamento de recursos humanos pode fomentar a diversidade e quais benefícios isso traz ara a organização
     - [ ] Effective-7
 
-| 1.3   | Princípios e Conceitos DevOps                                                                                                             |                       | 6%  |
-|-------|-------------------------------                                                                                                            |-----                  |-----|
-| 1.3.1 | Explicar o uso e a utilidade de diferentes metodologias de desenvolvimento de software ( Cascata, Agile, Scrum) e seus princípios básicos | Effective-4           | [ ] |
-|       |                                                                                                                                           | Continuous-1          | [x] |
-|       |                                                                                                                                           | Enterprise-5          | [ ] |
-| 1.3.2 | Explicar o uso e utilidade de diferente metodologias de operações (Gerenciamento de Servios de TI)                                        | Enterprise-3,4        | [ ] |
-| 1.3.3 | Explicar o uso e a utilidade da metodologia de sistemas Lean                                                                              | Effective-4           | [ ] |
+- [ ] __1.3 - Princípios e Conceitos DevOps (6%)__
+  - [ ] 1.3.1 - Explicar o uso e a utilidade de diferentes metodologias de desenvolvimento de software ( Cascata, Agile, Scrum) e seus princípios básicos
+    - [ ] Effective-4
+    - [x] Continuous-1
+    - [ ] Enterprise-5
+  - [ ] 1.3.2 - Explicar o uso e utilidade de diferente metodologias de operações (Gerenciamento de Servios de TI)
+    - [ ] Enterprise-3,4
+  - [ ] 1.3.3 - Explicar o uso e a utilidade da metodologia de sistemas Lean
+    - [ ] Effective-4
 
 ### 2. Planejamento, Requisitos e Desenho (18%)
 
-| 2.1   | Gerenciamento do Ciclo de Vida de Aplicativos ou Serviços                                                                 |               | 4%  |
-|-------|-----------------------------------------------------------                                                                |-----          |-----|
-| 2.1.1 | Explicar como o DevOps agrega valor aou Gerenciamtno do Ciclo de Vida do Aplicativo moderno                               | Enterprise-1  | [ ] |
-| 2.1.2 | Explicar por que o DevOps melhora a experiência do cliente quando usada para o GErenciamento do Ciclo de Vida do Serviço  | Enterprise-4  | [x] |
+- [ ] __2.1   - Gerenciamento do Ciclo de Vida de Aplicativos ou Serviços (4%)__
+  - [ ] 2.1.1 - Explicar como o DevOps agrega valor aou Gerenciamtno do Ciclo de Vida do Aplicativo moderno
+    - [ ] Enterprise-1 
+  - [x] 2.1.2 - Explicar por que o DevOps melhora a experiência do cliente quando usada para o GErenciamento do Ciclo de Vida do Serviço 
+    - [ ] Enterprise-4 
 
-| 2.2   | Termo de Abertura do Projeto (Definição de escopo) e Controle Visual                                                      |               | 4%  |
-|-------|----------------------------------------------------------------------                                                     |-----          |-----|
-| 2.2.1 | Explicar como o escopo do projeto DevOps deve ser determinado                                                             | Continuous-10 | [ ] |
-|       |                                                                                                                           | Enterprise-8  | [ ] |
-| 2.2.2 | Explicar por que o Controle Visual em um projeto DevOPs facilita as práticas DevOps                                       | Continuous-5  | [ ] |
-|       |                                                                                                                           | Enterprise-7  | [ ] |
+- [ ] __2.2   - Termo de Abertura do Projeto (Definição de escopo) e Controle Visual__
+  - [ ] 2.2.1 - Explicar como o escopo do projeto DevOps deve ser determinado
+    - [ ] Continuous-10
+    - [ ] Enterprise-8 
+  - [ ] 2.2.2 - Explicar por que o Controle Visual em um projeto DevOPs facilita as práticas DevOps
+    - [ ] Continuous-5 
+    - [ ] Enterprise-7 
 
-| 2.3   | Desenho da Infraestrutura e Arquitetura                                                                                   |               | 4%  |
-|-------|-----------------------------------------                                                                                  |-----          |-----|
-| 2.3.1 | Explicar como o DevOps muda ou influencia o projeto de infraestrutura e arquitetura de TI                                 | Continuous-11 | [ ] |
-| 2.3.2 | Explicar por que a Computação em nuvem e as técnidas de virtualização tornam a integração de Dev e Ops mais fácil         | Continuous-11 | [ ] |
+- [ ] __2.3   - Desenho da Infraestrutura e Arquitetura__
+  - [ ] 2.3.1 - Explicar como o DevOps muda ou influencia o projeto de infraestrutura e arquitetura de TI
+    - [ ] Continuous-11
+  - [ ] 2.3.2 - Explicar por que a Computação em nuvem e as técnidas de virtualização tornam a integração de Dev e Ops mais fácil
+    - [ ] Continuous-11
 
-| 2.4   | Requisitos e acordos de nível de serviço                                                                                  |               | 2%  |
-|-------|------------------------------------------                                                                                 |-----          |-----|
-| 2.4.1 | Explicar como o DevOps altera os requisitos e os acordos de nível de serviço                                              | Continuous-12 | [ ] |
-|       |                                                                                                                           | Enterprise-4  | [x] |
+- [ ] __2.4 - Requisitos e acordos de nível de serviço__
+  - [ ] 2.4.1 - Explicar como o DevOps altera os requisitos e os acordos de nível de serviço
+    - [ ] Continuous-12
+    - [X] Enterprise-4
 
-| 2.5   | Implementando uma Estratégia de Testes                                                                                    |               | 4%  |
-|-------|----------------------------------------                                                                                   |-----          |-----|
-| 2.5.1 | Explicar por que e como a Estratégia de Teste precisa ser alterada ao fazer a transição para o DevOps                     | Continuous-4  | [ ] |
-| 2.5.2 | Analisar História de Usuário para completude                                                                              | Continuous-4  | [ ] |
+- [ ] __2.5   - Implementando uma Estratégia de Testes__
+  - [ ] 2.5.1 - Explicar por que e como a Estratégia de Teste precisa ser alterada ao fazer a transição para o DevOps
+    - [ ] Continuous-4
+  - [ ] 2.5.2 - Analisar História de Usuário para completude
+    - [ ] Continuous-4
 
 ### 3. Desenvolvimento e implantação (30%)
 
-| 3.1   | Entrega Contínua e Integração Contínua                                                                                                    |                   | 12% |
-|-------|----------------------------------------                                                                                                   |-----              |-----|
-| 3.1.1 | Explicar po que a Entrega Contínua é essencial para DevOPs eficaz                                                                         | Continuous-13,15  | [ ] |
-| 3.1.2 | Analisar como integrar a Entrega Contínua em um cenário                                                                                   | Continuous-3,5,15 | [ ] |
-| 3.1.3 | Analisar como resolver problemas com a Entrega Contínua em um cenário                                                                     | Continuous-15     | [ ] |
-| 3.1.4 | Explicar por que a Integração Contínua é essencial para DevOps eficaz                                                                     | Continuous-3      | [ ] |
-| 3.1.5 | Analisar como alcançar a Integração Contínua em um cenário com equipe/SCM distribuído                                                     | Continuous-3      | [ ] |
-| 3.1.6 | Analisar como resolver problemas com Integração Contínua em um cenário                                                                    | Continuous-3      | [ ] |
+- [ ] __3.1 - Entrega Contínua e Integração Contínua (12%)__
+  - [ ] 3.1.1 - Explicar po que a Entrega Contínua é essencial para DevOPs eficaz
+    - [ ] Continuous-13,15
+  - [ ] 3.1.2 - Analisar como integrar a Entrega Contínua em um cenário
+    - [ ] Continuous-3,5,15
+  - [ ] 3.1.3 - Analisar como resolver problemas com a Entrega Contínua em um cenário
+    - [ ] Continuous-15
+  - [ ] 3.1.4 - Explicar por que a Integração Contínua é essencial para DevOps eficaz
+    - [ ] Continuous-3
+  - [ ] 3.1.5 - Analisar como alcançar a Integração Contínua em um cenário com equipe/SCM distribuído 
+    - [ ] Continuous-3
+  - [ ] 3.1.6 - Analisar como resolver problemas com Integração Contínua em um cenário
+    - [ ] Continuous-3
 
-| 3.2   | Pipeline de implantação                                                                                                                   |                   | 4%  |
-|-------|----------------------------------------                                                                                                   |-----              |-----|
-| 3.2.1 | Explicar a lógica da anatomia de um pipeline de implantação DevOps                                                                        | Continuous-5,8    | [ ] |
-|       |                                                                                                                                           | Enterprise-7      | [ ] |
-| 3.2.2 | Explicar como usar scripts de criação e implantação                                                                                       | Continuous-1,6    | [ ] |
+- [ ] __3.2 - Pipeline de implantação (4%)__
+  - [ ] 3.2.1 - Explicar a lógica da anatomia de um pipeline de implantação DevOps
+    - [ ] Continuous-5,8
+    - [ ] Enterprise-7  
+  - [ ] 3.2.2 - Explicar como usar scripts de criação e implantação
+    - [ ] Continuous-1,6
 
-| 3.3   | Implantação contínua                                                                                                                      |                   | 4%  |
-|-------|----------------------------------------                                                                                                   |-----              |-----|
-| 3.3.1 | Explicar por que o plano de iteração e o plano de liberação devem ser alterados para um DevOps eficaz                                     | Enterprise-5,7    | [ ] |
-| 3.3.2 | Analisar como implementar a implantação contínua em um cenário                                                                            | Continuous-10     | [ ] |
+- [ ] __3.3 - Implantação contínua (4%)__
+  - [ ] 3.3.1 - Explicar por que o plano de iteração e o plano de liberação devem ser alterados para um DevOps eficaz
+    - [ ] Enterprise-5,7
+  - [ ] 3.3.2 - Analisar como implementar a implantação contínua em um cenário
+    - [ ] Continuous-10
 
-| 3.4   | Ji-Kotei-Kanketsu, Ritmo, Trabalho em Andamento e Fluxo Único (Fluxo Contínuo)                                                            |                   | 4%  |
-|-------|----------------------------------------                                                                                                   |-----              |-----|
-| 3.4.1 | Explicar os conceitos Ji-Kotei-Kanketsu, Ritmo, Trabalho em Andamento e Fluxo Único (Fluxo Contínuo)                                      | Enterprise-4,7    | [ ] |
-| 3.4.2 | Analisar um cenário para um problema com Ji-Kotei-Kanketsu, Ritmo, Trabalho em Andamento ou Fluxo Único e encontrar uma solução adequada  | Effective-1,2,9   | [ ] |
-|       |                                                                                                                                           | Continuous-1      | [x] |
-|       |                                                                                                                                           | Enterprise-4      | [x] |
+- [ ] __3.4 - Ji-Kotei-Kanketsu, Ritmo, Trabalho em Andamento e Fluxo Único (Fluxo Contínuo) (4%)__
+  - [ ] 3.4.1 - Explicar os conceitos Ji-Kotei-Kanketsu, Ritmo, Trabalho em Andamento e Fluxo Único (Fluxo Contínuo)
+    - [ ] Enterprise-4,7
+  - [ ] 3.4.2 - Analisar um cenário para um problema com Ji-Kotei-Kanketsu, Ritmo, Trabalho em Andamento ou Fluxo Único e encontrar uma solução adequada  
+    - [ ] Effective-1,2,9
+    - [x] Continuous-1
+    - [x] Enterprise-4
 
-| 3.5   | Automação, Ferramentas e Testes                                                                                                           |                   | 6%  |
-|-------|----------------------------------------                                                                                                   |-----              |-----|
-| 3.5.1 | Explicar por que a automação é importante para o DevOps eficaz                                                                            | Continuous-1,8    | [ ] |
-| 3.5.2 | Explicar como usar ferramentas para facilitar DevOps em geral                                                                             | Continuous-8      | [ ] |
-| 3.5.3 | Explicar como usar ferramentas para dar suporte à mentalidade e cultura do DevOps                                                         | Effective-12      | [ ] |
-| 3.5.4 | Explicar por que é importante que o teste de DevOps seja automatizado                                                                     | Effective-1       | [ ] |
-|       |                                                                                                                                           | Continuous-3      | [ ] |
-| 3.5.5 | Analisar um cenário e escolher a maneira correta de automatizar um teste de aceitação                                                     | Continuous-8      | [ ] |
+- [ ] __3.5 - Automação, Ferramentas e Testes (6%)__
+  - [ ] 3.5.1 - Explicar por que a automação é importante para o DevOps eficaz
+    - [ ] Continuous-1,8
+  - [ ] 3.5.2 - Explicar como usar ferramentas para facilitar DevOps em geral
+    - [ ] Continuous-8
+  - [ ] 3.5.3 - Explicar como usar ferramentas para dar suporte à mentalidade e cultura do DevOps
+    - [ ] Effective-1
+  - [ ] 3.5.4 - Explicar por que é importante que o teste de DevOps seja automatizado
+    - [ ] Effective-1
+    - [ ] Continuous-3
+  - [ ] 3.5.5 - Analisar um cenário e escolher a maneira correta de automatizar um teste de aceitação
+    - [ ] Continuous-8
 
 ### 4. Operação e dimensionamento (22%)
 
-| 4.1   | Gerenciamento de Dados; Infraestrutura e Ambientes; Componentes e Dependências                                                                    |                   | 10% |
-|-------|----------------------------------------                                                                                                           |-----              |-----|
-| 4.1.1 | Explicar quais problemas podem ser encontrados ao gerenciar dados em bancso de dados dentro do DevOps                                             | Continuous-12     | [ ] |
-| 4.1.2 | Analisar um cenário onde um banco de dados é usado em DevOPs e fornecer a melhor solução para um problema                                         | Continuous-12     | [ ] |
-| 4.1.3 | Analisar um cenário e identificar a mlehor maneira de preparar um ambiente de infraestrutura para implantação ou gerencia-lo após a implantação   | Continuous-11     | [ ] |
-| 4.1.4 | Analisar um cenário e sugerir uma estratégia comumente usada par agerenciar componentes                                                           | Continuous-13     | [ ] |
-| 4.1.5 | Explicar como gerenciar dependências                                                                                                              | Continuous-13     | [ ] |
+- [ ] __4.1 - Gerenciamento de Dados; Infraestrutura e Ambientes; Componentes e Dependências (10%)__
+  - [ ] 4.1.1 - Explicar quais problemas podem ser encontrados ao gerenciar dados em bancos de dados dentro do DevOps
+    - [ ] Continuous-12
+  - [ ] 4.1.2 - Analisar um cenário onde um banco de dados é usado em DevOPs e fornecer a melhor solução para um problema
+    - [ ] Continuous-12
+  - [ ] 4.1.3 - Analisar um cenário e identificar a mlehor maneira de preparar um ambiente de infraestrutura para implantação ou gerencia-lo após a implantação   
+    - [ ] Continuous-11
+  - [ ] 4.1.4 - Analisar um cenário e sugerir uma estratégia comumente usada par agerenciar componentes
+    - [ ] Continuous-13
+  - [ ] 4.1.5 - Explicar como gerenciar dependências
+    - [ ] Continuous-13
 
-| 4.2   | Gerenciamneto de configuração e Controle de versão                                                                                                |                   | 4%  |
-|-------|----------------------------------------                                                                                                           |-----              |-----|
-| 4.2.1 | Explicar por que o controle de versão é uma chave para o DevOPs eficaz                                                                            | Continuous-2      | [ ] |
-| 4.2.2 | Explicar como manter o controle de versão sobre dados, infraestrutura e componentes                                                               | Continuous-10,11  | [ ] |
-| 4.2.3 | Analisar um cenário e sugerir a melhor estratégia par agerenciar um problema de configuração                                                      | Continuous-2      | [ ] |
+- [ ] __4.2 - Gerenciamneto de configuração e Controle de versão (4%)__
+  - [ ] 4.2.1 - Explicar por que o controle de versão é uma chave para o DevOPs eficaz
+    - [ ] Continuous-2
+  - [ ] 4.2.2 - Explicar como manter o controle de versão sobre dados, infraestrutura e componentes
+    - [ ] Continuous-10,11
+  - [ ] 4.2.3 - Analisar um cenário e sugerir a melhor estratégia par agerenciar um problema de configuração
+    - [ ] Continuous-2
 
-| 4.3   | Infraetrutura em Nuvens e Imutável                                                                                                                |                   | 2%  |
-|-------|----------------------------------------                                                                                                           |-----              |-----|
-| 4.3.1 | Explicar quando é e quando não é necessário mover para uma infraestrutura baseada em nuvem para ter um DevOps eficaz                              | Effective-17      | [ ] |
-|       |                                                                                                                                                   | Continuous-11     | [ ] |
-|       |                                                                                                                                                   | Enterprise-5,7    | [ ] |
-| 4.3.2 | Explicar como a infraestrutura baseada em nuvem deve ser gerenciada dentro do DevOps                                                              | Continuous-11     | [ ] |
+- [ ] __4.3 - Infraetrutura em Nuvens e Imutável (2%)__
+  - [ ] 4.3.1 - Explicar quando é e quando não é necessário mover para uma infraestrutura baseada em nuvem para ter um DevOps eficaz
+    - [ ] Effective-17  
+    - [ ] Continuous-11
+    - [ ] Enterprise-5,7
+  - [ ] 4.3.2 - Explicar como a infraestrutura baseada em nuvem deve ser gerenciada dentro do DevOps
+    - [ ] Continuous-11
 
-| 4.4   | Continuidade do Negócio                                                                                                                           |                   | 2%  |
-|-------|----------------------------------------                                                                                                           |----               |-----|
-| 4.4.1 | Explicar como o DevOps pode facilitar práticas de continuidade de negócios                                                                        | Enterprise-4      | [x] |
+- [x] __4.4 - Continuidade do Negócio 2%__
+  - [x] 4.4.1 - Explicar como o DevOps pode facilitar práticas de continuidade de negócios
+    - [x] Enterprise-4
 
-| 4.5   | Dimensionamento                                                                                                                                   |                   | 4%  |
-|-------|----------------------------------------                                                                                                           |-----              |-----|
-| 4.5.1 | Analisar um cenário, explicar se e por que dimensionar par acima ou para baixo nessa situação, e identificar a melhor maneira de fazer isso       | Effective-14      | [ ] |
-| 4.5.2 | Analisar um cenário que deu errado o demensionamento, e identificar um aboa maneira de resolver o problema                                        | Effective-15      | [ ] |
-|       |                                                                                                                                                   | Continuous-11     | [ ] |
-| 4.5.3 | Explicar como a política social e práticas de contratação suportam escalonamento DevOps                                                           | Effective-6,7,14  | [ ] |
+- [ ] __4.5 - Dimensionamento (4%)__
+  - [ ] 4.5.1 - Analisar um cenário, explicar se e por que dimensionar par acima ou para baixo nessa situação, e identificar a melhor maneira de fazer isso
+    - [ ] Effective-14
+  - [ ] 4.5.2 - Analisar um cenário que deu errado o demensionamento, e identificar um aboa maneira de resolver o problema
+    - [ ] Effective-15
+    - [ ] Continuous-11
+  - [ ] 4.5.3 - Explicar como a política social e práticas de contratação suportam escalonamento DevOps
+    - [ ] Effective-6,7,14
 
 ### 5. Fim da vida (2%)
 
-| 5.1   | Condições de fim de Vida de um produto ou serviço                                     |               | 2%  |
-|-------|----------------------------------------                                               |----           |-----|
-| 5.1.1 | Explicquem que condições devem ser cumpridas antes de terminar um serviço ou produto  | Enterprise-7  | [ ] |
+- [ ] __5.1 - Condições de fim de Vida de um produto ou serviço (2%)__
+  - [ ] 5.1.1 - Explicquem que condições devem ser cumpridas antes de terminar um serviço ou produto
+    - [ ] Enterprise-7
 
 ## (Opcional) LPIC-OT Exam 701: DevOps Tools Engineer Certification
 
