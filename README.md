@@ -4,61 +4,13 @@
 
 - - -
 
-## SRE (Beblue)
-
-- [ ] AWS
-  - [x] VPC
-  - [x] EC2
-  - [x] RDS
-  - [x] ELB
-  - [x] ASG
-  - [x] S3
-  - [ ] API Gateway
-  - [x] CloudFront
-  - [x] Route 53
-  - [x] IAM
-- [x] Terraform
-- [x] Linux/Unix;
-- [ ] Web servers e proxys
-  - [ ] Nginx
-  - [ ] Traefik
-  - [ ] Linkerd
-- [ ] Protocolos
-  - [x] HTTP
-  - [ ] HTTP/2
-  - [ ] DNS
-- [ ] CI e CD
-  - [ ] Bitbucket Pipelines
-  - [ ] CircleCI
-- [ ] Programação
-  - [x] Shell Script
-  - [ ] Go
-  - [ ] Python
-- [ ] Monitoramento e log
-  - [ ] Fluentd
-  - [ ] Datadog
-  - [x] Prometheus
-  - [x] Grafana
-- [x] Microservices
-- [ ] Consul
-- [x] Docker
-  - [x] Images
-  - [x] Containers
-  - [x] Compose
-- [ ] Orquestração de Containers
-  - [x] AWS ECS
-  - [x] Kubernetes
-  - [ ] Docker Swarm
-
-- - -
-
 ## EXIN DevOps Master
 
 ### 1. Adoção do DevOps (28%)
 
 - [ ] __1.1 - Mentalidade (Mindset) DevOps e seus benefícios (10%)__
   - [x] 1.1.1 - Analisar anti-padrões DevOps em um cenário
-    - [x] Effective DevOps - chapter -5
+    - [x] Effective DevOps - chapter 5
     - [x] Continuous Delivery - chapter 1
     - [x] Enterprise DevOps - chapter 2
 
@@ -72,7 +24,7 @@
     - [x] Enterprise DevOps - chapter 4
 
   - [ ] 1.1.4 - Explicar por que DevOps precisa de uma mentalidade específica para trabalhar
-    - [ ] Effective DevOps - chapter 1,2,4
+    - [ ] Effective DevOps - chapter 1,2,4 [study](https://img.shields.io/badge/study-doing-yellow.svg)
     - [x] Enterprise DevOps - chapter 4
 
   - 1.1.5 - Explicar como o DevOps se encaixa com as práticas Lean e Agile Scrum
@@ -234,6 +186,8 @@
 - [ ] __5.1 - Condições de fim de Vida de um produto ou serviço (2%)__
   - [ ] 5.1.1 - Explicquem que condições devem ser cumpridas antes de terminar um serviço ou produto
     - [ ] Enterprise DevOps - chapter 7
+
+- - -
 
 ## (Opcional) LPIC-OT Exam 701: DevOps Tools Engineer Certification
 
@@ -429,7 +383,7 @@
 
 ### (Opcional) Nodejs
 
-- [ ] Node.js: The Complete Guide to Build RESTful APIs ![study](https://img.shields.io/badge/study-doing-yellow.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
+- [ ] Node.js: The Complete Guide to Build RESTful APIs ![study](https://img.shields.io/badge/study-todo-red.svg) ![code](https://img.shields.io/badge/code-todo-red.svg)
 
 - - -
 
@@ -499,6 +453,54 @@
 ## Android - Noções básicas do app
 
 - [x] Criar seu primeiro app
+
+- - -
+
+## (Opcional) SRE (Beblue)
+
+- [ ] AWS
+  - [x] VPC
+  - [x] EC2
+  - [x] RDS
+  - [x] ELB
+  - [x] ASG
+  - [x] S3
+  - [ ] API Gateway
+  - [x] CloudFront
+  - [x] Route 53
+  - [x] IAM
+- [x] Terraform
+- [x] Linux/Unix;
+- [ ] Web servers e proxys
+  - [ ] Nginx
+  - [ ] Traefik
+  - [ ] Linkerd
+- [ ] Protocolos
+  - [x] HTTP
+  - [ ] HTTP/2
+  - [ ] DNS
+- [ ] CI e CD
+  - [ ] Bitbucket Pipelines
+  - [ ] CircleCI
+- [ ] Programação
+  - [x] Shell Script
+  - [ ] Go
+  - [ ] Python
+- [ ] Monitoramento e log
+  - [ ] Fluentd
+  - [ ] Datadog
+  - [x] Prometheus
+  - [x] Grafana
+- [x] Microservices
+- [ ] Consul
+- [x] Docker
+  - [x] Images
+  - [x] Containers
+  - [x] Compose
+- [ ] Orquestração de Containers
+  - [x] AWS ECS
+  - [x] Kubernetes
+  - [ ] Docker Swarm
 
 - - -
 
