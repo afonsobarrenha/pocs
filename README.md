@@ -1,4 +1,4 @@
-# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v2.1.3-blue.svg)
+# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v2.1.4-blue.svg)
 
 > Olá, minha intenção é colocar em prática os cursos que faço. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Mãos à obra!
 
@@ -6,9 +6,9 @@
 
 ## EXIN DevOps Master
 
-### 1. Adoção do DevOps (12%/28%)
+### 1. Adoção do DevOps (12% / 28%)
 
-- [ ] __1.1 - Mentalidade (Mindset) DevOps e seus benefícios (8%/10%)__
+- [ ] __1.1 - Mentalidade (Mindset) DevOps e seus benefícios (8% / 10%)__
   - [x] 1.1.1 - Analisar anti-padrões DevOps em um cenário
     - [x] Effective DevOps - chapter 5
     - [x] Continuous Delivery - chapter 1
@@ -27,11 +27,11 @@
     - [x] Effective DevOps - chapter 1,2,4
     - [x] Enterprise DevOps - chapter 4
 
-  - 1.1.5 - Explicar como o DevOps se encaixa com as práticas Lean e Agile Scrum
+  - [ ] 1.1.5 - Explicar como o DevOps se encaixa com as práticas Lean e Agile Scrum
     - [ ] Continuous Delivery - chapter 15 ![study](https://img.shields.io/badge/study-doing-yellow.svg)
-    - [ ] Enterprise DevOps - chapter 1,4
+    - [ ] Enterprise DevOps - chapter 1,4*
 
-- [ ] __1.2 - Cultura Organizacional (0%/12%)__
+- [ ] __1.2 - Cultura Organizacional (0% / 12%)__
   - [ ] 1.2.1 - Explicar por que os 4 pilares de DevOps Eficaz (Colaboração, Afinidade, Ferramentas e Dimensionamento) são tão importantes
     - [ ] Effective DevOps - chapter 6,7
   - [ ] 1.2.2 - Analisar um cenário com partes faltantes da mentalidade DevOps
@@ -45,25 +45,25 @@
   - [ ] 1.2.6 - Explicar como o gerenciamento de recursos humanos pode fomentar a diversidade e quais benefícios isso traz ara a organização
     - [ ] Effective DevOps - chapter 7
 
-- [ ] __1.3 - Princípios e Conceitos DevOps (4%/6%)__
+- [ ] __1.3 - Princípios e Conceitos DevOps (4% / 6%)__
   - [ ] 1.3.1 - Explicar o uso e a utilidade de diferentes metodologias de desenvolvimento de software ( Cascata, Agile, Scrum) e seus princípios básicos
     - [x] Effective DevOps - chapter 4
     - [x] Continuous Delivery - chapter 1
     - [ ] Enterprise DevOps - chapter 5
   - [ ] 1.3.2 - Explicar o uso e utilidade de diferente metodologias de operações (Gerenciamento de Servios de TI)
-    - [ ] Enterprise DevOps - chapter 3,4
+    - [ ] Enterprise DevOps - chapter 3,4*
   - [ ] 1.3.3 - Explicar o uso e a utilidade da metodologia de sistemas Lean
     - [x] Effective DevOps - chapter 4
 
-### 2. Planejamento, Requisitos e Desenho (3%/18%)
+### 2. Planejamento, Requisitos e Desenho (3% / 18%)
 
-- [ ] __2.1 - Gerenciamento do Ciclo de Vida de Aplicativos ou Serviços (2%/4%)__
+- [ ] __2.1 - Gerenciamento do Ciclo de Vida de Aplicativos ou Serviços (2% / 4%)__
   - [ ] 2.1.1 - Explicar como o DevOps agrega valor aou Gerenciamtno do Ciclo de Vida do Aplicativo moderno
     - [ ] Enterprise DevOps - chapter 1
   - [x] 2.1.2 - Explicar por que o DevOps melhora a experiência do cliente quando usada para o GErenciamento do Ciclo de Vida do Serviço
     - [x] Enterprise DevOps - chapter 4
 
-- [ ] __2.2 - Termo de Abertura do Projeto (Definição de escopo) e Controle Visual (0%/4%)__
+- [ ] __2.2 - Termo de Abertura do Projeto (Definição de escopo) e Controle Visual (0% / 4%)__
   - [ ] 2.2.1 - Explicar como o escopo do projeto DevOps deve ser determinado
     - [ ] Continuous Delivery - chapter 10
     - [ ] Enterprise DevOps - chapter 8
@@ -71,26 +71,26 @@
     - [ ] Continuous Delivery - chapter 5
     - [ ] Enterprise DevOps - chapter 7
 
-- [ ] __2.3 - Desenho da Infraestrutura e Arquitetura (0%/4%)__
+- [ ] __2.3 - Desenho da Infraestrutura e Arquitetura (0% / 4%)__
   - [ ] 2.3.1 - Explicar como o DevOps muda ou influencia o projeto de infraestrutura e arquitetura de TI
     - [ ] Continuous Delivery - chapter 11
   - [ ] 2.3.2 - Explicar por que a Computação em nuvem e as técnidas de virtualização tornam a integração de Dev e Ops mais fácil
     - [ ] Continuous Delivery - chapter 11
 
-- [ ] __2.4 - Requisitos e acordos de nível de serviço (1%/2%)__
+- [ ] __2.4 - Requisitos e acordos de nível de serviço (1% / 2%)__
   - [ ] 2.4.1 - Explicar como o DevOps altera os requisitos e os acordos de nível de serviço
     - [ ] Continuous Delivery - chapter 12
     - [X] Enterprise DevOps - chapter 4
 
-- [ ] __2.5 - Implementando uma Estratégia de Testes (0%/4%)__
+- [ ] __2.5 - Implementando uma Estratégia de Testes (0% / 4%)__
   - [ ] 2.5.1 - Explicar por que e como a Estratégia de Teste precisa ser alterada ao fazer a transição para o DevOps
     - [ ] Continuous Delivery - chapter 4
   - [ ] 2.5.2 - Analisar História de Usuário para completude
     - [ ] Continuous Delivery - chapter 4
 
-### 3. Desenvolvimento e implantação (4%/30%)
+### 3. Desenvolvimento e implantação (4% / 30%)
 
-- [ ] __3.1 - Entrega Contínua e Integração Contínua (0%/12%)__
+- [ ] __3.1 - Entrega Contínua e Integração Contínua (0% / 12%)__
   - [ ] 3.1.1 - Explicar po que a Entrega Contínua é essencial para DevOPs eficaz
     - [ ] Continuous Delivery - chapter 13,15
   - [ ] 3.1.2 - Analisar como integrar a Entrega Contínua em um cenário
@@ -104,30 +104,30 @@
   - [ ] 3.1.6 - Analisar como resolver problemas com Integração Contínua em um cenário
     - [ ] Continuous Delivery - chapter 3
 
-- [ ] __3.2 - Pipeline de implantação (0%/4%)__
+- [ ] __3.2 - Pipeline de implantação (0% / 4%)__
   - [ ] 3.2.1 - Explicar a lógica da anatomia de um pipeline de implantação DevOps
     - [ ] Continuous Delivery - chapter 5,8
     - [ ] Enterprise DevOps - chapter 7  
   - [ ] 3.2.2 - Explicar como usar scripts de criação e implantação
-    - [ ] Continuous Delivery - chapter 1,6
+    - [ ] Continuous Delivery - chapter 1*,6
 
-- [ ] __3.3 - Implantação contínua (0%/4%)__
+- [ ] __3.3 - Implantação contínua (0% / 4%)__
   - [ ] 3.3.1 - Explicar por que o plano de iteração e o plano de liberação devem ser alterados para um DevOps eficaz
     - [ ] Enterprise DevOps - chapter 5,7
   - [ ] 3.3.2 - Analisar como implementar a implantação contínua em um cenário
     - [ ] Continuous Delivery - chapter 10
 
-- [ ] __3.4 - Ji-Kotei-Kanketsu, Ritmo, Trabalho em Andamento e Fluxo Único (Fluxo Contínuo) (2%/4%)__
+- [ ] __3.4 - Ji-Kotei-Kanketsu, Ritmo, Trabalho em Andamento e Fluxo Único (Fluxo Contínuo) (2% / 4%)__
   - [ ] 3.4.1 - Explicar os conceitos Ji-Kotei-Kanketsu, Ritmo, Trabalho em Andamento e Fluxo Único (Fluxo Contínuo)
-    - [ ] Enterprise DevOps - chapter 4,7
+    - [ ] Enterprise DevOps - chapter 4*,7
   - [ ] 3.4.2 - Analisar um cenário para um problema com Ji-Kotei-Kanketsu, Ritmo, Trabalho em Andamento ou Fluxo Único e encontrar uma solução adequada 
-    - [ ] Effective DevOps - chapter 1,2,9
+    - [ ] Effective DevOps - chapter 1*,2*,9
     - [x] Continuous Delivery - chapter 1
     - [x] Enterprise DevOps - chapter 4
 
-- [ ] __3.5 - Automação, Ferramentas e Testes (2%/6%)__
+- [ ] __3.5 - Automação, Ferramentas e Testes (2% / 6%)__
   - [ ] 3.5.1 - Explicar por que a automação é importante para o DevOps eficaz
-    - [ ] Continuous Delivery - chapter 1,8
+    - [ ] Continuous Delivery - chapter 1*,8
   - [ ] 3.5.2 - Explicar como usar ferramentas para facilitar DevOps em geral
     - [ ] Continuous Delivery - chapter 8
   - [ ] 3.5.3 - Explicar como usar ferramentas para dar suporte à mentalidade e cultura do DevOps
@@ -138,9 +138,9 @@
   - [ ] 3.5.5 - Analisar um cenário e escolher a maneira correta de automatizar um teste de aceitação
     - [ ] Continuous Delivery - chapter 8
 
-### 4. Operação e dimensionamento (2%/22%)
+### 4. Operação e dimensionamento (2% / 22%)
 
-- [ ] __4.1 - Gerenciamento de Dados; Infraestrutura e Ambientes; Componentes e Dependências (0%/10%)__
+- [ ] __4.1 - Gerenciamento de Dados; Infraestrutura e Ambientes; Componentes e Dependências (0% / 10%)__
   - [ ] 4.1.1 - Explicar quais problemas podem ser encontrados ao gerenciar dados em bancos de dados dentro do DevOps
     - [ ] Continuous Delivery - chapter 12
   - [ ] 4.1.2 - Analisar um cenário onde um banco de dados é usado em DevOPs e fornecer a melhor solução para um problema
@@ -152,7 +152,7 @@
   - [ ] 4.1.5 - Explicar como gerenciar dependências
     - [ ] Continuous Delivery - chapter 13
 
-- [ ] __4.2 - Gerenciamneto de configuração e Controle de versão (0%/4%)__
+- [ ] __4.2 - Gerenciamento de configuração e Controle de versão (0% / 4%)__
   - [ ] 4.2.1 - Explicar por que o controle de versão é uma chave para o DevOPs eficaz
     - [ ] Continuous Delivery - chapter 2
   - [ ] 4.2.2 - Explicar como manter o controle de versão sobre dados, infraestrutura e componentes
@@ -160,7 +160,7 @@
   - [ ] 4.2.3 - Analisar um cenário e sugerir a melhor estratégia par agerenciar um problema de configuração
     - [ ] Continuous Delivery - chapter 2
 
-- [ ] __4.3 - Infraetrutura em Nuvens e Imutável (0%/2%)__
+- [ ] __4.3 - Infraestrutura em Nuvens e Imutável (0% / 2%)__
   - [ ] 4.3.1 - Explicar quando é e quando não é necessário mover para uma infraestrutura baseada em nuvem para ter um DevOps eficaz
     - [ ] Effective DevOps - chapter 17  
     - [ ] Continuous Delivery - chapter 11
@@ -168,11 +168,11 @@
   - [ ] 4.3.2 - Explicar como a infraestrutura baseada em nuvem deve ser gerenciada dentro do DevOps
     - [ ] Continuous Delivery - chapter 11
 
-- [x] __4.4 - Continuidade do Negócio (2%/2%)__
+- [x] __4.4 - Continuidade do Negócio (2% / 2%)__
   - [x] 4.4.1 - Explicar como o DevOps pode facilitar práticas de continuidade de negócios
     - [x] Enterprise DevOps - chapter 4
 
-- [ ] __4.5 - Dimensionamento (0%/4%)__
+- [ ] __4.5 - Dimensionamento (0% / 4%)__
   - [ ] 4.5.1 - Analisar um cenário, explicar se e por que dimensionar par acima ou para baixo nessa situação, e identificar a melhor maneira de fazer isso
     - [ ] Effective DevOps - chapter 14
   - [ ] 4.5.2 - Analisar um cenário que deu errado o demensionamento, e identificar um aboa maneira de resolver o problema
@@ -181,9 +181,9 @@
   - [ ] 4.5.3 - Explicar como a política social e práticas de contratação suportam escalonamento DevOps
     - [ ] Effective DevOps - chapter 6,7,14
 
-### 5. Fim da vida (0%/2%)
+### 5. Fim da vida (0% / 2%)
 
-- [ ] __5.1 - Condições de fim de Vida de um produto ou serviço (0%/2%)__
+- [ ] __5.1 - Condições de fim de Vida de um produto ou serviço (0% / 2%)__
   - [ ] 5.1.1 - Explicquem que condições devem ser cumpridas antes de terminar um serviço ou produto
     - [ ] Enterprise DevOps - chapter 7
 
