@@ -57,13 +57,13 @@
 
 ### 2. Planejamento, Requisitos e Desenho (18%)
 
-- [ ] __2.1   - Gerenciamento do Ciclo de Vida de Aplicativos ou Serviços (4%)__
+- [ ] __2.1 - Gerenciamento do Ciclo de Vida de Aplicativos ou Serviços (4%)__
   - [ ] 2.1.1 - Explicar como o DevOps agrega valor aou Gerenciamtno do Ciclo de Vida do Aplicativo moderno
     - [ ] Enterprise DevOps - chapter 1
   - [x] 2.1.2 - Explicar por que o DevOps melhora a experiência do cliente quando usada para o GErenciamento do Ciclo de Vida do Serviço
     - [ ] Enterprise DevOps - chapter 4
 
-- [ ] __2.2   - Termo de Abertura do Projeto (Definição de escopo) e Controle Visual__
+- [ ] __2.2 - Termo de Abertura do Projeto (Definição de escopo) e Controle Visual__
   - [ ] 2.2.1 - Explicar como o escopo do projeto DevOps deve ser determinado
     - [ ] Continuous Delivery - chapter 10
     - [ ] Enterprise DevOps - chapter 8
@@ -71,7 +71,7 @@
     - [ ] Continuous Delivery - chapter 5
     - [ ] Enterprise DevOps - chapter 7
 
-- [ ] __2.3   - Desenho da Infraestrutura e Arquitetura__
+- [ ] __2.3 - Desenho da Infraestrutura e Arquitetura__
   - [ ] 2.3.1 - Explicar como o DevOps muda ou influencia o projeto de infraestrutura e arquitetura de TI
     - [ ] Continuous Delivery - chapter 11
   - [ ] 2.3.2 - Explicar por que a Computação em nuvem e as técnidas de virtualização tornam a integração de Dev e Ops mais fácil
@@ -82,7 +82,7 @@
     - [ ] Continuous Delivery - chapter 12
     - [X] Enterprise DevOps - chapter 4
 
-- [ ] __2.5   - Implementando uma Estratégia de Testes__
+- [ ] __2.5 - Implementando uma Estratégia de Testes__
   - [ ] 2.5.1 - Explicar por que e como a Estratégia de Teste precisa ser alterada ao fazer a transição para o DevOps
     - [ ] Continuous Delivery - chapter 4
   - [ ] 2.5.2 - Analisar História de Usuário para completude
