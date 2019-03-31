@@ -1,4 +1,4 @@
-# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v2.1.0-blue.svg)
+# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v2.1.1-blue.svg)
 
 > Olá, minha intenção é colocar em prática os cursos que faço. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Mãos à obra!
 
@@ -24,11 +24,11 @@
     - [x] Enterprise DevOps - chapter 4
 
   - [ ] 1.1.4 - Explicar por que DevOps precisa de uma mentalidade específica para trabalhar
-    - [ ] Effective DevOps - chapter 1,2,4 ![study](https://img.shields.io/badge/study-doing-yellow.svg)
+    - [x] Effective DevOps - chapter 1,2,4
     - [x] Enterprise DevOps - chapter 4
 
   - 1.1.5 - Explicar como o DevOps se encaixa com as práticas Lean e Agile Scrum
-    - [ ] Continuous Delivery - chapter 15
+    - [ ] Continuous Delivery - chapter 15 ![study](https://img.shields.io/badge/study-doing-yellow.svg)
     - [ ] Enterprise DevOps - chapter 1,4
 
 - [ ] __1.2 - Cultura Organizacional (12%)__
@@ -47,13 +47,13 @@
 
 - [ ] __1.3 - Princípios e Conceitos DevOps (6%)__
   - [ ] 1.3.1 - Explicar o uso e a utilidade de diferentes metodologias de desenvolvimento de software ( Cascata, Agile, Scrum) e seus princípios básicos
-    - [ ] Effective DevOps - chapter 4
+    - [x] Effective DevOps - chapter 4
     - [x] Continuous Delivery - chapter 1
     - [ ] Enterprise DevOps - chapter 5
   - [ ] 1.3.2 - Explicar o uso e utilidade de diferente metodologias de operações (Gerenciamento de Servios de TI)
     - [ ] Enterprise DevOps - chapter 3,4
   - [ ] 1.3.3 - Explicar o uso e a utilidade da metodologia de sistemas Lean
-    - [ ] Effective DevOps - chapter 4
+    - [x] Effective DevOps - chapter 4
 
 ### 2. Planejamento, Requisitos e Desenho (18%)
 
@@ -131,9 +131,9 @@
   - [ ] 3.5.2 - Explicar como usar ferramentas para facilitar DevOps em geral
     - [ ] Continuous Delivery - chapter 8
   - [ ] 3.5.3 - Explicar como usar ferramentas para dar suporte à mentalidade e cultura do DevOps
-    - [ ] Effective DevOps - chapter 1
+    - [x] Effective DevOps - chapter 1
   - [ ] 3.5.4 - Explicar por que é importante que o teste de DevOps seja automatizado
-    - [ ] Effective DevOps - chapter 1
+    - [x] Effective DevOps - chapter 1
     - [ ] Continuous Delivery - chapter 3
   - [ ] 3.5.5 - Analisar um cenário e escolher a maneira correta de automatizar um teste de aceitação
     - [ ] Continuous Delivery - chapter 8
