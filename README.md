@@ -526,3 +526,4 @@ _Obs: Estou usando a estrutura de pastas apresentada no livro **Continuous Integ
 - [Google Cloud Platform](https://cloud.google.com/sdk/auth_success)
 - [Terraform Getting Started](https://www.terraform.io/intro/getting-started/install.html)
 - [Android Studio](https://developer.android.com/training/basics/firstapp/)
+- [Jenkins - User Handbook overview](https://jenkins.io/doc/book/getting-started/)

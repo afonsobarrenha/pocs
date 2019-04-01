@@ -1,0 +1,91 @@
+version: '3'
+services: 
+
+  jenkins-blueocean:
+    image: jenkinsci/blueocean
+    container_name: jenkins-blueocean
+    user: root
+    ports:
+      - 8080:8080
+      - 50000:50000
+    volumes:
+      - jenkins-data:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks: 
+      - jenkins-network
+
+#  sonar:
+#    image: sonarqube
+#    container_name: sonar
+#    ports:
+#      - 9000:9000
+#      - 9092:9092
+#    networks:
+#      - jenkins-network
+#      - sonar-network
+#    environment:
+#      - SONARQUBE_JDBC_URL=jdbc:postgresql://postgres:5432/sonar
+#    volumes:
+#      - ./volumes/sonar-data/sonarqube/conf:/opt/sonarqube/conf
+#      - ./volumes/sonar-data/sonarqube/data:/opt/sonarqube/data
+#      - ./volumes/sonar-data/sonarqube/extensions:/opt/sonarqube/extensions
+#      - ./volumes/sonar-data/sonarqube/lib/bundled-plugins:/opt/sonarqube/lib/bundled-plugins
+#    depends_on:
+#      - postgres
+
+#  postgres:
+#    image: postgres
+#    container_name: postgres
+#    networks:
+#      - sonar-network
+#    environment:
+#      - POSTGRES_USER=sonar
+#      - POSTGRES_PASSWORD=sonar
+#    volumes:
+#      - ./volumes/postgres-data/postgresql:/var/lib/postgresql
+#      - ./volumes/postgres-data/postgresql/data:/var/lib/postgresql/data
+
+#  nexus:
+#    image: sonatype/nexus3
+#    container_name: nexus 
+#    ports:
+#      - 8081:8081
+#    networks:
+#      - jenkins-network
+#    volumes:
+#      - ./volumes/nexus-data:/nexus-data
+
+#  dev:
+#    image: php:7.2-apache
+#    container_name: dev
+#    networks:
+#      - app-network
+#    volumes:
+#      - ./volumes/dev-data:/var/www/html
+
+#  pre:
+#    image: php:7.2-apache
+#    container_name: pre
+#    networks:
+#      - app-network
+#    volumes:
+#      - ./volumes/pre-data:/var/www/html
+
+#  pro:
+#    image: php:7.2-apache
+#    container_name: pro
+#    networks:
+#      - app-network
+#    volumes:
+#      - ./volumes/pro-data:/var/www/html
+
+volumes:
+  jenkins-data:
+
+networks: 
+  jenkins-network:
+    driver: bridge
+#  sonar-network:
+#    driver: bridge
+#  app-network:
+#    driver: bridge
