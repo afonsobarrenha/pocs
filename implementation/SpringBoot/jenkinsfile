@@ -10,9 +10,8 @@ node {
     mvnHome = tool 'M3'
   }
   stage('Build') {
-    sh 'cd /var/jenkins_home/workspace/pocs_master/implementation/SpringBoot'
     // Run the maven build
-    sh "'${mvnHome}/bin/mvn' -Dmaven.test.skip -Ddockerfile.skip clean package"
+    sh "'${mvnHome}/bin/mvn' -f implementation/SpringBoot/pom.xml -Dmaven.test.skip -Ddockerfile.skip clean package"
   }
   stage('Results') {
     junit '**/target/surefire-reports/TEST-*.xml'
