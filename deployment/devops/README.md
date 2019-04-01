@@ -13,9 +13,9 @@ Pasta contendo o arquivo docker-compose, que descreve a interação entre os con
 
 >Caso você esteja utilizando o Docker Toolbox, como ele está rodando em cima de uma máquina virtual, o endereço http://localhost:9001/ não funcionará, pois você deve acessar a porta através do IP da máquina virtual. Para descobrir o IP dessa máquina virtual, basta executar o comando docker-machine   ip. Com o IP em mãos, basta acessá-lo no navegador, utilizando a porta que o Docker atribuiu, por exemplo http://192.168.0.38:9001/.
 
-## docker-compose
+## jenkinsfile
 
-Pasta contendo um Compose com várias ferramentas de _Continous Integration_.
+Pasta contendo uma estrutura para uso de *jenkinsfile* em pipelines de CI/CD.
 
 ## kubernetes
 

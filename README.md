@@ -1,4 +1,4 @@
-# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v2.1.4-blue.svg)
+# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v2.2.0-blue.svg)
 
 > Olá, minha intenção é colocar em prática os cursos que faço. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Mãos à obra!
 
@@ -526,3 +526,4 @@ _Obs: Estou usando a estrutura de pastas apresentada no livro **Continuous Integ
 - [Google Cloud Platform](https://cloud.google.com/sdk/auth_success)
 - [Terraform Getting Started](https://www.terraform.io/intro/getting-started/install.html)
 - [Android Studio](https://developer.android.com/training/basics/firstapp/)
+- [Jenkins - User Handbook overview](https://jenkins.io/doc/book/getting-started/)

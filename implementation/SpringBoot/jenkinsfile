@@ -1,0 +1,23 @@
+node {
+  def mvnHome
+  stage('Preparation') { // for display purposes
+    // Get some code from a GitHub repository
+    git 'https://github.com/afonsobarrenha/pocs.git'
+
+    sh 'git checkout feature/jenkinsfile'
+    
+    // Get the Maven tool.
+    // ** NOTE: This 'M3' Maven tool must be configured
+    // **       in the global configuration.           
+    mvnHome = tool 'M3'
+  }
+  stage('Build') {
+    sh 'cd implementation/SpringBoot'
+    // Run the maven build
+    sh "'${mvnHome}/bin/mvn' -Dmaven.test.skip -Ddockerfile.skip clean package"
+  }
+  stage('Results') {
+    junit '**/target/surefire-reports/TEST-*.xml'
+    archive 'target/*.jar'
+  }
+}
