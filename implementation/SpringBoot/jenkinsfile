@@ -1,20 +1,37 @@
-node {
-  def mvnHome
-  stage('Preparation') { // for display purposes
-    // Get some code from a GitHub repository
-    git 'https://github.com/afonsobarrenha/pocs.git'
+/*node {
+*  def mvnHome
+*  stage('Preparation') { // for display purposes
+*    // Get some code from a GitHub repository
+*    git 'https://github.com/afonsobarrenha/pocs.git'
+*
+*    // Get the Maven tool.
+*    // ** NOTE: This 'M3' Maven tool must be configured
+*    // **       in the global configuration.           
+*    mvnHome = tool 'M3'
+*  }
+*  stage('Build') {
+*    // Run the maven build
+*    sh "'${mvnHome}/bin/mvn' -f implementation/SpringBoot/pom.xml -Dmaven.test.skip -Ddockerfile.skip clean package"
+*  }
+*  stage('Results') {
+*    junit '**/target/surefire-reports/TEST-*.xml'
+*    archive 'target/*.jar'
+*  }
+*}
+*/
 
-    // Get the Maven tool.
-    // ** NOTE: This 'M3' Maven tool must be configured
-    // **       in the global configuration.           
-    mvnHome = tool 'M3'
-  }
-  stage('Build') {
-    // Run the maven build
-    sh "'${mvnHome}/bin/mvn' -f implementation/SpringBoot/pom.xml -Dmaven.test.skip -Ddockerfile.skip clean package"
-  }
-  stage('Results') {
-    junit '**/target/surefire-reports/TEST-*.xml'
-    archive 'target/*.jar'
-  }
+pipeline {
+    agent {
+        docker {
+            image 'maven:3-alpine' 
+            args '-v /root/.m2:/root/.m2' 
+        }
+    }
+    stages {
+        stage('Build') { 
+            steps {
+                sh 'mvn -f implementation/SpringBoot/pom.xml -B -Dmaven.test.skip -Ddockerfile.skip clean package' 
+            }
+        }
+    }
 }

@@ -14,6 +14,23 @@ services:
     networks: 
       - jenkins-network
 
+  sonarqube:
+    image: sonarqube
+    container_name: sonarqube
+    ports:
+      - "9000:9000"
+    networks:
+      - jenkins-network
+      - sonarqube-network
+    environment:
+      - sonar.jdbc.url=jdbc:postgresql://postgres:5432/sonar
+    volumes:
+      - sonarqube-conf:/opt/sonarqube/conf
+      - sonarqube-data:/opt/sonarqube/data
+      - sonarqube-extensions:/opt/sonarqube/extensions
+    depends_on:
+      - postgres
+
 #  sonar:
 #    image: sonarqube
 #    container_name: sonar
@@ -32,6 +49,18 @@ services:
 #      - ./volumes/sonar-data/sonarqube/lib/bundled-plugins:/opt/sonarqube/lib/bundled-plugins
 #    depends_on:
 #      - postgres
+
+  postgres:
+    image: postgres
+    container_name: postgres
+    networks:
+      - sonarqube-network
+    environment:
+      - POSTGRES_USER=sonar
+      - POSTGRES_PASSWORD=sonar
+    volumes:
+      - postgresql:/var/lib/postgresql
+      - postgresql-data:/var/lib/postgresql/data
 
 #  postgres:
 #    image: postgres
@@ -81,11 +110,16 @@ services:
 
 volumes:
   jenkins-data:
+  sonarqube-conf:
+  sonarqube-data:
+  sonarqube-extensions:
+  postgresql:
+  postgresql-data:
 
 networks: 
   jenkins-network:
     driver: bridge
-#  sonar-network:
-#    driver: bridge
+  sonarqube-network:
+    driver: bridge
 #  app-network:
 #    driver: bridge
