@@ -2,16 +2,13 @@ package com.example.demo.controller;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.hamcrest.Matchers.containsString;
+import static org.junit.Assume.assumeFalse;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import org.springframework.context.annotation.Profile;
-
-import static org.junit.Assume.*;
-import org.junit.*;
-
+import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,11 +24,11 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 @AutoConfigureMockMvc
 public class MockMvcTest {
 
-    @BeforeClass
-    public static void disableTestsOnCiServer() {
-        String profilesFromConsole = System.getProperty("spring.profiles.active", "");
-        assumeFalse(profilesFromConsole.contains("jenkins"));
-    }
+	@BeforeClass
+	public static void disableTestsOnCiServer() {
+		String profilesFromConsole = System.getProperty("spring.profiles.active", "");
+		assumeFalse(profilesFromConsole.contains("jenkins"));
+	}
 
 	@Autowired
 	private MockMvc mockMvc;
