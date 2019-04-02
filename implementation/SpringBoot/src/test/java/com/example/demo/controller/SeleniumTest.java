@@ -5,6 +5,11 @@ import static org.junit.Assert.assertTrue;
 import java.io.File;
 import java.io.IOException;
 
+import static org.junit.Assume.*;
+import org.junit.*;
+
+import org.springframework.context.annotation.Profile;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -27,6 +32,12 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 public class SeleniumTest {
+
+    @BeforeClass
+    public static void disableTestsOnCiServer() {
+        String profilesFromConsole = System.getProperty("spring.profiles.active", "");
+        assumeFalse(profilesFromConsole.contains("jenkins"));
+    }
 
 	@LocalServerPort
 	private int port;

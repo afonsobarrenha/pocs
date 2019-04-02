@@ -35,7 +35,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'mvn -f implementation/SpringBoot/pom.xml test'
+                sh 'mvn -f implementation/SpringBoot/pom.xml test -Dspring.profiles.active=jenkins'
             }
             post {
                 always {

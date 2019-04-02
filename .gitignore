@@ -4,3 +4,6 @@ implementation/AndroidApplication/.settings/
 deployment/devops/docker-compose/volumes/
 implementation/node-burndown/node_modules/
 deployment/devops/jenkinsfile/volumes/jenkins-data/
+implementation/AndroidApplication/app/.classpath
+implementation/AndroidApplication/app/.settings/org.eclipse.jdt.core.prefs
+implementation/AndroidApplication/app/.classpath
