@@ -33,5 +33,15 @@ pipeline {
                 sh 'mvn -f implementation/SpringBoot/pom.xml -B -Dmaven.test.skip -Ddockerfile.skip clean package' 
             }
         }
+        stage('Test') {
+            steps {
+                sh 'mvn test'
+            }
+            post {
+                always {
+                    junit 'target/surefire-reports/*.xml'
+                }
+            }
+        }
     }
 }
