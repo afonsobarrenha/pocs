@@ -35,7 +35,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'mvn test'
+                sh 'mvn -f implementation/SpringBoot/pom.xml test'
             }
             post {
                 always {
