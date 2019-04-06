@@ -4,3 +4,5 @@ implementation/AndroidApplication/.settings/
 deployment/devops/docker-compose/volumes/
 implementation/node-burndown/node_modules/
 deployment/devops/jenkinsfile/volumes/jenkins-data/
+implementation/SpringBoot/.metadata/
+implementation/AndroidApplication/app/.settings/
