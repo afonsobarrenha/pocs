@@ -1,14 +1,14 @@
-# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v2.2.1-blue.svg)
+# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v2.2.2-blue.svg)
 
 > Olá, minha intenção é colocar em prática os cursos que faço. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Mãos à obra!
 
 - - -
 
-## EXIN DevOps Master (24% / 100%)
+## EXIN DevOps Master (26% / 100%)
 
-### 1. Adoção do DevOps (13% / 28%)
+### 1. Adoção do DevOps (14% / 28%)
 
-- [ ] __1.1 - Mentalidade (Mindset) DevOps e seus benefícios (9% / 10%)__
+- [x] __1.1 - Mentalidade (Mindset) DevOps e seus benefícios (10% / 10%)__
   - [x] 1.1.1 - Analisar anti-padrões DevOps em um cenário
     - [x] Effective DevOps - chapter 5
     - [x] Continuous Delivery - chapter 1
@@ -27,13 +27,13 @@
     - [x] Effective DevOps - chapter 1,2,4
     - [x] Enterprise DevOps - chapter 4
 
-  - [ ] 1.1.5 - Explicar como o DevOps se encaixa com as práticas Lean e Agile Scrum
+  - [x] 1.1.5 - Explicar como o DevOps se encaixa com as práticas Lean e Agile Scrum
     - [x] Continuous Delivery - chapter 15
-    - [ ] Enterprise DevOps - chapter 1,4* ![study](https://img.shields.io/badge/study-doing-yellow.svg)
+    - [x] Enterprise DevOps - chapter 1,4
 
 - [ ] __1.2 - Cultura Organizacional (0% / 12%)__
   - [ ] 1.2.1 - Explicar por que os 4 pilares de DevOps Eficaz (Colaboração, Afinidade, Ferramentas e Dimensionamento) são tão importantes
-    - [ ] Effective DevOps - chapter 6,7
+    - [ ] Effective DevOps - chapter 6,7 ![study](https://img.shields.io/badge/study-doing-yellow.svg)
   - [ ] 1.2.2 - Analisar um cenário com partes faltantes da mentalidade DevOps
     - [ ] Effective DevOps - chapter 7
   - [ ] 1.2.3 - Explicar como criar uma equipe com um grupo de pessoas, focando fomentar a colaboração, a mentalidade DevOps, a empatia e a confiança
@@ -49,27 +49,27 @@
   - [ ] 1.3.1 - Explicar o uso e a utilidade de diferentes metodologias de desenvolvimento de software ( Cascata, Agile, Scrum) e seus princípios básicos
     - [x] Effective DevOps - chapter 4
     - [x] Continuous Delivery - chapter 1
-    - [ ] Enterprise DevOps - chapter 5
+    - [ ] Enterprise DevOps - chapter 5*
   - [ ] 1.3.2 - Explicar o uso e utilidade de diferente metodologias de operações (Gerenciamento de Servios de TI)
-    - [ ] Enterprise DevOps - chapter 3,4*
+    - [ ] Enterprise DevOps - chapter 3*,4*
   - [ ] 1.3.3 - Explicar o uso e a utilidade da metodologia de sistemas Lean
     - [x] Effective DevOps - chapter 4
 
-### 2. Planejamento, Requisitos e Desenho (3% / 18%)
+### 2. Planejamento, Requisitos e Desenho (5% / 18%)
 
-- [ ] __2.1 - Gerenciamento do Ciclo de Vida de Aplicativos ou Serviços (2% / 4%)__
-  - [ ] 2.1.1 - Explicar como o DevOps agrega valor aou Gerenciamtno do Ciclo de Vida do Aplicativo moderno
-    - [ ] Enterprise DevOps - chapter 1
+- [x] __2.1 - Gerenciamento do Ciclo de Vida de Aplicativos ou Serviços (4% / 4%)__
+  - [x] 2.1.1 - Explicar como o DevOps agrega valor aou Gerenciamtno do Ciclo de Vida do Aplicativo moderno
+    - [x] Enterprise DevOps - chapter 1
   - [x] 2.1.2 - Explicar por que o DevOps melhora a experiência do cliente quando usada para o GErenciamento do Ciclo de Vida do Serviço
     - [x] Enterprise DevOps - chapter 4
 
 - [ ] __2.2 - Termo de Abertura do Projeto (Definição de escopo) e Controle Visual (0% / 4%)__
   - [ ] 2.2.1 - Explicar como o escopo do projeto DevOps deve ser determinado
     - [ ] Continuous Delivery - chapter 10
-    - [ ] Enterprise DevOps - chapter 8
+    - [ ] Enterprise DevOps - chapter 8*
   - [ ] 2.2.2 - Explicar por que o Controle Visual em um projeto DevOPs facilita as práticas DevOps
     - [ ] Continuous Delivery - chapter 5
-    - [ ] Enterprise DevOps - chapter 7
+    - [ ] Enterprise DevOps - chapter 7*
 
 - [ ] __2.3 - Desenho da Infraestrutura e Arquitetura (0% / 4%)__
   - [ ] 2.3.1 - Explicar como o DevOps muda ou influencia o projeto de infraestrutura e arquitetura de TI
@@ -107,13 +107,13 @@
 - [ ] __3.2 - Pipeline de implantação (0% / 4%)__
   - [ ] 3.2.1 - Explicar a lógica da anatomia de um pipeline de implantação DevOps
     - [ ] Continuous Delivery - chapter 5,8
-    - [ ] Enterprise DevOps - chapter 7  
+    - [ ] Enterprise DevOps - chapter 7*
   - [ ] 3.2.2 - Explicar como usar scripts de criação e implantação
     - [ ] Continuous Delivery - chapter 1*,6
 
 - [ ] __3.3 - Implantação contínua (0% / 4%)__
   - [ ] 3.3.1 - Explicar por que o plano de iteração e o plano de liberação devem ser alterados para um DevOps eficaz
-    - [ ] Enterprise DevOps - chapter 5,7
+    - [ ] Enterprise DevOps - chapter 5*,7*
   - [ ] 3.3.2 - Analisar como implementar a implantação contínua em um cenário
     - [ ] Continuous Delivery - chapter 10
 
@@ -164,7 +164,7 @@
   - [ ] 4.3.1 - Explicar quando é e quando não é necessário mover para uma infraestrutura baseada em nuvem para ter um DevOps eficaz
     - [ ] Effective DevOps - chapter 17  
     - [ ] Continuous Delivery - chapter 11
-    - [ ] Enterprise DevOps - chapter 5,7
+    - [ ] Enterprise DevOps - chapter 5*,7*
   - [ ] 4.3.2 - Explicar como a infraestrutura baseada em nuvem deve ser gerenciada dentro do DevOps
     - [ ] Continuous Delivery - chapter 11
 
@@ -185,7 +185,7 @@
 
 - [ ] __5.1 - Condições de fim de Vida de um produto ou serviço (0% / 2%)__
   - [ ] 5.1.1 - Explicquem que condições devem ser cumpridas antes de terminar um serviço ou produto
-    - [ ] Enterprise DevOps - chapter 7
+    - [ ] Enterprise DevOps - chapter 7*
 
 - - -
 
