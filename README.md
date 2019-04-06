@@ -1,14 +1,14 @@
-# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v2.2.0-blue.svg)
+# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v2.2.1-blue.svg)
 
 > Olá, minha intenção é colocar em prática os cursos que faço. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Mãos à obra!
 
 - - -
 
-## EXIN DevOps Master
+## EXIN DevOps Master (24% / 100%)
 
-### 1. Adoção do DevOps (12% / 28%)
+### 1. Adoção do DevOps (13% / 28%)
 
-- [ ] __1.1 - Mentalidade (Mindset) DevOps e seus benefícios (8% / 10%)__
+- [ ] __1.1 - Mentalidade (Mindset) DevOps e seus benefícios (9% / 10%)__
   - [x] 1.1.1 - Analisar anti-padrões DevOps em um cenário
     - [x] Effective DevOps - chapter 5
     - [x] Continuous Delivery - chapter 1
@@ -28,8 +28,8 @@
     - [x] Enterprise DevOps - chapter 4
 
   - [ ] 1.1.5 - Explicar como o DevOps se encaixa com as práticas Lean e Agile Scrum
-    - [ ] Continuous Delivery - chapter 15 ![study](https://img.shields.io/badge/study-doing-yellow.svg)
-    - [ ] Enterprise DevOps - chapter 1,4*
+    - [x] Continuous Delivery - chapter 15
+    - [ ] Enterprise DevOps - chapter 1,4* ![study](https://img.shields.io/badge/study-doing-yellow.svg)
 
 - [ ] __1.2 - Cultura Organizacional (0% / 12%)__
   - [ ] 1.2.1 - Explicar por que os 4 pilares de DevOps Eficaz (Colaboração, Afinidade, Ferramentas e Dimensionamento) são tão importantes
@@ -88,15 +88,15 @@
   - [ ] 2.5.2 - Analisar História de Usuário para completude
     - [ ] Continuous Delivery - chapter 4
 
-### 3. Desenvolvimento e implantação (4% / 30%)
+### 3. Desenvolvimento e implantação (6% / 30%)
 
-- [ ] __3.1 - Entrega Contínua e Integração Contínua (0% / 12%)__
+- [ ] __3.1 - Entrega Contínua e Integração Contínua (2% / 12%)__
   - [ ] 3.1.1 - Explicar po que a Entrega Contínua é essencial para DevOPs eficaz
-    - [ ] Continuous Delivery - chapter 13,15
+    - [ ] Continuous Delivery - chapter 13,15*
   - [ ] 3.1.2 - Analisar como integrar a Entrega Contínua em um cenário
-    - [ ] Continuous Delivery - chapter 3,5,15
-  - [ ] 3.1.3 - Analisar como resolver problemas com a Entrega Contínua em um cenário
-    - [ ] Continuous Delivery - chapter 15
+    - [ ] Continuous Delivery - chapter 3,5,15*
+  - [x] 3.1.3 - Analisar como resolver problemas com a Entrega Contínua em um cenário
+    - [x] Continuous Delivery - chapter 15
   - [ ] 3.1.4 - Explicar por que a Integração Contínua é essencial para DevOps eficaz
     - [ ] Continuous Delivery - chapter 3
   - [ ] 3.1.5 - Analisar como alcançar a Integração Contínua em um cenário com equipe/SCM distribuído
