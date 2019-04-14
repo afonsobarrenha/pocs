@@ -1,6 +1,6 @@
-DROP TABLE IF EXISTS listavip.convidado;
+DROP TABLE IF EXISTS convidado;
 
-CREATE TABLE listavip.convidado (
+CREATE TABLE convidado (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nome` varchar(500) DEFAULT NULL,
   `email` varchar(500) DEFAULT NULL,
