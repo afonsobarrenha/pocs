@@ -1,0 +1,40 @@
+version: '2'
+services:
+
+  prometheus:
+    image: prom/prometheus:v1.8.2
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    command:
+      - '-config.file=/etc/prometheus/prometheus.yml'
+    ports:
+      - '9090:9090'
+    networks: 
+      - monitoring-network
+
+#  node-exporter:
+#    image: prom/node-exporter
+#    ports:
+#      - '9100:9100'
+
+  grafana:
+    image: grafana/grafana:5.4.3
+    volumes:
+      - grafana_data:/var/lib/grafana
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=pass
+    depends_on:
+      - prometheus
+    ports:
+      - "3000:3000"
+    networks: 
+      - monitoring-network
+
+volumes:
+  prometheus_data: {}
+  grafana_data: {}
+
+networks: 
+  monitoring-network:
+    driver: bridge
