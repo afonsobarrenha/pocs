@@ -1,6 +1,7 @@
 package com.example.demo.controller;
 
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assume.assumeFalse;
 
 import java.io.File;
 import java.io.IOException;
@@ -27,6 +28,12 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 public class SeleniumTest {
+
+	@BeforeClass
+	public static void disableTestsOnCiServer() {
+		String profilesFromConsole = System.getProperty("spring.profiles.active", "");
+		assumeFalse(profilesFromConsole.contains("jenkins"));
+	}
 
 	@LocalServerPort
 	private int port;

@@ -1,7 +1,9 @@
 package com.example.demo.controller;
 
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assume.assumeFalse;
 
+import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +16,12 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class WebEnvironmentTest {
+
+	@BeforeClass
+	public static void disableTestsOnCiServer() {
+		String profilesFromConsole = System.getProperty("spring.profiles.active", "");
+		assumeFalse(profilesFromConsole.contains("jenkins"));
+	}
 
 	@LocalServerPort
 	private int port;

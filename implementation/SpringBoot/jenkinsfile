@@ -14,7 +14,7 @@
 *    sh "'${mvnHome}/bin/mvn' -f implementation/SpringBoot/pom.xml -Dmaven.test.skip -Ddockerfile.skip clean package"
 *  }
 *  stage('Results') {
-*    junit '**/target/surefire-reports/TEST-*.xml'
+*    junit '/target/surefire-reports/TEST-*.xml'
 *    archive 'target/*.jar'
 *  }
 *}
@@ -31,6 +31,16 @@ pipeline {
         stage('Build') { 
             steps {
                 sh 'mvn -f implementation/SpringBoot/pom.xml -B -Dmaven.test.skip -Ddockerfile.skip clean package' 
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'mvn -f implementation/SpringBoot/pom.xml test -Dspring.profiles.active=jenkins'
+            }
+            post {
+                always {
+                    junit 'target/surefire-reports/*.xml'
+                }
             }
         }
     }

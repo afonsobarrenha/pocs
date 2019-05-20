@@ -11,8 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import cucumber.api.java.ca.Cal;
-
 import com.example.demo.model.InfoModel;
 
 @RestController
@@ -41,7 +39,8 @@ public class InfoController {
 
 		InfoModel infoModel = new InfoModel(env.getProperty("info.app.groupId"), env.getProperty("info.app.artifactId"),
 				env.getProperty("info.app.version"), env.getProperty("info.app.name"),
-				env.getProperty("info.app.description"), env.getProperty("spring.profiles.active"), ip, hostname, today);
+				env.getProperty("info.app.description"), env.getProperty("spring.profiles.active"), ip, hostname,
+				today);
 
 		logger.info("infoModel=" + infoModel);
 

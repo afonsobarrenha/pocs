@@ -1,8 +1,8 @@
+deployment/devops/volumes/
 testing/appium/node_modules/
-implementation/AndroidApplication/.project
-implementation/AndroidApplication/.settings/
-deployment/devops/docker-compose/volumes/
-implementation/node-burndown/node_modules/
-deployment/devops/jenkinsfile/volumes/jenkins-data/
 implementation/SpringBoot/.metadata/
+implementation/AndroidApplication/.project
+implementation/node-burndown/node_modules/
+implementation/AndroidApplication/.settings/
+implementation/AndroidApplication/app/.classpath
 implementation/AndroidApplication/app/.settings/
