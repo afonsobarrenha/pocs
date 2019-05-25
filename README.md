@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-# POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v2.2.2-blue.svg)
-=======
+
 # POCs - Provas de Conceito ![GitHub release](https://img.shields.io/badge/release-v2.3.0-blue.svg)
->>>>>>> 2.3.0
 
 > Olá, minha intenção é colocar em prática os cursos que faço. Abaixo, uma lista com um *roadmap* do que pretendo seguir. Mãos à obra!
 
