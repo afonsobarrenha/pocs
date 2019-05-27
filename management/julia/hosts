@@ -3,3 +3,6 @@
 
 [jenkins-server]
 192.168.10.11 ansible_user=vagrant ansible_ssh_private_key_file=".vagrant/machines/jenkins-server/virtualbox/private_key"
+
+[nexus-server]
+192.168.10.12 ansible_user=vagrant ansible_ssh_private_key_file=".vagrant/machines/nexus-server/virtualbox/private_key"

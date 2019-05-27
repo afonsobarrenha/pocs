@@ -1,0 +1,12 @@
+[Unit]
+Description=Nexus Service
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+User=root
+ExecStart=/opt/nexus/nexus-3.16.1-02/bin/nexus run
+
+[Install]
+WantedBy=multi-user.target

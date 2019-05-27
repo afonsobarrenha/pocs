@@ -32,14 +32,9 @@
       create: yes
       line: "{{item}}"
     with_items:
-    - "192.168.10.11 jenkins-server"
-    - "192.168.10.12 nexus-server"
-
-  - name: garantindo README
-    become: yes
-    copy: 
-      src: files/README.md
-      dest: /root/README.md
+    - "192.168.10.11 gitlab-server"
+    - "192.168.10.12 jenkins-server"
+    - "192.168.10.13 nexus-server"
 
 - hosts: gitlab-server
   roles:
@@ -48,3 +43,7 @@
 - hosts: jenkins-server
   roles:
     - jenkins-server
+
+- hosts: nexus-server
+  roles:
+    - nexus-server
