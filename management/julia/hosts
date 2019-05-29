@@ -6,3 +6,6 @@
 
 [nexus-server]
 192.168.10.12 ansible_user=vagrant ansible_ssh_private_key_file=".vagrant/machines/nexus-server/virtualbox/private_key"
+
+[postgresql-server]
+192.168.10.15 ansible_user=vagrant ansible_ssh_private_key_file=".vagrant/machines/postgresql-server/virtualbox/private_key"

@@ -9,19 +9,6 @@
     packages:
     - openjdk-8-jre
 
-#- name: Download Nexus
-#  become: yes
-#  get_url:
-#    url: https://download.sonatype.com/nexus/3/latest-unix.tar.gz
-#    dest: /etc/nexus.tar.gz
-#    mode: '0444'
-#
-#- name: Extract Nexus into /opt/nexus
-#  become: yes
-#  unarchive:
-#    src: /etc/nexus.tar.gz
-#    dest: /opt/nexus
-
 - name: Create a directory if it does not exist
   become: yes
   file:

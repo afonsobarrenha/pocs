@@ -47,3 +47,7 @@
 - hosts: nexus-server
   roles:
     - nexus-server
+
+- hosts: postgresql-server
+  roles:
+    - postgresql-server
