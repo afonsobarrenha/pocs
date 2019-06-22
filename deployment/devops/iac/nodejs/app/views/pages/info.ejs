@@ -1,0 +1,87 @@
+<head>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+		integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<style>
+		.* {
+			box-sizing: border-box;
+		}
+
+		/* Style the container */
+		.container {
+			border-radius: 5px;
+			background-color: #f2f2f2;
+			padding: 20px;
+		}
+
+		/* Float four columns side by side */
+		.columnInfo {
+			float: left;
+			width: 45%;
+			padding: 0 5px;
+		}
+
+		.row {
+			margin: 0 -5px;
+		}
+
+		/* Clear floats after the columns */
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		/* Responsive columns */
+		@media screen and (max-width: 200px) {
+			.columnInfo {
+				width: 100%;
+				display: block;
+				margin-bottom: 10px;
+			}
+		}
+
+		/* Style the counter cards */
+		.card {
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+			padding: 16px;
+			text-align: center;
+			background-color: #888;
+			color: white;
+		}
+
+		.fa {
+			font-size: 25px;
+		}
+
+		footer {
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			text-align: center;
+			font-style: italic;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="columnInfo">
+				<div class="card">
+					<p><i class="fa fa-user"></i></p>
+					<h3><%=backend_counter%></h3>
+				</div>
+			</div>
+			<div class="columnInfo">
+				<div class="card">
+					<p><i class="fa fa-check"></i></p>
+					<h3><%=backend_version%></h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<p>(@<%=backend_hostname%>)</p>
+	</footer>
+</body>

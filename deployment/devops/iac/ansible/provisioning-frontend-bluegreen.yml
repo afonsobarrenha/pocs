@@ -1,0 +1,39 @@
+---
+
+- name: Blue/Green deployment in Frontend servers
+  hosts: all
+  tasks:
+
+  - name: Configure the hosts
+    become: yes
+    template:
+      src: '../nginx/templates/default.j2'
+      dest: '/etc/nginx/sites-available/default'
+
+  - name: Remove the green server from the Nginx http redirect
+    become: yes
+    lineinfile:
+      path: '/etc/nginx/sites-available/default'
+      state: absent
+      regexp: '{{ backend_ip | mandatory }}'
+
+  - name: Insert/Update HTML surrounded by custom markers after <body> line
+    become: yes
+    blockinfile:
+      path: '/etc/nginx/sites-available/default'
+      marker: "# {mark} ANSIBLE MANAGED BLOCK - GREEN"
+      block: |
+        server {{ backend_ip | mandatory }}:3000;
+
+  - name: Restart Nginx
+    become: yes
+    systemd:
+      name: nginx.service
+      state: restarted
+      daemon_reload: yes
+
+  - name: Make sure Nginx service is running
+    become: yes
+    systemd:
+      name: nginx.service
+      state: started

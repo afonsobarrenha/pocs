@@ -1,0 +1,14 @@
+[Unit]
+Description=App Service
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+User=root
+WorkingDirectory=/opt/iac/nodejs/
+Environment="BACKEND_VERSION={{ backend_version | default('master') }}"
+ExecStart=/usr/bin/nodejs /opt/iac/nodejs/app.js
+
+[Install]
+WantedBy=multi-user.target

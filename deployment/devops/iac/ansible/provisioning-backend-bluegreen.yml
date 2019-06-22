@@ -1,0 +1,37 @@
+---
+
+- name: Blue/Green deployment
+  hosts: all
+  tasks:
+
+  - name: Cloning the afonsobarrenha/iac repo
+    become: yes
+    git:
+      repo: 'https://github.com/afonsobarrenha/iac.git'
+      dest: /opt/iac/
+      version: '{{ backend_version | mandatory }}'
+
+  - name: Install app dependencies with npm
+    become: yes
+    shell: npm i
+    args:
+      chdir: /opt/iac/nodejs
+
+  - name: 'Configure the app as a system service'
+    become: yes
+    template:
+      src: 'templates/app.service.j2'
+      dest: '/etc/systemd/system/app.service'
+
+  - name: Restart the app service
+    become: yes
+    systemd:
+      name: app.service
+      state: restarted
+      daemon_reload: yes
+
+  - name: Make sure App service is running
+    become: yes
+    systemd:
+      name: app.service
+      state: started
