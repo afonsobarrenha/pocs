@@ -1,0 +1,33 @@
+---
+
+- name: Install a list of packages
+  become: yes
+  apt:
+    name: "{{ packages }}"
+    update_cache: yes
+  vars:
+    packages:
+    - apt-transport-https
+    - openjdk-8-jre
+
+- name: Add the key to your system.
+  become: yes
+  apt_key:
+    url: https://pkg.jenkins.io/debian-stable/jenkins.io.key
+    state: present
+
+- name: Adding the following entry in /etc/apt/sources.list
+  become: yes
+  apt_repository:
+    update_cache: yes
+    repo: 'deb https://pkg.jenkins.io/debian-stable binary/'
+    state: present
+
+- name: Install a list of packages
+  become: yes
+  apt:
+    name: "{{ packages }}"
+    update_cache: yes
+  vars:
+    packages:
+    - jenkins

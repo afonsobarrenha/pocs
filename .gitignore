@@ -6,3 +6,5 @@ implementation/node-burndown/node_modules/
 implementation/AndroidApplication/.settings/
 implementation/AndroidApplication/app/.classpath
 implementation/AndroidApplication/app/.settings/
+management/julia/.vagrant/
+management/julia/provisioning.retry

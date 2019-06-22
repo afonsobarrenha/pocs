@@ -1,0 +1,29 @@
+---
+
+- name: Install a list of packages
+  become: yes
+  apt:
+    name: "{{ packages }}"
+    update_cache: yes
+  vars:
+    packages:
+    - curl 
+    - openssh-server 
+    - ca-certificates
+    - postfix
+
+- name: Add the GitLab package repository
+  become: yes
+  shell: curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+  args:
+    warn: no
+
+
+- name: Install a list of packages
+  become: yes
+  apt:
+    name: "{{ packages }}"
+    update_cache: yes
+  vars:
+    packages:
+    - gitlab-ce

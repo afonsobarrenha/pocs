@@ -1,0 +1,53 @@
+---
+
+- name: Playbook inicial
+  hosts: all
+  tasks:
+
+  - name: Run the equivalent of "apt-get update" as a separate step
+    become: yes
+    apt:
+      update_cache: yes
+
+  - name: Upgrade all packages to the latest version
+    become: yes
+    apt:
+      upgrade: full
+
+  - name: instalando o pacote figlet
+    become: yes
+    apt: name=figlet state=present update_cache=yes
+
+  - name: garantindo figlet no profile
+    become: yes
+    lineinfile: 
+      path: /etc/profile
+      line: "figlet -f small $(whoami)@$(hostname)"
+      create: yes
+
+  - name: garantindo hosts
+    become: yes
+    lineinfile:
+      path: /etc/hosts
+      create: yes
+      line: "{{item}}"
+    with_items:
+    - "192.168.10.11 gitlab-server"
+    - "192.168.10.12 jenkins-server"
+    - "192.168.10.13 nexus-server"
+
+- hosts: gitlab-server
+  roles:
+    - gitlab-server
+
+- hosts: jenkins-server
+  roles:
+    - jenkins-server
+
+- hosts: nexus-server
+  roles:
+    - nexus-server
+
+- hosts: postgresql-server
+  roles:
+    - postgresql-server

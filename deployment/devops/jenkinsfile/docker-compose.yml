@@ -74,15 +74,15 @@ services:
 #      - ./volumes/postgres-data/postgresql:/var/lib/postgresql
 #      - ./volumes/postgres-data/postgresql/data:/var/lib/postgresql/data
 
-#  nexus:
-#    image: sonatype/nexus3
-#    container_name: nexus 
-#    ports:
-#      - 8081:8081
-#    networks:
-#      - jenkins-network
-#    volumes:
-#      - ./volumes/nexus-data:/nexus-data
+  nexus:
+    image: sonatype/nexus3
+    container_name: nexus 
+    ports:
+      - 8081:8081
+    networks:
+      - jenkins-network
+    volumes:
+      - nexus-data:/nexus-data
 
 #  dev:
 #    image: php:7.2-apache
@@ -113,6 +113,7 @@ volumes:
   sonarqube-conf:
   sonarqube-data:
   sonarqube-extensions:
+  nexus-data:
   postgresql:
   postgresql-data:
 

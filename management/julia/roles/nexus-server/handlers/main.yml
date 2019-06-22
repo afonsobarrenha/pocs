@@ -1,0 +1,7 @@
+---
+- name: restart-nexus
+  become: yes
+  systemd:
+    state: restarted
+    daemon_reload: yes
+    name: nexus.service
