@@ -1,0 +1,24 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "debian/stretch64"
+
+  config.vm.provider "virtualbox" do |v|
+      v.memory = 512
+      v.cpus = 1
+  end  
+
+  config.vm.define "backend-vagrant" do |as|
+
+    as.vm.provider "virtualbox" do |asv|
+      asv.memory = 1024
+      asv.cpus = 2
+    end
+
+    as.vm.network "private_network", ip: "192.168.1.200"
+  end
+
+  config.vm.define "frontend-vagrant" do |as|
+
+    as.vm.network "private_network", ip: "192.168.1.100"
+  end
+
+end

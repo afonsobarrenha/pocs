@@ -1,0 +1,37 @@
+upstream blue {
+# BEGIN ANSIBLE MANAGED BLOCK - BLUE
+
+### Test        ###
+#server 192.168.1.200:3000;
+
+### Production  ###
+
+server 3.88.111.116:3000;
+server 3.85.238.17:3000;
+server 54.173.210.30:3000;
+server 18.233.162.108:3000;
+
+# END ANSIBLE MANAGED BLOCK - BLUE
+}
+
+upstream green {
+# BEGIN ANSIBLE MANAGED BLOCK - GREEN
+server 3.3.3.3;
+# END ANSIBLE MANAGED BLOCK - GREEN
+}
+
+server {
+    listen 80;
+
+    location / {
+        proxy_pass http://blue;
+    }
+}
+
+server {
+    listen 9999;
+
+    location / {
+        proxy_pass http://green;
+    }
+}

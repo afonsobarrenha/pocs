@@ -1,0 +1,18 @@
+### Test        ###
+
+#[backend-vagrant]
+#192.168.1.200 ansible_user=vagrant ansible_ssh_private_key_file="/home/afonso/Documents/Projects/iac/vagrant/.vagrant/machines/backend-vagrant/virtualbox/private_key"
+
+### Production  ###
+
+[backend-aws.0]
+3.88.111.116 ansible_user=admin ansible_ssh_private_key_file="/home/afonso/.ssh/id_rsa"
+
+[backend-aws.1]
+3.85.238.17 ansible_user=admin ansible_ssh_private_key_file="/home/afonso/.ssh/id_rsa"
+
+[backend-aws.2]
+54.173.210.30 ansible_user=admin ansible_ssh_private_key_file="/home/afonso/.ssh/id_rsa"
+
+[backend-aws.3]
+18.233.162.108 ansible_user=admin ansible_ssh_private_key_file="/home/afonso/.ssh/id_rsa"

@@ -1,0 +1,34 @@
+---
+
+- name: Provisioning the Reverse Proxy for Backend Servers
+  hosts: all
+  tasks:
+
+  - name: Install Nginx
+    become: yes
+    apt:
+      name: "{{ packages }}"
+      update_cache: yes
+      state: present
+    vars:
+      packages:
+      - nginx
+
+  - name: Configure the hosts
+    become: yes
+    template:
+      src: '../nginx/templates/default.j2'
+      dest: '/etc/nginx/sites-available/default'
+
+  - name: Restart Nginx
+    become: yes
+    systemd:
+      name: nginx.service
+      state: restarted
+      daemon_reload: yes
+
+  - name: Make sure Nginx service is running
+    become: yes
+    systemd:
+      name: nginx.service
+      state: started
