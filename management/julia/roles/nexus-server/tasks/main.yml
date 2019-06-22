@@ -1,0 +1,43 @@
+---
+
+- name: Install a list of packages
+  become: yes
+  apt:
+    name: "{{ packages }}"
+    update_cache: yes
+  vars:
+    packages:
+    - openjdk-8-jre
+
+- name: Create a directory if it does not exist
+  become: yes
+  file:
+    path: /opt/nexus
+    state: directory
+    mode: '0755'
+
+- name: Download and unarchive Nexus
+  become: yes
+  unarchive:
+    src: https://download.sonatype.com/nexus/3/latest-unix.tar.gz
+    dest: /opt/nexus
+    remote_src: yes
+
+- name: 'Configure Nexus as a system service'
+  template:
+    src: 'templates/nexus.service.j2'
+    dest: '/etc/systemd/system/nexus.service'
+  become: yes
+
+- name: restart-nexus
+  become: yes
+  systemd:
+    state: restarted
+    daemon_reload: yes
+    name: nexus.service
+
+- name: Make sure Nexus service is running
+  become: yes
+  systemd:
+    name: nexus.service
+    state: started

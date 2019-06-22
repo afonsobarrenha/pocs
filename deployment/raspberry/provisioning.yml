@@ -1,0 +1,57 @@
+---
+
+- name: Playbook inicial
+  hosts: all
+  tasks:
+
+  - name: Adding the following entry in /etc/apt/sources.list
+    become: yes
+    apt_repository:
+      update_cache: yes
+      repo: "deb http://nginx.org/packages/debian 'lsb_release -cs' nginx"
+      state: absent
+
+  - name: instalando o pacote figlet
+    become: yes
+    apt: name=figlet state=present update_cache=yes
+
+  - name: garantindo figlet no profile
+    become: yes
+    lineinfile: 
+      path: /etc/profile
+      line: "figlet -f small $(whoami)@$(hostname)"
+      create: yes
+
+  - name: Install a list of packages
+    become: yes
+    apt:
+      name: "{{ packages }}"
+      update_cache: yes
+    vars:
+      packages:
+      - curl 
+      - gnupg2 
+      - ca-certificates 
+      - lsb-release
+
+  - name: Add the key to your system.
+    become: yes
+    apt_key:
+      url: https://nginx.org/keys/nginx_signing.key
+      state: present
+
+  - name: Adding the following entry in /etc/apt/sources.list
+    become: yes
+    apt_repository:
+      update_cache: yes
+      repo: "deb http://nginx.org/packages/debian stretch nginx"
+      state: present
+
+  - name: Install a list of packages
+    become: yes
+    apt:
+      name: "{{ packages }}"
+      update_cache: yes
+    vars:
+      packages:
+      - nginx

@@ -1,0 +1,29 @@
+---
+
+- name: Add the key to your system.
+  become: yes
+  apt_key:
+    url: https://www.postgresql.org/media/keys/ACCC4CF8.asc
+    state: present
+
+- name: Adding the following entry in /etc/apt/sources.list
+  become: yes
+  apt_repository:
+    update_cache: yes
+    repo: 'deb http://apt.postgresql.org/pub/repos/apt/ stretch-pgdg main'
+    state: present
+
+- name: Install a list of packages
+  become: yes
+  apt:
+    name: "{{ packages }}"
+    update_cache: yes
+  vars:
+    packages:
+    - postgresql-10
+
+- name: 'Configure Nexus as a system service'
+  template:
+    src: 'templates/sonar.properties.j2'
+    dest: '/opt/sonarqube/conf/sonar.properties'
+  become: yes

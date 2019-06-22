@@ -1,0 +1,52 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "debian/stretch64"
+
+  config.vm.provider "virtualbox" do |v|
+      v.memory = 512
+      v.cpus = 1
+  end  
+
+  config.vm.define "gitlab-server" do |gs|
+
+    gs.vm.provider "virtualbox" do |gsv|
+      gsv.memory = 2048
+      gsv.cpus = 1
+    end
+
+    gs.vm.network "private_network", ip: "192.168.10.10"
+  end
+
+  config.vm.define "jenkins-server" do |js|
+    js.vm.provider "virtualbox" do |jsv|
+      jsv.memory = 1028
+      jsv.cpus = 1
+    end
+
+    js.vm.network "private_network", ip: "192.168.10.11"
+  end
+
+  config.vm.define "nexus-server" do |ns|
+    ns.vm.provider "virtualbox" do |nsv|
+      nsv.memory = 1028
+      nsv.cpus = 1
+    end
+    
+    ns.vm.network "private_network", ip: "192.168.10.12"
+  end
+
+  config.vm.define "sonar-server" do |ss|
+
+    ss.vm.network "private_network", ip: "192.168.10.13"
+  end
+
+  config.vm.define "redmine-server" do |rs|
+
+    rs.vm.network "private_network", ip: "192.168.10.14"
+  end
+
+  config.vm.define "postgresql-server" do |ps|
+
+    ps.vm.network "private_network", ip: "192.168.10.15"
+  end
+
+end
