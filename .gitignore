@@ -8,3 +8,6 @@ implementation/AndroidApplication/app/.classpath
 implementation/AndroidApplication/app/.settings/
 management/julia/.vagrant/
 management/julia/provisioning.retry
+testing/cucumber-js/node_modules/
+testing/cucumber-js/_report.json
+testing/cucumber-js/_cucumber_report.html

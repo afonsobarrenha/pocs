@@ -1,18 +1,22 @@
 # Node-Udemy
 
-> ... In Node, we have a single thread to handle all requests. When a request arrives, that single thread is used to handle that request. If we need to query a database, our thread doesn't have to wait for the database to return the data. While the database is executing our query, that thread will be used to serve another client. When the database prepares the result. It puts a message in what we call an event queue. Node is consistently monitoring this queue in the background. When it finds an event in this queue it will take it out and process it. This kind of architecture makes Node ideal for building applications that include a lot of disk or network access. We can serve more clients without the need to throw in more hardware. And that's why Node applications are highly scaleable. In contrast, Node should not be used for CPU-intensive applications like video encoding or an image manipulation service. In these kind of applications, we have a lot of calculations that should be done by CPU, and few operations that touch the file system or the network. Since Node applications are single threaded, when performing the calculations to serve one client, other clients have to wait, and that's why Node should not be used for CPU intensive applications. It should only be used for building data intensive and real time applications.
+## Content
 
-> ... in Node, every file is a module, and the variables and functions defined and in that file are a scope to that module, they are not available outside of that module.
+### Getting Started
+Node is NOT a programming language, or a framework. Node is a runtime environment for executing JavaScript code.
 
-> Important modules: File System, HTTP, OS, Path, Process, Query String, Stream
+Node has a asynchronous architeture.
 
-> So this is how the require function resolves a module: First, it assumes it's a core module, otherwiseit assumes it's a file or folder, and if not it looks for that module inside of the node modules folder.
+Node is ideal for I/O-intensive apps, data intensive and real time applications. Do not use Node for CPU-intensive apps.
 
-> In semantic versioning, the version of a Node package has three components, as you can see here. So three numbers, 4, 13 and 6. The first number is what we call the major version. The second one is what we call the minor version. And the third one is what we call the patch version. Or patch release, which is used for bug fixes.
+Paypall numbers:
+- Built twice as fast with fewer people
+- 33% fewer lines of code
+- 40% fewer files
+- 2x request/sec
+- 35% faster response time
 
-> Examples of endpoints: http://vidly.com/api/customers or http://api.vidly.com/customers. GET /api/customers/, GET /api/customers/1. PUT /api/customers/1 { name: '' }. DELETE /api/customers/1. POST /api/customers/ { name: 'Customer1' }.
-
-> We have an example of a Middleware function when we call express.json() method. This method returns a function, a Middleware function, and the job of this Middleware function is to read the request, and if there is a JSON object in the body of the request, it will parse the body of the request into a JSON object, and then it will set request.body property.
+### Node Module System
 
 ## Commands
 
