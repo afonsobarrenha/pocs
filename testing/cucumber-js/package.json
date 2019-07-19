@@ -1,16 +1,16 @@
 {
   "name": "cucumber-js",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "cucumber-js"
+    "clean": "rm -rf tmp"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^75.1.0",
     "cucumber": "^5.1.0",
-    "cucumber-html-reporter": "^5.0.0"
+    "cucumber-html-reporter": "^5.0.0",
+    "geckodriver": "^1.16.2",
+    "selenium-webdriver": "^3.6.0"
   }
 }
