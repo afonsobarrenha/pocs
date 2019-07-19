@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "clean": "rm -rf tmp"
+    "clean": "rm -rf tmp",
+    "test": "cucumber-js -f json:reports/report.json && node index-html-reporter.js"
   },
   "dependencies": {
     "chai": "^4.2.0",
