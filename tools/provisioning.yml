@@ -48,5 +48,20 @@
       - docker.io
       - nodejs
       - android-sdk
+      #visualstudiocode
+      #skype
+      #spotify
+      #slack
+      #pycharm ce
+      #Android Studio
+      #IDEA Community
+      #Krita
+      #Plex media server
+      #sublime text
+      #vlc
+      #gimp
+      #gitkraken
+      #discord
+      #hiri
     become: yes
 
