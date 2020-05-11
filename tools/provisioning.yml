@@ -63,5 +63,9 @@
       #gitkraken
       #discord
       #hiri
+      # change gitkraken icon
+      # /var/lib/snapd/desktop/applications/gitkraken_gitkraken.desktop
+      ## Icon=/snap/gitkraken/current/usr/share/gitkraken/gitkraken.png
+
     become: yes
 
