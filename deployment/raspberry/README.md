@@ -22,3 +22,10 @@ ssh-copy-id -i ~/.ssh/afonsobarrenha_id_rsa.pub ubuntu@raspberrypi-3b-plus.local
 
 ssh pi@raspberrypi-zero-w.local
 ssh ubuntu@raspberrypi-3b-plus.local
+
+--
+
+ansible all -m ping
+ansible all -a "/bin/echo hello"
+ansible all -i hosts -m shell -a 'sudo apt-get update'
+ansible all -i hosts -m shell -a 'sudo apt-get upgrade -y'

@@ -1,5 +1,5 @@
 [hulkbuster]
-192.168.0.9 ansible_user=pi ansible_ssh_private_key_file="/home/afonso/.ssh/id_rsa"
+192.168.15.40 ansible_user=ubuntu ansible_ssh_private_key_file="/home/afonso/.ssh/afonsobarrenha_id_rsa"
 
 [armoredbatman]
-192.168.0.10 ansible_user=pi ansible_ssh_private_key_file="/home/afonso/.ssh/id_rsa"
+192.168.15.39 ansible_user=pi ansible_ssh_private_key_file="/home/afonso/.ssh/afonsobarrenha_id_rsa"
