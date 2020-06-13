@@ -25,7 +25,7 @@ ssh ubuntu@raspberrypi-3b-plus.local
 
 --
 
-ansible all -m ping
-ansible all -a "/bin/echo hello"
+ansible all -i hosts -m ping
+ansible all -i hosts -a "/bin/echo hello"
 ansible all -i hosts -m shell -a 'sudo apt-get update'
 ansible all -i hosts -m shell -a 'sudo apt-get upgrade -y'
