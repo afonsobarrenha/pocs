@@ -1,5 +1,5 @@
-[hulkbuster]
-192.168.15.40 ansible_user=ubuntu ansible_ssh_private_key_file="/home/afonso/.ssh/afonsobarrenha_id_rsa"
-
-[armoredbatman]
+[tyrion]
 192.168.15.39 ansible_user=pi ansible_ssh_private_key_file="/home/afonso/.ssh/afonsobarrenha_id_rsa"
+
+[armored-batman]
+192.168.15.40 ansible_user=ubuntu ansible_ssh_private_key_file="/home/afonso/.ssh/afonsobarrenha_id_rsa"
