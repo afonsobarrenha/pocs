@@ -54,13 +54,14 @@
       - git
       - git-flow
       - nodejs
+      - docker.io
+    become: yes
       #- openjdk-8-jdk
       #- eclipse
       #- maven
       #- ant
       #- virtualbox
       #- vagrant
-      #- docker.io
       #android-sdk
       #visualstudiocode
       #skype
@@ -80,5 +81,4 @@
       # change gitkraken icon
       # /var/lib/snapd/desktop/applications/gitkraken_gitkraken.desktop
       ## Icon=/snap/gitkraken/current/usr/share/gitkraken/gitkraken.png
-    become: yes
 
