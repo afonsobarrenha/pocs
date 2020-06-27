@@ -55,6 +55,7 @@
       - git-flow
       - nodejs
       - docker.io
+      - docker-compose
     become: yes
       #- openjdk-8-jdk
       #- eclipse
