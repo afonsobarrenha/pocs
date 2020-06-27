@@ -5,10 +5,24 @@
   connection: local
   become: yes
 
+  vars:
+    NODEJS_VERSION: "12"
+    DISTRIBUTION_RELEASE: "focal" #xenial #trusty
+
   roles:
     - role: gantsign.visual-studio-code
 
   tasks:
+
+  - name: Install the gpg key for nodejs LTS
+    apt_key:
+      url: "https://deb.nodesource.com/gpgkey/nodesource.gpg.key"
+      state: present
+
+  - name: Install the nodejs LTS repos
+    apt_repository:
+      repo: "deb https://deb.nodesource.com/node_{{ NODEJS_VERSION }}.x {{ DISTRIBUTION_RELEASE }} main"
+      state: present
     
   - name: update and upgrade the apt package index
     apt: update_cache=yes upgrade=yes
@@ -39,6 +53,7 @@
     with_items:
       - git
       - git-flow
+      - nodejs
       #- openjdk-8-jdk
       #- eclipse
       #- maven
@@ -46,7 +61,6 @@
       #- virtualbox
       #- vagrant
       #- docker.io
-      - nodejs
       #android-sdk
       #visualstudiocode
       #skype
