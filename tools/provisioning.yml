@@ -17,7 +17,7 @@
     command: timedatectl set-local-rtc 1
 
   - name: backup the grub configuration file
-    command: cp /etc/default/grub /etc/default/grub-bkp
+    command: cp /etc/default/grub /etc/default/grub.bkp
     become: yes
 
   - name: configure to adjust the grub menu order
@@ -39,15 +39,15 @@
     with_items:
       - git
       - git-flow
-      - openjdk-8-jdk
-      - eclipse
-      - maven
-      - ant
-      - virtualbox
-      - vagrant
-      - docker.io
+      #- openjdk-8-jdk
+      #- eclipse
+      #- maven
+      #- ant
+      #- virtualbox
+      #- vagrant
+      #- docker.io
       - nodejs
-      - android-sdk
+      #android-sdk
       #visualstudiocode
       #skype
       #spotify
@@ -66,6 +66,5 @@
       # change gitkraken icon
       # /var/lib/snapd/desktop/applications/gitkraken_gitkraken.desktop
       ## Icon=/snap/gitkraken/current/usr/share/gitkraken/gitkraken.png
-
     become: yes
 
