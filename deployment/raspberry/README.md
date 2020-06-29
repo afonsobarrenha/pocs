@@ -1,7 +1,5 @@
 # raspberry-zero-w - tyrion
 
-touch ssh
-sudo mount -o remount rw /media/afonso/boot/
 cp ssh /media/afonso/boot
 cp wpa_supplicant.conf /media/afonso/boot
 
