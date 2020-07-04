@@ -4,15 +4,31 @@
   hosts: all
   tasks:
 
+  - name: Update all packages to the latest version
+    become: yes
+    apt:
+      upgrade: dist
+      
   - name: Install a list of packages
     become: yes
     apt:
-      name: "{{ packages }}"
       update_cache: yes
+      name: "{{ packages }}"
     vars:
       packages:
       - figlet
       - htop
+      - avahi-daemon
+
+  - name: Remove useless packages from the cache
+    become: yes
+    apt:
+      autoclean: yes
+  
+  - name: Remove dependencies that are no longer required
+    become: yes  
+    apt:
+        autoremove: yes
 
   - name: Configure figlet in /etc/profile
     become: yes
@@ -20,3 +36,7 @@
       path: /etc/profile
       line: "figlet -f small $(whoami)@$(hostname) - $(hostname -I | awk '{print $1;}')"
       create: yes
+
+  - name: Reload Avahi
+    become: yes
+    shell: invoke-rc.d avahi-daemon force-reload
