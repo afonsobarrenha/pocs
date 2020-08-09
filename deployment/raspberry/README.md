@@ -1,9 +1,9 @@
 # raspberry-zero-w - tyrion
 
-cp ssh /media/afonso/boot
-cp wpa_supplicant.conf /media/afonso/boot
+sudo cp ssh /media/afonsobarrenha/boot
+sudo cp wpa_supplicant.conf /media/afonsobarrenha/boot
 
-# raspberry-3b-plus - armored-batman
+# raspberry-3b-plus, raspberry-4b-plus - armored-batman, hulk-buster
 
 [ubuntu-network-config](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#3-wifi-or-ethernet)
 
@@ -29,6 +29,7 @@ ssh-copy-id -i ~/.ssh/afonsobarrenha-key.pub ubuntu@192.168.15.50
 
 ssh pi@tyrion.local
 ssh ubuntu@armored-batman.local
+ssh ubuntu@hulk-buster.local
 
 # configure hostnames
 
