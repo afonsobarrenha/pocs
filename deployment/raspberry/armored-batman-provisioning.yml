@@ -1,11 +1,11 @@
 ---
 
 - name: armored-batman-provisioning
-  hosts: armored-batman
+  hosts: armoredbatman
   tasks:
 
   - name: Configure the hostname
     become: yes
     hostname:
-      name: armored-batman
+      name: armoredbatman
       use: systemd
