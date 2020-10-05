@@ -1,0 +1,11 @@
+---
+
+- name: hulk-buster-provisioning
+  hosts: hulkbuster
+  tasks:
+
+  - name: Configure the hostname
+    become: yes
+    hostname:
+      name: hulkbuster
+      use: systemd

@@ -1,0 +1,6 @@
+/.idea
+/.settings
+/.classpath
+/.project
+*.iml
+node_modules

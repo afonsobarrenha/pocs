@@ -3,20 +3,48 @@
 ## Content
 
 ### Getting Started
-Node is NOT a programming language, or a framework. Node is a runtime environment for executing JavaScript code.
 
-Node has a asynchronous architeture.
+- Node is NOT a programming language, or a framework. Node is a runtime environment for executing JavaScript code.
 
-Node is ideal for I/O-intensive apps, data intensive and real time applications. Do not use Node for CPU-intensive apps.
+- Node has a asynchronous architeture.
 
-Paypall numbers:
-- Built twice as fast with fewer people
-- 33% fewer lines of code
-- 40% fewer files
-- 2x request/sec
-- 35% faster response time
+- Node is ideal for I/O-intensive apps, data intensive and real time applications. Do not use Node for CPU-intensive apps.
+
+- Paypall numbers:
+  - Built twice as fast with fewer people
+  - 33% fewer lines of code
+  - 40% fewer files
+  - 2x request/sec
+  - 35% faster response time
 
 ### Node Module System
+
+- Every file in a node application is considered a Module. If you want to use a variable or a function defined in a module, outside that module, you need to explicitly export it and make it public.
+
+```
+logger.js
+  var url = 'http://mylogger.io/log';
+
+  function log(message) {
+    //Send an HTTP request
+    console.log(message);
+  }
+
+  module.exports.log = log;
+  module.exports.url = url;
+
+  or
+
+  module.exports = log;
+
+app.js
+  const logger = require('./logger');
+  logger.log('message');
+
+  or
+
+  logger('message');
+```
 
 ## Commands
 

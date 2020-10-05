@@ -11,3 +11,7 @@ management/julia/provisioning.retry
 testing/cucumber-js/node_modules/
 testing/cucumber-js/_report.json
 testing/cucumber-js/_cucumber_report.html
+testing/cucumber-js/reports/cucumber_report.html
+testing/cucumber-js/reports/report.json
+deployment/devops/rancher/.vagrant/
+deployment/devops/rancher/ubuntu-xenial-16.04-cloudimg-console.log

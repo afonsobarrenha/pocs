@@ -57,6 +57,9 @@
 - **Ant**
     - sudo apt-get install ant
 
+ansible-galaxy install -r requirements.yml
+ansible-playbook provisioning.yml
+
 ## Configuração utilizada (baseado no [usesthis.com](usesthis.com))
 
 ### *Who are you, and what do you do?*

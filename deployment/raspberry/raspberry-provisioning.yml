@@ -1,0 +1,92 @@
+---
+
+- name: raspberry-provisioning
+  hosts: all
+  tasks:
+
+  # - name: Upgrade all packages to the latest version
+  #   become: yes
+  #   apt:
+  #     upgrade: dist
+      
+  - name: Install a list of packages
+    become: yes
+    apt:
+      update_cache: yes
+      name: "{{ packages }}"
+    vars:
+      packages:
+      - figlet
+      - htop
+      - avahi-daemon
+
+  # - name: Remove useless packages from the cache
+  #   become: yes
+  #   apt:
+  #     autoclean: yes
+  
+  # - name: Remove dependencies that are no longer required
+  #   become: yes  
+  #   apt:
+  #     autoremove: yes
+
+  - name: Figlet header in /etc/profile
+    become: yes
+    lineinfile: 
+      path: /etc/profile
+      line: "figlet -f small $(whoami)@$(hostname)"
+      create: yes
+
+
+  - name: Show whoami and hostname in /etc/profile
+    become: yes
+    lineinfile: 
+      path: /etc/profile
+      line: "echo Network IP: $(hostname -I | awk '{print $1;}')"
+      create: yes
+
+  - name: Show RAM size in /etc/profile
+    become: yes
+    lineinfile: 
+      path: /etc/profile
+      line: "echo RAM size: $(grep MemTotal /proc/meminfo | awk '{print $2 / 1024 / 1024}') GB"
+      create: yes
+
+  - name: Show Disk size in /etc/profile
+    become: yes
+    lineinfile: 
+      path: /etc/profile
+      line: "echo Disk size: $(df -h --output=size / | tail -n 1)"
+      create: yes
+
+  - name: Show Architecture in /etc/profile
+    become: yes
+    lineinfile: 
+      path: /etc/profile
+      line: "echo Processor $(lscpu | grep 'Architecture')"
+      create: yes
+
+  - name: Show CPU(s) in /etc/profile
+    become: yes
+    lineinfile: 
+      path: /etc/profile
+      line: "echo $(lscpu | grep '^CPU(s)')"
+      create: yes
+
+  - name: Show Thread(s) per core in /etc/profile
+    become: yes
+    lineinfile: 
+      path: /etc/profile
+      line: "echo $(lscpu | grep 'Thread')"
+      create: yes
+
+  - name: Show Processor Model Name in /etc/profile
+    become: yes
+    lineinfile: 
+      path: /etc/profile
+      line: "echo Processor $(lscpu | grep 'Model name')"
+      create: yes
+
+  - name: Reload Avahi
+    become: yes
+    shell: invoke-rc.d avahi-daemon force-reload
