@@ -1,3 +1,4 @@
 # Wordpress
 
-- docker run --name bci-wordpress --network bci-network -d wordpress
+- docker run wordpress
+- docker-compose -f stack.yml up
