@@ -1,4 +1,5 @@
 # Wordpress
 
 - docker run wordpress
-- docker-compose -f stack.yml up
+- docker-compose up
+- docker exec -it wordpress_wordpress_1 bash
