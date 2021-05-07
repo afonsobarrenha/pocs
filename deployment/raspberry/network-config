@@ -19,12 +19,3 @@ wifis:
     access-points:
       "Julia Barrenha-5G":
         password: "judaafon"
-#      myworkwifi:
-#        password: "correct battery horse staple"
-#      workssid:
-#        auth:
-#          key-management: eap
-#          method: peap
-#          identity: "me@example.com"
-#          password: "passw0rd"
-#          ca-certificate: /etc/my_ca.pem
