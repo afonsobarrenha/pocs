@@ -29,7 +29,7 @@ ssh-copy-id -i ~/.ssh/afonsobarrenha-key.pub ubuntu@192.168.15.50
 
 ssh pi@tyrion.local
 ssh ubuntu@armoredbatman.local
-ssh ubuntu@hulk-buster.local
+ssh ubuntu@hulkbuster.local
 
 # configure hostnames
 
