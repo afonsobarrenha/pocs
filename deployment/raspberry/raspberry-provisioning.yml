@@ -4,10 +4,10 @@
   hosts: all
   tasks:
 
-  # - name: Upgrade all packages to the latest version
-  #   become: yes
-  #   apt:
-  #     upgrade: dist
+  - name: Upgrade all packages to the latest version
+    become: yes
+    apt:
+      upgrade: dist
       
   - name: Install a list of packages
     become: yes
@@ -20,15 +20,15 @@
       - htop
       - avahi-daemon
 
-  # - name: Remove useless packages from the cache
-  #   become: yes
-  #   apt:
-  #     autoclean: yes
+  - name: Remove useless packages from the cache
+    become: yes
+    apt:
+      autoclean: yes
   
-  # - name: Remove dependencies that are no longer required
-  #   become: yes  
-  #   apt:
-  #     autoremove: yes
+  - name: Remove dependencies that are no longer required
+    become: yes  
+    apt:
+      autoremove: yes
 
   - name: Figlet header in /etc/profile
     become: yes
