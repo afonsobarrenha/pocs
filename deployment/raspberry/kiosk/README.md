@@ -1,4 +1,5 @@
 https://www.filipeflop.com/blog/modo-quiosque-com-raspberry-pi/
+https://pimylifeup.com/raspberry-pi-kiosk/
 
 sudo apt-get purge wolfram-engine scratch scratch2 nuscratch sonic-pi idle3 -y
 sudo apt-get purge smartsim java-common minecraft-pi libreoffice* -y
