@@ -18,4 +18,5 @@ wifis:
     optional: true
     access-points:
       "Julia Barrenha-5G":
+#      "Julia Barrenha":
         password: "judaafon"
