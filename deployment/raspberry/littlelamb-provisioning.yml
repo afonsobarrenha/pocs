@@ -1,11 +1,11 @@
 ---
 
-- name: tyrion-provisioning
-  hosts: tyrion
+- name: littlelamb-provisioning
+  hosts: littlelamb
   tasks:
 
   - name: Configure the hostname
     become: yes
     hostname:
-      name: tyrion
+      name: littlelamb
       use: systemd
