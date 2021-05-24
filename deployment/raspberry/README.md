@@ -36,10 +36,12 @@ ssh ubuntu@hulkbuster.local
 ansible all -i hosts -m ping
 ansible all -i hosts -a "/bin/echo hello"
 
-ansible-playbook -i hosts tyrion-provisioning.yml
-ansible-playbook -i hosts armored-batman-provisioning.yml
-ansible-playbook -i hosts hulk-buster-provisioning.yml
+ansible-playbook -i hosts littlelamb-provisioning.yml
+ansible-playbook -i hosts armoredbatman-provisioning.yml
+ansible-playbook -i hosts hulkbuster-provisioning.yml
 
 ansible-playbook -i hosts raspberry-provisioning.yml
+
+ansible-playbook -i hosts kiosk-provisioning.yml
 
 ansible all -i hosts -m shell -a "sudo shutdown -h now"
