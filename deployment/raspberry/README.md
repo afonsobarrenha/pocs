@@ -42,4 +42,6 @@ ansible-playbook -i hosts hulkbuster-provisioning.yml
 
 ansible-playbook -i hosts raspberry-provisioning.yml
 
+ansible-playbook -i hosts kiosk-provisioning.yml
+
 ansible all -i hosts -m shell -a "sudo shutdown -h now"
