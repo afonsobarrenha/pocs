@@ -4,10 +4,10 @@
   hosts: all
   tasks:
 
-  - name: Upgrade all packages to the latest version
-    become: yes
-    apt:
-      upgrade: dist
+  # - name: Upgrade all packages to the latest version
+  #   become: yes
+  #   apt:
+  #     upgrade: dist
       
   - name: Install a list of packages
     become: yes
@@ -38,7 +38,7 @@
       create: yes
 
 
-  - name: Show whoami and hostname in /etc/profile
+  - name: Show Network IP in /etc/profile
     become: yes
     lineinfile: 
       path: /etc/profile

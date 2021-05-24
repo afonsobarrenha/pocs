@@ -1,0 +1,42 @@
+---
+
+- name: kiosk-provisioning
+  hosts: littlelamb
+  tasks:
+
+  - name: Install a list of packages
+    become: yes
+    apt:
+      update_cache: yes
+      name: "{{ packages }}"
+    vars:
+      packages:
+      - xdotool
+      - unclutter
+      - sed
+
+  - name: Configure the kiosk script
+    become: yes
+    template:
+      src: 'kiosk/templates/kiosk.sh'
+      dest: '/home/pi/kiosk.sh'
+
+  - name: Configure the kiosk script as a system service
+    become: yes
+    template:
+      src: 'kiosk/templates/kiosk.service.j2'
+      dest: '/etc/systemd/system/kiosk.service'
+
+  - name: Restart the kiosk service
+    become: yes
+    systemd:
+      name: kiosk.service
+      state: restarted
+      daemon_reload: yes
+      enabled: yes
+
+  - name: Make sure kiosk service is running
+    become: yes
+    systemd:
+      name: kiosk.service
+      state: started
