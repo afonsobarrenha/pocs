@@ -38,7 +38,7 @@
       create: yes
 
 
-  - name: Show whoami and hostname in /etc/profile
+  - name: Show Network IP in /etc/profile
     become: yes
     lineinfile: 
       path: /etc/profile
