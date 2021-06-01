@@ -1,3 +1,15 @@
+# finding default gateway
+ip route
+
+# finding default dns
+cat /etc/resolv.conf
+
+# configuring static ips
+- raspbian
+    - https://www.raspberrypi.org/documentation/configuration/tcpip/
+- ubuntu-server
+    - https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#3-wifi-or-ethernet
+
 # raspberry-zero-w - tyrion
 
 sudo cp ssh /media/afonsobarrenha/boot
