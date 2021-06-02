@@ -1,6 +1,6 @@
 ---
 
-- name: hulk-buster-provisioning
+- name: hulkbuster-provisioning
   hosts: hulkbuster
   tasks:
 
