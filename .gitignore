@@ -15,3 +15,4 @@ testing/cucumber-js/reports/cucumber_report.html
 testing/cucumber-js/reports/report.json
 deployment/devops/rancher/.vagrant/
 deployment/devops/rancher/ubuntu-xenial-16.04-cloudimg-console.log
+implementation/node-example/node_modules/
