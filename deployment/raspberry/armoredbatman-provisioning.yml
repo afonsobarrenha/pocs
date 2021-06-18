@@ -1,6 +1,6 @@
 ---
 
-- name: armored-batman-provisioning
+- name: armoredbatman-provisioning
   hosts: armoredbatman
   tasks:
 
