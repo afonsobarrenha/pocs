@@ -37,3 +37,32 @@ docker ps -a
 docker run -it -d -p 8888:8080 tomcat:8.0
 docker logs container_id
 
+### Image Layers
+docker history busybox:1.24
+
+### Build Docker Images with commit
+docker run -it debian:jessie
+    ls
+    git
+    apt-get update && apt-ge install -y git
+        clear
+        git
+        exit
+"docker commit container_id repository_name:tag"
+docker ps -a
+docker commit container_id afonsobarrenha/debian:1.00
+docker images
+docker run -it afonsobarrenha/debian:1.00
+    git
+
+### Build Docker Images with Dockerfile
+touch Dockerfile
+nano Dockerfile
+    FROM debian:jessian
+    RUN apt-get update 
+    RUN apt-get install -y git
+    RUN apt-get install -y vim
+docker build -t afonsobarrenha/debian . 
+docker images 
+
+### Dockerfile in Depth
