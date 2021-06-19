@@ -103,3 +103,9 @@ docker run -it afonsobarrenha/debian
 #### ADD
 
 ### Push Images to Docker Hub
+docker images
+docker tag image_id afonsobarrenha/debian:1.01
+docker images
+docker login --username=afonsobarrenha
+docker push afonsobarrenha/debian:1.01
+
