@@ -66,3 +66,40 @@ docker build -t afonsobarrenha/debian .
 docker images 
 
 ### Dockerfile in Depth
+#### RUN
+nano Dockerfile
+    FROM debian:jessian
+    RUN apt-get update && apt-get install -y \
+        git \
+        vim
+docker build -t afonsobarrenha/debian .
+
+#### CMD
+nano Dockerfile
+    FROM debian:jessian
+    RUN apt-get update && apt-get install -y \
+        git \
+        vim
+    CMD ["echo", "hello world"]
+docker build -t afonsobarrenha/debian .
+docker run image_id
+docker run afonsobarrenha/debian echo "hello docker"
+
+#### Docker Cache
+docker build -t afonsobarrenha/debian . --no-cache=true
+
+#### COPY
+touch abc.txt
+nano Dockerfile
+    FROM debian:jessian
+    RUN apt-get update && apt-get install -y \
+        git \
+        vim
+    COPY abc.txt /src/abc.txt
+docker build -t afonsobarrenha/debian .
+docker run -it afonsobarrenha/debian
+    ls /src
+
+#### ADD
+
+### Push Images to Docker Hub
