@@ -121,4 +121,23 @@ docker exec -it container_id bash
 ### Docker Container Links
 docker inspect container_id | grep IP
 
-## Docker Compose
+### Docker Compose
+docker ps
+docker-compose up
+
+### Deep Dive Docker Compose
+docker-compose up -d
+docker-compose ps
+docker-compose logs -f
+docker-compose logs dockerapp -f
+docker-compose stop
+docker-compose rm
+docker-compose build
+
+### Docker Networking
+docker network ls
+docker run -d --net none busybox sleep 1000
+docker network inspect bridge
+docker network create --driver bridge my_bridge_network
+docker networkd connect bridge container_id
+docker networkd disconnect bridge container_id
