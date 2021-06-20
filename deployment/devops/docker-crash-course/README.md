@@ -111,3 +111,14 @@ docker push afonsobarrenha/debian:1.01
 
 ### Containerize a Hello World Web Application
 git clone afonsobarrenha.git
+docker build -t dockerapp:0.1 .
+docker images
+docker run -d -p 5000:5000 dockerapp
+docker exec -it container_id bash 
+
+### Implement a simple Key-value lookup service
+
+### Docker Container Links
+docker inspect container_id | grep IP
+
+## Docker Compose
