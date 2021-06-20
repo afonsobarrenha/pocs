@@ -141,3 +141,4 @@ docker network inspect bridge
 docker network create --driver bridge my_bridge_network
 docker networkd connect bridge container_id
 docker networkd disconnect bridge container_id
+docker run -d --net host busybox sleep 1000
