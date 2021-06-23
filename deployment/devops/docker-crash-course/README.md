@@ -142,3 +142,7 @@ docker network create --driver bridge my_bridge_network
 docker networkd connect bridge container_id
 docker networkd disconnect bridge container_id
 docker run -d --net host busybox sleep 1000
+
+### Create a Continuous Integration pipiline
+docker-compose up -d
+docker-compose run dockerapp python test.py
