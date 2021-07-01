@@ -18,6 +18,7 @@
       packages:
       - figlet
       - htop
+      - glances
       - avahi-daemon
 
   - name: Remove useless packages from the cache
