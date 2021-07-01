@@ -1,0 +1,28 @@
+version: '3'
+services: 
+  springboot:
+    image: afonsobarrenha/springboot
+    container_name: springboot
+    ports:
+      - 80:9000
+    networks: 
+      - my-network
+    depends_on:
+      - my-mysql
+
+  my-mysql:
+    image: mysql:5.5
+    container_name: my-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: listavip
+      MYSQL_USER: lista_usr 
+      MYSQL_PASSWORD: lista_pwd 
+    volumes:
+      - ../volumes/mysql:/var/lib/mysql
+    networks: 
+      - my-network
+
+networks: 
+  my-network:
+    driver: bridge

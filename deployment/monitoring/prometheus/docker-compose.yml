@@ -13,10 +13,12 @@ services:
     networks: 
       - monitoring-network
 
-#  node-exporter:
-#    image: prom/node-exporter
-#    ports:
-#      - '9100:9100'
+  node-exporter:
+    image: prom/node-exporter
+    ports:
+      - '9100:9100'
+    networks: 
+      - monitoring-network
 
   grafana:
     image: grafana/grafana:5.4.3

@@ -6,12 +6,12 @@ scrape_configs:
 #  - job_name: 'prometheus'
 #    static_configs:
 #      - targets: ['localhost:9090']
-#  - job_name: 'node-exporter'
-#    static_configs:
-#      - targets: ['node-exporter:9100']
-  - job_name: 'armoredbatman'
+  - job_name: 'squads-dell'
     static_configs:
-      - targets: ['192.168.0.9:9100']
-  - job_name: 'hulkbuster'
-    static_configs:
-      - targets: ['192.168.0.10:9100']
+      - targets: ['node-exporter:9100']
+  # - job_name: 'armoredbatman'
+  #   static_configs:
+  #     - targets: ['192.168.0.9:9100']
+  # - job_name: 'hulkbuster'
+  #   static_configs:
+  #     - targets: ['192.168.0.10:9100']
